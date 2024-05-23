@@ -1,0 +1,24 @@
+.img-fluid-project{
+    max-width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  @media only screen and (max-width: 600px){
+      .img-fluid-project{
+      max-width: 100%;
+      height: 270px;
+      object-fit: cover;
+    }
+  }
+  
+  @media only screen and (max-width: 450px){
+      .img-fluid-project{
+      max-width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .project-font{
+      font-size: 10px;
+    }
+  }

@@ -99,3 +99,10 @@ projects grejen:
             </div>
     </div>
 </div>
+
+
+NEW class
+.img-fluid-project{
+  max-width: 100%;
+  height: 300px;
+}

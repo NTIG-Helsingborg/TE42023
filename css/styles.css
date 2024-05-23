@@ -320,6 +320,14 @@ caption {
   text-align: left;
 }
 
+
+.project{
+  height: 400px !important;
+  width: 100%;
+  display: block !important;
+}
+
+
 th {
   text-align: inherit;
   text-align: -webkit-match-parent;
@@ -601,6 +609,7 @@ progress {
   max-width: 100%;
   height: auto;
 }
+
 
 .img-thumbnail {
   padding: 0.25rem;
