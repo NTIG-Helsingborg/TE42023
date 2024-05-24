@@ -4,5 +4,9 @@
             "Projekt": ["mickeyMailer", "Consolata", "basecamp", "API_sida"],
             "exam": "Tillämpning av AI"
         }
+    },
+    "projekt": {
+        "spel": ["bla", "bla bla"],
+        "API": ["123", "234"]
     }
 }
