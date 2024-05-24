@@ -15,6 +15,18 @@ const getRootPath = () => {
   return pathRoot;
 };
 
+/*
+För att använda funktionen nedan 
+
+exempel: användare trycker ned på poki API projektet
+         på projekt sidan. Vi vill skicka personen 
+         till den dynamiska inviduella projekt templatesidan 
+         med URL parametern "Pokidex"
+        
+Använding:
+columnClick("page/projekt", "Projektet", "Pokidex");
+*/
+
 const columnClick = (newRelativeLocation, key, value) => {
   let pathRoot = getRootPath();
   let newUrl = pathRoot + newRelativeLocation; // Create a URL object
@@ -23,6 +35,17 @@ const columnClick = (newRelativeLocation, key, value) => {
   window.location.href = url.toString(); // Redirect the user to the new URL
 };
 
+/*
+För att använda funktionen nedan 
+
+exempel: Användaren är nu på den inviduella projekt sidan, 
+         efter att tryckt på pokidex. Vi vill hämta json data
+         som ska displayas på sidan.
+        
+Använding:
+getData("inviduelltProjekt", "Projektet");
+
+*/
 const getData = async (targetData, urlParam) => {
   let jsonFile = getRootPath() + "/data.json";
   let urlString = window.location.href;

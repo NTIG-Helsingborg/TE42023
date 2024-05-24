@@ -8,5 +8,13 @@
     "projekt": {
         "spel": ["bla", "bla bla"],
         "API": ["123", "234"]
+    },
+
+    "inviduelltProjekt": {
+        "pokidex": {
+            "descriptionShort": "bla bla bla",
+            "descriptionLong": "OHHHHHH SO COOOOLLLL",
+            "video": "url"
+        }
     }
 }
