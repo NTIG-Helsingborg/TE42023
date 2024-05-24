@@ -10,7 +10,7 @@ const getRootPath = () => {
   let urlString = window.location.href;
   let pathRoot = urlString.slice(
     0,
-    urlString.indexOf("23-24") + "23-24".length
+    urlString.indexOf("TE4_23-24_Site") + "TE4_23-24_Site".length
   );
   return pathRoot;
 };
