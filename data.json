@@ -14,7 +14,8 @@
         "pokidex": {
             "descriptionShort": "bla bla bla",
             "descriptionLong": "OHHHHHH SO COOOOLLLL",
-            "video": "url"
+            "video": "url",
+            "imageName": "profile.png"
         }
     }
 }
