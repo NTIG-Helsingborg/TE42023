@@ -1,14 +1,14 @@
 {
-    "elever":{
-        "JonathanCS":{
-            "Projekt": ["mickeyMailer", "Consolata", "basecamp", "API_sida"],
-            "exam": "Tillämpning av AI"
-        }
-    },
-    "projekt": {
-        "spel": ["bla", "bla bla"],
-        "API": ["123", "234"]
-    },
+  "elever": {
+    "JonathanCS": {
+      "Projekt": ["mickeyMailer", "Consolata", "basecamp", "API_sida"],
+      "exam": "Tillämpning av AI"
+    }
+  },
+  "projekt": {
+    "spel": ["bla", "bla bla"],
+    "API": ["123", "234"]
+  },
 
     "inviduelltProjekt": {
         "pokidex": {
@@ -18,4 +18,13 @@
             "imageName": "profile.png"
         }
     }
+  },
+  "timeline": {
+    "1": {
+      "date": "2024-05-23",
+      "title": "Företagsbesök",
+      "subtitle": "Provectus",
+      "description": "Vi besöker företaget och får en inblick i hur det är att jobba som programmerare"
+    }
+  }
 }
