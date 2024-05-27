@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     const imageGrid = document.querySelector('.image-grid');
-    const imageExtensions = ['jpg', 'png', 'jpeg']; // Endast dessa filformat
+    const imageExtensions = ['jpg']; // Endast dessa filformat
 
     // Function to fetch images from assets/Rotationbilder folder
     function fetchImages() {
