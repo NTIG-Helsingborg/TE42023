@@ -66,18 +66,22 @@ const getData = async (targetData, urlParam, getOne = true) => {
   }
 };
 
+//an exemple of creating blocks
 const projectImages = async () => {
   const cardContainer = document.getElementById("card-container");
   let projects = await getData("inviduelltProjekt", "none", false);
-  console.log(cardContainer);
+  console.log(projects);
   let cardHTML = "";
+  let imagePath = "";
   for (let project in projects) {
-    let imagePath = getRootPath() + "/" + getData["imageName"];
+    console.log("project " + project);
+    imagePath = getRootPath() + "/assets/" + projects[project]["imageName"];
+    console.log(imagePath);
     cardHTML += ` 
       <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
         <div class="card-body p-0">
             <div class="d-flex align-items-center row">
-                <div class="project-img-container col-lg-5" style = "background: linear-gradient(45deg, rgb(210 43 212 / 57%), rgb(153 0 255 / 59%)), url(${project.imageName}) no-repeat center; background-size: cover;"></div>
+                <div class="project-img-container col-lg-5" style = "background: linear-gradient(45deg, rgb(210 43 212 / 57%), rgb(153 0 255 / 59%)), url(${imagePath}) no-repeat center; background-size: cover;"></div>
                 <div class="p-5 project-font col-lg-7 ">
                     <h2 class="fw-bolder">Project Name 5</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque! Ipsam!</p>
