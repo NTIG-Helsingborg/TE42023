@@ -1,0 +1,23 @@
+/* Animerad bildcontainer */
+.image-container {
+        width: 100%;
+        height: 300px; /* Justera höjden efter behov */
+        overflow: hidden; /* Dölj överflödiga bilder */
+        position: relative; /* Relativ position för att hantera absolut position för bilder */
+    }
+    
+    /* Bilderna */
+    .animated-image {
+        width: 100%; /* Bilderna fyller hela bredden av container */
+        height: auto; /* Behåll proportionell höjd */
+        position: absolute; /* Absolut position för att lägga bilderna bredvid varandra */
+        top: 0; /* Placera bilderna längst upp i containern */
+        left: -100%; /* Starta bilderna utanför containerområdet till vänster */
+    }
+    
+    /* CSS-animation för att flytta bilderna från vänster till höger */
+    @keyframes slideRight {
+        0% { left: -100%; } /* Bilden börjar utanför containerområdet till vänster */
+        100% { left: 100%; } /* Bilden slutar utanför containerområdet till höger */
+    }
+    

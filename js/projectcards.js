@@ -1,5 +1,5 @@
 class Projectcard extends HTMLElement {
-  static observedAttributes = ["group", "text-side","describiton"];
+  static observedAttributes = ["group", "text-side","describiton","title"];
 
   constructor() {
     super();
@@ -33,15 +33,24 @@ class Projectcard extends HTMLElement {
 
 
 
-    var side ;
+    var Textside ;
+    var cardSide;
 
-    let boxHTML = ` <div class="row gx-5 justify-content-center mb-5" >`;
+    let boxHTML = ` <div class="row gx-5 justify-content-center mb-5 mt-5 " >`;
    
 
-    if (this.getAttribute("text-side") === "right") {
-     side =  "text-end";
-    } else {
-       side = "text-start";
+ 
+  if (window.innerWidth < 1400) {
+      Textside = "text-center";
+      cardSide = "justify-content-center";
+    }
+    else if (this.getAttribute("text-side") === "right") {
+      Textside =  "text-end";
+      cardSide = "justify-content-start";
+     } 
+     else {
+       Textside = "text-start";
+        cardSide = "justify-content-end";
         }
 
 
@@ -50,23 +59,23 @@ class Projectcard extends HTMLElement {
 
 
      let titleHTML = `
-   <div class="col-xxl-5 ${side} ">
+   <div class="col-xxl-5 ${Textside} ">
         <h2 class="display-6 fw-bolder">
-          <span class="text-gradient d-inline">Webb shop</span>
+          <span class="text-gradient d-inline">${this.getAttribute("title")}</span>
         </h2>
-        <div class="fs-3 fw-light text-muted">
+        <div class="fs-3 fw-light text-muted mb-4">
             Projekt ${group}
         </div>
-          <p class="card-text">${this.getAttribute("describiton")}</p>
+          <p class=" card-text">${this.getAttribute("describiton")}</p>
     </div>`;
 
-    let cardHTML = `<div class="col-xxl-5 row ">`;
+    let cardHTML = `<div class="col-xxl-5 row  ${cardSide}">`;
 
     projects.forEach((project) => {
       if (project.group === group) {
         cardHTML += `
-                <div class="card d-inline-block shadow border-0 p-1 mb-4 ">
-                <a class="stretched-link" href="index.html">
+                <div class="card d-inline-block shadow border-0 p-1 mb-4   ">
+                <a class="stretched-link " href="index.html ">
                 <img src="${project.image}"  class="card-img" alt="...">
                         
                 <div class="card-img-overlay ">
