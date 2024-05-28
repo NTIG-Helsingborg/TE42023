@@ -50,25 +50,26 @@ getData("inviduelltProjekt", "Projektet");
 const getData = async (targetData, urlParam, getOne = true) => {
   let jsonFile = getRootPath() + "/data.json";
   let urlString = window.location.href;
+  let paramString = urlString.split("?")[1];
+  let queryString = new URLSearchParams(paramString);
+  let specificData = queryString.get(urlParam);
   if (getOne == true) {
-    let paramString = urlString.split("?")[1];
-    let queryString = new URLSearchParams(paramString);
-    let specificData = queryString.get(urlParam);
     const response = await fetch(jsonFile);
     const jsonData = await response.json();
-    data = jsonData[targetData][specificData];
-    return data;
+    let data = jsonData[targetData][specificData];
+    return { data: data, urlParamValue: specificData };
   } else {
     const response = await fetch(jsonFile);
     const jsonData = await response.json();
-    data = jsonData[targetData];
-    return data;
+    let data = jsonData[targetData];
+    return { data: data, urlParamValue: specificData };
   }
 };
 
-//an exemple of creating blocks
+//an exemple of creating blocks this wont work for not
 const projectImages = async () => {
-  let projects = await getData("inviduelltProjekt", "none", false);
+  let projects,
+    urlParamValue = await getData("inviduelltProjekt", "none", false);
   console.log(projects);
   let cardHTML = "";
   let imagePath = "";
@@ -95,10 +96,34 @@ const projectImages = async () => {
 
 //HTML and css gets rendered first. For Dynamic pages everything needs
 //to be rendered through javascript to have smooth rendering
-async function render() {
-  const template = document.getElementById("template").content;
+
+const makeIndividualProject = (studentObj) => {
+  let individualProjects = studentObj["individualProjects"];
+  let cardHTML = "";
+  for (let project in individualProjects) {
+    imagePath =
+      getRootPath() + "/assets/" + individualProjects[project]["image"];
+    cardHTML += ` 
+      <special-project-card title = ${project} src = "assets/Juan.jpg" alt = "haha ita me" text="what is up"/>
+    `;
+  }
+  return cardHTML;
+};
+
+//{ data: data, urlParamValue: specificData }
+async function renderStudent() {
+  let { data, urlParamValue } = await getData("students", "student", true);
+  let individualProjectData = makeIndividualProject(data);
+  const template = document.getElementById("sample").content;
   const app = document.getElementById("app");
   const cloneHTML = document.importNode(template, true);
-  cloneHTML.getElementById("card-container").innerHTML = await projectImages();
+  cloneHTML.getElementById("special-container").innerHTML +=
+    individualProjectData;
+  const tag = document.createElement("nav-bar");
+  app.appendChild(tag);
   app.appendChild(cloneHTML);
 }
+
+document.addEventListener("DOMContentLoaded", async () => {
+  await renderStudent();
+});

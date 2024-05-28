@@ -25,63 +25,68 @@
     />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <script src="js/scripts.js"></script>
   </head>
   <script src="js/navbar.js"></script>
+  <script src="js/specialprojectcard.js"></script>
+  <script src="js/scripts.js"></script>
 
   <body class="d-flex flex-column h-100">
-    <main class="flex-shrink-0">
+    <div id = "app"></div>
+    <template id = "sample">
       <!-- Navigation-->
-      <nav-bar />
-      <div class="container bg-light" style="border-radius: 1vw;">
-        <section>
-          <div class="container d-flex justify-content-center">
-            <div>
-              <div
-                class="bg-gradient-primary-to-secondary me-1"
-                style="
-                  border-radius: 5vw;
-                  width: 18vw;
-                  height: 18vw;
-                  overflow: hidden;
-                "
-              >
-                <img src="assets/profile.png" alt="" class="img-fluid" />
+     
+        <div class="container bg-light" style="border-radius: 1vw;">
+          <section>
+            <div class="container d-flex justify-content-center">
+              <div>
+                <div
+                  class="bg-gradient-primary-to-secondary me-1"
+                  style="
+                    border-radius: 5vw;
+                    width: 18vw;
+                    height: 18vw;
+                    overflow: hidden;
+                  "
+                >
+                  <img src="assets/profile.png" alt="" class="img-fluid" />
+                </div>
+                <div
+                  class="d-flex m-5 bg-light justify-content-center align-items-center"
+                  style="border-radius: 5vw"
+                >
+                  <p class="m-1">
+                    <a class="linkedIn" href="">LinkedIn</a> <a class = "github" href="">GitHub</a>
+                    <a class="cv" href="">CV</a>
+                  </p>
+                </div>
               </div>
               <div
-                class="d-flex m-5 bg-light justify-content-center align-items-center"
-                style="border-radius: 5vw"
+                class="col-4 m-5 p-3"
+                style="border: 1px solid; border-radius: 1vw"
               >
-                <p class="m-1">
-                  <a href="">LinkedIn</a> <a href="">GitHub</a>
-                  <a href="">CV</a>
+                <h1 class = "fullName" style="width: fit-content"></h1>
+                <br />
+                <p class = "aboutMe">
+                  Pellentesque aliquet diam gravida porta faucibus. Sed tristique
+                  odio eget mattis efficitur. Etiam at dui vel metus consectetur
+                  volutpat in nec massa. Mauris euismod dolor blandit ante
+                  aliquet, ut semper arcu consequat. Praesent bibendum lacus in
+                  magna feugiat, quis mattis lectus facilisis. Fusce tempus,
+                  lectus eget tempor faucibus, libero felis aliquet nulla, et
+                  posuere dolor odio in turpis. Donec pulvinar turpis egestas
+                  justo dignissim bibendum. Duis felis lectus, lacinia non enim
+                  id, convallis tempor tortor. Praesent ac odio et odio molestie
+                  faucibus. Nullam in rhoncus massa. Fusce at ultricies tortor.
+                  Mauris aliquet lectus vel leo commodo scelerisque. Morbi at
+                  libero est. Duis vehicula a orci ut dapibus.
                 </p>
               </div>
-            </div>
-            <div
-              class="col-4 m-5 p-3"
-              style="border: 1px solid; border-radius: 1vw"
-            >
-              <h1 style="width: fit-content">FULL NAME</h1>
-              <br />
-              <p>
-                Pellentesque aliquet diam gravida porta faucibus. Sed tristique
-                odio eget mattis efficitur. Etiam at dui vel metus consectetur
-                volutpat in nec massa. Mauris euismod dolor blandit ante
-                aliquet, ut semper arcu consequat. Praesent bibendum lacus in
-                magna feugiat, quis mattis lectus facilisis. Fusce tempus,
-                lectus eget tempor faucibus, libero felis aliquet nulla, et
-                posuere dolor odio in turpis. Donec pulvinar turpis egestas
-                justo dignissim bibendum. Duis felis lectus, lacinia non enim
-                id, convallis tempor tortor. Praesent ac odio et odio molestie
-                faucibus. Nullam in rhoncus massa. Fusce at ultricies tortor.
-                Mauris aliquet lectus vel leo commodo scelerisque. Morbi at
-                libero est. Duis vehicula a orci ut dapibus.
-              </p>
-            </div>
           </div>
         </section>
         <section>
           <div class="container d-flex justify-content-center">
+            <!--carousel-->
             <div
               id="carouselExampleIndicators"
               class="carousel slide col-4"
@@ -146,62 +151,17 @@
             </div>
           </div>
         </section>
-        <hr />
-        <section>
-          <div class="container d-flex justify-content-center">
-            <div class="col-5">
-              <img src="assets/favicon.ico" alt="" style="min-width: 500px" />
-            </div>
-            <div class="container col-5">
-              <div class="m-1">Title</div>
-              <div class="m-1">
-                Pellentesque aliquet diam gravida porta faucibus. Sed tristique
-                odio eget mattis efficitur. Etiam at dui vel metus consectetur
-                volutpat in nec massa. Mauris euismod dolor blandit ante
-                aliquet, ut semper arcu consequat. Praesent bibendum lacus in
-                magna feugiat, quis mattis lectus facilisis. Fusce tempus,
-                lectus eget tempor faucibus, libero felis aliquet nulla, et
-                posuere dolor odio in turpis. Donec pulvinar turpis egestas
-                justo dignissim bibendum. Duis felis lectus, lacinia non enim
-                id, convallis tempor tortor. Praesent ac odio et odio molestie
-                faucibus. Nullam in rhoncus massa. Fusce at ultricies tortor.
-                Mauris aliquet lectus vel leo commodo scelerisque. Morbi at
-                libero est. Duis vehicula a orci ut dapibus.
-              </div>
-            </div>
-          </div>
-        </section>
-        <hr />
-        <section>
-          <div class="container d-flex justify-content-center">
-            <div class="container col-5">
-              <div class="m-1 text-end">Title</div>
-              <div class="m-1">
-                Pellentesque aliquet diam gravida porta faucibus. Sed tristique
-                odio eget mattis efficitur. Etiam at dui vel metus consectetur
-                volutpat in nec massa. Mauris euismod dolor blandit ante
-                aliquet, ut semper arcu consequat. Praesent bibendum lacus in
-                magna feugiat, quis mattis lectus facilisis. Fusce tempus,
-                lectus eget tempor faucibus, libero felis aliquet nulla, et
-                posuere dolor odio in turpis. Donec pulvinar turpis egestas
-                justo dignissim bibendum. Duis felis lectus, lacinia non enim
-                id, convallis tempor tortor. Praesent ac odio et odio molestie
-                faucibus. Nullam in rhoncus massa. Fusce at ultricies tortor.
-                Mauris aliquet lectus vel leo commodo scelerisque. Morbi at
-                libero est. Duis vehicula a orci ut dapibus.
-              </div>
-            </div>
-            <div class="col-5">
-              <img src="assets/favicon.ico" alt="" style="min-width: 500px" />
-            </div>
-          </div>
-        </section>
-        <hr />
+        
+
+        <!-- Special projects -->
+        <!-- ["title", "src", "alt", "text"] -->
+        <div id="special-container"></div>
+     
+        
         <section>
           <div class="container">Certificates</div>
         </section>
       </div>
-    </main>
     <footer class="bg-white py-4 mt-auto">
       <div class="container px-5">
         <div
@@ -220,10 +180,11 @@
         </div>
       </div>
     </footer>
+    </template>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
 
-    <script src="js/scripts.js"></script>
+    
   </body>
 </html>
