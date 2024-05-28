@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     const imageGrid = document.querySelector('.image-grid');
-    const imageExtensions = ['jpg']; // Endast dessa filformat
+    const imageExtensions = ['webp']; // Endast dessa filformat
 
     // Function to fetch images from assets/Rotationbilder folder
     function fetchImages() {
@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const img = new Image();
             let found = false;
             for (const ext of imageExtensions) {
-                img.src = `assets/Rotationbilder/image${i}.${ext}`;
+                img.src = `assets/gallery/image${i}.${ext}`;
                 img.onload = function () {
                     // If image exists, add it to the image grid
                     const imgElement = document.createElement('img');
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
     setInterval(function () {
         const images = imageGrid.querySelectorAll('img');
         for (let i = 0; i < images.length; i++) {
-            images[i].src = `assets/Rotationbilder/image${currentIndex}.${imageExtensions[0]}`;
+            images[i].src = `assets/gallery/image${currentIndex}.${imageExtensions[0]}`;
             currentIndex = (currentIndex % 8) + 1;
         }
     }, 3000);
