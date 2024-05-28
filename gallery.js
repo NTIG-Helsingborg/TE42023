@@ -1,26 +1,41 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const imageContainer = document.querySelector('.image-container');
-    const animationDuration = 5000; // Tid det tar för en bild att flytta från vänster till höger (i millisekunder)
+    const imageGrid = document.querySelector('.image-grid');
+    const imageExtensions = ['jpg']; // Endast dessa filformat
 
-    // Function to fetch images
+    // Function to fetch images from assets/Rotationbilder folder
     function fetchImages() {
-        fetch('images.json')
-            .then(response => response.json())
-            .then(data => {
-                // Loop through each image path and create an image element
-                data.images.forEach((imagePath, index) => {
-                    const img = new Image();
-                    img.src = imagePath;
-                    img.classList.add('img-fluid', 'm-2', 'animated-image');
-                    // Använd fördröjningen för att starta animationen för varje bild baserat på dess index
-                    img.style.animationDelay = `${index * animationDuration / data.images.length}ms`;
-                    // Append the image element to the image container
-                    imageContainer.appendChild(img);
-                });
-            })
-            .catch(error => console.error('Error fetching images:', error));
+        for (let i = 1; i <= 2; i++) {
+            const imgContainer = document.createElement('div');
+            imgContainer.classList.add('col-md-3', 'col-sm-6');
+
+            const img = new Image();
+            let found = false;
+            for (const ext of imageExtensions) {
+                img.src = `assets/Rotationbilder/image${i}.${ext}`;
+                img.onload = function () {
+                    // If image exists, add it to the image grid
+                    const imgElement = document.createElement('img');
+                    imgElement.src = this.src;
+                    imgElement.classList.add('img-fluid', 'mb-4');
+                    imgContainer.appendChild(imgElement);
+                    if (!found) found = true;
+                };
+                if (found) break; // If image found, stop searching for other extensions
+            }
+
+            imageGrid.appendChild(imgContainer);
+        }
     }
 
-    // Fetch images och starta animation när sidan är laddad
     fetchImages();
+
+    // Function to rotate images every 3 seconds
+    let currentIndex = 1;
+    setInterval(function () {
+        const images = imageGrid.querySelectorAll('img');
+        for (let i = 0; i < images.length; i++) {
+            images[i].src = `assets/Rotationbilder/image${currentIndex}.${imageExtensions[0]}`;
+            currentIndex = (currentIndex % 8) + 1;
+        }
+    }, 3000);
 });
