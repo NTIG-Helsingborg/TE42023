@@ -85,9 +85,10 @@ class Projectcard extends HTMLElement {
 
 
 
-    if (this.getAttribute("text-side") === "left") {
+    if (this.getAttribute("text-side") === "left" || window.innerWidth < 1400) {
       this.innerHTML = boxHTML + titleHTML + cardHTML + `</div> `;
-    } else {
+    } 
+    else {
       this.innerHTML = boxHTML + cardHTML + titleHTML + `</div> `;
     }
   }
