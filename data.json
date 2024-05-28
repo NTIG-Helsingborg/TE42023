@@ -24,6 +24,8 @@
     "students": {
         "Juan": {
         "projects": ["API", "catTown", "me"],
+        "image": null,
+        "aboutMe": "IM HIM",
         "individualProjects": {
             "catMan": {
             "image": "image1.jpg",
@@ -39,10 +41,8 @@
         },
         "links": {
             "github": "https://github.com/",
-            "linkedIn": "https://www.linkedin.com/",
             "cv": "https://www.slideshare.net/slideshow/all-about-breadpdf/257817351"
-        },
-        "image": null
+        }
         }
     }
 }

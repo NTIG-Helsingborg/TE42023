@@ -117,6 +117,15 @@ async function renderStudent() {
   const template = document.getElementById("sample").content;
   const app = document.getElementById("app");
   const cloneHTML = document.importNode(template, true);
+  cloneHTML.querySelector(".aboutMe").textContent = data["aboutMe"];
+  let links = [".linkedIn", ".github", ".cv"];
+  let studentLinks = Object.keys(data["links"]);
+  links.map((linkItem) => {
+    if (!studentLinks.includes(linkItem.slice(1, linkItem.length)))
+      cloneHTML.querySelector(linkItem).remove();
+  });
+
+  cloneHTML.querySelector(".fullName").textContent = urlParamValue;
   cloneHTML.getElementById("special-container").innerHTML +=
     individualProjectData;
   const tag = document.createElement("nav-bar");
