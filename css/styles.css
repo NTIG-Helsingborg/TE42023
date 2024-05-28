@@ -12124,6 +12124,10 @@ html {
 .student-carousel {
   display: flex;
   align-items: center;
+  padding: 7vh 0px 7vh 0px ;
+}
+.student-carousel ul {
+  padding: 0;
 }
 .carousel__list {
   display: flex;
@@ -12132,7 +12136,7 @@ html {
   margin-left: auto;
   margin-right: auto;
   width: 90%;
-  height: 300px;
+  height: 250px;
   justify-content: center;
   perspective: 300px;
 }
@@ -12150,12 +12154,6 @@ html {
   position: absolute;
   transition: all 0.3s ease-in;
 }
-
-
-
-
-
-
 
 .carousel__item:nth-child(1) {
   background: linear-gradient(45deg, #2d35eb 0%, #904ed4 100%);
@@ -12216,4 +12214,11 @@ html {
 .carousel__item[data-pos="3"] {
   transform: translateX(80%) scale(0.8);
   z-index: 2;
+}
+
+/* Examensarbete */
+
+.student-section img{
+  width: 80%;
+  height: auto;
 }
