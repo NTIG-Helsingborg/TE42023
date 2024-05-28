@@ -33,20 +33,24 @@ class Projectcard extends HTMLElement {
 
 
 
-    var side ;
+    var Textside ;
+    var cardSide;
 
-    let boxHTML = ` <div class="row gx-5 justify-content-center mb-5 mt-5" >`;
+    let boxHTML = ` <div class="row gx-5 justify-content-center mb-5 mt-5 " >`;
    
 
  
   if (window.innerWidth < 1400) {
-      side = "text-center";
+      Textside = "text-center";
+      cardSide = "justify-content-center";
     }
     else if (this.getAttribute("text-side") === "right") {
-      side =  "text-end";
+      Textside =  "text-end";
+      cardSide = "justify-content-start";
      } 
      else {
-       side = "text-start";
+       Textside = "text-start";
+        cardSide = "justify-content-end";
         }
 
 
@@ -55,7 +59,7 @@ class Projectcard extends HTMLElement {
 
 
      let titleHTML = `
-   <div class="col-xxl-5 ${side} ">
+   <div class="col-xxl-5 ${Textside} ">
         <h2 class="display-6 fw-bolder">
           <span class="text-gradient d-inline">${this.getAttribute("title")}</span>
         </h2>
@@ -65,13 +69,13 @@ class Projectcard extends HTMLElement {
           <p class=" card-text">${this.getAttribute("describiton")}</p>
     </div>`;
 
-    let cardHTML = `<div class="col-xxl-5 row ">`;
+    let cardHTML = `<div class="col-xxl-5 row  ${cardSide}">`;
 
     projects.forEach((project) => {
       if (project.group === group) {
         cardHTML += `
-                <div class="card d-inline-block shadow border-0 p-1 mb-4 ">
-                <a class="stretched-link" href="index.html">
+                <div class="card d-inline-block shadow border-0 p-1 mb-4   ">
+                <a class="stretched-link " href="index.html ">
                 <img src="${project.image}"  class="card-img" alt="...">
                         
                 <div class="card-img-overlay ">
