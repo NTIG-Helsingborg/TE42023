@@ -1,5 +1,5 @@
 class Projectcard extends HTMLElement {
-  static observedAttributes = ["group", "text-side","describiton"];
+  static observedAttributes = ["group", "text-side","describiton","title"];
 
   constructor() {
     super();
@@ -35,12 +35,17 @@ class Projectcard extends HTMLElement {
 
     var side ;
 
-    let boxHTML = ` <div class="row gx-5 justify-content-center mb-5" >`;
+    let boxHTML = ` <div class="row gx-5 justify-content-center mb-5 mt-5" >`;
    
 
-    if (this.getAttribute("text-side") === "right") {
-     side =  "text-end";
-    } else {
+ 
+  if (window.innerWidth < 1400) {
+      side = "text-center";
+    }
+    else if (this.getAttribute("text-side") === "right") {
+      side =  "text-end";
+     } 
+     else {
        side = "text-start";
         }
 
@@ -52,12 +57,12 @@ class Projectcard extends HTMLElement {
      let titleHTML = `
    <div class="col-xxl-5 ${side} ">
         <h2 class="display-6 fw-bolder">
-          <span class="text-gradient d-inline">Webb shop</span>
+          <span class="text-gradient d-inline">${this.getAttribute("title")}</span>
         </h2>
-        <div class="fs-3 fw-light text-muted">
+        <div class="fs-3 fw-light text-muted mb-4">
             Projekt ${group}
         </div>
-          <p class="card-text">${this.getAttribute("describiton")}</p>
+          <p class=" card-text">${this.getAttribute("describiton")}</p>
     </div>`;
 
     let cardHTML = `<div class="col-xxl-5 row ">`;
