@@ -93,3 +93,22 @@ const projectImages = async () => {
   }
   cardContainer.innerHTML = cardHTML;
 };
+
+const renderDirectories = (data) => {
+  let directory = jsonData["directories"]["files"];
+  const contentContainer = document.getElementById("app");
+  const template = document.getElementById("template").content;
+  const directoryClone = document.importNode(template, true);
+  directoryClone.querySelector(".image1").src = directory[0]["image_path"];
+  directoryClone.querySelector(".image2").src = directory[1]["image_path"];
+  directoryClone.querySelector(".name").textContent =
+    jsonData["directories"]["name"];
+  contentContainer.appendChild(directoryClone);
+};
+
+/*
+// Fetch data and render templates
+document.addEventListener("DOMContentLoaded", () => {
+  renderDirectories(jsonData);
+});
+*/
