@@ -68,7 +68,6 @@ const getData = async (targetData, urlParam, getOne = true) => {
 
 //an exemple of creating blocks
 const projectImages = async () => {
-  const cardContainer = document.getElementById("card-container");
   let projects = await getData("inviduelltProjekt", "none", false);
   console.log(projects);
   let cardHTML = "";
@@ -91,5 +90,15 @@ const projectImages = async () => {
       </div>
     `;
   }
-  cardContainer.innerHTML = cardHTML;
+  return cardHTML;
 };
+
+//HTML and css gets rendered first. For Dynamic pages everything needs
+//to be rendered through javascript to have smooth rendering
+async function render() {
+  const template = document.getElementById("template").content;
+  const app = document.getElementById("app");
+  const cloneHTML = document.importNode(template, true);
+  cloneHTML.getElementById("card-container").innerHTML = await projectImages();
+  app.appendChild(cloneHTML);
+}
