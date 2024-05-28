@@ -19,16 +19,16 @@ class Projectcard extends HTMLElement {
     const group = parseInt(this.getAttribute("group"));
 
     let projects = [
-      { group: 1, name: "whisker Wonders" },
-      { group: 1, name: "Furry Friends" },
-      { group: 1, name: "Paw Prints" },
-      { group: 1, name: "Purrfect Pals" },
-      { group: 2, name: "Meow Mates" },
-      { group: 2, name: "Kitty Krew" },
-      { group: 2, name: "Cat Crew" },
-      { group: 3, name: "Feline Friends" },
-      { group: 3, name: "Cat Clan" },
-      { group: 3, name: "Paw Pals" },
+      { group: 1, name: "whisker Wonders", image: "https://placehold.co/100x0", link: "https://example.com" },
+      { group: 1, name: "Furry Friends", image: "https://placehold.co/100x0", link: "https://example.com" },
+      { group: 1, name: "Paw Prints", image: "https://placehold.co/100x0", link: "https://example.com" },
+      { group: 1, name: "Purrfect Pals", image: "https://placehold.co/100x0", link: "https://example.com" },
+      { group: 2, name: "Meow Mates", image: "https://placehold.co/100x0", link: "https://example.com" },
+      { group: 2, name: "Kitty Krew", image: "https://placehold.co/100x0", link: "https://example.com" },
+      { group: 2, name: "Cat Crew", image: "https://placehold.co/100x0", link: "https://example.com" },
+      { group: 3, name: "Feline Friends", image: "https://placehold.co/100x0", link: "https://example.com" },
+      { group: 3, name: "Cat Clan", image: "https://placehold.co/100x0", link: "https://example.com" },
+      { group: 3, name: "Paw Pals", image: "https://placehold.co/100x0", link: "https://example.com" },
     ];
 
 
@@ -67,7 +67,7 @@ class Projectcard extends HTMLElement {
         cardHTML += `
                 <div class="card d-inline-block shadow border-0 p-1 mb-4 ">
                 <a class="stretched-link" href="index.html">
-                <img src="https://placehold.co/100x0"  class="card-img" alt="...">
+                <img src="${project.image}"  class="card-img" alt="...">
                         
                 <div class="card-img-overlay ">
                 <h5 class="card-title">${project.name}</h5>
