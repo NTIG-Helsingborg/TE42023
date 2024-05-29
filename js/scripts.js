@@ -57,12 +57,12 @@ const getData = async (targetData, urlParam, getOne = true) => {
     const response = await fetch(jsonFile);
     const jsonData = await response.json();
     let data = jsonData[targetData][specificData];
-    return { data: data, urlParamValue: specificData };
+    return { data: data, urlParamValue: specificData, jsonData: jsonData };
   } else {
     const response = await fetch(jsonFile);
     const jsonData = await response.json();
     let data = jsonData[targetData];
-    return { data: data, urlParamValue: specificData };
+    return { data: data, urlParamValue: specificData, jsonData: jsonData };
   }
 };
 
@@ -110,9 +110,34 @@ const makeIndividualProject = (studentObj) => {
   return cardHTML;
 };
 
+async function renderGalleryStudent() {
+  let { data, urlParamValue, jsonData } = await getData(
+    "students",
+    "student",
+    true
+  );
+  let studentProjects = data["projects"];
+  let projectData = jsonData["projects"];
+  for (let dataIndex = 0; dataIndex < studentProjects.length; dataIndex++) {
+    let li = document.createElement("li");
+    li.className = "carousel__item border border-2 border-primary";
+    li.style.background = `linear-gradient(45deg, rgb(210 43 212 / 57%), rgb(153 0 255 / 59%)), url(${
+      projectData[studentProjects[dataIndex]]["image"]
+    }) no-repeat center`;
+    li.style.backgroundSize = "cover";
+    li.dataset.pos = dataIndex;
+    li.textContent = projectData[studentProjects[dataIndex]]["project"];
+    document.querySelector(".carousel__list").appendChild(li);
+  }
+}
+
 //{ data: data, urlParamValue: specificData }
 async function renderStudent() {
-  let { data, urlParamValue } = await getData("students", "student", true);
+  let { data, urlParamValue, jsonData } = await getData(
+    "students",
+    "student",
+    true
+  );
   let individualProjectData = makeIndividualProject(data);
   const template = document.getElementById("sample").content;
   const app = document.getElementById("app");
@@ -124,7 +149,6 @@ async function renderStudent() {
     if (!studentLinks.includes(linkItem.slice(1, linkItem.length)))
       cloneHTML.querySelector(linkItem).remove();
   });
-
   cloneHTML.querySelector(".fullName").textContent = urlParamValue;
   cloneHTML.getElementById("special-container").innerHTML +=
     individualProjectData;
@@ -133,6 +157,18 @@ async function renderStudent() {
   app.appendChild(cloneHTML);
 }
 
+//<li class="carousel__item border border-2 border-primary" data-pos="-3"></li>;
+//"projects": ["apiProject", "catTown", "me"],
+/*
+     <li class="carousel__item border border-2 border-primary" data-pos="-3">0</li>
+      <li class="carousel__item border border-2 border-primary" data-pos="-2">1</li>
+      <li class="carousel__item border border-2 border-primary" data-pos="-1">2</li>
+      <li class="carousel__item border border-2 border-primary" data-pos="0">3</li>
+      <li class="carousel__item border border-2 border-primary" data-pos="1">4</li>
+      <li class="carousel__item border border-2 border-primary" data-pos="2">5</li>
+      <li class="carousel__item border border-2 border-primary" data-pos="3">6</li>
+*/
+
 document.addEventListener("DOMContentLoaded", async () => {
-  await renderStudent();
+  await renderGalleryStudent();
 });

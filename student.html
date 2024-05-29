@@ -29,11 +29,10 @@
   </head>
   <script src="js/navbar.js"></script>
   <script src="js/specialprojectcard.js"></script>
-  <script src="js/scripts.js"></script>
+  
 
   <body class="d-flex flex-column h-100">
     <div id = "app"></div>
-    <template id = "sample">
       <!-- Navigation-->
       <nav-bar />
 
@@ -185,9 +184,10 @@
       </section>
 
       <!-- Slideshow -->
-      <section class="py-5 my-5 bg-gradient-primary-to-secondary">
-        <div class="student-carousel">
-          <ul class="carousel__list">
+
+
+      <!--
+
             <li class="carousel__item border border-2 border-primary" data-pos="-3">0</li>
             <li class="carousel__item border border-2 border-primary" data-pos="-2">1</li>
             <li class="carousel__item border border-2 border-primary" data-pos="-1">2</li>
@@ -195,7 +195,10 @@
             <li class="carousel__item border border-2 border-primary" data-pos="1">4</li>
             <li class="carousel__item border border-2 border-primary" data-pos="2">5</li>
             <li class="carousel__item border border-2 border-primary" data-pos="3">6</li>
-          </ul>
+      -->
+      <section class="py-5 my-5 bg-gradient-primary-to-secondary">
+        <div class="student-carousel">
+          <ul class="carousel__list"></ul>
         </div>
       </section>
 
@@ -221,9 +224,11 @@
             <div class="col-12 col-lg-5 d-flex order-last">
               <img src="assets/favicon.ico" alt="" class="rounded-4 m-auto"/>
             </div>
-            <div class="col-12 col-lg-7 order-first">
+            <div class="col-12 col-lg-7 order-first ">
               <h1 class="display-3 fs-1 fw-bolder mb-5"><span class="text-gradient d-inline">Certificat</span></h1>
-              <div class="fs-4 fw-light text-muted">Pellentesque aliquet diam gravida porta faucibus. Sed tristique odio eget mattis efficitur. Etiam at dui vel metus consectetur volutpat in nec massa. Mauris euismod dolor blandit ante aliquet, ut semper arcu consequat. Praesent bibendum lacus in magna</div>
+              <div class="fs-4 fw-light text-muted">
+
+              </div>
             </div>
           </div>
         </div>
@@ -263,12 +268,13 @@
         </div>
       </div>
     </footer>
-    </template>
+   
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
 
-    
+    <script src="js/scripts.js"></script>
     <script src="js/carousel.js"></script>
+    
   </body>
 </html>
