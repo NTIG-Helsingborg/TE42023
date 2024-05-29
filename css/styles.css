@@ -100,9 +100,7 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  /* background-color: var(--bs-body-bg); */
-  background-image: url("../assets/BackgroundImage5.png");
-  background-size: cover;
+  background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -12015,8 +12013,7 @@ html {
   overflow: hidden;
   white-space: nowrap;
   box-sizing: border-box;
-  display: block;
-  width: 100%;
+  display: flex;
   height: 100%;
   max-height: 500px;
 }
@@ -12035,9 +12032,6 @@ html {
 .carousel__slide figure {
   display: flex;
   margin: 0;
-  width: 100%;
-  height: 100%;
-  max-height: 500px;
 }
 .carousel__slide div {
   position: relative;
