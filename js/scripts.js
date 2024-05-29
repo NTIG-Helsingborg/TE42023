@@ -7,11 +7,8 @@
 // Use this file to add JavaScript to your project
 // when deploying consider this: "TE4_23-24_Site"
 const getRootPath = () => {
-  let urlString = window.location.href;
-  let pathRoot = urlString.slice(
-    0,
-    urlString.indexOf("http://localhost:8000") + "http://localhost:8000".length
-  );
+  const url = new URL(window.location.href);
+  const pathRoot = url.origin;
   return pathRoot;
 };
 
@@ -116,6 +113,7 @@ async function renderGalleryStudent() {
     "student",
     true
   );
+  console.log("render gallery student", data, jsonData);
   let studentProjects = data["projects"];
   let projectData = jsonData["projects"];
   for (let dataIndex = 0; dataIndex < studentProjects.length; dataIndex++) {
