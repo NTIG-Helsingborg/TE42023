@@ -27,12 +27,12 @@ class ElevCards extends HTMLElement {
             <div class="col-6 col-md-4 col-lg-3 mb-5">
                 <div class="card-container">
                     <div class="card shadow border-primary">
-                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="${elev.name}">
-                        <div class="card-body">
-                            <h5 class="card-title">${elev.name}</h5>
-                            <p class="card-text">Info 1: ${elev.age}</p>
-                            <p class="card-text">Info 2: ${elev.class}</p>
-                            <a href="#" class="btn btn-primary">More Info</a>
+                        <img src="${elev.image}" class="card-img-top" alt="${elev.name}">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">${elev.name}</h4>
+                            <p class="card-text"> ${elev.title}</p>
+                           
+                            <a href="student?${elev.link}" class="btn btn-primary">view page</a>
                         </div>
                     </div>
                 </div>
