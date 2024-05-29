@@ -11794,7 +11794,7 @@ html {
   position: relative;
   height: 60vw;
   width: 60vw;
-  border-radius: 5vw;
+  border-radius: 2vw;
   margin-top: auto;
   margin-bottom: auto;
   max-height: 30rem;
@@ -12332,9 +12332,18 @@ html {
   color: var(--bs-gray-500);
 }
 
-/* Examensarbete */
-
+/* student page */
 .student-section img{
   width: 80%;
   height: auto;
+}
+@media screen and (max-width: 991px){
+  .student-section img{
+    width: 50%;
+  }
+}
+
+.studentdescription{
+  margin: 0 auto;
+  max-width: 696px;
 }
