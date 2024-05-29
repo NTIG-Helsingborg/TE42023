@@ -25,7 +25,7 @@
     />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
-    <link href="css/custom.css" rel="stylesheet" />
+    <link href="css/timeline.css" rel="stylesheet" />
   </head>
   <body class="d-flex flex-column h-100 bg-light">
     <main class="flex-shrink-0">
@@ -71,12 +71,8 @@
             <span class="text-gradient d-inline">Tidslinje</span>
           </h1>
         </div>
-        <div class="row gx-5 justify-content-center">
-          <div class="col-lg-11 col-xl-9 col-xxl-8">
-            <section id="timeline">
-              <!-- Will get dynamically populated with information from data.json-->
-            </section>
-          </div>
+        <div class="row gx-5 justify-content-center timeline">
+          <ul id="timeline2"></ul>
         </div>
       </div>
     </main>
@@ -108,21 +104,18 @@
         const data = await fetch("data.json").then((response) =>
           response.json()
         );
-        const section = document.getElementById("timeline");
+        const section = document.getElementById("timeline2");
+        console.log("Calling for loop");
+
         for (const entry of Object.values(data.timeline)) {
-          const newCard = document.createElement("div");
-          newCard.classList.add(
-            "card",
-            "shadow",
-            "border-0",
-            "rounded-4",
-            "mb-5"
-          );
+          const newCard = document.createElement("li");
+          newCard.classList.add("card");
           newCard.setAttribute("data-bs-toggle", "modal");
           newCard.setAttribute("data-bs-target", "#modal-" + entry.id);
 
           newCard.innerHTML = `
-              <div class="card-body">
+
+              <div class="card-body shadow rounded-4">
                     <div class="row align-items-center gx-5">
                       <div class="col text-center mb-4 mb-lg-0">
                         <div class="bg-light p-4 rounded-4">
@@ -135,9 +128,11 @@
                       </div>
                     </div>
                   </div>
+
               `;
           section.appendChild(newCard);
-
+        }
+        for (const entry of Object.values(data.timeline)) {
           const newModal = document.createElement("div");
           newModal.classList.add("modal", "fade");
           newModal.setAttribute("id", "modal-" + entry.id);
@@ -175,7 +170,43 @@
                 </div>`;
           section.appendChild(newModal);
         }
+        // Initialize viewport detection after items are created
+        initializeViewportDetection();
       });
+
+      function initializeViewportDetection() {
+        "use strict";
+
+        // define variables
+        var items = document.querySelectorAll(".timeline li");
+        console.log(items.length);
+
+        // check if an element is in viewport
+        function isElementInViewport(el) {
+          var rect = el.getBoundingClientRect();
+          return (
+            rect.top >= 0 &&
+            rect.left >= 0 &&
+            rect.bottom <=
+              (window.innerHeight || document.documentElement.clientHeight) &&
+            rect.right <=
+              (window.innerWidth || document.documentElement.clientWidth)
+          );
+        }
+
+        function callbackFunc() {
+          for (var i = 0; i < items.length; i++) {
+            if (isElementInViewport(items[i])) {
+              items[i].classList.add("in-view");
+            }
+          }
+        }
+
+        // listen for events
+        window.addEventListener("load", callbackFunc);
+        window.addEventListener("resize", callbackFunc);
+        window.addEventListener("scroll", callbackFunc);
+      }
     </script>
   </body>
 </html>
