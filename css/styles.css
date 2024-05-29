@@ -11584,7 +11584,6 @@ html {
   height: 75vw;
   width: 75vw;
   border-radius: 2vw;
-  margin-top: 5vw;
   max-height: 40rem;
   max-width: 40rem;
 }
@@ -12214,6 +12213,123 @@ html {
 .carousel__item[data-pos="3"] {
   transform: translateX(80%) scale(0.8);
   z-index: 2;
+}
+
+/* Home carousel */
+.callout-text h4 {
+  font-family: 'Lato', sans-serif;
+  font-size: 2em;
+}
+@media (min-width: 768px) {
+  .callout-text h4 {
+    font-size: 3em;
+ }
+}
+.callout-text {
+  text-align: center;
+  max-width: 1140px;
+  margin: 20px auto;
+}
+.testimonial-carousel {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  height: 500px;
+  position: relative;
+  padding: 20px 20px;
+  display: flex;
+}
+.testimonial-carousel .icon-container {
+  position: relative;
+  padding: 0 5px;
+  max-width: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+@media (min-width: 768px) {
+  .testimonial-carousel .icon-container {
+    max-width: 50px;
+    padding: 0 10px;
+ }
+}
+.testimonial-carousel .icon-container span.lnr {
+  color: #dadada;
+  font-size: 1.6em;
+  cursor: pointer;
+  transition: color 0.3s linear;
+}
+@media (min-width: 768px) {
+  .testimonial-carousel .icon-container span.lnr {
+    font-size: 2.6em;
+ }
+}
+.testimonial-carousel .icon-container span.lnr:hover {
+  color: #fff;
+}
+.testimonial-carousel h1 {
+  font-size: 2.2em;
+  color: var(--bs-gray-200);
+  font-weight: lighter;
+  text-align: center;
+  margin: 0 0 30px 0;
+  padding: 0; 
+  text-decoration: w;
+}
+.testimonial-carousel p {
+  font-size: 1em;
+  color: var(--bs-gray-200);
+  padding: 20px 40px;
+ 
+}
+@media (min-width: 768px) {
+  .testimonial-carousel p {
+    font-size: 1.4em;
+ }
+}
+.testimonial-items {
+  position: relative;
+  flex: 1;
+  overflow: hidden;
+  color: #fff;
+}
+.testimonial-item {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.testimonial-item p.testimonial-author {
+  font-weight: bold;
+  text-align: right;
+}
+.testimonial-item.first {
+  left: 0;
+}
+.testimonial-item.second {
+  left: 100%;
+}
+.testimonial-item.third {
+  left: 200%;
+}
+.testimonial-item.fourth {
+  left: 300%;
+}
+.slideindicator {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.slideindicator .active i {
+  color: var(--bs-white);
+}
+.slideindicator .none i {
+  color: var(--bs-gray-500);
 }
 
 /* Examensarbete */
