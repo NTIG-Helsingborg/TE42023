@@ -1,7 +1,7 @@
 {
   "students": {
     "Juan": {
-    "projects": ["APIproject", "catTown", "me", "hey"],
+    "projects": ["APIproject", "catTown", "me", "hey", "ola", "woof", "rola"],
     "image": "image4.webp",
     "klassens": "klassens kung",
     "aboutMe": "IM HIM",
@@ -46,6 +46,18 @@
     },
     "hey": {
       "project": "sak3",
+      "image": "../assets/profile.png"
+    },
+    "ola": {
+      "project": "sak4",
+      "image": "../assets/profile.png"
+    },
+    "rola": {
+      "project": "sak5",
+      "image": "../assets/profile.png"
+    },
+    "woof": {
+      "project": "sak6",
       "image": "../assets/profile.png"
     }
   },

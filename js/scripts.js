@@ -116,17 +116,18 @@ async function renderGalleryStudent() {
   console.log("render gallery student", data, jsonData);
   let studentProjects = data["projects"];
   let projectData = jsonData["projects"];
-  for (let dataIndex = 0; dataIndex < studentProjects.length; dataIndex++) {
-    let li = document.createElement("li");
-    li.className = "carousel__item border border-2 border-primary";
-    li.style.background = `linear-gradient(45deg, rgb(210 43 212 / 57%), rgb(153 0 255 / 59%)), url(${
-      projectData[studentProjects[dataIndex]]["image"]
+  let list = document.querySelectorAll(".carousel__item");
+  let x = 0;
+  list.forEach((item) => {
+    // Perform an action with each item
+    item.style.background = `linear-gradient(45deg, rgb(210 43 212 / 57%), rgb(153 0 255 / 59%)), url(${
+      projectData[studentProjects[x]]["image"]
     }) no-repeat center`;
-    li.style.backgroundSize = "cover";
-    li.dataset.pos = dataIndex;
-    li.textContent = projectData[studentProjects[dataIndex]]["project"];
-    document.querySelector(".carousel__list").appendChild(li);
-  }
+    // Example: adding a class to each item
+    item.style.backgroundSize = "cover";
+    item.textContent = projectData[studentProjects[x]]["project"];
+    x += 1;
+  });
 }
 
 //{ data: data, urlParamValue: specificData }
@@ -196,29 +197,3 @@ async function renderStudent() {
   app.appendChild(tag);
   app.appendChild(cloneHTML);
 }
-
-/*
-let val = false; 
-let box = document.querySelector(".extraContainer")
-Object.entries(data["individualProjects"]).map(entry => {
-    console.log(entry[0]);
-    box.innerHTML = `<special-project-card title = "${entry[0]}" src = "assets/${data["individualProjects"][entry[0]]["image"]}" alt="${data["individualProjects"][entry[0]]["alt"]}" text="${data["individualProjects"][entry[0]]["text"]}" choice="${val}">`
-val = !val;
-});
-*/
-
-//<li class="carousel__item border border-2 border-primary" data-pos="-3"></li>;
-//"projects": ["apiProject", "catTown", "me"],
-/*
-     <li class="carousel__item border border-2 border-primary" data-pos="-3">0</li>
-      <li class="carousel__item border border-2 border-primary" data-pos="-2">1</li>
-      <li class="carousel__item border border-2 border-primary" data-pos="-1">2</li>
-      <li class="carousel__item border border-2 border-primary" data-pos="0">3</li>
-      <li class="carousel__item border border-2 border-primary" data-pos="1">4</li>
-      <li class="carousel__item border border-2 border-primary" data-pos="2">5</li>
-      <li class="carousel__item border border-2 border-primary" data-pos="3">6</li>
-*/
-
-document.addEventListener("DOMContentLoaded", async () => {
-  await renderGalleryStudent();
-});
