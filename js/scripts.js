@@ -6,7 +6,7 @@
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
 // when deploying consider this: "TE4_23-24_Site"
-const getRootPath = () => {
+export const getRootPath = () => {
   const url = new URL(window.location.href);
   const pathRoot = url.origin;
   return pathRoot;
@@ -24,7 +24,7 @@ Använding:
 columnClick("page/projekt", "Projektet", "Pokidex");
 */
 
-const columnClick = (newRelativeLocation, key, value) => {
+export const columnClick = (newRelativeLocation, key, value) => {
   let pathRoot = getRootPath();
   console.log(newRelativeLocation);
   let newUrl = pathRoot + newRelativeLocation; // Create a URL object
@@ -44,7 +44,7 @@ Använding:
 getData("inviduelltProjekt", "Projektet");
 
 */
-const getData = async (targetData, urlParam, getOne = true) => {
+export const getData = async (targetData, urlParam, getOne = true) => {
   let jsonFile = getRootPath() + "/data.json";
   let urlString = window.location.href;
   let paramString = urlString.split("?")[1];
@@ -106,94 +106,3 @@ const makeIndividualProject = (studentObj) => {
   }
   return cardHTML;
 };
-
-async function renderGalleryStudent() {
-  let { data, urlParamValue, jsonData } = await getData(
-    "students",
-    "student",
-    true
-  );
-  console.log("render gallery student", data, jsonData);
-  let studentProjects = data["projects"];
-  let projectData = jsonData["projects"];
-  let list = document.querySelectorAll(".carousel__item");
-  let x = 0;
-  list.forEach((item) => {
-    // Perform an action with each item
-    item.style.background = `linear-gradient(45deg, rgb(210 43 212 / 57%), rgb(153 0 255 / 59%)), url(${
-      projectData[studentProjects[x]]["image"]
-    }) no-repeat center`;
-    // Example: adding a class to each item
-    item.style.backgroundSize = "cover";
-    item.textContent = projectData[studentProjects[x]]["project"];
-    x += 1;
-  });
-}
-
-//{ data: data, urlParamValue: specificData }
-
-/*
-  ExamensArbeteText
-  ExamensArbeteBild
-*/
-async function renderStudent() {
-  let { data, urlParamValue, jsonData } = await getData(
-    "students",
-    "student",
-    true
-  );
-  const template = document.getElementById("sample").content;
-
-  //First Card
-  const app = document.getElementById("app");
-  const cloneHTML = document.importNode(template, true);
-  cloneHTML.querySelector(".aboutMe").textContent = data["aboutMe"];
-  cloneHTML.querySelector(".img-student").src =
-    "assets/gallery/" + data["image"];
-  cloneHTML.querySelector(".img-student").alt = urlParamValue;
-
-  let links = [".linkedIn", ".github", ".cv", ".instagram"];
-  let studentLinks = Object.keys(data["links"]);
-  links.map((linkItem) => {
-    if (!studentLinks.includes(linkItem.slice(1, linkItem.length)))
-      cloneHTML.querySelector(linkItem).remove();
-  });
-
-  //Examens arbete
-  let certifikatList = "";
-  for (let thing in data["certifikat"]) {
-    certifikatList += `<li>${data["certifikat"][thing]}</li>`;
-  }
-
-  cloneHTML.querySelector(".ExamensArbeteTitel").textContent =
-    data["exam"]["name"];
-  cloneHTML.querySelector(".ExamensArbeteBild").src =
-    "assets/" + data["exam"]["image"];
-  cloneHTML.querySelector(".certifikat").innerHTML = certifikatList;
-  cloneHTML.querySelector(".ExamensArbeteText").textContent =
-    data["exam"]["text"];
-
-  cloneHTML.querySelector(".fullName").textContent = urlParamValue;
-  cloneHTML.querySelector(
-    ".klassens"
-  ).innerHTML = `<i>"${data["klassens"]}"</i>`;
-
-  cloneHTML.getElementById("special-container").innerHTML +=
-    individualProjectData;
-
-  //inviduella projekt
-  let val = false;
-  let box = cloneHTML.querySelector(".extraContainer");
-  Object.entries(data["individualProjects"]).map((entry) => {
-    box.innerHTML = `<special-project-card title = "${
-      entry[0]
-    }" src = "assets/${data["individualProjects"][entry[0]]["image"]}" alt="${
-      data["individualProjects"][entry[0]]["alt"]
-    }" text="${data["individualProjects"][entry[0]]["text"]}" choice="${val}">`;
-    val = !val;
-  });
-
-  const tag = document.createElement("nav-bar");
-  app.appendChild(tag);
-  app.appendChild(cloneHTML);
-}

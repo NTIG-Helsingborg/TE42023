@@ -4,3 +4,48 @@
   object-fit: cover !important;
   border-radius:inherit ;
 }
+
+@media (min-width: 921px) {
+  .carousel__item {
+    max-width: 350px;
+    max-height: 200px;
+  }
+}
+
+@media (max-width: 920px) {
+  .carousel__item {
+    max-width: 300px;
+    max-height: 200px;
+  }
+}
+
+@media (max-width: 800px) {
+  .carousel__item {
+    max-width: 250px;
+    max-height: 170px;
+  }
+}
+@media (max-width: 650px) {
+  .carousel__item {
+    max-width: 200px;
+    max-height: 170px;
+  }
+}
+
+@media (max-width: 530px) {
+  .carousel__item {
+    max-width: 150px;
+    max-height: 170px;
+  }
+}
+
+@media (max-width: 400px) {
+  .carousel__item {
+    max-width: 100px;
+    max-height: 140px;
+  }
+  .carousel__list{
+    height: 120px;
+  }
+}
+
