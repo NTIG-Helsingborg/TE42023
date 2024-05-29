@@ -11948,10 +11948,10 @@ html {
   }
 }
 
-/* Carousel on project page */
+/* Carousel on indivproject page */
 .carousel {
   display: block;
-  text-align: left;
+  text-align: right;
   position: relative;
   margin-bottom: 22px;
 }
@@ -12015,7 +12015,10 @@ html {
   overflow: hidden;
   white-space: nowrap;
   box-sizing: border-box;
-  display: flex;
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-height: 500px;
 }
 .carousel__slide {
   position: relative;
@@ -12032,6 +12035,9 @@ html {
 .carousel__slide figure {
   display: flex;
   margin: 0;
+  width: 100%;
+  height: 100%;
+  max-height: 500px;
 }
 .carousel__slide div {
   position: relative;
@@ -12051,6 +12057,7 @@ html {
   bottom: 0;
   width: 100%;
   height: 100%;
+  max-height: 500px;
 }
 .carousel__slide img {
   display: block;
