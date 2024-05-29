@@ -6,12 +6,9 @@
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
 // when deploying consider this: "TE4_23-24_Site"
-const getRootPath = () => {
-  let urlString = window.location.href;
-  let pathRoot = urlString.slice(
-    0,
-    urlString.indexOf("http://localhost:8000") + "http://localhost:8000".length
-  );
+export const getRootPath = () => {
+  const url = new URL(window.location.href);
+  const pathRoot = url.origin;
   return pathRoot;
 };
 
@@ -27,7 +24,7 @@ Använding:
 columnClick("page/projekt", "Projektet", "Pokidex");
 */
 
-const columnClick = (newRelativeLocation, key, value) => {
+export const columnClick = (newRelativeLocation, key, value) => {
   let pathRoot = getRootPath();
   console.log(newRelativeLocation);
   let newUrl = pathRoot + newRelativeLocation; // Create a URL object
@@ -47,29 +44,29 @@ Använding:
 getData("inviduelltProjekt", "Projektet");
 
 */
-const getData = async (targetData, urlParam, getOne = true) => {
+export const getData = async (targetData, urlParam, getOne = true) => {
   let jsonFile = getRootPath() + "/data.json";
   let urlString = window.location.href;
+  let paramString = urlString.split("?")[1];
+  let queryString = new URLSearchParams(paramString);
+  let specificData = queryString.get(urlParam);
   if (getOne == true) {
-    let paramString = urlString.split("?")[1];
-    let queryString = new URLSearchParams(paramString);
-    let specificData = queryString.get(urlParam);
     const response = await fetch(jsonFile);
     const jsonData = await response.json();
-    data = jsonData[targetData][specificData];
-    return data;
+    let data = jsonData[targetData][specificData];
+    return { data: data, urlParamValue: specificData, jsonData: jsonData };
   } else {
     const response = await fetch(jsonFile);
     const jsonData = await response.json();
-    data = jsonData[targetData];
-    return data;
+    let data = jsonData[targetData];
+    return { data: data, urlParamValue: specificData, jsonData: jsonData };
   }
 };
 
-//an exemple of creating blocks
+//an exemple of creating blocks this wont work for not
 const projectImages = async () => {
-  const cardContainer = document.getElementById("card-container");
-  let projects = await getData("inviduelltProjekt", "none", false);
+  let projects,
+    urlParamValue = await getData("inviduelltProjekt", "none", false);
   console.log(projects);
   let cardHTML = "";
   let imagePath = "";
@@ -91,24 +88,21 @@ const projectImages = async () => {
       </div>
     `;
   }
-  cardContainer.innerHTML = cardHTML;
+  return cardHTML;
 };
 
-const renderDirectories = (data) => {
-  let directory = jsonData["directories"]["files"];
-  const contentContainer = document.getElementById("app");
-  const template = document.getElementById("template").content;
-  const directoryClone = document.importNode(template, true);
-  directoryClone.querySelector(".image1").src = directory[0]["image_path"];
-  directoryClone.querySelector(".image2").src = directory[1]["image_path"];
-  directoryClone.querySelector(".name").textContent =
-    jsonData["directories"]["name"];
-  contentContainer.appendChild(directoryClone);
-};
+//HTML and css gets rendered first. For Dynamic pages everything needs
+//to be rendered through javascript to have smooth rendering
 
-/*
-// Fetch data and render templates
-document.addEventListener("DOMContentLoaded", () => {
-  renderDirectories(jsonData);
-});
-*/
+const makeIndividualProject = (studentObj) => {
+  let individualProjects = studentObj["individualProjects"];
+  let cardHTML = "";
+  for (let project in individualProjects) {
+    imagePath =
+      getRootPath() + "/assets/" + individualProjects[project]["image"];
+    cardHTML += ` 
+      <special-project-card title = ${project} src = "assets/Juan.jpg" alt = "haha ita me" text="what is up"/>
+    `;
+  }
+  return cardHTML;
+};
