@@ -8,7 +8,7 @@ class footer extends HTMLElement {
     <footer class="bg-white py-4 mt-auto shadow-lg">
       <div class="container px-5">
         <div
-          class="row align-items-center justify-content-between flex-column flex-sm-row"
+          class="row align-items-center justify-content-between flex-column flex-md-row"
         >
           <div class="col-auto">
             <img
