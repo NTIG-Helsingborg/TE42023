@@ -141,39 +141,71 @@ async function renderStudent() {
     "student",
     true
   );
-  let individualProjectData = makeIndividualProject(data);
   const template = document.getElementById("sample").content;
 
+  //First Card
   const app = document.getElementById("app");
   const cloneHTML = document.importNode(template, true);
   cloneHTML.querySelector(".aboutMe").textContent = data["aboutMe"];
+  cloneHTML.querySelector(".img-student").src =
+    "assets/gallery/" + data["image"];
+  cloneHTML.querySelector(".img-student").alt = urlParamValue;
 
-  let links = [".linkedIn", ".github", ".cv", "instagram"];
+  let links = [".linkedIn", ".github", ".cv", ".instagram"];
   let studentLinks = Object.keys(data["links"]);
   links.map((linkItem) => {
     if (!studentLinks.includes(linkItem.slice(1, linkItem.length)))
       cloneHTML.querySelector(linkItem).remove();
   });
 
+  //Examens arbete
   let certifikatList = "";
   for (let thing in data["certifikat"]) {
     certifikatList += `<li>${data["certifikat"][thing]}</li>`;
   }
+
+  cloneHTML.querySelector(".ExamensArbeteTitel").textContent =
+    data["exam"]["name"];
   cloneHTML.querySelector(".ExamensArbeteBild").src =
     "assets/" + data["exam"]["image"];
-
-  cloneHTML.querySelector(".certificat").innerHTML = list;
+  cloneHTML.querySelector(".certifikat").innerHTML = certifikatList;
   cloneHTML.querySelector(".ExamensArbeteText").textContent =
     data["exam"]["text"];
 
   cloneHTML.querySelector(".fullName").textContent = urlParamValue;
+  cloneHTML.querySelector(
+    ".klassens"
+  ).innerHTML = `<i>"${data["klassens"]}"</i>`;
+
   cloneHTML.getElementById("special-container").innerHTML +=
     individualProjectData;
+
+  //inviduella projekt
+  let val = false;
+  let box = cloneHTML.querySelector(".extraContainer");
+  Object.entries(data["individualProjects"]).map((entry) => {
+    box.innerHTML = `<special-project-card title = "${
+      entry[0]
+    }" src = "assets/${data["individualProjects"][entry[0]]["image"]}" alt="${
+      data["individualProjects"][entry[0]]["alt"]
+    }" text="${data["individualProjects"][entry[0]]["text"]}" choice="${val}">`;
+    val = !val;
+  });
 
   const tag = document.createElement("nav-bar");
   app.appendChild(tag);
   app.appendChild(cloneHTML);
 }
+
+/*
+let val = false; 
+let box = document.querySelector(".extraContainer")
+Object.entries(data["individualProjects"]).map(entry => {
+    console.log(entry[0]);
+    box.innerHTML = `<special-project-card title = "${entry[0]}" src = "assets/${data["individualProjects"][entry[0]]["image"]}" alt="${data["individualProjects"][entry[0]]["alt"]}" text="${data["individualProjects"][entry[0]]["text"]}" choice="${val}">`
+val = !val;
+});
+*/
 
 //<li class="carousel__item border border-2 border-primary" data-pos="-3"></li>;
 //"projects": ["apiProject", "catTown", "me"],
