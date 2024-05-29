@@ -149,6 +149,13 @@ async function renderStudent() {
     if (!studentLinks.includes(linkItem.slice(1, linkItem.length)))
       cloneHTML.querySelector(linkItem).remove();
   });
+
+  let certifikatList = "";
+  for (let thing in data["certifikat"]) {
+    certifikatList += `<li>${data["certifikat"][thing]}</li>`;
+  }
+
+  cloneHTML.querySelector(".certificat").innerHTML = list;
   cloneHTML.querySelector(".fullName").textContent = urlParamValue;
   cloneHTML.getElementById("special-container").innerHTML +=
     individualProjectData;
