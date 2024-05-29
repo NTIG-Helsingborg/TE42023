@@ -35,8 +35,13 @@ async function renderStudent() {
   const app = document.getElementById("app");
   const cloneHTML = document.importNode(template, true);
   cloneHTML.querySelector(".aboutMe").textContent = data["aboutMe"];
-  cloneHTML.querySelector(".img-student").src =
-    "assets/gallery/" + data["image"];
+  if (data["image"] == null) {
+    cloneHTML.querySelector(".img-student").src = "assets/missingImage.jpg";
+  } else {
+    cloneHTML.querySelector(".img-student").src =
+      "assets/gallery/" + data["image"];
+  }
+
   cloneHTML.querySelector(".img-student").alt = urlParamValue;
 
   let links = [".linkedIn", ".github", ".cv", ".instagram"];
@@ -69,7 +74,7 @@ async function renderStudent() {
   ).innerHTML = `<i>"${data["klassens"]}"</i>`;
 
   //inviduella projekt
-  let val = false;
+  let val = true;
   let box = cloneHTML.querySelector(".extraContainer");
   Object.entries(data["individualProjects"]).map((entry) => {
     box.innerHTML += `<special-project-card title = "${

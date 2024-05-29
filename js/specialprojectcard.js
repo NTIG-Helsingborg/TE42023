@@ -6,7 +6,7 @@ class specialProjectCard extends HTMLElement {
 
   connectedCallback() {
     console.log(this.getAttribute("choice"));
-    if (this.getAttribute("choice") == "true")
+    if (this.getAttribute("choice") == "false")
       this.innerHTML = `
       <div class="row py-5">
         <div class="col-12 col-lg-5 d-flex">
@@ -24,7 +24,7 @@ class specialProjectCard extends HTMLElement {
         </div>
       </div>
     `;
-    else if (this.getAttribute("choice") == "false") {
+    else if (this.getAttribute("choice") == "true") {
       this.innerHTML = `
       <div class="row py-5">
           <div class="col-12 col-lg-5 d-flex order-lg-last order-first">
