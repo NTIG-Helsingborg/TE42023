@@ -100,7 +100,9 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-color: var(--bs-body-bg);
+  /* background-color: var(--bs-body-bg); */
+  background-image: url(../assets/BackgroundImage5.png);
+  background-size: cover;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -11584,7 +11586,6 @@ html {
   height: 75vw;
   width: 75vw;
   border-radius: 2vw;
-  margin-top: 5vw;
   max-height: 40rem;
   max-width: 40rem;
 }
@@ -11795,7 +11796,7 @@ html {
   position: relative;
   height: 60vw;
   width: 60vw;
-  border-radius: 5vw;
+  border-radius: 2vw;
   margin-top: auto;
   margin-bottom: auto;
   max-height: 30rem;
@@ -11947,10 +11948,10 @@ html {
   }
 }
 
-/* Carousel on project page */
+/* Carousel on indivproject page */
 .carousel {
   display: block;
-  text-align: left;
+  text-align: right;
   position: relative;
   margin-bottom: 22px;
 }
@@ -12015,6 +12016,8 @@ html {
   white-space: nowrap;
   box-sizing: border-box;
   display: flex;
+  height: 100%;
+  max-height: 500px;
 }
 .carousel__slide {
   position: relative;
@@ -12050,6 +12053,7 @@ html {
   bottom: 0;
   width: 100%;
   height: 100%;
+  max-height: 500px;
 }
 .carousel__slide img {
   display: block;
@@ -12216,9 +12220,135 @@ html {
   z-index: 2;
 }
 
-/* Examensarbete */
+/* Home carousel */
+.callout-text h4 {
+  font-family: 'Lato', sans-serif;
+  font-size: 2em;
+}
+@media (min-width: 768px) {
+  .callout-text h4 {
+    font-size: 3em;
+ }
+}
+.callout-text {
+  text-align: center;
+  max-width: 1140px;
+  margin: 20px auto;
+}
+.testimonial-carousel {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  height: 500px;
+  position: relative;
+  padding: 20px 20px;
+  display: flex;
+}
+.testimonial-carousel .icon-container {
+  position: relative;
+  padding: 0 5px;
+  max-width: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+@media (min-width: 768px) {
+  .testimonial-carousel .icon-container {
+    max-width: 50px;
+    padding: 0 10px;
+ }
+}
+.testimonial-carousel .icon-container span.lnr {
+  color: #dadada;
+  font-size: 1.6em;
+  cursor: pointer;
+  transition: color 0.3s linear;
+}
+@media (min-width: 768px) {
+  .testimonial-carousel .icon-container span.lnr {
+    font-size: 2.6em;
+ }
+}
+.testimonial-carousel .icon-container span.lnr:hover {
+  color: #fff;
+}
+.testimonial-carousel h1 {
+  font-size: 2.2em;
+  color: var(--bs-gray-200);
+  font-weight: lighter;
+  text-align: center;
+  margin: 0 0 30px 0;
+  padding: 0; 
+  text-decoration: w;
+}
+.testimonial-carousel p {
+  font-size: 1em;
+  color: var(--bs-gray-200);
+  padding: 20px 40px;
+ 
+}
+@media (min-width: 768px) {
+  .testimonial-carousel p {
+    font-size: 1.4em;
+ }
+}
+.testimonial-items {
+  position: relative;
+  flex: 1;
+  overflow: hidden;
+  color: #fff;
+}
+.testimonial-item {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.testimonial-item p.testimonial-author {
+  font-weight: bold;
+  text-align: right;
+}
+.testimonial-item.first {
+  left: 0;
+}
+.testimonial-item.second {
+  left: 100%;
+}
+.testimonial-item.third {
+  left: 200%;
+}
+.testimonial-item.fourth {
+  left: 300%;
+}
+.slideindicator {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.slideindicator .active i {
+  color: var(--bs-white);
+}
+.slideindicator .none i {
+  color: var(--bs-gray-500);
+}
 
+/* student page */
 .student-section img{
   width: 80%;
   height: auto;
+}
+@media screen and (max-width: 991px){
+  .student-section img{
+    width: 50%;
+  }
+}
+
+.studentdescription{
+  margin: 0 auto;
+  max-width: 696px;
 }

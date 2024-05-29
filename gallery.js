@@ -1,41 +1,24 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const imageGrid = document.querySelector('.image-grid');
-    const imageExtensions = ['webp']; // Endast dessa filformat
+    const imageSlider = document.querySelector('.image-slider');
+    const totalImages = 28; // Totalt antal bilder
+    let currentImageIndex = 0;
 
-    // Function to fetch images from assets/Rotationbilder folder
-    function fetchImages() {
-        for (let i = 1; i <= 2; i++) {
-            const imgContainer = document.createElement('div');
-            imgContainer.classList.add('col-md-3', 'col-sm-6');
+    // Funktion för att visa nästa bild
+    function showNextImage() {
+        // Uppdatera bildens källa
+        const currentImages = imageSlider.querySelectorAll('.current-image');
+        currentImages.forEach((image, index) => {
+            const nextIndex = (currentImageIndex + index) % totalImages + 1;
+            image.src = `assets/gallery/image${nextIndex}.webp`;
+        });
 
-            const img = new Image();
-            let found = false;
-            for (const ext of imageExtensions) {
-                img.src = `assets/gallery/image${i}.${ext}`;
-                img.onload = function () {
-                    // If image exists, add it to the image grid
-                    const imgElement = document.createElement('img');
-                    imgElement.src = this.src;
-                    imgElement.classList.add('img-fluid', 'mb-4');
-                    imgContainer.appendChild(imgElement);
-                    if (!found) found = true;
-                };
-                if (found) break; // If image found, stop searching for other extensions
-            }
-
-            imageGrid.appendChild(imgContainer);
-        }
+        // Öka index för nästa bild
+        currentImageIndex = (currentImageIndex + 4) % totalImages;
     }
 
-    fetchImages();
+    // Visa första setet av bilder när sidan laddas
+    showNextImage();
 
-    // Function to rotate images every 3 seconds
-    let currentIndex = 1;
-    setInterval(function () {
-        const images = imageGrid.querySelectorAll('img');
-        for (let i = 0; i < images.length; i++) {
-            images[i].src = `assets/gallery/image${currentIndex}.${imageExtensions[0]}`;
-            currentIndex = (currentIndex % 8) + 1;
-        }
-    }, 3000);
+    // Uppdatera bild var tredje sekund
+    setInterval(showNextImage, 3000);
 });

@@ -1,0 +1,134 @@
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 6px;
+  margin: 0 auto;
+  background: #520184;
+}
+
+.timeline ul li::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: inherit;
+  z-index: 1;
+}
+
+.timeline ul li .card-body {
+  position: relative;
+  bottom: 0;
+  width: 400px;
+  background: white; /* Card background handled by .bg-light */
+}
+
+.timeline ul li:nth-child(odd) .card-body {
+  left: 45px;
+}
+
+.timeline ul li:nth-child(even) .card-body {
+  left: -439px;
+}
+
+.timeline ul li .card-body::before {
+  content: "";
+  position: absolute;
+  bottom: 7px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.timeline ul li:nth-child(odd) .card-body::before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #520184 transparent transparent;
+}
+
+.timeline ul li:nth-child(even) .card-body::before {
+  right: -15px;
+  border-width: 8px 0 8px 16px;
+  border-color: transparent transparent transparent #520184;
+}
+.timeline ul li::after {
+  transition: background 0.5s ease-in-out;
+}
+
+.timeline ul li.in-view::after {
+  background: #520184;
+}
+
+.timeline ul li .card-body {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.timeline ul li:nth-child(odd) .card-body {
+  transform: translate3d(200px, 0, 0);
+}
+
+.timeline ul li:nth-child(even) .card-body {
+  transform: translate3d(-200px, 0, 0);
+}
+
+.timeline ul li.in-view .card-body {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
+
+/* GENERAL MEDIA QUERIES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media screen and (max-width: 900px) {
+  .timeline ul li .card-body {
+    width: 250px;
+  }
+  .timeline ul li:nth-child(even) .card-body {
+    left: -289px;
+    /*250+45-6*/
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .timeline ul li {
+    margin-left: 20px;
+    padding-top: 50px;
+  }
+  .timeline ul li .card-body {
+    width: calc(100vw - 91px);
+  }
+  .timeline ul li:nth-child(even) .card-body {
+    left: 45px;
+  }
+  .timeline ul li:nth-child(even) .card-body::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #520184 transparent transparent;
+  }
+}
+@keyframes scaleAnimation {
+  0% {
+    transform: translateX(-50%) scale(1);
+  }
+  50% {
+    transform: translateX(-50%) scale(1.25);
+  }
+  100% {
+    transform: translateX(-50%) scale(1);
+  }
+}
+
+.card {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  /* width: 18rem; */
+}
+.card-body:hover {
+  transform: scale(1.05) !important;
+}

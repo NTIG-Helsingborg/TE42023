@@ -36,11 +36,11 @@ class Projectcard extends HTMLElement {
     var Textside ;
     var cardSide;
 
-    let boxHTML = ` <div class="row gx-5 justify-content-center mb-5 mt-5 " >`;
+    let boxHTML = ` <div class="row gx-5 justify-content-center m-0 mb-5 m-xl-5 px-0 px-xl-5" >`;
    
 
  
-  if (window.innerWidth < 1400) {
+  if (window.innerWidth < 1200) {
       Textside = "text-center";
       cardSide = "justify-content-center";
     }
@@ -59,7 +59,7 @@ class Projectcard extends HTMLElement {
 
 
      let titleHTML = `
-   <div class="col-xxl-5 ${Textside} ">
+   <div class="col-xl-7 ${Textside} ">
         <h2 class="display-6 fw-bolder">
           <span class="text-gradient d-inline">${this.getAttribute("title")}</span>
         </h2>
@@ -69,12 +69,12 @@ class Projectcard extends HTMLElement {
           <p class=" card-text">${this.getAttribute("describiton")}</p>
     </div>`;
 
-    let cardHTML = `<div class="col-xxl-5 row  ${cardSide}">`;
+    let cardHTML = `<div class="col-xl-5 row my-4 my-xl-0 ${cardSide}">`;
 
     projects.forEach((project) => {
       if (project.group === group) {
         cardHTML += `
-                <div class="card d-inline-block shadow border-0 p-1 mb-4   ">
+                <div class="card d-inline-block shadow border-0 p-1 my-2 mx-2   ">
                 <a class="stretched-link " href="index.html ">
                 <img src="${project.image}"  class="card-img" alt="...">
                         
@@ -94,7 +94,7 @@ class Projectcard extends HTMLElement {
 
 
 
-    if (this.getAttribute("text-side") === "left" || window.innerWidth < 1400) {
+    if (this.getAttribute("text-side") === "left" || window.innerWidth < 1200) {
       this.innerHTML = boxHTML + titleHTML + cardHTML + `</div> `;
     } 
     else {
