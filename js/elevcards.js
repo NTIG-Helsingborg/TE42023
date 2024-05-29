@@ -1,26 +1,12 @@
 class ElevCards extends HTMLElement {
+    static observedAttributes = ["elever"];
     constructor() {
         super();
     }
+    
 
     connectedCallback() {
-        let elever = [
-            { "name": "Jonathan Cano Sjöstedt", "age": "Placeholder 1", "class": "Placeholder 2" },
-            { "name": "David Olsson", "age": "Placeholder 1", "class": "Placeholder 2" },
-            { "name": "Ebba Elversson", "age": "Placeholder 1", "class": "Placeholder 2" },
-            { "name": "Eduard Mihic", "age": "Placeholder 1", "class": "Placeholder 2" },
-            { "name": "Gustaf Fäldt", "age": "Placeholder 1", "class": "Placeholder 2" },
-            { "name": "Jakob Helgesson", "age": "Placeholder 1", "class": "Placeholder 2" },
-            { "name": "Jonathan Thösing-Jörgensen", "age": "Placeholder 1", "class": "Placeholder 2" },
-            { "name": "Kirill Puljavin", "age": "Placeholder 1", "class": "Placeholder 2" },
-            { "name": "Margarita Shaposhnikova", "age": "Placeholder 1", "class": "Placeholder 2" },
-            { "name": "Oskar Ternström", "age": "Placeholder 1", "class": "Placeholder 2" },
-            { "name": "Othman Al-Ani", "age": "Placeholder 1", "class": "Placeholder 2" },
-            { "name": "Rami Agha", "age": "Placeholder 1", "class": "Placeholder 2" },
-            { "name": "Salah Al Hassun", "age": "Placeholder 1", "class": "Placeholder 2" },
-            { "name": "Simon Jonasson", "age": "Placeholder 1", "class": "Placeholder 2" },
-            { "name": "Zimon Johnsson", "age": "Placeholder 1", "class": "Placeholder 2" }
-        ];
+        let elever = JSON.parse(this.getAttribute("elever"));
 
         let cardHTML = `
         <div class="row d-flex justify-content-center">
