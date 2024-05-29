@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>TE4 Portfolio 23-24</title>
@@ -16,6 +16,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/gallery.css" rel="stylesheet" />
     <!-- Bootstrap CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
     <style>
@@ -329,13 +330,25 @@
                 </div>
             </section>
 
-        <section class="py-5 bg-light">
-            <div class="container">
-                <div class="image-container">
-                    <!-- Bilder läggs till dynamiskt av JavaScript -->
+            <section class="py-5 bg-light">
+                <div class="container">
+                    <div class="image-slider">
+                        <!-- Fyra bilder visas åt gången -->
+                        <div class="image-container">
+                            <img class="current-image" src="" alt="...">
+                        </div>
+                        <div class="image-container">
+                            <img class="current-image" src="" alt="...">
+                        </div>
+                        <div class="image-container">
+                            <img class="current-image" src="" alt="...">
+                        </div>
+                        <div class="image-container">
+                            <img class="current-image" src="" alt="...">
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
         
 
 
@@ -359,8 +372,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="gallery.js"></script>
+<<<<<<< Updated upstream
     <script src="js/homecarousel.js"></script>
     <link href="css/gallery.css" rel="" />
+=======
+>>>>>>> Stashed changes
     <!-- Custom JS and css for Image Slideshow -->
 </body>
 </html>
