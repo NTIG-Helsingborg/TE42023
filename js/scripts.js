@@ -132,6 +132,11 @@ async function renderGalleryStudent() {
 }
 
 //{ data: data, urlParamValue: specificData }
+
+/*
+  ExamensArbeteText
+  ExamensArbeteBild
+*/
 async function renderStudent() {
   let { data, urlParamValue, jsonData } = await getData(
     "students",
@@ -140,10 +145,12 @@ async function renderStudent() {
   );
   let individualProjectData = makeIndividualProject(data);
   const template = document.getElementById("sample").content;
+
   const app = document.getElementById("app");
   const cloneHTML = document.importNode(template, true);
   cloneHTML.querySelector(".aboutMe").textContent = data["aboutMe"];
-  let links = [".linkedIn", ".github", ".cv"];
+
+  let links = [".linkedIn", ".github", ".cv", "instagram"];
   let studentLinks = Object.keys(data["links"]);
   links.map((linkItem) => {
     if (!studentLinks.includes(linkItem.slice(1, linkItem.length)))
@@ -154,11 +161,17 @@ async function renderStudent() {
   for (let thing in data["certifikat"]) {
     certifikatList += `<li>${data["certifikat"][thing]}</li>`;
   }
+  cloneHTML.querySelector(".ExamensArbeteBild").src =
+    "assets/" + data["exam"]["image"];
 
   cloneHTML.querySelector(".certificat").innerHTML = list;
+  cloneHTML.querySelector(".ExamensArbeteText").textContent =
+    data["exam"]["text"];
+
   cloneHTML.querySelector(".fullName").textContent = urlParamValue;
   cloneHTML.getElementById("special-container").innerHTML +=
     individualProjectData;
+
   const tag = document.createElement("nav-bar");
   app.appendChild(tag);
   app.appendChild(cloneHTML);
