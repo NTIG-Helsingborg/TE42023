@@ -238,67 +238,86 @@
       "certifikat": ["Certiport - IT Specialist - JavaScript"]
     },
 
-    "Eduard": {
+    "eduard": {
       "displayName": "Eduard Mihic",
       "projects": [
-        "pokidex",
-        "mickeymailer",
         "RetroTech",
+        "gamehub",
+        "linda",
         "Consolata",
         "Basecamp",
         "Infoskarm"
       ],
-      "image": "Juan.jpg",
+      "image": "Eduard/profile.webp",
       "klassens": "klassens kung",
-      "aboutMe": "Jag heter Jonathan, 19 år gammal och bor i Höganäs där det ursprungligen var tänkt att jag skulle ta mitt fjärde år. I efterhand är jag nu glad över att det istället blev på NTI på grund av hur många nya tekniker jag öppnats upp för, allt från Ramverk som React, backend utveckling med exempelvis Node.js och PHP till datorseende från min praktikplats.",
+      "aboutMe": "Jag heter Eduard och är en passionerad spelutvecklare och gymnasieelev med ingenjörsvetenskaplig inriktning. Mina IT-specialistcertifieringar och erfarenhet från spelprojekt i Unity och C++ visar min kompetens inom mjukvaruutveckling. Nu utforskar jag Unreal Engine 5 för att skapa fängslande spelupplevelser med fantastisk grafik. Mitt mål är att nå ut till en bred publik med spel som inte bara underhåller, utan också fångar spelarens fantasi.",
       "individualProjects": {
-        "UX design": {
-          "image": "figmaTechsip.png",
-          "alt": "cool image",
-          "text": "I skolan så gavs det möjlighet till programmet “techship” som var både en utbildning och tävling inom att skapa en egen startup. Till detta programmet fanns ett moment där en prototyp för vår idé behövdes skapas, i vilket jag tog mig an uppgiften till att skapa en interaktiv prototyp i figma med hjälp av \"prototyp\" design mönstret. "
+        "BlackJack": {
+          "image": "Eduard/blackjack.png",
+          "alt": "",
+          "text": "Mitt individuella projekt var att skapa ett Blackjack-spel i Unity med C#. Målet var att göra ett enkelt och roligt spel där man kan spela mot datorn, med fokus på de vanligaste reglerna och enkel grafik. Projektet hjälpte mig att lära mig mer om spelutveckling och programmering, och jag använde olika tekniker för att göra spelet smidigt och strukturerat."
         }
       },
       "exam": {
-        "image": "AICamera.png",
-        "alt": "Demo av prototyp",
-        "name": "AI tillämpning",
-        "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
+        "image": "Eduard/examensarbete.png",
+        "alt": "",
+        "name": "Unity, Unreal Engine och Godot fördelar och nackdelar",
+        "text": "Denna studie undersöker spelmotorerna Unity, Unreal Engine och Godot, med fokus på deras historiska utveckling, popularitet, styrkor och svagheter. Genom litteraturgranskning och analys av online-resurser jämförs motorerna i olika aspekter, såsom användarvänlighet, lämplighet för olika projekttyper och community-stöd. Studien belyser Unitys dominans inom indie- och mobilspel, Unreal Engines styrka i AAA-utveckling och Godots framväxt som ett kostnadsfritt och öppet alternativ."
       },
       "links": {
-        "github": "https://github.com/TheAzzieDev",
-        "cv": "https://theazziedev.github.io/Portfolio/",
-        "instagram": "https://github.com/",
-        "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
+        "github": "https://github.com/Eduard4002",
+        "cv": "https://eduard4002.github.io",
+        "linkedIn": "https://www.linkedin.com/in/eduard-mihic-12b5b4289/"
       },
-      "certifikat": ["Certiport - IT Specialist - JavaScript"]
+      "certifikat": [
+        "Certiport - IT Specialist - JavaScript",
+        "Certiport - IT Specialist - Software Development"
+      ]
     },
 
     "salah": {
-      "projects": ["Wheeldeal", "CosmicHub", "MagicMender", "APLbok", "Basecamp", "Infoskarm"],
+      "projects": [
+        "Wheeldeal",
+        "CosmicHub",
+        "MagicMender",
+        "APLbok",
+        "Basecamp",
+        "Infoskarm"
+      ],
       "image": "salah.png",
       "klassens": "Your best students will be my employees",
       "aboutMe": "Mitt namn är Salah Al-Hassun och jag är 20 år gammal. Jag kommer ursprungligen från Palestina och studerar för närvarande tekniska programmet fjärde året (TE4). Jag har specialiserat mig inom webbdesign och har genomfört flera projekt, både i grupp och individuellt.",
       "individualProjects": {
-          "UX design": {
+        "UX design": {
           "image": "whatnowhemsida.png",
           "alt": "WhatNow",
           "text": "Dessutom deltog jag i Techship-programmet, där jag tillsammans med tre andra skapade en startup vid namn WhatNow. Inom ramen för denna startup utvecklar jag en webbapplikation för studenter som planerar ett sabbatsår. Applikationen samlar all relevant information och resurser för ett sabbatsår på ett och samma ställe, samt erbjuder en mängd andra funktioner."
-          }
+        }
       },
       "exam": {
-          "image": "ExamensarbeteSalahPython.png",
-          "alt": "Spelet i python",
-          "name": "Agil vs Vattenfallsmetoden",
-          "text": "Mitt examensarbete handlade om att jämföra två olika metoder för mjukvaruutveckling: den agila metoden och vattenfallsmetoden. Jag undersökte hur dessa metoder fungerar och vilka fördelar och nackdelar de har. För att göra detta implementerade jag ett enkelt spel i Python två gånger, en gång med varje metod. Jag analyserade sedan resultaten för att avgöra vilken metod som var mest effektiv för mitt specifika projekt och drog slutsatser om deras lämplighet för olika typer av projekt, särskilt inom ramen för mindre och större projekt."
+        "image": "ExamensarbeteSalahPython.png",
+        "alt": "Spelet i python",
+        "name": "Agil vs Vattenfallsmetoden",
+        "text": "Mitt examensarbete handlade om att jämföra två olika metoder för mjukvaruutveckling: den agila metoden och vattenfallsmetoden. Jag undersökte hur dessa metoder fungerar och vilka fördelar och nackdelar de har. För att göra detta implementerade jag ett enkelt spel i Python två gånger, en gång med varje metod. Jag analyserade sedan resultaten för att avgöra vilken metod som var mest effektiv för mitt specifika projekt och drog slutsatser om deras lämplighet för olika typer av projekt, särskilt inom ramen för mindre och större projekt."
       },
       "links": {
-          "github": "https://github.com/Salah9320Alhassun",
-          "cv": "https://portfolio-github-io-9npy.vercel.app",
-          "instagram": "https://www.instagram.com/salah_alhassun/",
-          "linkedIn": "https://www.linkedin.com/in/salah-al-hassun-132b4b253/"
-        },
-      "certifikat": ["Windows Operating System Fundamentals", "Microsoft Security Fundamentals", "Microsoft Networking Fundamentals", "Elements of AI - Digital Marketing", "Cyber Security", "Computer Hardware & Networking", "IT Fundamentals for Cybersecurity Specialization", "Marketing Analytics and Retail Business Management", "React JS TDA"]
+        "github": "https://github.com/Salah9320Alhassun",
+        "cv": "https://portfolio-github-io-9npy.vercel.app",
+        "instagram": "https://www.instagram.com/salah_alhassun/",
+        "linkedIn": "https://www.linkedin.com/in/salah-al-hassun-132b4b253/"
       },
+      "certifikat": [
+        "Windows Operating System Fundamentals",
+        "Microsoft Security Fundamentals",
+        "Microsoft Networking Fundamentals",
+        "Elements of AI - Digital Marketing",
+        "Cyber Security",
+        "Computer Hardware & Networking",
+        "IT Fundamentals for Cybersecurity Specialization",
+        "Marketing Analytics and Retail Business Management",
+        "React JS TDA"
+      ]
+    },
 
     "jakob": {
       "displayName": "Jakob Helgesson",
@@ -514,7 +533,7 @@
         "github": "https://youtube.com",
         "website": "https://theazziedev.github.io/Portfolio/"
       },
-      
+
       "project-images": [
         {
           "src": "https://picsum.photos/id/1041/800/450",
@@ -541,9 +560,8 @@
           "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Annie Spratt"
         }
       ]
+    },
 
-      },
-    
     "mickeymailer": {
       "project": "hjalp-en-larare",
       "image": "../assets/profile.png"
@@ -596,12 +614,11 @@
       "project": "webbshop",
       "image": "../assets/profile.png"
     },
-    "APLbok":{
+    "APLbok": {
       "project": "hjalp-en-larare",
       "image": "../assets/profile.png"
     }
   },
-  
 
   "timeline": {
     "1": {
