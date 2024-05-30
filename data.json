@@ -285,7 +285,7 @@
           }
       },
       "exam": {
-          "image": "AICamera.png",
+          "image": "ExamensarbeteSalahPython.png",
           "alt": "Spelet i python",
           "name": "Agil vs Vattenfallsmetoden",
           "text": "Mitt examensarbete handlade om att jämföra två olika metoder för mjukvaruutveckling: den agila metoden och vattenfallsmetoden. Jag undersökte hur dessa metoder fungerar och vilka fördelar och nackdelar de har. För att göra detta implementerade jag ett enkelt spel i Python två gånger, en gång med varje metod. Jag analyserade sedan resultaten för att avgöra vilken metod som var mest effektiv för mitt specifika projekt och drog slutsatser om deras lämplighet för olika typer av projekt, särskilt inom ramen för mindre och större projekt."
