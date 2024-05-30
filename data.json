@@ -78,21 +78,21 @@
         "infoskarm",
         "basecamp"
       ],
-      "image": "Juan.jpg",
+      "image": "OskarProfile.webp",
       "klassens": "klassens kung",
       "aboutMe": "Hej där! Jag heter Oskar Ternström, jag är en passionerad spelutvecklare. Min motivation för att börja med spelutveckling kommer från mitt intresse för att analysera spel och historierna som berättas inom dem. Jag älskar att lära mig om hur andra spelutvecklare använder sina spel för att visa koncept eller unika berättelser. Oavsett om det handlar om att koda nya spelmekaniker eller skapa engagerande berättelser, älskar jag att utmana mig själv att skapa funktioner som fokuserar på spelarens upplevelse. Utöver pixlar och kod finner du mig sittande med vänner, spelande mina favoritspel, lärande fotografering, resande till andra länder eller bara gömd under en filt medan jag tittar ut på regnet.",
       "individualProjects": {
         "Jack The Trashman": {
-          "image": "figmaTechsip.png",
+          "image": "OskarJack.webp",
           "alt": "Jack the TrashMan",
           "text": "Under min APL period hos Avitus IT fick jag möjligheten att utveckla ett spel demo till en av deras kunder. Jag hade möjligheten att arbeta med många olika saker under projektet med det jag arbetade främst med var objekt interaktioner, objekt fysik, dialog funktioner och UI-funktionalitet. Dessutom, på grund av storleken av vårt team tog jag mig på både level design och story writing."
         }
       },
       "exam": {
-        "image": "AICamera.png",
+        "image": "OskarExam.webp",
         "alt": "Demo av prototyp",
-        "name": "Portfolio sida",
-        "text": "När vi hade en period mellan grupp-projekt fick vi möjligheten att arbeta på ett valfritt eget projekt. Jag bestämde mig för att förbättra min tidigare portfolio sida. Jag utmanande mig själv genom att använda mig av react, bootstrap och scss. Vi hade arbetat med dessa språk i projekten innan men jag vill se vad jag hade lärt mig och se vad jag kunde behöva läsa mig in mer på."
+        "name": "Hur slumpmässiga beslut påverkar spelarens känsla av kontroll inom spel.",
+        "text": "Min studie undersökte hur slumpmässighet i in- och utdata påverkar spelupplevelsen, med fokus på upplevd kontroll och njutning. Med hjälp av Unity skapades två scenarier: ett där vapnen valdes slumpmässigt men skadan var konstant, och ett annat där spelarna valde sina vapen men skadan bestämdes slumpmässigt. Deltagarna spelade båda scenarierna och föredrog slumpmässighet i utdata, då de upplevde mindre kontroll och mer slumpmässighet med slumpmässighet i indata. Studien erkänner begränsningar, inklusive urvalsstorlek och spelets enkelhet, och överensstämmer med tidigare forskning. Slutsatsen är att slumpmässighet i indata minskar spelarnas upplevelse av kontroll och njutning, medan slumpmässighet i utdata ökar känslan av handlingsfrihet och tillfredsställelse. Att balansera slumpmässighet är avgörande för en optimal spelupplevelse."
       },
       "links": {
         "github": "https://github.com/WarMolee",
