@@ -149,12 +149,12 @@
         "infoskarm",
         "portfolio"
       ],
-      "image": null,
+      "image": "Gustaf.jpg",
       "klassens": "?",
       "aboutMe": "Hej, jag heter Gustaf Fäldt och är nyexaminerad gymnasieingengör inom mjukvaruutveckling från NTI Gymnasiet. Jag har ett stort intresse för programmering. På TE4 fann jag mitt intresse för just backendprogrammering då jag jobbade mycket med backend och databaser. Jag tycker det är väldigt spännande att få se nätverkskopplingarna och hur man kan skicka data från frontend till backend för att sedan hantera datan. Jag har främst programmerat i JavaScript med React och Node.js men har också jobbat med bl.a Python, C# och php. Jag har också kunskap av databaser såsom SQL och SQLite för att lagra information som t.ex. användardata och texter för information på hemsidan.",
       "individualProjects": {},
       "exam": {
-        "image": "AICamera.png",
+        "image": "examens-gustaf.png",
         "alt": "Kodexempel på syntaxskillnad mellan Node.js och Python",
         "name": "Skillnaderna mellan Python och Node.js i backendprogrammering",
         "text": "Jag skrev, tillsammans med min kompis och klasskamrat, Simon, mitt examensarbete om skillnaderna mellan Node.js, som är en JavaScript runtime, körd på Google Chrome's V8 engine, och python. I arbetet användes både praktiska och teoretiska moment för att kunna besvara de frågeställningar undersökningen utgår ifrån."
