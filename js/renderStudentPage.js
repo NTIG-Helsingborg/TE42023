@@ -1,4 +1,4 @@
-import { getRootPath, columnClick, getData } from "./scripts.js";
+import { getData } from "./scripts.js";
 async function renderGalleryStudent(clone, data, jsonData) {
   //console.log("render gallery student", data, jsonData);
   let studentProjects = data["projects"];
@@ -129,11 +129,10 @@ document.addEventListener("DOMContentLoaded", async () => {
     const first = elems.find((elem) => elem.dataset.pos == -2);
     const last = elems.find((elem) => elem.dataset.pos == 2);
     const first2 = elems.find((elem) => elem.dataset.pos == -3);
-    const last2 = elems.find((elem) => elem.dataset.pos == 3);
 
     current.classList.remove("carousel__item_active");
 
-    [current, prev, next, first, last, first2, last2].forEach((item) => {
+    [current, prev, next, first, last, first2].forEach((item) => {
       var itemPos = item.dataset.pos;
 
       item.dataset.pos = getPos(itemPos, newActivePos);
@@ -143,7 +142,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   const getPos = function (current, active) {
     const diff = current - active;
 
-    if (Math.abs(current - active) > 3) {
+    if (Math.abs(current - active) > 2) {
       return -current;
     }
 

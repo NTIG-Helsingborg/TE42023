@@ -8,8 +8,7 @@
         "RetroTech",
         "Consolata",
         "Basecamp",
-        "Infoskarm",
-        "portfolio"
+        "Infoskarm"
       ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
@@ -44,8 +43,7 @@
         "RetroTech",
         "Consolata",
         "Basecamp",
-        "Infoskarm",
-        "portfolio"
+        "Infoskarm"
       ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
@@ -80,8 +78,7 @@
         "RetroTech",
         "Consolata",
         "Basecamp",
-        "Infoskarm",
-        "portfolio"
+        "Infoskarm"
       ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
@@ -116,8 +113,7 @@
         "RetroTech",
         "Consolata",
         "Basecamp",
-        "Infoskarm",
-        "portfolio"
+        "Infoskarm"
       ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
@@ -145,9 +141,15 @@
     },
 
   
-    "Gustaf": {
+    "gustaf": {
     "displayName": "Gustaf Fäldt",
-    "projects": ["RetroTech", "gamehub", "Consolata", "Josefs-Hemsida", "Basecamp", "Infoskarm", "portfolio"],
+    "projects": [    
+    "pokidex",
+    "mickeymailer",
+    "RetroTech",
+    "Consolata",
+    "Basecamp",
+    "Infoskarm"],
     "image": null,
     "klassens": "?",
     "aboutMe": "Hej, jag heter Gustaf Fäldt och är nyexaminerad gymnasieingengör inom mjukvaruutveckling från NTI Gymnasiet. Jag har ett stort intresse för programmering. På TE4 fann jag mitt intresse för just backendprogrammering då jag jobbade mycket med backend och databaser. Jag tycker det är väldigt spännande att få se nätverkskopplingarna och hur man kan skicka data från frontend till backend för att sedan hantera datan. Jag har främst programmerat i JavaScript med React och Node.js men har också jobbat med bl.a Python, C# och php. Jag har också kunskap av databaser såsom SQL och SQLite för att lagra information som t.ex. användardata och texter för information på hemsidan.",
@@ -173,8 +175,7 @@
         "RetroTech",
         "Consolata",
         "Basecamp",
-        "Infoskarm",
-        "portfolio"
+        "Infoskarm"
       ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
@@ -209,8 +210,7 @@
         "RetroTech",
         "Consolata",
         "Basecamp",
-        "Infoskarm",
-        "portfolio"
+        "Infoskarm"
       ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
@@ -245,8 +245,7 @@
         "RetroTech",
         "Consolata",
         "Basecamp",
-        "Infoskarm",
-        "portfolio"
+        "Infoskarm"
       ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
@@ -281,8 +280,7 @@
         "RetroTech",
         "Consolata",
         "Basecamp",
-        "Infoskarm",
-        "portfolio"
+        "Infoskarm"
       ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
@@ -317,8 +315,7 @@
         "RetroTech",
         "Consolata",
         "Basecamp",
-        "Infoskarm",
-        "portfolio"
+        "Infoskarm"
       ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
@@ -353,8 +350,7 @@
         "RetroTech",
         "Consolata",
         "Basecamp",
-        "Infoskarm",
-        "portfolio"
+        "Infoskarm"
       ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
@@ -389,8 +385,7 @@
         "RetroTech",
         "Consolata",
         "Basecamp",
-        "Infoskarm",
-        "portfolio"
+        "Infoskarm"
       ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
@@ -419,7 +414,14 @@
 
     "simon": {
       "displayName": "Simon Jonasson",
-      "projects": ["gamehub", "ehabify", "DeepSeaNTF", "Somnium", "Basecamp", "Infoskarm", "portfolio"],
+      "projects": [
+        "pokidex",
+        "mickeymailer",
+        "RetroTech",
+        "Consolata",
+        "Basecamp",
+        "Infoskarm"
+      ],
       "image": "Juan.jpg",
       "klassens": "sddfsd",
       "aboutMe": "Hej! Jag heter Simon Jonasson, väldigt driven när det kommer till backend samt att utveckla både spel och AI. Jag har utvecklat en del system med olika typer av inloggnings lösningar, fått sätta upp en bankID lösning men jag har även sysslat med spelutveckling, frontend och nyligen börjat kolla in hur olika AI lösningar fungerar och är uppbyggda. Jag har testat på en hel del olika språk som exempelvis python, c# och php men har mest använt javascript. De flesta projekt jag har arbetat med har vi använt react + node.js där man använder en mix mellan javascript och html för att bygga hemsidor, detta har gjort så att min kunskap ökat inom javascript och hur man bygger upp olika backend lösningar till hemsidor.",
@@ -445,8 +447,7 @@
         "RetroTech",
         "Consolata",
         "Basecamp",
-        "Infoskarm",
-        "portfolio"
+        "Infoskarm"
       ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
@@ -481,8 +482,7 @@
         "RetroTech",
         "Consolata",
         "Basecamp",
-        "Infoskarm",
-        "portfolio"
+        "Infoskarm"
       ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
