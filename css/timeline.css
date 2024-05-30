@@ -1,3 +1,6 @@
+main {
+  overflow-x: hidden;
+}
 .timeline ul li {
   list-style-type: none;
   position: relative;
@@ -96,12 +99,16 @@
 }
 
 @media screen and (max-width: 600px) {
+  .content-container {
+    position: relative;
+    padding-left: 1rem !important;
+  }
   .timeline ul li {
     margin-left: 20px;
     padding-top: 50px;
   }
   .timeline ul li .card-body {
-    width: calc(100vw - 91px);
+    width: calc(100vw - 125px);
   }
   .timeline ul li:nth-child(even) .card-body {
     left: 45px;
