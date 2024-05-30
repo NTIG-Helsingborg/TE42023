@@ -1,328 +1,422 @@
 {
   "students": {
     "JonathanCS": {
-    "projects": ["pokidex", "mickeymailer", "RetroTech", "Consolata", "Basecamp", "Infoskarm", "portfolio"],
-    "image": "Juan.jpg",
-    "klassens": "klassens kung",
-    "aboutMe": "Jag heter Jonathan, 19 år gammal och bor i Höganäs där det ursprungligen var tänkt att jag skulle ta mitt fjärde år. I efterhand är jag nu glad över att det istället blev på NTI på grund av hur många nya tekniker jag öppnats upp för, allt från Ramverk som React, backend utveckling med exempelvis Node.js och PHP till datorseende från min praktikplats.",
-    "individualProjects": {
+      "projects": [
+        "pokidex",
+        "mickeymailer",
+        "RetroTech",
+        "Consolata",
+        "Basecamp",
+        "Infoskarm",
+        "portfolio"
+      ],
+      "image": "Juan.jpg",
+      "klassens": "klassens kung",
+      "aboutMe": "Jag heter Jonathan, 19 år gammal och bor i Höganäs där det ursprungligen var tänkt att jag skulle ta mitt fjärde år. I efterhand är jag nu glad över att det istället blev på NTI på grund av hur många nya tekniker jag öppnats upp för, allt från Ramverk som React, backend utveckling med exempelvis Node.js och PHP till datorseende från min praktikplats.",
+      "individualProjects": {
         "UX design": {
-        "image": "figmaTechsip.png",
-        "alt": "cool image",
-        "text": "I skolan så gavs det möjlighet till programmet “techship” som var både en utbildning och tävling inom att skapa en egen startup. Till detta programmet fanns ett moment där en prototyp för vår idé behövdes skapas, i vilket jag tog mig an uppgiften till att skapa en interaktiv prototyp i figma med hjälp av \"prototyp\" design mönstret. "
+          "image": "figmaTechsip.png",
+          "alt": "cool image",
+          "text": "I skolan så gavs det möjlighet till programmet “techship” som var både en utbildning och tävling inom att skapa en egen startup. Till detta programmet fanns ett moment där en prototyp för vår idé behövdes skapas, i vilket jag tog mig an uppgiften till att skapa en interaktiv prototyp i figma med hjälp av \"prototyp\" design mönstret. "
         }
-    },
-    "exam": {
+      },
+      "exam": {
         "image": "AICamera.png",
         "alt": "Demo av prototyp",
         "name": "AI tillämpning",
         "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
-    },
-    "links": {
+      },
+      "links": {
         "github": "https://github.com/TheAzzieDev",
         "cv": "https://theazziedev.github.io/Portfolio/",
         "instagram": "https://github.com/",
         "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
       },
-    "certifikat": ["Certiport - IT Specialist - JavaScript"]
+      "certifikat": ["Certiport - IT Specialist - JavaScript"]
     },
 
     "JonathanTH": {
-      "projects": ["pokidex", "mickeymailer", "RetroTech", "Consolata", "Basecamp", "Infoskarm", "portfolio"],
+      "projects": [
+        "pokidex",
+        "mickeymailer",
+        "RetroTech",
+        "Consolata",
+        "Basecamp",
+        "Infoskarm",
+        "portfolio"
+      ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
       "aboutMe": "Jag heter Jonathan, 19 år gammal och bor i Höganäs där det ursprungligen var tänkt att jag skulle ta mitt fjärde år. I efterhand är jag nu glad över att det istället blev på NTI på grund av hur många nya tekniker jag öppnats upp för, allt från Ramverk som React, backend utveckling med exempelvis Node.js och PHP till datorseende från min praktikplats.",
       "individualProjects": {
-          "UX design": {
+        "UX design": {
           "image": "figmaTechsip.png",
           "alt": "cool image",
           "text": "I skolan så gavs det möjlighet till programmet “techship” som var både en utbildning och tävling inom att skapa en egen startup. Till detta programmet fanns ett moment där en prototyp för vår idé behövdes skapas, i vilket jag tog mig an uppgiften till att skapa en interaktiv prototyp i figma med hjälp av \"prototyp\" design mönstret. "
-          }
+        }
       },
       "exam": {
-          "image": "AICamera.png",
-          "alt": "Demo av prototyp",
-          "name": "AI tillämpning",
-          "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
+        "image": "AICamera.png",
+        "alt": "Demo av prototyp",
+        "name": "AI tillämpning",
+        "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
       },
       "links": {
-          "github": "https://github.com/TheAzzieDev",
-          "cv": "https://theazziedev.github.io/Portfolio/",
-          "instagram": "https://github.com/",
-          "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
-        },
-      "certifikat": ["Certiport - IT Specialist - JavaScript"]
+        "github": "https://github.com/TheAzzieDev",
+        "cv": "https://theazziedev.github.io/Portfolio/",
+        "instagram": "https://github.com/",
+        "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
       },
+      "certifikat": ["Certiport - IT Specialist - JavaScript"]
+    },
 
     "Oskar": {
-      "projects": ["pokidex", "mickeymailer", "RetroTech", "Consolata", "Basecamp", "Infoskarm", "portfolio"],
+      "projects": [
+        "pokidex",
+        "mickeymailer",
+        "RetroTech",
+        "Consolata",
+        "Basecamp",
+        "Infoskarm",
+        "portfolio"
+      ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
       "aboutMe": "Jag heter Jonathan, 19 år gammal och bor i Höganäs där det ursprungligen var tänkt att jag skulle ta mitt fjärde år. I efterhand är jag nu glad över att det istället blev på NTI på grund av hur många nya tekniker jag öppnats upp för, allt från Ramverk som React, backend utveckling med exempelvis Node.js och PHP till datorseende från min praktikplats.",
       "individualProjects": {
-          "UX design": {
+        "UX design": {
           "image": "figmaTechsip.png",
           "alt": "cool image",
           "text": "I skolan så gavs det möjlighet till programmet “techship” som var både en utbildning och tävling inom att skapa en egen startup. Till detta programmet fanns ett moment där en prototyp för vår idé behövdes skapas, i vilket jag tog mig an uppgiften till att skapa en interaktiv prototyp i figma med hjälp av \"prototyp\" design mönstret. "
-          }
+        }
       },
       "exam": {
-          "image": "AICamera.png",
-          "alt": "Demo av prototyp",
-          "name": "AI tillämpning",
-          "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
+        "image": "AICamera.png",
+        "alt": "Demo av prototyp",
+        "name": "AI tillämpning",
+        "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
       },
       "links": {
-          "github": "https://github.com/TheAzzieDev",
-          "cv": "https://theazziedev.github.io/Portfolio/",
-          "instagram": "https://github.com/",
-          "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
-        },
-      "certifikat": ["Certiport - IT Specialist - JavaScript"]
+        "github": "https://github.com/TheAzzieDev",
+        "cv": "https://theazziedev.github.io/Portfolio/",
+        "instagram": "https://github.com/",
+        "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
       },
-
+      "certifikat": ["Certiport - IT Specialist - JavaScript"]
+    },
 
     "Margo": {
-      "projects": ["pokidex", "mickeymailer", "RetroTech", "Consolata", "Basecamp", "Infoskarm", "portfolio"],
+      "projects": [
+        "pokidex",
+        "mickeymailer",
+        "RetroTech",
+        "Consolata",
+        "Basecamp",
+        "Infoskarm",
+        "portfolio"
+      ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
       "aboutMe": "Jag heter Jonathan, 19 år gammal och bor i Höganäs där det ursprungligen var tänkt att jag skulle ta mitt fjärde år. I efterhand är jag nu glad över att det istället blev på NTI på grund av hur många nya tekniker jag öppnats upp för, allt från Ramverk som React, backend utveckling med exempelvis Node.js och PHP till datorseende från min praktikplats.",
       "individualProjects": {
-          "UX design": {
+        "UX design": {
           "image": "figmaTechsip.png",
           "alt": "cool image",
           "text": "I skolan så gavs det möjlighet till programmet “techship” som var både en utbildning och tävling inom att skapa en egen startup. Till detta programmet fanns ett moment där en prototyp för vår idé behövdes skapas, i vilket jag tog mig an uppgiften till att skapa en interaktiv prototyp i figma med hjälp av \"prototyp\" design mönstret. "
-          }
+        }
       },
       "exam": {
-          "image": "AICamera.png",
-          "alt": "Demo av prototyp",
-          "name": "AI tillämpning",
-          "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
+        "image": "AICamera.png",
+        "alt": "Demo av prototyp",
+        "name": "AI tillämpning",
+        "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
       },
       "links": {
-          "github": "https://github.com/TheAzzieDev",
-          "cv": "https://theazziedev.github.io/Portfolio/",
-          "instagram": "https://github.com/",
-          "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
-        },
-      "certifikat": ["Certiport - IT Specialist - JavaScript"]
+        "github": "https://github.com/TheAzzieDev",
+        "cv": "https://theazziedev.github.io/Portfolio/",
+        "instagram": "https://github.com/",
+        "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
       },
-
+      "certifikat": ["Certiport - IT Specialist - JavaScript"]
+    },
 
     "Gustaf": {
-      "projects": ["pokidex", "mickeymailer", "RetroTech", "Consolata", "Basecamp", "Infoskarm", "portfolio"],
+      "projects": [
+        "pokidex",
+        "mickeymailer",
+        "RetroTech",
+        "Consolata",
+        "Basecamp",
+        "Infoskarm",
+        "portfolio"
+      ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
       "aboutMe": "Jag heter Jonathan, 19 år gammal och bor i Höganäs där det ursprungligen var tänkt att jag skulle ta mitt fjärde år. I efterhand är jag nu glad över att det istället blev på NTI på grund av hur många nya tekniker jag öppnats upp för, allt från Ramverk som React, backend utveckling med exempelvis Node.js och PHP till datorseende från min praktikplats.",
       "individualProjects": {
-          "UX design": {
+        "UX design": {
           "image": "figmaTechsip.png",
           "alt": "cool image",
           "text": "I skolan så gavs det möjlighet till programmet “techship” som var både en utbildning och tävling inom att skapa en egen startup. Till detta programmet fanns ett moment där en prototyp för vår idé behövdes skapas, i vilket jag tog mig an uppgiften till att skapa en interaktiv prototyp i figma med hjälp av \"prototyp\" design mönstret. "
-          }
+        }
       },
       "exam": {
-          "image": "AICamera.png",
-          "alt": "Demo av prototyp",
-          "name": "AI tillämpning",
-          "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
+        "image": "AICamera.png",
+        "alt": "Demo av prototyp",
+        "name": "AI tillämpning",
+        "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
       },
       "links": {
-          "github": "https://github.com/TheAzzieDev",
-          "cv": "https://theazziedev.github.io/Portfolio/",
-          "instagram": "https://github.com/",
-          "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
-        },
-      "certifikat": ["Certiport - IT Specialist - JavaScript"]
+        "github": "https://github.com/TheAzzieDev",
+        "cv": "https://theazziedev.github.io/Portfolio/",
+        "instagram": "https://github.com/",
+        "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
       },
+      "certifikat": ["Certiport - IT Specialist - JavaScript"]
+    },
 
     "Othman": {
-      "projects": ["pokidex", "mickeymailer", "RetroTech", "Consolata", "Basecamp", "Infoskarm", "portfolio"],
+      "projects": [
+        "pokidex",
+        "mickeymailer",
+        "RetroTech",
+        "Consolata",
+        "Basecamp",
+        "Infoskarm",
+        "portfolio"
+      ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
       "aboutMe": "Jag heter Jonathan, 19 år gammal och bor i Höganäs där det ursprungligen var tänkt att jag skulle ta mitt fjärde år. I efterhand är jag nu glad över att det istället blev på NTI på grund av hur många nya tekniker jag öppnats upp för, allt från Ramverk som React, backend utveckling med exempelvis Node.js och PHP till datorseende från min praktikplats.",
       "individualProjects": {
-          "UX design": {
+        "UX design": {
           "image": "figmaTechsip.png",
           "alt": "cool image",
           "text": "I skolan så gavs det möjlighet till programmet “techship” som var både en utbildning och tävling inom att skapa en egen startup. Till detta programmet fanns ett moment där en prototyp för vår idé behövdes skapas, i vilket jag tog mig an uppgiften till att skapa en interaktiv prototyp i figma med hjälp av \"prototyp\" design mönstret. "
-          }
+        }
       },
       "exam": {
-          "image": "AICamera.png",
-          "alt": "Demo av prototyp",
-          "name": "AI tillämpning",
-          "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
+        "image": "AICamera.png",
+        "alt": "Demo av prototyp",
+        "name": "AI tillämpning",
+        "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
       },
       "links": {
-          "github": "https://github.com/TheAzzieDev",
-          "cv": "https://theazziedev.github.io/Portfolio/",
-          "instagram": "https://github.com/",
-          "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
-        },
-      "certifikat": ["Certiport - IT Specialist - JavaScript"]
+        "github": "https://github.com/TheAzzieDev",
+        "cv": "https://theazziedev.github.io/Portfolio/",
+        "instagram": "https://github.com/",
+        "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
       },
+      "certifikat": ["Certiport - IT Specialist - JavaScript"]
+    },
 
     "Kirill": {
-      "projects": ["pokidex", "mickeymailer", "RetroTech", "Consolata", "Basecamp", "Infoskarm", "portfolio"],
+      "projects": [
+        "pokidex",
+        "mickeymailer",
+        "RetroTech",
+        "Consolata",
+        "Basecamp",
+        "Infoskarm",
+        "portfolio"
+      ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
       "aboutMe": "Jag heter Jonathan, 19 år gammal och bor i Höganäs där det ursprungligen var tänkt att jag skulle ta mitt fjärde år. I efterhand är jag nu glad över att det istället blev på NTI på grund av hur många nya tekniker jag öppnats upp för, allt från Ramverk som React, backend utveckling med exempelvis Node.js och PHP till datorseende från min praktikplats.",
       "individualProjects": {
-          "UX design": {
+        "UX design": {
           "image": "figmaTechsip.png",
           "alt": "cool image",
           "text": "I skolan så gavs det möjlighet till programmet “techship” som var både en utbildning och tävling inom att skapa en egen startup. Till detta programmet fanns ett moment där en prototyp för vår idé behövdes skapas, i vilket jag tog mig an uppgiften till att skapa en interaktiv prototyp i figma med hjälp av \"prototyp\" design mönstret. "
-          }
+        }
       },
       "exam": {
-          "image": "AICamera.png",
-          "alt": "Demo av prototyp",
-          "name": "AI tillämpning",
-          "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
+        "image": "AICamera.png",
+        "alt": "Demo av prototyp",
+        "name": "AI tillämpning",
+        "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
       },
       "links": {
-          "github": "https://github.com/TheAzzieDev",
-          "cv": "https://theazziedev.github.io/Portfolio/",
-          "instagram": "https://github.com/",
-          "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
-        },
-      "certifikat": ["Certiport - IT Specialist - JavaScript"]
+        "github": "https://github.com/TheAzzieDev",
+        "cv": "https://theazziedev.github.io/Portfolio/",
+        "instagram": "https://github.com/",
+        "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
       },
+      "certifikat": ["Certiport - IT Specialist - JavaScript"]
+    },
 
     "Salah": {
-      "projects": ["pokidex", "mickeymailer", "RetroTech", "Consolata", "Basecamp", "Infoskarm", "portfolio"],
+      "projects": [
+        "pokidex",
+        "mickeymailer",
+        "RetroTech",
+        "Consolata",
+        "Basecamp",
+        "Infoskarm",
+        "portfolio"
+      ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
       "aboutMe": "Jag heter Jonathan, 19 år gammal och bor i Höganäs där det ursprungligen var tänkt att jag skulle ta mitt fjärde år. I efterhand är jag nu glad över att det istället blev på NTI på grund av hur många nya tekniker jag öppnats upp för, allt från Ramverk som React, backend utveckling med exempelvis Node.js och PHP till datorseende från min praktikplats.",
       "individualProjects": {
-          "UX design": {
+        "UX design": {
           "image": "figmaTechsip.png",
           "alt": "cool image",
           "text": "I skolan så gavs det möjlighet till programmet “techship” som var både en utbildning och tävling inom att skapa en egen startup. Till detta programmet fanns ett moment där en prototyp för vår idé behövdes skapas, i vilket jag tog mig an uppgiften till att skapa en interaktiv prototyp i figma med hjälp av \"prototyp\" design mönstret. "
-          }
+        }
       },
       "exam": {
-          "image": "AICamera.png",
-          "alt": "Demo av prototyp",
-          "name": "AI tillämpning",
-          "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
+        "image": "AICamera.png",
+        "alt": "Demo av prototyp",
+        "name": "AI tillämpning",
+        "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
       },
       "links": {
-          "github": "https://github.com/TheAzzieDev",
-          "cv": "https://theazziedev.github.io/Portfolio/",
-          "instagram": "https://github.com/",
-          "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
-        },
-      "certifikat": ["Certiport - IT Specialist - JavaScript"]
+        "github": "https://github.com/TheAzzieDev",
+        "cv": "https://theazziedev.github.io/Portfolio/",
+        "instagram": "https://github.com/",
+        "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
       },
+      "certifikat": ["Certiport - IT Specialist - JavaScript"]
+    },
 
     "Eduard": {
-      "projects": ["pokidex", "mickeymailer", "RetroTech", "Consolata", "Basecamp", "Infoskarm", "portfolio"],
+      "projects": [
+        "pokidex",
+        "mickeymailer",
+        "RetroTech",
+        "Consolata",
+        "Basecamp",
+        "Infoskarm",
+        "portfolio"
+      ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
       "aboutMe": "Jag heter Jonathan, 19 år gammal och bor i Höganäs där det ursprungligen var tänkt att jag skulle ta mitt fjärde år. I efterhand är jag nu glad över att det istället blev på NTI på grund av hur många nya tekniker jag öppnats upp för, allt från Ramverk som React, backend utveckling med exempelvis Node.js och PHP till datorseende från min praktikplats.",
       "individualProjects": {
-          "UX design": {
+        "UX design": {
           "image": "figmaTechsip.png",
           "alt": "cool image",
           "text": "I skolan så gavs det möjlighet till programmet “techship” som var både en utbildning och tävling inom att skapa en egen startup. Till detta programmet fanns ett moment där en prototyp för vår idé behövdes skapas, i vilket jag tog mig an uppgiften till att skapa en interaktiv prototyp i figma med hjälp av \"prototyp\" design mönstret. "
-          }
+        }
       },
       "exam": {
-          "image": "AICamera.png",
-          "alt": "Demo av prototyp",
-          "name": "AI tillämpning",
-          "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
+        "image": "AICamera.png",
+        "alt": "Demo av prototyp",
+        "name": "AI tillämpning",
+        "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
       },
       "links": {
-          "github": "https://github.com/TheAzzieDev",
-          "cv": "https://theazziedev.github.io/Portfolio/",
-          "instagram": "https://github.com/",
-          "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
-        },
+        "github": "https://github.com/TheAzzieDev",
+        "cv": "https://theazziedev.github.io/Portfolio/",
+        "instagram": "https://github.com/",
+        "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
+      },
       "certifikat": ["Certiport - IT Specialist - JavaScript"]
     },
 
     "Jakob": {
-      "projects": ["pokidex", "mickeymailer", "RetroTech", "Consolata", "Basecamp", "Infoskarm", "portfolio"],
+      "projects": [
+        "pokidex",
+        "mickeymailer",
+        "RetroTech",
+        "Consolata",
+        "Basecamp",
+        "Infoskarm",
+        "portfolio"
+      ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
       "aboutMe": "Jag heter Jonathan, 19 år gammal och bor i Höganäs där det ursprungligen var tänkt att jag skulle ta mitt fjärde år. I efterhand är jag nu glad över att det istället blev på NTI på grund av hur många nya tekniker jag öppnats upp för, allt från Ramverk som React, backend utveckling med exempelvis Node.js och PHP till datorseende från min praktikplats.",
       "individualProjects": {
-          "UX design": {
+        "UX design": {
           "image": "figmaTechsip.png",
           "alt": "cool image",
           "text": "I skolan så gavs det möjlighet till programmet “techship” som var både en utbildning och tävling inom att skapa en egen startup. Till detta programmet fanns ett moment där en prototyp för vår idé behövdes skapas, i vilket jag tog mig an uppgiften till att skapa en interaktiv prototyp i figma med hjälp av \"prototyp\" design mönstret. "
-          }
+        }
       },
       "exam": {
-          "image": "AICamera.png",
-          "alt": "Demo av prototyp",
-          "name": "AI tillämpning",
-          "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
+        "image": "AICamera.png",
+        "alt": "Demo av prototyp",
+        "name": "AI tillämpning",
+        "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
       },
       "links": {
-          "github": "https://github.com/TheAzzieDev",
-          "cv": "https://theazziedev.github.io/Portfolio/",
-          "instagram": "https://github.com/",
-          "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
-        },
+        "github": "https://github.com/TheAzzieDev",
+        "cv": "https://theazziedev.github.io/Portfolio/",
+        "instagram": "https://github.com/",
+        "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
+      },
       "certifikat": ["Certiport - IT Specialist - JavaScript"]
     },
 
     "David": {
-      "projects": ["pokidex", "mickeymailer", "RetroTech", "Consolata", "Basecamp", "Infoskarm", "portfolio"],
+      "projects": [
+        "pokidex",
+        "mickeymailer",
+        "RetroTech",
+        "Consolata",
+        "Basecamp",
+        "Infoskarm",
+        "portfolio"
+      ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
       "aboutMe": "Jag heter Jonathan, 19 år gammal och bor i Höganäs där det ursprungligen var tänkt att jag skulle ta mitt fjärde år. I efterhand är jag nu glad över att det istället blev på NTI på grund av hur många nya tekniker jag öppnats upp för, allt från Ramverk som React, backend utveckling med exempelvis Node.js och PHP till datorseende från min praktikplats.",
       "individualProjects": {
-          "UX design": {
+        "UX design": {
           "image": "figmaTechsip.png",
           "alt": "cool image",
           "text": "I skolan så gavs det möjlighet till programmet “techship” som var både en utbildning och tävling inom att skapa en egen startup. Till detta programmet fanns ett moment där en prototyp för vår idé behövdes skapas, i vilket jag tog mig an uppgiften till att skapa en interaktiv prototyp i figma med hjälp av \"prototyp\" design mönstret. "
-          }
+        }
       },
       "exam": {
-          "image": "AICamera.png",
-          "alt": "Demo av prototyp",
-          "name": "AI tillämpning",
-          "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
+        "image": "AICamera.png",
+        "alt": "Demo av prototyp",
+        "name": "AI tillämpning",
+        "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
       },
       "links": {
-          "github": "https://github.com/TheAzzieDev",
-          "cv": "https://theazziedev.github.io/Portfolio/",
-          "instagram": "https://github.com/",
-          "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
-        },
+        "github": "https://github.com/TheAzzieDev",
+        "cv": "https://theazziedev.github.io/Portfolio/",
+        "instagram": "https://github.com/",
+        "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
+      },
       "certifikat": ["Certiport - IT Specialist - JavaScript"]
     },
 
     "Rami": {
-      "projects": ["pokidex", "mickeymailer", "RetroTech", "Consolata", "Basecamp", "Infoskarm", "portfolio"],
+      "projects": [
+        "pokidex",
+        "mickeymailer",
+        "RetroTech",
+        "Consolata",
+        "Basecamp",
+        "Infoskarm",
+        "portfolio"
+      ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
       "aboutMe": "Jag heter Jonathan, 19 år gammal och bor i Höganäs där det ursprungligen var tänkt att jag skulle ta mitt fjärde år. I efterhand är jag nu glad över att det istället blev på NTI på grund av hur många nya tekniker jag öppnats upp för, allt från Ramverk som React, backend utveckling med exempelvis Node.js och PHP till datorseende från min praktikplats.",
       "individualProjects": {
-          "UX design": {
+        "UX design": {
           "image": "figmaTechsip.png",
           "alt": "cool image",
           "text": "I skolan så gavs det möjlighet till programmet “techship” som var både en utbildning och tävling inom att skapa en egen startup. Till detta programmet fanns ett moment där en prototyp för vår idé behövdes skapas, i vilket jag tog mig an uppgiften till att skapa en interaktiv prototyp i figma med hjälp av \"prototyp\" design mönstret. "
-          }
+        }
       },
       "exam": {
-          "image": "AICamera.png",
-          "alt": "Demo av prototyp",
-          "name": "AI tillämpning",
-          "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
+        "image": "AICamera.png",
+        "alt": "Demo av prototyp",
+        "name": "AI tillämpning",
+        "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
       },
       "links": {
-          "github": "https://github.com/TheAzzieDev",
-          "cv": "https://theazziedev.github.io/Portfolio/",
-          "instagram": "https://github.com/",
-          "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
-        },
+        "github": "https://github.com/TheAzzieDev",
+        "cv": "https://theazziedev.github.io/Portfolio/",
+        "instagram": "https://github.com/",
+        "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
+      },
       "certifikat": ["Certiport - IT Specialist - JavaScript"]
     },
 
@@ -352,57 +446,72 @@
     },
 
     "Zimon": {
-      "projects": ["pokidex", "mickeymailer", "RetroTech", "Consolata", "Basecamp", "Infoskarm", "portfolio"],
+      "projects": [
+        "pokidex",
+        "mickeymailer",
+        "RetroTech",
+        "Consolata",
+        "Basecamp",
+        "Infoskarm",
+        "portfolio"
+      ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
       "aboutMe": "Jag heter Jonathan, 19 år gammal och bor i Höganäs där det ursprungligen var tänkt att jag skulle ta mitt fjärde år. I efterhand är jag nu glad över att det istället blev på NTI på grund av hur många nya tekniker jag öppnats upp för, allt från Ramverk som React, backend utveckling med exempelvis Node.js och PHP till datorseende från min praktikplats.",
       "individualProjects": {
-          "UX design": {
+        "UX design": {
           "image": "figmaTechsip.png",
           "alt": "cool image",
           "text": "I skolan så gavs det möjlighet till programmet “techship” som var både en utbildning och tävling inom att skapa en egen startup. Till detta programmet fanns ett moment där en prototyp för vår idé behövdes skapas, i vilket jag tog mig an uppgiften till att skapa en interaktiv prototyp i figma med hjälp av \"prototyp\" design mönstret. "
-          }
+        }
       },
       "exam": {
-          "image": "AICamera.png",
-          "alt": "Demo av prototyp",
-          "name": "AI tillämpning",
-          "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
+        "image": "AICamera.png",
+        "alt": "Demo av prototyp",
+        "name": "AI tillämpning",
+        "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
       },
       "links": {
-          "github": "https://github.com/TheAzzieDev",
-          "cv": "https://theazziedev.github.io/Portfolio/",
-          "instagram": "https://github.com/",
-          "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
-        },
+        "github": "https://github.com/TheAzzieDev",
+        "cv": "https://theazziedev.github.io/Portfolio/",
+        "instagram": "https://github.com/",
+        "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
+      },
       "certifikat": ["Certiport - IT Specialist - JavaScript"]
     },
 
-    
     "Ebba": {
-      "projects": ["pokidex", "mickeymailer", "RetroTech", "Consolata", "Basecamp", "Infoskarm", "portfolio"],
+      "projects": [
+        "pokidex",
+        "mickeymailer",
+        "RetroTech",
+        "Consolata",
+        "Basecamp",
+        "Infoskarm",
+        "portfolio"
+      ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
       "aboutMe": "Jag heter Jonathan, 19 år gammal och bor i Höganäs där det ursprungligen var tänkt att jag skulle ta mitt fjärde år. I efterhand är jag nu glad över att det istället blev på NTI på grund av hur många nya tekniker jag öppnats upp för, allt från Ramverk som React, backend utveckling med exempelvis Node.js och PHP till datorseende från min praktikplats.",
       "individualProjects": {
-          "UX design": {
+        "UX design": {
           "image": "figmaTechsip.png",
           "alt": "cool image",
           "text": "I skolan så gavs det möjlighet till programmet “techship” som var både en utbildning och tävling inom att skapa en egen startup. Till detta programmet fanns ett moment där en prototyp för vår idé behövdes skapas, i vilket jag tog mig an uppgiften till att skapa en interaktiv prototyp i figma med hjälp av \"prototyp\" design mönstret. "
-          }
+        }
       },
       "exam": {
-          "image": "AICamera.png",
-          "alt": "Demo av prototyp",
-          "name": "AI tillämpning",
-          "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
+        "image": "AICamera.png",
+        "alt": "Demo av prototyp",
+        "name": "AI tillämpning",
+        "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
       },
       "links": {
-          "github": "https://github.com/TheAzzieDev",
-          "cv": "https://theazziedev.github.io/Portfolio/",
-          "instagram": "https://github.com/",
-          "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
-        },
+        "github": "https://github.com/TheAzzieDev",
+        "cv": "https://theazziedev.github.io/Portfolio/",
+        "instagram": "https://github.com/",
+        "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
+      },
       "certifikat": ["Certiport - IT Specialist - JavaScript"]
     }
   },
@@ -595,25 +704,33 @@
       "subtitle": "Malta/Valencia",
       "description": ""
     },
+
     "21": {
       "id": "21",
-      "date": "08-05-2024",
-      "title": "Provectus",
-      "subtitle": "Företagsbesök",
-      "description": ""
-    },
-    "22": {
-      "id": "22",
       "date": "06-05-2024",
       "title": "Examensarbete",
       "subtitle": "Projekt 10",
       "description": ""
     },
+    "22": {
+      "id": "22",
+      "date": "14-05-2024",
+      "title": "Provectus",
+      "subtitle": "Företagsbesök",
+      "description": ""
+    },
     "23": {
       "id": "23",
-      "date": "06-05-2024",
+      "date": "20-05-2024",
       "title": "TE4 Webbsida",
       "subtitle": "Projekt 11",
+      "description": ""
+    },
+    "24": {
+      "id": "24",
+      "date": "04-06-2024",
+      "title": "Avslutning",
+      "subtitle": "",
       "description": ""
     }
   }
