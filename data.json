@@ -272,6 +272,7 @@
       "certifikat": ["Certiport - IT Specialist - JavaScript"]
     },
 
+<<<<<<< Updated upstream
     "eduard": {
       "displayName": "Eduard Mihic",
       "projects": [
@@ -306,6 +307,34 @@
       },
       "certifikat": ["Certiport - IT Specialist - JavaScript"]
     },
+=======
+    "Salah": {
+      "projects": ["DELINS DEL PATRÒN (Wix hemsida)", "Wheeldeal", "CosmicHub", "MagicMender", "APLbok", "Portfolio", "Basecamp", "Infoskarm", "WCH-Malta", "Examensarbete (Spel i python)"],
+      "image": "/assets/salah.png",
+      "klassens": "Your best students will be my employees",
+      "aboutMe": "Mitt namn är Salah Al-Hassun och jag är 20 år gammal. Jag kommer ursprungligen från Palestina och studerar för närvarande tekniska programmet fjärde året (TE4). Jag har specialiserat mig inom webbdesign och har genomfört flera projekt, både i grupp och individuellt.",
+      "individualProjects": {
+          "UX design": {
+          "image": "whatnowhemsida.png",
+          "alt": "WhatNow",
+          "text": "Dessutom deltog jag i Techship-programmet, där jag tillsammans med tre andra skapade en startup vid namn WhatNow. Inom ramen för denna startup utvecklar jag en webbapplikation för studenter som planerar ett sabbatsår. Applikationen samlar all relevant information och resurser för ett sabbatsår på ett och samma ställe, samt erbjuder en mängd andra funktioner."
+          }
+      },
+      "exam": {
+          "image": "AICamera.png",
+          "alt": "Spelet i python",
+          "name": "Agil vs Vattenfallsmetoden",
+          "text": "Mitt examensarbete handlade om att jämföra två olika metoder för mjukvaruutveckling: den agila metoden och vattenfallsmetoden. Jag undersökte hur dessa metoder fungerar och vilka fördelar och nackdelar de har. För att göra detta implementerade jag ett enkelt spel i Python två gånger, en gång med varje metod. Jag analyserade sedan resultaten för att avgöra vilken metod som var mest effektiv för mitt specifika projekt och drog slutsatser om deras lämplighet för olika typer av projekt, särskilt inom ramen för mindre och större projekt."
+      },
+      "links": {
+          "github": "https://github.com/Salah9320Alhassun",
+          "cv": "https://portfolio-github-io-9npy.vercel.app",
+          "instagram": "https://www.instagram.com/salah_alhassun/",
+          "linkedIn": "https://www.linkedin.com/in/salah-al-hassun-132b4b253/"
+        },
+      "certifikat": ["Windows Operating System Fundamentals - Microsoft Security Fundamentals - Microsoft Networking Fundamentals - Elements of AI - Digital Marketing - Cyber Security - Computer Hardware & Networking - IT Fundamentals for Cybersecurity Specialization - Marketing Analytics and Retail Business Management - React JS TDA"]
+      },
+>>>>>>> Stashed changes
 
     "jakob": {
       "displayName": "Jakob Helgesson",
