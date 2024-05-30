@@ -10,7 +10,7 @@
         "Basecamp",
         "Infoskarm"
       ],
-      "image": "Juan.jpg",
+      "image": "jonathancs.jpg",
       "klassens": "klassens kung",
       "aboutMe": "Jag heter Jonathan, 19 år gammal och bor i Höganäs där det ursprungligen var tänkt att jag skulle ta mitt fjärde år. I efterhand är jag nu glad över att det istället blev på NTI på grund av hur många nya tekniker jag öppnats upp för, allt från Ramverk som React, backend utveckling med exempelvis Node.js och PHP till datorseende från min praktikplats.",
       "individualProjects": {
@@ -246,18 +246,18 @@
         "Basecamp",
         "Infoskarm"
       ],
-      "image": "Eduard/profile.webp",
+      "image": "profile.webp",
       "klassens": "klassens kung",
       "aboutMe": "Jag heter Eduard och är en passionerad spelutvecklare och gymnasieelev med ingenjörsvetenskaplig inriktning. Mina IT-specialistcertifieringar och erfarenhet från spelprojekt i Unity och C++ visar min kompetens inom mjukvaruutveckling. Nu utforskar jag Unreal Engine 5 för att skapa fängslande spelupplevelser med fantastisk grafik. Mitt mål är att nå ut till en bred publik med spel som inte bara underhåller, utan också fångar spelarens fantasi.",
       "individualProjects": {
         "BlackJack": {
-          "image": "Eduard/blackjack.png",
+          "image": "blackjack.png",
           "alt": "",
           "text": "Mitt individuella projekt var att skapa ett Blackjack-spel i Unity med C#. Målet var att göra ett enkelt och roligt spel där man kan spela mot datorn, med fokus på de vanligaste reglerna och enkel grafik. Projektet hjälpte mig att lära mig mer om spelutveckling och programmering, och jag använde olika tekniker för att göra spelet smidigt och strukturerat."
         }
       },
       "exam": {
-        "image": "Eduard/examensarbete.png",
+        "image": "examensarbete.png",
         "alt": "",
         "name": "Unity, Unreal Engine och Godot fördelar och nackdelar",
         "text": "Denna studie undersöker spelmotorerna Unity, Unreal Engine och Godot, med fokus på deras historiska utveckling, popularitet, styrkor och svagheter. Genom litteraturgranskning och analys av online-resurser jämförs motorerna i olika aspekter, såsom användarvänlighet, lämplighet för olika projekttyper och community-stöd. Studien belyser Unitys dominans inom indie- och mobilspel, Unreal Engines styrka i AAA-utveckling och Godots framväxt som ett kostnadsfritt och öppet alternativ."
@@ -498,13 +498,7 @@
       "image": "Juan.jpg",
       "klassens": "klassens ",
       "aboutMe": "Hej, jag heter Ebba Elversson och arbetar som Frontend Designer här på Te4. Jag är den enda i klassen som inte läste teknikprogrammet på gymnasiet. Istället fick jag ett wildcard från Linda och rektorn till Te4, eftersom de såg att jag utmärkte mig i webbutvecklings kurserna på IT-linjen. Det här året på Te4 har varit mycket givande. Jag har ställts inför många olika utmaningar och problem som har bidragit till min utveckling.",
-      "individualProjects": {
-        "UX design": {
-          "image": "",
-          "alt": "",
-          "text": ""
-        }
-      },
+      "individualProjects": {},
       "exam": {
         "image": "Ledarskap.png",
         "alt": "Ledarskap",
