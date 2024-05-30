@@ -46,7 +46,7 @@ async function renderStudent() {
   if (data["image"] == null) {
     cloneHTML.querySelector(".img-student").src = "assets/missingImage.jpg";
   } else {
-    cloneHTML.querySelector(".img-student").src = "assets/" + data["image"];
+    cloneHTML.querySelector(".img-student").src = "assets/profile/" + data["image"];
   }
   cloneHTML.querySelector(".img-student").alt = urlParamValue;
 
