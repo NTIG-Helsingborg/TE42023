@@ -3,7 +3,7 @@
     "jonathan_cs": {
       "displayName": "Jonathan Cano Sjöstedt",
       "projects": [
-        "pokidex",
+        "PokiNetX",
         "mickeymailer",
         "RetroTech",
         "Consolata",
@@ -71,12 +71,12 @@
     "oskar": {
       "displayName": "Oskar Ternström",
       "projects": [
-        "pokidex",
-        "mickeymailer",
-        "RetroTech",
-        "Consolata",
-        "Basecamp",
-        "Infoskarm"
+        "DeepSeaNFT",
+        "PokiNetX",
+        "Somnium",
+        "Linda",
+        "Infoskarm",
+        "Basecamp"
       ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
@@ -106,7 +106,7 @@
     "margo": {
       "displayName": "Margo Shaposhnikova",
       "projects": [
-        "pokidex",
+        "PokiNetX",
         "mickeymailer",
         "RetroTech",
         "Consolata",
@@ -169,7 +169,7 @@
     "othman": {
       "displayName": "Othman Al-Ani",
       "projects": [
-        "pokidex",
+        "PokiNetX",
         "mickeymailer",
         "RetroTech",
         "Consolata",
@@ -204,7 +204,7 @@
     "kirill": {
       "displayName": "Kirill Puljavin",
       "projects": [
-        "pokidex",
+        "PokiNetX",
         "mickeymailer",
         "RetroTech",
         "Consolata",
@@ -320,7 +320,7 @@
     "jakob": {
       "displayName": "Jakob Helgesson",
       "projects": [
-        "pokidex",
+        "PokiNetX",
         "mickeymailer",
         "RetroTech",
         "Consolata",
@@ -355,7 +355,7 @@
     "david": {
       "displayName": "David Olsson",
       "projects": [
-        "pokidex",
+        "PokiNetX",
         "mickeymailer",
         "RetroTech",
         "Consolata",
@@ -390,7 +390,7 @@
     "rami": {
       "displayName": "Rami Agha",
       "projects": [
-        "pokidex",
+        "PokiNetX",
         "mickeymailer",
         "RetroTech",
         "Consolata",
@@ -427,7 +427,7 @@
       "projects": [
         "gamehub",
         "ehabify",
-        "DeepSeaNTF",
+        "DeepSeaNFT",
         "Somnium",
         "Basecamp",
         "Infoskarm",
@@ -488,7 +488,7 @@
     "ebba": {
       "displayName": "Ebba Elversson",
       "projects": [
-        "pokidex",
+        "PokiNetX",
         "mickeymailer",
         "RetroTech",
         "Consolata",
@@ -522,7 +522,7 @@
   },
 
   "projects": {
-    "pokidex": {
+    "PokiNetX": {
       "project": "reactAPI",
       "about": "Det här spelet är ett kort roguelike där spelaren måste slåss mot monster i en slumpmässigt genererad karta som slutar med att spelaren måste besegra en boss. Under spelets gång kan man hitta komponenter och ability cards som används för att göra spelaren starkare. Spelet är gjort i en pixel art style och tog inspiration från liknande spel i samma genre, såsom Binding of Isaac och Hades.",
       "badge": "React &middot; poop &middot; SQL",
@@ -588,7 +588,7 @@
       "project": "hjalp-en-larare",
       "image": "../assets/profile.png"
     },
-    "DeepSeaNTF": {
+    "DeepSeaNFT": {
       "project": "webbshop",
       "image": "../assets/profile.png"
     },
