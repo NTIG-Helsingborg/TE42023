@@ -272,42 +272,6 @@
       "certifikat": ["Certiport - IT Specialist - JavaScript"]
     },
 
-<<<<<<< Updated upstream
-    "eduard": {
-      "displayName": "Eduard Mihic",
-      "projects": [
-        "pokidex",
-        "mickeymailer",
-        "RetroTech",
-        "Consolata",
-        "Basecamp",
-        "Infoskarm"
-      ],
-      "image": "Juan.jpg",
-      "klassens": "klassens kung",
-      "aboutMe": "Jag heter Jonathan, 19 år gammal och bor i Höganäs där det ursprungligen var tänkt att jag skulle ta mitt fjärde år. I efterhand är jag nu glad över att det istället blev på NTI på grund av hur många nya tekniker jag öppnats upp för, allt från Ramverk som React, backend utveckling med exempelvis Node.js och PHP till datorseende från min praktikplats.",
-      "individualProjects": {
-        "UX design": {
-          "image": "figmaTechsip.png",
-          "alt": "cool image",
-          "text": "I skolan så gavs det möjlighet till programmet “techship” som var både en utbildning och tävling inom att skapa en egen startup. Till detta programmet fanns ett moment där en prototyp för vår idé behövdes skapas, i vilket jag tog mig an uppgiften till att skapa en interaktiv prototyp i figma med hjälp av \"prototyp\" design mönstret. "
-        }
-      },
-      "exam": {
-        "image": "AICamera.png",
-        "alt": "Demo av prototyp",
-        "name": "AI tillämpning",
-        "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
-      },
-      "links": {
-        "github": "https://github.com/TheAzzieDev",
-        "cv": "https://theazziedev.github.io/Portfolio/",
-        "instagram": "https://github.com/",
-        "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
-      },
-      "certifikat": ["Certiport - IT Specialist - JavaScript"]
-    },
-=======
     "Salah": {
       "projects": ["DELINS DEL PATRÒN (Wix hemsida)", "Wheeldeal", "CosmicHub", "MagicMender", "APLbok", "Portfolio", "Basecamp", "Infoskarm", "WCH-Malta", "Examensarbete (Spel i python)"],
       "image": "/assets/salah.png",
@@ -334,7 +298,6 @@
         },
       "certifikat": ["Windows Operating System Fundamentals - Microsoft Security Fundamentals - Microsoft Networking Fundamentals - Elements of AI - Digital Marketing - Cyber Security - Computer Hardware & Networking - IT Fundamentals for Cybersecurity Specialization - Marketing Analytics and Retail Business Management - React JS TDA"]
       },
->>>>>>> Stashed changes
 
     "jakob": {
       "displayName": "Jakob Helgesson",
