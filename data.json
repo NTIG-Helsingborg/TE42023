@@ -38,34 +38,26 @@
     "jonathan_th": {
       "displayName": "Jonathan Thösing-Jörgensen",
       "projects": [
-        "pokidex",
-        "mickeymailer",
-        "RetroTech",
-        "Consolata",
-        "Basecamp",
-        "Infoskarm"
+        "Whisker Wonders",
+        "Gamehub",
+        "Magic Mender",
+        "Ehabify",
+        "Infoskärmen",
+        "Basecamp"
       ],
-      "image": "Juan.jpg",
-      "klassens": "klassens kung",
-      "aboutMe": "Jag heter Jonathan, 19 år gammal och bor i Höganäs där det ursprungligen var tänkt att jag skulle ta mitt fjärde år. I efterhand är jag nu glad över att det istället blev på NTI på grund av hur många nya tekniker jag öppnats upp för, allt från Ramverk som React, backend utveckling med exempelvis Node.js och PHP till datorseende från min praktikplats.",
+      "image": "jonathanthj.png",
+      "klassens": "klassens...",
+      "aboutMe": "Hej! Jag är Jonathan Thösing-Jörgensen, en ambitiös och självlärd webbutvecklare med en passion för teknik och bilar. Född 2004, har jag alltid varit fascinerad av teknologins värld. Finns det något som jag inte vet hur de fungerar, så tar jag reda på det. Min resa inom webbutveckling började under mitt första år på NTI gymnasiet, där jag upptäckte en djup passion för att skapa på webben och att programmera. Denna passion har sedan dess drivit mig framåt och motiverat mig att följa den här vägen. Att välja att gå TE4 var ett medvetet val för mig, eftersom jag såg det som en perfekt möjlighet att fördjupa min kunskap inom webbutveckling och för att få en säker anställning efter examen.",
       "individualProjects": {
         "UX design": {
-          "image": "figmaTechsip.png",
-          "alt": "cool image",
+          "image": "matroulette.png",
+          "alt": "matroulette",
           "text": "I skolan så gavs det möjlighet till programmet “techship” som var både en utbildning och tävling inom att skapa en egen startup. Till detta programmet fanns ett moment där en prototyp för vår idé behövdes skapas, i vilket jag tog mig an uppgiften till att skapa en interaktiv prototyp i figma med hjälp av \"prototyp\" design mönstret. "
         }
       },
-      "exam": {
-        "image": "AICamera.png",
-        "alt": "Demo av prototyp",
-        "name": "AI tillämpning",
-        "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
-      },
       "links": {
-        "github": "https://github.com/TheAzzieDev",
-        "cv": "https://theazziedev.github.io/Portfolio/",
-        "instagram": "https://github.com/",
-        "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
+        "github": "https://github.com/Jonte88",
+        "linkedIn": "http://www.linkedin.com/in/jonathan-thösing-jörgensen-84843023a"
       },
       "certifikat": ["Certiport - IT Specialist - JavaScript"]
     },
