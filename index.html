@@ -31,11 +31,12 @@
 <script src="js/navbar.js"></script>
 <script src="js/footer.js"></script>
 <script src="js/elevcards.js"></script>
+<script src="js/components/carousel.js"></script>
 
     <body class="d-flex flex-column h-100">
         <main class="flex-shrink-0">
             <!-- Navigation-->
-            <nav-bar/>
+            <nav-bar></nav-bar>
 
             <!-- Header-->
             <section class="py-xl-5 py-2">
@@ -188,96 +189,69 @@
             <section class="py-5 bg-gradient-primary-to-secondary text-white">
                 <div class="callout-text my-5 px-xl-0 px-3">
                     <h4 class="mb-5">Vad är Te4 ?</h4>
-                    <div class="testimonial-carousel">
-                        <!-- Circled Left 2 icon by Icons8 -->
-                        <div class="icon-container">
-                            <span class="lnr lnr-arrow-left-circle"><i class="bi bi-chevron-compact-left"></i>
-                            </span>
-                        </div>
-                        <div class="testimonial-items">
-                            <div class="testimonial-item first">
-                                <blockquote>
-                                    <h1>Projektbaserat Lärande</h1>
-                                    <p class="testimonial-quote px-0 px-lg-4">
-                                        Arbetet hos oss är projektbaserat, där majoriteten av uppgifterna utförs 
-                                        i grupp. Vi planerar och genomför projekt över en viss tidsperiod och 
-                                        presenterar sedan resultaten. Ibland arbetar vi även individuellt, som när 
-                                        vi bygger vår egen portfolio och visar upp den för klassen. Denna metod 
-                                        ger oss värdefulla erfarenheter av både samarbete och självständigt arbete.
-                                    </p>
-
-                                    <span class="slideindicator">
-                                        <span class="active fs-3"><i class="bi bi-dash-lg"></i></span> 
-                                        <span class="none fs-3"><i class="bi bi-dash-lg"></i></span>
-                                        <span class="none fs-3"><i class="bi bi-dash-lg"></i></span>
-                                        <span class="none fs-3"><i class="bi bi-dash-lg"></i></span>
-                                    </span>
-                                </blockquote>
-                            </div>
-                            <div class="testimonial-item second">
-                                <blockquote>
-                                    <h1>En Dynamisk Vardag</h1>
-                                    <p class="testimonial-quote px-0 px-lg-4">
-                                        Vår vardag på TE4 (Mjukvarudesign) är både flexibel och engagerande. 
-                                        Skoldagen startar oftast kl. 08:30 och slutar kl. 15:30, men vi har 
-                                        frihet att anpassa våra raster. Efter att ha jobbat intensivt i en 
-                                        timme kan vi ta en välförtjänt kaffepaus. Denna frihet gör det lättare 
-                                        att hålla motivationen uppe och arbetet effektivt.
-                                    </p>
-
-                                    <span class="slideindicator">
-                                        <span class="none fs-3"><i class="bi bi-dash-lg"></i></span> 
-                                        <span class="active fs-3"><i class="bi bi-dash-lg"></i></span>
-                                        <span class="none fs-3"><i class="bi bi-dash-lg"></i></span>
-                                        <span class="none fs-3"><i class="bi bi-dash-lg"></i></span>
-                                    </span>
-                                </blockquote>
-                            </div>
-                            <div class="testimonial-item third">
-                                <blockquote>
-                                    <h1>Praktiska Erfarenheter - APL</h1>
-                                    <p class="testimonial-quote px-0 px-lg-4">
-                                        Under året har vi APL-perioder (arbetsplatsförlagt lärande) där vi 
-                                        tillbringar sju veckor i Sverige och tre veckor utomlands. Den här 
-                                        terminen fick vi möjligheten att utforska arbetslivet i både Malta 
-                                        och Valencia. Dessa utbyten ger oss en unik inblick i internationella 
-                                        arbetsmetoder och kulturer.
-                                    </p>
-                                
-                                    <span class="slideindicator">
-                                        <span class="none fs-3"><i class="bi bi-dash-lg"></i></span> 
-                                        <span class="none fs-3"><i class="bi bi-dash-lg"></i></span>
-                                        <span class="active fs-3"><i class="bi bi-dash-lg"></i></span>
-                                        <span class="none fs-3"><i class="bi bi-dash-lg"></i></span>
-                                    </span>
-                                </blockquote>
-                            </div>
-                            <div class="testimonial-item fourth">
-                                <blockquote>
-                                    <h1>Företagsbesök och Inspiration</h1>
-                                    <p class="testimonial-quote px-0 px-lg-4">
-                                        Vi får regelbundet besök från olika företag, där professionella 
-                                        berättar om sina verksamheter och resor. Dessa möten ger oss inspiration 
-                                        och värdefulla insikter om framtida karriärmöjligheter inom mjukvarudesign.
-                                        Att vara en del av TE4 innebär att ständigt utvecklas och förberedas för 
-                                        en framtid inom teknikens framkant.
-                                    </p>
-                                
-                                    <span class="slideindicator">
-                                        <span class="none fs-3"><i class="bi bi-dash-lg"></i></span> 
-                                        <span class="none fs-3"><i class="bi bi-dash-lg"></i></span>
-                                        <span class="none fs-3"><i class="bi bi-dash-lg"></i></span>
-                                        <span class="active fs-3"><i class="bi bi-dash-lg"></i></span>
-                                    </span>
-                                </blockquote>
-                            </div>
-                        </div>
-                        <!-- End .testimonial-items -->
-                        <div class="icon-container">
-                            <span class="lnr lnr-arrow-right-circle"><i class="bi bi-chevron-compact-right"></i>
-                            </span>
-                        </div>
-                    </div>
+                    <carousel-component>
+                        <blockquote>
+                            <h1>Projektbaserat Lärande</h1>
+                            <p class="testimonial-quote">
+                                Arbetet hos oss är projektbaserat, där majoriteten av uppgifterna utförs 
+                                i grupp. Vi planerar och genomför projekt över en viss tidsperiod och 
+                                presenterar sedan resultaten. Ibland arbetar vi även individuellt, som när 
+                                vi bygger vår egen portfolio och visar upp den för klassen. Denna metod 
+                                ger oss värdefulla erfarenheter av både samarbete och självständigt arbete.
+                            </p>
+                        </blockquote>
+                        <blockquote>
+                            <h1>En Dynamisk Vardag</h1>
+                            <p class="testimonial-quote">
+                                Vår vardag på TE4 (Mjukvarudesign) är både flexibel och engagerande. 
+                                Skoldagen startar oftast kl. 08:30 och slutar kl. 15:30, men vi har 
+                                frihet att anpassa våra raster. Efter att ha jobbat intensivt i en 
+                                timme kan vi ta en välförtjänt kaffepaus. Denna frihet gör det lättare 
+                                att hålla motivationen uppe och arbetet effektivt.
+                            </p>
+                        </blockquote>
+                        <blockquote>
+                            <h1>Praktiska Erfarenheter - APL</h1>
+                            <p class="testimonial-quote">
+                                Under året har vi APL-perioder (arbetsplatsförlagt lärande) där vi 
+                                tillbringar sju veckor i Sverige och tre veckor utomlands. Den här 
+                                terminen fick vi möjligheten att utforska arbetslivet i både Malta 
+                                och Valencia. Dessa utbyten ger oss en unik inblick i internationella 
+                                arbetsmetoder och kulturer.
+                            </p>
+                        </blockquote>
+                        <blockquote>
+                            <h1>Företagsbesök och Inspiration</h1>
+                            <p class="testimonial-quote">
+                                Vi får regelbundet besök från olika företag, där professionella 
+                                berättar om sina verksamheter och resor. Dessa möten ger oss inspiration 
+                                och värdefulla insikter om framtida karriärmöjligheter inom mjukvarudesign.
+                                Att vara en del av TE4 innebär att ständigt utvecklas och förberedas för 
+                                en framtid inom teknikens framkant.
+                            </p>
+                        </blockquote>
+                        <style slot="extra">
+                            blockquote h1 {
+                                font-size: 2em;
+                                color: var(--bs-gray-200);
+                                font-weight: lighter;
+                                text-align: center;
+                                margin: 0 0 30px 0;
+                                padding: 0; 
+                                text-decoration: w;
+                            }
+                            blockquote p {
+                                font-size: 1em;
+                                color: var(--bs-gray-200);
+                            }
+                              
+                            @media (min-width: 768px) {
+                                blockquote p {
+                                    font-size: 1.4em;
+                                }
+                            }
+                        </style>
+                    </carousel-component>
                 </div>
                 <span id="Utvecklare"></span>
             </section>
