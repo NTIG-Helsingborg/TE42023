@@ -1,13 +1,23 @@
+import { getData } from "./scripts.js";
+
 class ElevCards extends HTMLElement {
     static observedAttributes = ["elever"];
     constructor() {
         super();
     }
-    
+
 
     connectedCallback() {
-        let elever = JSON.parse(this.getAttribute("elever"));
-
+        if (this.students) {
+            this.render();
+        } else {
+            this.fetchStudents().then(students => {
+                this.students = students;
+                this.render();
+            });
+        }
+    }
+    render() {
         let cardHTML = `
         <div class="row d-flex justify-content-center">
         <style>
@@ -22,17 +32,17 @@ class ElevCards extends HTMLElement {
         </style>
         `;
 
-        elever.forEach(elev => {
+        Object.entries(this.students).forEach(([id, student]) => {
             cardHTML += `
             <div class="col-6 col-md-4 col-lg-3 mb-5">
                 <div class="card-container">
                     <div class="card shadow border-primary">
-                        <img src="${elev.image}" class="card-img-top" alt="${elev.name}">
+                        <img src="assets/profile/${student.image}" class="card-img-top" alt="${student.displayName}">
                         <div class="card-body text-center">
-                            <h4 class="card-title">${elev.name}</h4>
-                            <p class="card-text"> ${elev.title}</p>
+                            <h4 class="card-title">${student.displayName}</h4>
+                            <p class="card-text"> ${student.klassens}</p>
                            
-                            <a href="student.html?student=${elev.link}" class="btn btn-primary">view page</a>
+                            <a href="student.html?student=${id}" class="btn btn-primary">view page</a>
                         </div>
                     </div>
                 </div>
@@ -42,6 +52,21 @@ class ElevCards extends HTMLElement {
 
         cardHTML += `</div>`;
         this.innerHTML = cardHTML;
+    }
+
+    // async method to fetch data from the server
+    async fetchStudents() {
+        let { data } = await getData("students", "", false);
+        const url = new URL(window.location.href);
+
+        const projectFilter = url.searchParams.get("project");
+
+        if (projectFilter) {
+            // data = data.filter(student => student.projects.includes(projectFilter));
+            data = Object.fromEntries(Object.entries(data).filter(([id, student]) => student.projects.includes(projectFilter)));
+        }
+
+        return data;
     }
 }
 

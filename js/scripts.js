@@ -50,15 +50,13 @@ export const getData = async (targetData, urlParam, getOne = true) => {
   let paramString = urlString.split("?")[1];
   let queryString = new URLSearchParams(paramString);
   let specificData = queryString.get(urlParam);
-  specificData = specificData.toLocaleLowerCase();
+  specificData = specificData?.toLowerCase();
+  const response = await fetch(jsonFile);
+  const jsonData = await response.json();
   if (getOne == true) {
-    const response = await fetch(jsonFile);
-    const jsonData = await response.json();
     let data = jsonData[targetData][specificData];
     return { data: data, urlParamValue: specificData, jsonData: jsonData };
   } else {
-    const response = await fetch(jsonFile);
-    const jsonData = await response.json();
     let data = jsonData[targetData];
     return { data: data, urlParamValue: specificData, jsonData: jsonData };
   }

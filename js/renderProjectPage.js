@@ -7,6 +7,7 @@ import { getRootPath, columnClick, getData } from "./scripts.js";
 
 
 async function renderProject() {
+  console.trace("renderProject")
     let { data, urlParamValue, jsonData } = await getData(
       "projects",
       "project",
@@ -18,7 +19,7 @@ async function renderProject() {
     const app = document.getElementById("app");
     const cloneHTML = document.importNode(template, true);
     cloneHTML.querySelector(".about").textContent = data["about"];
-    cloneHTML.querySelector(".Project-title").textContent = urlParamValue
+    cloneHTML.querySelector(".Project-title").textContent = data["displayName"];
     if (data["image"] == null) {
       cloneHTML.querySelector(".img-project").src = "assets/missingImage.jpg";
     } else {
@@ -47,17 +48,6 @@ async function renderProject() {
     app.appendChild(cloneHTML);
   }
   
-
-
-
-
-  document.addEventListener("DOMContentLoaded", async () => {
-    await renderProject();
-    
-
-
-
-  });
   document.addEventListener("DOMContentLoaded", async () => {
     await renderProject();
     const state = {};

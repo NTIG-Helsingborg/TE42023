@@ -3,12 +3,12 @@
     "jonathan_cs": {
       "displayName": "Jonathan Cano Sjöstedt",
       "projects": [
-        "PokiNetX",
+        "pokinetx",
         "mickeymailer",
-        "RetroTech",
-        "Consolata",
-        "Basecamp",
-        "Infoskarm"
+        "retrotech",
+        "consolata",
+        "basecamp",
+        "infoskarm"
       ],
       "image": "jonathancs.jpg",
       "klassens": "klassens kung",
@@ -38,12 +38,12 @@
     "jonathanth": {
       "displayName": "Jonathan Thösing-Jörgensen",
       "projects": [
-        "Whisker Wonders",
-        "Gamehub",
-        "Magic Mender",
-        "Ehabify",
-        "Infoskärmen",
-        "Basecamp"
+        "whiskerwonders",
+        "gamehub",
+        "magicmender",
+        "ehabify",
+        "infoskärmen",
+        "basecamp"
       ],
       "image": "jonathanthj.png",
       "klassens": "klassens...",
@@ -71,12 +71,12 @@
     "oskar": {
       "displayName": "Oskar Ternström",
       "projects": [
-        "DeepSeaNFT",
-        "PokiNetX",
-        "Somnium",
-        "Linda",
-        "Infoskarm",
-        "Basecamp"
+        "deepseanft",
+        "pokinetx",
+        "somnium",
+        "linda",
+        "infoskarm",
+        "basecamp"
       ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
@@ -106,12 +106,12 @@
     "margo": {
       "displayName": "Margo Shaposhnikova",
       "projects": [
-        "PokiNetX",
+        "pokinetx",
         "mickeymailer",
-        "RetroTech",
-        "Consolata",
-        "Basecamp",
-        "Infoskarm"
+        "retrotech",
+        "consolata",
+        "basecamp",
+        "infoskarm"
       ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
@@ -141,12 +141,12 @@
     "Gustaf": {
       "displayName": "Gustaf Fäldt",
       "projects": [
-        "RetroTech",
+        "retrotech",
         "gamehub",
-        "Consolata",
-        "Josefs-Hemsida",
-        "Basecamp",
-        "Infoskarm",
+        "consolata",
+        "josefs-hemsida",
+        "basecamp",
+        "infoskarm",
         "portfolio"
       ],
       "image": null,
@@ -169,12 +169,12 @@
     "othman": {
       "displayName": "Othman Al-Ani",
       "projects": [
-        "PokiNetX",
+        "pokinetx",
         "mickeymailer",
-        "RetroTech",
-        "Consolata",
-        "Basecamp",
-        "Infoskarm"
+        "retrotech",
+        "consolata",
+        "basecamp",
+        "infoskarm"
       ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
@@ -204,12 +204,12 @@
     "kirill": {
       "displayName": "Kirill Puljavin",
       "projects": [
-        "PokiNetX",
+        "pokinetx",
         "mickeymailer",
-        "RetroTech",
-        "Consolata",
-        "Basecamp",
-        "Infoskarm"
+        "retrotech",
+        "consolata",
+        "basecamp",
+        "infoskarm"
       ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
@@ -239,12 +239,12 @@
     "eduard": {
       "displayName": "Eduard Mihic",
       "projects": [
-        "RetroTech",
+        "retrotech",
         "gamehub",
         "linda",
-        "Consolata",
-        "Basecamp",
-        "Infoskarm"
+        "consolata",
+        "basecamp",
+        "infoskarm"
       ],
       "image": "profile.webp",
       "klassens": "klassens kung",
@@ -279,8 +279,8 @@
         "CosmicHub",
         "MagicMender",
         "APLbok",
-        "Basecamp",
-        "Infoskarm"
+        "basecamp",
+        "infoskarm"
       ],
       "image": "salah.png",
       "klassens": "Your best students will be my employees",
@@ -320,34 +320,29 @@
     "jakob": {
       "displayName": "Jakob Helgesson",
       "projects": [
-        "PokiNetX",
-        "mickeymailer",
-        "RetroTech",
-        "Consolata",
-        "Basecamp",
-        "Infoskarm"
+        "pokinetx",
+        "deepseanft",
+        "aplbok",
+        "magicmender",
+        "infoskarm",
+        "linda"
       ],
-      "image": "Juan.jpg",
+      "image": "jakob.jpg",
       "klassens": "klassens kung",
-      "aboutMe": "Jag heter Jonathan, 19 år gammal och bor i Höganäs där det ursprungligen var tänkt att jag skulle ta mitt fjärde år. I efterhand är jag nu glad över att det istället blev på NTI på grund av hur många nya tekniker jag öppnats upp för, allt från Ramverk som React, backend utveckling med exempelvis Node.js och PHP till datorseende från min praktikplats.",
+      "aboutMe": "",
       "individualProjects": {
-        "UX design": {
-          "image": "figmaTechsip.png",
-          "alt": "cool image",
-          "text": "I skolan så gavs det möjlighet till programmet “techship” som var både en utbildning och tävling inom att skapa en egen startup. Till detta programmet fanns ett moment där en prototyp för vår idé behövdes skapas, i vilket jag tog mig an uppgiften till att skapa en interaktiv prototyp i figma med hjälp av \"prototyp\" design mönstret. "
-        }
       },
       "exam": {
-        "image": "AICamera.png",
-        "alt": "Demo av prototyp",
-        "name": "AI tillämpning",
-        "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
+        "image": "node-deno-bun.jpg",
+        "alt": "Loga av Node.js, Deno och Bun",
+        "name": "Node.js vs Deno vs Bun",
+        "text": "I mitt examensarbete jämförde jag tre olika JavaScript runtime-miljöer: Node.js, Deno och Bun. Jag undersökte deras styrkor och svagheter, samt hur de skiljer sig åt i fråga om prestanda, säkerhet och användarvänlighet."
       },
       "links": {
-        "github": "https://github.com/TheAzzieDev",
-        "cv": "https://theazziedev.github.io/Portfolio/",
+        "github": "https://github.com/svemat01",
+        "cv": "https://jakobhelgesson.com",
         "instagram": "https://github.com/",
-        "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
+        "linkedIn": "https://www.linkedin.com/in/jakobhelgesson"
       },
       "certifikat": ["Certiport - IT Specialist - JavaScript"]
     },
@@ -355,12 +350,12 @@
     "david": {
       "displayName": "David Olsson",
       "projects": [
-        "PokiNetX",
+        "pokinetx",
         "mickeymailer",
-        "RetroTech",
-        "Consolata",
-        "Basecamp",
-        "Infoskarm"
+        "retrotech",
+        "consolata",
+        "basecamp",
+        "infoskarm"
       ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
@@ -390,12 +385,12 @@
     "rami": {
       "displayName": "Rami Agha",
       "projects": [
-        "PokiNetX",
+        "pokinetx",
         "mickeymailer",
-        "RetroTech",
-        "Consolata",
-        "Basecamp",
-        "Infoskarm"
+        "retrotech",
+        "consolata",
+        "basecamp",
+        "infoskarm"
       ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
@@ -427,10 +422,10 @@
       "projects": [
         "gamehub",
         "ehabify",
-        "DeepSeaNFT",
+        "deepseanft",
         "Somnium",
-        "Basecamp",
-        "Infoskarm",
+        "basecamp",
+        "infoskarm",
         "portfolio"
       ],
       "image": "Juan.jpg",
@@ -453,12 +448,12 @@
     "zimon": {
       "displayName": "Zimon Johnsson",
       "projects": [
-        "Wheeldeal",
-        "Mickeymailer",
-        "Cosmichub",
-        "Magicmender",
-        "Basecamp",
-        "Infoskarm"
+        "wheeldeal",
+        "mickeymailer",
+        "cosmichub",
+        "magicmender",
+        "basecamp",
+        "infoskarm"
       ],
       "image": "zimon.jpg",
       "klassens": "klassens ??",
@@ -488,12 +483,12 @@
     "ebba": {
       "displayName": "Ebba Elversson",
       "projects": [
-        "PokiNetX",
+        "pokinetx",
         "mickeymailer",
-        "RetroTech",
-        "Consolata",
-        "Basecamp",
-        "Infoskarm"
+        "retrotech",
+        "consolata",
+        "basecamp",
+        "infoskarm"
       ],
       "image": "Juan.jpg",
       "klassens": "klassens ",
@@ -516,7 +511,8 @@
   },
 
   "projects": {
-    "PokiNetX": {
+    "pokinetx": {
+      "displayName": "PokiNetX",
       "project": "reactAPI",
       "about": "Det här spelet är ett kort roguelike där spelaren måste slåss mot monster i en slumpmässigt genererad karta som slutar med att spelaren måste besegra en boss. Under spelets gång kan man hitta komponenter och ability cards som används för att göra spelaren starkare. Spelet är gjort i en pixel art style och tog inspiration från liknande spel i samma genre, såsom Binding of Isaac och Hades.",
       "badge": "React &middot; poop &middot; SQL",
@@ -555,58 +551,72 @@
     },
 
     "mickeymailer": {
+      "displayName": "MickeyMailer",
       "project": "hjalp-en-larare",
       "image": "../assets/profile.png"
     },
-    "RetroTech": {
+    "retrotech": {
+      "displayName": "RetroTech",
       "project": "webbshop",
       "image": "../assets/profile.png"
     },
-    "Consolata": {
+    "consolata": {
+      "displayName": "Consolata",
       "project": "spel",
       "image": "../assets/profile.png"
     },
-    "Basecamp": {
+    "basecamp": {
+      "displayName": "Basecamp",
       "project": "Basecamp",
       "image": "../assets/profile.png"
     },
-    "Infoskarm": {
+    "infoskarm": {
+      "displayName": "Infoskarm",
       "project": "Infoskarm",
       "image": "../assets/profile.png"
     },
     "gamehub": {
+      "displayName": "GameHub",
       "project": "reactAPI",
       "image": "../assets/profile.png"
     },
     "ehabify": {
+      "displayName": "Ehabify",
       "project": "hjalp-en-larare",
       "image": "../assets/profile.png"
     },
-    "DeepSeaNFT": {
+    "deepseanft": {
+      "displayName": "DeepSeaNFT",
       "project": "webbshop",
       "image": "../assets/profile.png"
     },
-    "Somnium": {
+    "somnium": {
+      "displayName": "Somnium",
       "project": "spel",
       "image": "../assets/profile.png"
     },
-    "Josefs-Hemsida": {
+    "josefs-hemsida": {
+      "displayName": "Josefs-Hemsida",
       "project": "hjalp-en-larare",
       "image": "../assets/profile.png"
     },
-    "CosmicHub": {
+    "cosmichub": {
+      "displayName": "CosmicHub",
       "project": "reactAPI",
       "image": "../assets/profile.png"
     },
-    "MagicMender": {
+    "magicmender": {
+      "displayName": "Magic Mender",
       "project": "spel",
       "image": "../assets/profile.png"
     },
-    "Wheeldeal": {
+    "wheeldeal": {
+      "displayName": "Wheeldeal",
       "project": "webbshop",
       "image": "../assets/profile.png"
     },
-    "APLbok": {
+    "aplbok": {
+      "displayName": "APLbok",
       "project": "hjalp-en-larare",
       "image": "../assets/profile.png"
     }
@@ -720,7 +730,7 @@
     "17": {
       "id": "17",
       "date": "09-01-2024",
-      "title": "Basecamp/Infoskärm",
+      "title": "basecamp/Infoskärm",
       "subtitle": "Projekt 9",
       "description": "Det här projektet lade fokus på utveckla våra färdigheter i dokumentation, kommunikation och anpassningsförmåga genom att ta oss an ett äldre TE4 projekt. Halvvägs genom projektet skulle vi även byta pågående projekt mellan grupperna."
     },
