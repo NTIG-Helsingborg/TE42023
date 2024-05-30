@@ -1,20 +1,26 @@
 import { getRootPath, columnClick, getData } from "./scripts.js";
 async function renderGalleryStudent(clone, data, jsonData) {
-  console.log("render gallery student", data, jsonData);
+  //console.log("render gallery student", data, jsonData);
   let studentProjects = data["projects"];
   let projectData = jsonData["projects"];
+
   let list = clone.querySelectorAll(".carousel__item");
   let x = 0;
+  console.log(studentProjects);
   list.forEach((item) => {
-    // Perform an action with each item
-    item.style.background = `linear-gradient(45deg, rgb(210 43 212 / 57%), rgb(153 0 255 / 59%)), url(${
-      projectData[studentProjects[x]]["image"]
-    }) no-repeat center`;
-    // Example: adding a class to each item
-    item.style.backgroundSize = "cover";
-    if (studentProjects[x] == "Infoskarm") item.textContent = "Infoskärm";
-    else item.textContent = studentProjects[x];
-    x += 1;
+    if (typeof projectData[studentProjects[x]] != "undefined") {
+      console.log(studentProjects[x]);
+      item.style.background = `linear-gradient(45deg, rgb(210 43 212 / 57%), rgb(153 0 255 / 59%)), url(${
+        projectData[studentProjects[x]]["image"]
+      }) no-repeat center`;
+      // Perform an action with each item
+
+      // Example: adding a class to each item
+      item.style.backgroundSize = "cover";
+      if (studentProjects[x] == "Infoskarm") item.textContent = "Infoskärm";
+      else item.textContent = studentProjects[x];
+      x += 1;
+    }
   });
 }
 

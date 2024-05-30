@@ -12,7 +12,7 @@ class specialProjectCard extends HTMLElement {
         <div class="col-12 col-lg-5 d-flex">
           <img src="${this.getAttribute("src")}" alt="${this.getAttribute(
         "alt"
-      )}" class="rounded-4 m-auto shadow"/>
+      )}" class="rounded-4 m-auto shadow card-expand"/>
         </div>
         <div class="col-12 col-lg-7 text-center">
           <h1 class="display-3 fs-1 fw-bolder mb-5 mt-5 mt-lg-0"><span class="text-gradient d-inline">${this.getAttribute(
@@ -30,7 +30,7 @@ class specialProjectCard extends HTMLElement {
           <div class="col-12 col-lg-5 d-flex order-lg-last order-first">
             <img src="${this.getAttribute("src")}" alt="${this.getAttribute(
         "alt"
-      )}" class="rounded-4 m-auto shadow"/>
+      )}" class="rounded-4 m-auto shadow card-expand"/>
           </div>
           <div class="col-12 col-lg-7 text-center ">
             <h1 class="display-3 fs-1 fw-bolder mb-5"><span class="text-gradient d-inline">${this.getAttribute(

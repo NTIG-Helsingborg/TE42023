@@ -6,6 +6,11 @@
 }
 
 
+.student-section img {
+  width: 80%;
+  min-height: 200px !important;
+}
+
 @media (min-width: 921px) {
   .carousel__item {
     max-width: 350px;
@@ -53,5 +58,4 @@
     height: 120px;
   }
 }
-
 

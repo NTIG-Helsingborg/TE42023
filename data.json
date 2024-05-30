@@ -327,28 +327,26 @@
     },
 
     "Simon": {
-      "projects": ["pokidex", "mickeymailer", "RetroTech", "Consolata", "Basecamp", "Infoskarm", "portfolio"],
+      "projects": ["gamehub", "ehabify", "DeepSeaNTF", "Somnium", "Basecamp", "Infoskarm"],
       "image": "Juan.jpg",
-      "klassens": "klassens kung",
-      "aboutMe": "Jag heter Jonathan, 19 år gammal och bor i Höganäs där det ursprungligen var tänkt att jag skulle ta mitt fjärde år. I efterhand är jag nu glad över att det istället blev på NTI på grund av hur många nya tekniker jag öppnats upp för, allt från Ramverk som React, backend utveckling med exempelvis Node.js och PHP till datorseende från min praktikplats.",
+      "klassens": "sddfsd",
+      "aboutMe": "Hej! Jag heter Simon Jonasson, väldigt driven när det kommer till backend samt att utveckla både spel och AI. Jag har utvecklat en del system med olika typer av inloggnings lösningar, fått sätta upp en bankID lösning men jag har även sysslat med spelutveckling, frontend och nyligen börjat kolla in hur olika AI lösningar fungerar och är uppbyggda. Jag har testat på en hel del olika språk som exempelvis python, c# och php men har mest använt javascript. De flesta projekt jag har arbetat med har vi använt react + node.js där man använder en mix mellan javascript och html för att bygga hemsidor, detta har gjort så att min kunskap ökat inom javascript och hur man bygger upp olika backend lösningar till hemsidor.",
       "individualProjects": {
-          "UX design": {
-          "image": "figmaTechsip.png",
-          "alt": "cool image",
-          "text": "I skolan så gavs det möjlighet till programmet “techship” som var både en utbildning och tävling inom att skapa en egen startup. Till detta programmet fanns ett moment där en prototyp för vår idé behövdes skapas, i vilket jag tog mig an uppgiften till att skapa en interaktiv prototyp i figma med hjälp av \"prototyp\" design mönstret. "
-          }
+        "UX design": {
+        "image": "figmaTechsip.png",
+        "alt": "cool image",
+        "text": "I skolan så gavs det möjlighet till programmet “techship” som var både en utbildning och tävling inom att skapa en egen startup. Till detta programmet fanns ett moment där en prototyp för vår idé behövdes skapas, i vilket jag tog mig an uppgiften till att skapa en interaktiv prototyp i figma med hjälp av \"prototyp\" design mönstret. "
+        }
       },
       "exam": {
           "image": "AICamera.png",
           "alt": "Demo av prototyp",
-          "name": "AI tillämpning",
-          "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
+          "name": "Node.js vs Python",
+          "text": "Jag skrev, tillsammans med min kompis och klasskamrat, Gustaf, mitt examensarbete om skillnaderna mellan Node.js, som är en JavaScript runtime, körd på Google Chrome's V8 engine, och python. I arbetet användes både praktiska och teoretiska moment för att kunna besvara de frågeställningar undersökningen utgår ifrån."
       },
       "links": {
-          "github": "https://github.com/TheAzzieDev",
-          "cv": "https://theazziedev.github.io/Portfolio/",
-          "instagram": "https://github.com/",
-          "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
+          "github": "https://github.com/4CEspX",
+          "linkedIn": "https://www.linkedin.com/in/simonjonasson/"
         },
       "certifikat": ["Certiport - IT Specialist - JavaScript"]
     },
@@ -409,7 +407,7 @@
     }
   },
 
-
+ 
   "projects":{
     "pokidex": {
       "project": "reactAPI",
@@ -438,10 +436,24 @@
     "portfolio": {
       "project": "portfolio",
       "image": "../assets/profile.png"
+    },
+    "gamehub": {
+      "project": "reactAPI",
+      "image": "../assets/profile.png"
+    }, 
+    "ehabify": {
+      "project": "hjalp-en-larare",
+      "image": "../assets/profile.png"
+    }, 
+    "DeepSeaNTF": {
+      "project": "webbshop",
+      "image": "../assets/profile.png"
+    }, 
+    "Somnium": {
+      "project": "spel",
+      "image": "../assets/profile.png"
     }
   },
-
-
   "timeline": {
     "1": {
       "id": "1",
