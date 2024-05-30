@@ -11965,9 +11965,7 @@ html {
   padding: 0;
   position: absolute;
 }
-.carousel > input:nth-of-type(6):checked ~ .carousel__slides .carousel__slide:first-of-type {
-  margin-left: -500%;
-}
+
 .carousel > input:nth-of-type(5):checked ~ .carousel__slides .carousel__slide:first-of-type {
   margin-left: -400%;
 }
@@ -12003,10 +12001,7 @@ html {
   box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
   border-radius: 1vw;
 }
-.carousel > input:nth-of-type(6):checked ~ .carousel__thumbnails li:nth-of-type(6) {
-  box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
-  border-radius: 1vw;
-}
+
 .carousel__slides {
   position: relative;
   z-index: 1;
@@ -12198,9 +12193,6 @@ html {
 .carousel__item:nth-child(6) {
   background: linear-gradient(45deg, #22c1c3 0%, #904ed4 100%);
 }
-.carousel__item:nth-child(7) {
-  background: linear-gradient(45deg, #22c1c3 0%, #904ed4 100%);
-}
 .carousel__item[data-pos="0"] {
   z-index: 5;
 }
@@ -12365,7 +12357,7 @@ html {
 }
 @media screen and (max-width: 991px){
   .student-section img{
-    width: 50%;
+    width: 50% !important;
   }
 }
 

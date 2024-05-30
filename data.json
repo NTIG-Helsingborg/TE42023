@@ -8,8 +8,7 @@
         "RetroTech",
         "Consolata",
         "Basecamp",
-        "Infoskarm",
-        "portfolio"
+        "Infoskarm"
       ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
@@ -44,8 +43,7 @@
         "RetroTech",
         "Consolata",
         "Basecamp",
-        "Infoskarm",
-        "portfolio"
+        "Infoskarm"
       ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
@@ -80,8 +78,7 @@
         "RetroTech",
         "Consolata",
         "Basecamp",
-        "Infoskarm",
-        "portfolio"
+        "Infoskarm"
       ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
@@ -116,8 +113,7 @@
         "RetroTech",
         "Consolata",
         "Basecamp",
-        "Infoskarm",
-        "portfolio"
+        "Infoskarm"
       ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
@@ -180,8 +176,7 @@
         "RetroTech",
         "Consolata",
         "Basecamp",
-        "Infoskarm",
-        "portfolio"
+        "Infoskarm"
       ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
@@ -216,8 +211,42 @@
         "RetroTech",
         "Consolata",
         "Basecamp",
-        "Infoskarm",
-        "portfolio"
+        "Infoskarm"
+      ],
+      "image": "Juan.jpg",
+      "klassens": "klassens kung",
+      "aboutMe": "Jag heter Jonathan, 19 år gammal och bor i Höganäs där det ursprungligen var tänkt att jag skulle ta mitt fjärde år. I efterhand är jag nu glad över att det istället blev på NTI på grund av hur många nya tekniker jag öppnats upp för, allt från Ramverk som React, backend utveckling med exempelvis Node.js och PHP till datorseende från min praktikplats.",
+      "individualProjects": {
+        "UX design": {
+          "image": "figmaTechsip.png",
+          "alt": "cool image",
+          "text": "I skolan så gavs det möjlighet till programmet “techship” som var både en utbildning och tävling inom att skapa en egen startup. Till detta programmet fanns ett moment där en prototyp för vår idé behövdes skapas, i vilket jag tog mig an uppgiften till att skapa en interaktiv prototyp i figma med hjälp av \"prototyp\" design mönstret. "
+        }
+      },
+      "exam": {
+        "image": "AICamera.png",
+        "alt": "Demo av prototyp",
+        "name": "AI tillämpning",
+        "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
+      },
+      "links": {
+        "github": "https://github.com/TheAzzieDev",
+        "cv": "https://theazziedev.github.io/Portfolio/",
+        "instagram": "https://github.com/",
+        "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
+      },
+      "certifikat": ["Certiport - IT Specialist - JavaScript"]
+    },
+
+    "Eduard": {
+      "displayName": "Eduard Mihic",
+      "projects": [
+        "pokidex",
+        "mickeymailer",
+        "RetroTech",
+        "Consolata",
+        "Basecamp",
+        "Infoskarm"
       ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
@@ -245,76 +274,31 @@
     },
 
     "salah": {
-      "displayName": "Salah Al Hassun",
-      "projects": [
-        "pokidex",
-        "mickeymailer",
-        "RetroTech",
-        "Consolata",
-        "Basecamp",
-        "Infoskarm",
-        "portfolio"
-      ],
-      "image": "Juan.jpg",
-      "klassens": "klassens kung",
-      "aboutMe": "Jag heter Jonathan, 19 år gammal och bor i Höganäs där det ursprungligen var tänkt att jag skulle ta mitt fjärde år. I efterhand är jag nu glad över att det istället blev på NTI på grund av hur många nya tekniker jag öppnats upp för, allt från Ramverk som React, backend utveckling med exempelvis Node.js och PHP till datorseende från min praktikplats.",
+      "projects": ["Wheeldeal", "CosmicHub", "MagicMender", "APLbok", "Basecamp", "Infoskarm"],
+      "image": "salah.png",
+      "klassens": "Your best students will be my employees",
+      "aboutMe": "Mitt namn är Salah Al-Hassun och jag är 20 år gammal. Jag kommer ursprungligen från Palestina och studerar för närvarande tekniska programmet fjärde året (TE4). Jag har specialiserat mig inom webbdesign och har genomfört flera projekt, både i grupp och individuellt.",
       "individualProjects": {
-        "UX design": {
-          "image": "figmaTechsip.png",
-          "alt": "cool image",
-          "text": "I skolan så gavs det möjlighet till programmet “techship” som var både en utbildning och tävling inom att skapa en egen startup. Till detta programmet fanns ett moment där en prototyp för vår idé behövdes skapas, i vilket jag tog mig an uppgiften till att skapa en interaktiv prototyp i figma med hjälp av \"prototyp\" design mönstret. "
-        }
+          "UX design": {
+          "image": "whatnowhemsida.png",
+          "alt": "WhatNow",
+          "text": "Dessutom deltog jag i Techship-programmet, där jag tillsammans med tre andra skapade en startup vid namn WhatNow. Inom ramen för denna startup utvecklar jag en webbapplikation för studenter som planerar ett sabbatsår. Applikationen samlar all relevant information och resurser för ett sabbatsår på ett och samma ställe, samt erbjuder en mängd andra funktioner."
+          }
       },
       "exam": {
-        "image": "AICamera.png",
-        "alt": "Demo av prototyp",
-        "name": "AI tillämpning",
-        "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
+          "image": "ExamensarbeteSalahPython.png",
+          "alt": "Spelet i python",
+          "name": "Agil vs Vattenfallsmetoden",
+          "text": "Mitt examensarbete handlade om att jämföra två olika metoder för mjukvaruutveckling: den agila metoden och vattenfallsmetoden. Jag undersökte hur dessa metoder fungerar och vilka fördelar och nackdelar de har. För att göra detta implementerade jag ett enkelt spel i Python två gånger, en gång med varje metod. Jag analyserade sedan resultaten för att avgöra vilken metod som var mest effektiv för mitt specifika projekt och drog slutsatser om deras lämplighet för olika typer av projekt, särskilt inom ramen för mindre och större projekt."
       },
       "links": {
-        "github": "https://github.com/TheAzzieDev",
-        "cv": "https://theazziedev.github.io/Portfolio/",
-        "instagram": "https://github.com/",
-        "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
+          "github": "https://github.com/Salah9320Alhassun",
+          "cv": "https://portfolio-github-io-9npy.vercel.app",
+          "instagram": "https://www.instagram.com/salah_alhassun/",
+          "linkedIn": "https://www.linkedin.com/in/salah-al-hassun-132b4b253/"
+        },
+      "certifikat": ["Windows Operating System Fundamentals", "Microsoft Security Fundamentals", "Microsoft Networking Fundamentals", "Elements of AI - Digital Marketing", "Cyber Security", "Computer Hardware & Networking", "IT Fundamentals for Cybersecurity Specialization", "Marketing Analytics and Retail Business Management", "React JS TDA"]
       },
-      "certifikat": ["Certiport - IT Specialist - JavaScript"]
-    },
-
-    "eduard": {
-      "displayName": "Eduard Mihic",
-      "projects": [
-        "pokidex",
-        "mickeymailer",
-        "RetroTech",
-        "Consolata",
-        "Basecamp",
-        "Infoskarm",
-        "portfolio"
-      ],
-      "image": "Juan.jpg",
-      "klassens": "klassens kung",
-      "aboutMe": "Jag heter Jonathan, 19 år gammal och bor i Höganäs där det ursprungligen var tänkt att jag skulle ta mitt fjärde år. I efterhand är jag nu glad över att det istället blev på NTI på grund av hur många nya tekniker jag öppnats upp för, allt från Ramverk som React, backend utveckling med exempelvis Node.js och PHP till datorseende från min praktikplats.",
-      "individualProjects": {
-        "UX design": {
-          "image": "figmaTechsip.png",
-          "alt": "cool image",
-          "text": "I skolan så gavs det möjlighet till programmet “techship” som var både en utbildning och tävling inom att skapa en egen startup. Till detta programmet fanns ett moment där en prototyp för vår idé behövdes skapas, i vilket jag tog mig an uppgiften till att skapa en interaktiv prototyp i figma med hjälp av \"prototyp\" design mönstret. "
-        }
-      },
-      "exam": {
-        "image": "AICamera.png",
-        "alt": "Demo av prototyp",
-        "name": "AI tillämpning",
-        "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
-      },
-      "links": {
-        "github": "https://github.com/TheAzzieDev",
-        "cv": "https://theazziedev.github.io/Portfolio/",
-        "instagram": "https://github.com/",
-        "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
-      },
-      "certifikat": ["Certiport - IT Specialist - JavaScript"]
-    },
 
     "jakob": {
       "displayName": "Jakob Helgesson",
@@ -324,8 +308,7 @@
         "RetroTech",
         "Consolata",
         "Basecamp",
-        "Infoskarm",
-        "portfolio"
+        "Infoskarm"
       ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
@@ -360,8 +343,7 @@
         "RetroTech",
         "Consolata",
         "Basecamp",
-        "Infoskarm",
-        "portfolio"
+        "Infoskarm"
       ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
@@ -396,8 +378,7 @@
         "RetroTech",
         "Consolata",
         "Basecamp",
-        "Infoskarm",
-        "portfolio"
+        "Infoskarm"
       ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
@@ -460,8 +441,7 @@
         "RetroTech",
         "Consolata",
         "Basecamp",
-        "Infoskarm",
-        "portfolio"
+        "Infoskarm"
       ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
@@ -496,32 +476,31 @@
         "RetroTech",
         "Consolata",
         "Basecamp",
-        "Infoskarm",
-        "portfolio"
+        "Infoskarm"
       ],
       "image": "Juan.jpg",
-      "klassens": "klassens kung",
-      "aboutMe": "Jag heter Jonathan, 19 år gammal och bor i Höganäs där det ursprungligen var tänkt att jag skulle ta mitt fjärde år. I efterhand är jag nu glad över att det istället blev på NTI på grund av hur många nya tekniker jag öppnats upp för, allt från Ramverk som React, backend utveckling med exempelvis Node.js och PHP till datorseende från min praktikplats.",
+      "klassens": "klassens ",
+      "aboutMe": "Hej, jag heter Ebba Elversson och arbetar som Frontend Designer här på Te4. Jag är den enda i klassen som inte läste teknikprogrammet på gymnasiet. Istället fick jag ett wildcard från Linda och rektorn till Te4, eftersom de såg att jag utmärkte mig i webbutvecklings kurserna på IT-linjen. Det här året på Te4 har varit mycket givande. Jag har ställts inför många olika utmaningar och problem som har bidragit till min utveckling.",
       "individualProjects": {
         "UX design": {
-          "image": "figmaTechsip.png",
-          "alt": "cool image",
-          "text": "I skolan så gavs det möjlighet till programmet “techship” som var både en utbildning och tävling inom att skapa en egen startup. Till detta programmet fanns ett moment där en prototyp för vår idé behövdes skapas, i vilket jag tog mig an uppgiften till att skapa en interaktiv prototyp i figma med hjälp av \"prototyp\" design mönstret. "
+          "image": "",
+          "alt": "",
+          "text": ""
         }
       },
       "exam": {
-        "image": "AICamera.png",
-        "alt": "Demo av prototyp",
-        "name": "AI tillämpning",
-        "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
+        "image": "Ledarskap.png",
+        "alt": "Ledarskap",
+        "name": "Ledarskap",
+        "text": "Examensarbetet fokuserar på ledarskap, grupparbete och de egenskaper som är viktiga för en ledare. Huvudfrågeställningen är att identifiera vilken egenskap som anses viktigast hos en ledare. Genom en enkätstudie med sju frågor, där deltagarna poängsätter egenskapernas vikt från 1 till 5, identifieras den egenskap som får flest 5:or. Den viktigaste egenskapen sätts sedan i ett sammanhang, med en förklaring av hur den bidrar till att leda gruppen och effektivisera arbetet."
       },
       "links": {
-        "github": "https://github.com/TheAzzieDev",
-        "cv": "https://theazziedev.github.io/Portfolio/",
-        "instagram": "https://github.com/",
-        "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
+        "github": "https://github.com/Ebbsteer",
+        "cv": "",
+        "instagram": "",
+        "linkedIn": "https://www.linkedin.com/in/ebba-elversson-22a572222/"
       },
-      "certifikat": ["Certiport - IT Specialist - JavaScript"]
+      "certifikat": [""]
     }
   },
 
@@ -550,10 +529,6 @@
       "project": "Infoskarm",
       "image": "../assets/profile.png"
     },
-    "portfolio": {
-      "project": "portfolio",
-      "image": "../assets/profile.png"
-    },
     "gamehub": {
       "project": "reactAPI",
       "image": "../assets/profile.png"
@@ -571,6 +546,22 @@
       "image": "../assets/profile.png"
     },
     "Josefs-Hemsida": {
+      "project": "hjalp-en-larare",
+      "image": "../assets/profile.png"
+    },
+    "CosmicHub": {
+      "project": "reactAPI",
+      "image": "../assets/profile.png"
+    },
+    "MagicMender": {
+      "project": "spel",
+      "image": "../assets/profile.png"
+    },
+    "Wheeldeal": {
+      "project": "webbshop",
+      "image": "../assets/profile.png"
+    },
+    "APLbok":{
       "project": "hjalp-en-larare",
       "image": "../assets/profile.png"
     }

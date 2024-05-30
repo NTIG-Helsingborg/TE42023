@@ -19,16 +19,22 @@ class Projectcard extends HTMLElement {
     const group = parseInt(this.getAttribute("group"));
 
     let projects = [
-      { group: 1, name: "whisker Wonders", image: "https://placehold.co/100x0", link: "https://example.com" },
-      { group: 1, name: "Furry Friends", image: "https://placehold.co/100x0", link: "https://example.com" },
-      { group: 1, name: "Paw Prints", image: "https://placehold.co/100x0", link: "https://example.com" },
-      { group: 1, name: "Purrfect Pals", image: "https://placehold.co/100x0", link: "https://example.com" },
-      { group: 2, name: "Meow Mates", image: "https://placehold.co/100x0", link: "https://example.com" },
-      { group: 2, name: "Kitty Krew", image: "https://placehold.co/100x0", link: "https://example.com" },
-      { group: 2, name: "Cat Crew", image: "https://placehold.co/100x0", link: "https://example.com" },
-      { group: 3, name: "Feline Friends", image: "https://placehold.co/100x0", link: "https://example.com" },
-      { group: 3, name: "Cat Clan", image: "https://placehold.co/100x0", link: "https://example.com" },
-      { group: 3, name: "Paw Pals", image: "https://placehold.co/100x0", link: "https://example.com" },
+      { group: 1, name: "Whisker Wonders", image: "https://placehold.co/100x0", link: "https://example.com" },
+      { group: 1, name: "Wheeldeal", image: "https://placehold.co/100x0", link: "https://example.com" },
+      { group: 1, name: "Retro Tech", image: "https://placehold.co/100x0", link: "https://example.com" },
+      { group: 1, name: "Deep Sea NFT", image: "https://placehold.co/100x0", link: "https://example.com" },
+      { group: 2, name: "CosmicHub", image: "https://placehold.co/100x0", link: "https://example.com" },
+      { group: 2, name: "GameHub", image: "https://placehold.co/100x0", link: "https://example.com" },
+      { group: 2, name: "PokeNetX", image: "https://placehold.co/100x0", link: "https://example.com" },
+      { group: 3, name: "Somnium", image: "https://placehold.co/100x0", link: "https://example.com" },
+      { group: 3, name: "Magic Mender", image: "https://placehold.co/100x0", link: "https://example.com" },
+      { group: 3, name: "Consoldata", image: "https://placehold.co/100x0", link: "https://example.com" },
+      { group: 4, name: "Linda", image: "https://placehold.co/100x0", link: "https://example.com" },
+      { group: 4, name: "Mikey", image: "https://placehold.co/100x0", link: "https://example.com" },
+      { group: 4, name: "Ehab", image: "https://placehold.co/100x0", link: "https://example.com" },
+      { group: 4, name: "Josef", image: "https://placehold.co/100x0", link: "https://example.com" },
+      { group: 5, name: "Infoskärm", image: "https://placehold.co/100x0", link: "https://example.com" },
+      { group: 5, name: "Basecamp", image: "https://placehold.co/100x0", link: "https://example.com" },
     ];
 
 
