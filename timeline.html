@@ -63,6 +63,10 @@
         for (const entry of Object.values(data.timeline)) {
           const newCard = document.createElement("li");
           newCard.classList.add("card");
+          // There is no modal for företagsbesök, so no point in making it clickable
+          if (entry.subtitle != "Företagsbesök") {
+            newCard.classList.add("can-hover");
+          }
           newCard.setAttribute("data-bs-toggle", "modal");
           newCard.setAttribute("data-bs-target", "#modal-" + entry.id);
 
@@ -86,6 +90,8 @@
           section.appendChild(newCard);
         }
         for (const entry of Object.values(data.timeline)) {
+          //No extra information for företagsbesök, so no popup necessary
+          if (entry.subtitle == "Företagsbesök") continue;
           const newModal = document.createElement("div");
           newModal.classList.add("modal", "fade");
           newModal.setAttribute("id", "modal-" + entry.id);
