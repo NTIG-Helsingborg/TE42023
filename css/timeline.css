@@ -131,11 +131,11 @@ main {
   }
 }
 
-.card {
+.can-hover {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   /* width: 18rem; */
 }
-.card-body:hover {
+.can-hover .card-body:hover {
   transform: scale(1.05) !important;
 }
