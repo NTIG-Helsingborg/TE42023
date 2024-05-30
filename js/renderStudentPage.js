@@ -12,7 +12,8 @@ async function renderGalleryStudent(clone, data, jsonData) {
     }) no-repeat center`;
     // Example: adding a class to each item
     item.style.backgroundSize = "cover";
-    item.textContent = projectData[studentProjects[x]]["project"];
+    if (studentProjects[x] == "Infoskarm") item.textContent = "Infoskärm";
+    else item.textContent = studentProjects[x];
     x += 1;
   });
 }
@@ -38,8 +39,7 @@ async function renderStudent() {
   if (data["image"] == null) {
     cloneHTML.querySelector(".img-student").src = "assets/missingImage.jpg";
   } else {
-    cloneHTML.querySelector(".img-student").src =
-      "assets/gallery/" + data["image"];
+    cloneHTML.querySelector(".img-student").src = "assets/" + data["image"];
   }
 
   cloneHTML.querySelector(".img-student").alt = urlParamValue;

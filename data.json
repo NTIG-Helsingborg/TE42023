@@ -1,20 +1,15 @@
 {
   "students": {
-    "Juan": {
-    "projects": ["APIproject", "catTown", "me", "hey", "ola", "woof", "rola"],
-    "image": "image4.webp",
+    "JonathanCS": {
+    "projects": ["pokidex", "mickeymailer", "RetroTech", "Consolata", "Basecamp", "Infoskarm", "portfolio"],
+    "image": "Juan.jpg",
     "klassens": "klassens kung",
     "aboutMe": "IM HIM",
     "individualProjects": {
-        "catMan": {
+        "UX design": {
         "image": "Juan.jpg",
         "alt": "cool image",
         "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur"
-        },
-        "dogMan": {
-          "image": "Juan.jpg",
-          "alt": "cool image",
-          "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur"
         }
     },
     "exam": {
@@ -35,32 +30,32 @@
 
 
   "projects":{
-    "APIproject": {
-      "project": "api",
+    "pokidex": {
+      "project": "reactAPI",
       "image": "../assets/Juan.jpg"
     },
-    "catTown": {
-      "project": "sak1",
+    "mickeymailer": {
+      "project": "hjalp-en-larare",
       "image": "../assets/profile.png"
     },
-    "me": {
-      "project": "sak2",
+    "RetroTech": {
+      "project": "webbshop",
       "image": "../assets/profile.png"
     },
-    "hey": {
-      "project": "sak3",
+    "Consolata": {
+      "project": "spel",
       "image": "../assets/profile.png"
     },
-    "ola": {
-      "project": "sak4",
+    "Basecamp": {
+      "project": "Basecamp",
       "image": "../assets/profile.png"
     },
-    "rola": {
-      "project": "sak5",
+    "Infoskarm": {
+      "project": "Infoskarm",
       "image": "../assets/profile.png"
     },
-    "woof": {
-      "project": "sak6",
+    "portfolio": {
+      "project": "portfolio",
       "image": "../assets/profile.png"
     }
   },
