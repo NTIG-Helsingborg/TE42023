@@ -272,9 +272,9 @@
       "certifikat": ["Certiport - IT Specialist - JavaScript"]
     },
 
-    "Salah": {
-      "projects": ["DELINS DEL PATRÒN (Wix hemsida)", "Wheeldeal", "CosmicHub", "MagicMender", "APLbok", "Portfolio", "Basecamp", "Infoskarm", "WCH-Malta", "Examensarbete (Spel i python)"],
-      "image": "/assets/salah.png",
+    "salah": {
+      "projects": ["Wheeldeal", "CosmicHub", "MagicMender", "APLbok", "Basecamp", "Infoskarm"],
+      "image": "salah.png",
       "klassens": "Your best students will be my employees",
       "aboutMe": "Mitt namn är Salah Al-Hassun och jag är 20 år gammal. Jag kommer ursprungligen från Palestina och studerar för närvarande tekniska programmet fjärde året (TE4). Jag har specialiserat mig inom webbdesign och har genomfört flera projekt, både i grupp och individuellt.",
       "individualProjects": {
@@ -296,7 +296,7 @@
           "instagram": "https://www.instagram.com/salah_alhassun/",
           "linkedIn": "https://www.linkedin.com/in/salah-al-hassun-132b4b253/"
         },
-      "certifikat": ["Windows Operating System Fundamentals - Microsoft Security Fundamentals - Microsoft Networking Fundamentals - Elements of AI - Digital Marketing - Cyber Security - Computer Hardware & Networking - IT Fundamentals for Cybersecurity Specialization - Marketing Analytics and Retail Business Management - React JS TDA"]
+      "certifikat": ["Windows Operating System Fundamentals", "Microsoft Security Fundamentals", "Microsoft Networking Fundamentals", "Elements of AI - Digital Marketing", "Cyber Security", "Computer Hardware & Networking", "IT Fundamentals for Cybersecurity Specialization", "Marketing Analytics and Retail Business Management", "React JS TDA"]
       },
 
     "jakob": {
@@ -528,10 +528,6 @@
       "project": "Infoskarm",
       "image": "../assets/profile.png"
     },
-    "portfolio": {
-      "project": "portfolio",
-      "image": "../assets/profile.png"
-    },
     "gamehub": {
       "project": "reactAPI",
       "image": "../assets/profile.png"
@@ -551,9 +547,25 @@
     "Josefs-Hemsida": {
       "project": "hjalp-en-larare",
       "image": "../assets/profile.png"
+    },
+    "CosmicHub": {
+      "project": "reactAPI",
+      "image": "../assets/profile.png"
+    },
+    "MagicMender": {
+      "project": "spel",
+      "image": "../assets/profile.png"
+    },
+    "Wheeldeal": {
+      "project": "webbshop",
+      "image": "../assets/profile.png"
+    },
+    "APLbok":{
+      "project": "hjalp-en-larare",
+      "image": "../assets/profile.png"
     }
   },
-  
+
 
 
   "timeline": {

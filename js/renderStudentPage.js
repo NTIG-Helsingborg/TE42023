@@ -55,6 +55,9 @@ async function renderStudent() {
   links.map((linkItem) => {
     if (!studentLinks.includes(linkItem.slice(1, linkItem.length)))
       cloneHTML.querySelector(linkItem).remove();
+    else
+      cloneHTML.querySelector(linkItem).href =
+        data["links"][linkItem.slice(1, linkItem.length)];
   });
 
   //gallery
