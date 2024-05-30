@@ -72,7 +72,7 @@ async function renderStudent() {
   cloneHTML.querySelector(".ExamensArbeteTitel").textContent =
     data["exam"]["name"];
   cloneHTML.querySelector(".ExamensArbeteBild").src =
-    "assets/" + data["exam"]["image"];
+    "assets/exjobb/" + data["exam"]["image"];
   if (data["certifikat"][0] == "") {
     cloneHTML.querySelector(".certifikatContainer").remove();
   } else {
