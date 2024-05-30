@@ -38,34 +38,26 @@
     "jonathan_th": {
       "displayName": "Jonathan Thösing-Jörgensen",
       "projects": [
-        "pokidex",
-        "mickeymailer",
-        "RetroTech",
-        "Consolata",
-        "Basecamp",
-        "Infoskarm"
+        "Whisker Wonders",
+        "Gamehub",
+        "Magic Mender",
+        "Ehabify",
+        "Infoskärmen",
+        "Basecamp"
       ],
-      "image": "Juan.jpg",
-      "klassens": "klassens kung",
-      "aboutMe": "Jag heter Jonathan, 19 år gammal och bor i Höganäs där det ursprungligen var tänkt att jag skulle ta mitt fjärde år. I efterhand är jag nu glad över att det istället blev på NTI på grund av hur många nya tekniker jag öppnats upp för, allt från Ramverk som React, backend utveckling med exempelvis Node.js och PHP till datorseende från min praktikplats.",
+      "image": "jonathanthj.png",
+      "klassens": "klassens...",
+      "aboutMe": "Hej! Jag är Jonathan Thösing-Jörgensen, en ambitiös och självlärd webbutvecklare med en passion för teknik och bilar. Född 2004, har jag alltid varit fascinerad av teknologins värld. Finns det något som jag inte vet hur de fungerar, så tar jag reda på det. Min resa inom webbutveckling började under mitt första år på NTI gymnasiet, där jag upptäckte en djup passion för att skapa på webben och att programmera. Denna passion har sedan dess drivit mig framåt och motiverat mig att följa den här vägen. Att välja att gå TE4 var ett medvetet val för mig, eftersom jag såg det som en perfekt möjlighet att fördjupa min kunskap inom webbutveckling och för att få en säker anställning efter examen.",
       "individualProjects": {
         "UX design": {
-          "image": "figmaTechsip.png",
-          "alt": "cool image",
+          "image": "matroulette.png",
+          "alt": "matroulette",
           "text": "I skolan så gavs det möjlighet till programmet “techship” som var både en utbildning och tävling inom att skapa en egen startup. Till detta programmet fanns ett moment där en prototyp för vår idé behövdes skapas, i vilket jag tog mig an uppgiften till att skapa en interaktiv prototyp i figma med hjälp av \"prototyp\" design mönstret. "
         }
       },
-      "exam": {
-        "image": "AICamera.png",
-        "alt": "Demo av prototyp",
-        "name": "AI tillämpning",
-        "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
-      },
       "links": {
-        "github": "https://github.com/TheAzzieDev",
-        "cv": "https://theazziedev.github.io/Portfolio/",
-        "instagram": "https://github.com/",
-        "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
+        "github": "https://github.com/Jonte88",
+        "linkedIn": "http://www.linkedin.com/in/jonathan-thösing-jörgensen-84843023a"
       },
       "certifikat": ["Certiport - IT Specialist - JavaScript"]
     },
@@ -436,36 +428,36 @@
     "zimon": {
       "displayName": "Zimon Johnsson",
       "projects": [
-        "pokidex",
-        "mickeymailer",
-        "RetroTech",
-        "Consolata",
+        "Wheeldeal",
+        "Mickeymailer",
+        "Cosmichub",
+        "Magicmender",
         "Basecamp",
         "Infoskarm"
       ],
-      "image": "Juan.jpg",
-      "klassens": "klassens kung",
-      "aboutMe": "Jag heter Jonathan, 19 år gammal och bor i Höganäs där det ursprungligen var tänkt att jag skulle ta mitt fjärde år. I efterhand är jag nu glad över att det istället blev på NTI på grund av hur många nya tekniker jag öppnats upp för, allt från Ramverk som React, backend utveckling med exempelvis Node.js och PHP till datorseende från min praktikplats.",
+      "image": "zimon.jpg",
+      "klassens": "klassens ??",
+      "aboutMe": "Mitt namn är Zimon Johnsson. Driven och självgående juniorutvecklare. Jag är född 2004 och har alltid gillat teknik överlag. Älskar även bilar. Under mitt första år på NTI gymnasiet fann jag en passion för webbutveckling och jag har sedan dess jobbat mot att arbeta med just detta. Jag valde även att gå på TE4 på grund av detta, då jag såg TE4 som en möjlighet till att utbilda mig vidare under ett år och sedan förhoppningsvis få jobb inom detta område.",
       "individualProjects": {
         "UX design": {
-          "image": "figmaTechsip.png",
-          "alt": "cool image",
-          "text": "I skolan så gavs det möjlighet till programmet “techship” som var både en utbildning och tävling inom att skapa en egen startup. Till detta programmet fanns ett moment där en prototyp för vår idé behövdes skapas, i vilket jag tog mig an uppgiften till att skapa en interaktiv prototyp i figma med hjälp av \"prototyp\" design mönstret. "
+          "image": "bille-livs.vercel.app_.png",
+          "alt": "Billelivs",
+          "text": "Vi fick möjlighet till att skapa varsitt individuellt projekt under en tid. Jag valde då att skapa en hemsida till min dåvarande arbetsgivare, då vi tidigare hade diskuterat detta. Jag använde React + Vite samt CSS för detta projektet. Jag använde även Mailchimp för en nyhetsbrevsfunktion."
         }
       },
       "exam": {
-        "image": "AICamera.png",
-        "alt": "Demo av prototyp",
-        "name": "AI tillämpning",
-        "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
+        "image": "chatgptvsgemini.png",
+        "alt": "Zimon Johnsson examensarbete - ChatGPT vs Gemini",
+        "name": "ChatGPT vs Gemini",
+        "text": "På mitt gymnasiearbete ville jag studera skillnaderna mellan de två populära AI chattbotarna ChatGPT och Gemini. Jag ville göra detta för att se vilken chattbott som är bäst för webbutveckling. Jag kom fram till att ChatGPT lämpade sig bäst i de flesta fallen, förutom om man behövde 'up-to-date' information då Gemini lämpar sig bäst där."
       },
       "links": {
-        "github": "https://github.com/TheAzzieDev",
-        "cv": "https://theazziedev.github.io/Portfolio/",
-        "instagram": "https://github.com/",
-        "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
+        "github": "https://github.com/zimonjohnsson",
+        "cv": "https://zimonjohnsson.vercel.app/",
+        "instagram": "https://www.instagram.com/zimonjohnsson/",
+        "linkedIn": "https://www.linkedin.com/in/zimon-johnsson-19647723a/"
       },
-      "certifikat": ["Certiport - IT Specialist - JavaScript"]
+      "certifikat": ["Certiport - IT Specialist - JavaScript, MTA: Introduction to Programming using HTML and CSS"]
     },
 
     "ebba": {
