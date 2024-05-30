@@ -61,7 +61,7 @@
       },
       "certifikat": ["Certiport - IT Specialist - JavaScript"]
     },
-
+  
     "oskar": {
       "displayName": "Oskar Ternström",
       "projects": [
@@ -74,29 +74,29 @@
       ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
-      "aboutMe": "Jag heter Jonathan, 19 år gammal och bor i Höganäs där det ursprungligen var tänkt att jag skulle ta mitt fjärde år. I efterhand är jag nu glad över att det istället blev på NTI på grund av hur många nya tekniker jag öppnats upp för, allt från Ramverk som React, backend utveckling med exempelvis Node.js och PHP till datorseende från min praktikplats.",
+      "aboutMe": "Hej där! Jag heter Oskar Ternström, jag är en passionerad spelutvecklare. Min motivation för att börja med spelutveckling kommer från mitt intresse för att analysera spel och historierna som berättas inom dem. Jag älskar att lära mig om hur andra spelutvecklare använder sina spel för att visa koncept eller unika berättelser. Oavsett om det handlar om att koda nya spelmekaniker eller skapa engagerande berättelser, älskar jag att utmana mig själv att skapa funktioner som fokuserar på spelarens upplevelse. Utöver pixlar och kod finner du mig sittande med vänner, spelande mina favoritspel, lärande fotografering, resande till andra länder eller bara gömd under en filt medan jag tittar ut på regnet.",
       "individualProjects": {
-        "UX design": {
+        "Jack The Trashman": {
           "image": "figmaTechsip.png",
-          "alt": "cool image",
-          "text": "I skolan så gavs det möjlighet till programmet “techship” som var både en utbildning och tävling inom att skapa en egen startup. Till detta programmet fanns ett moment där en prototyp för vår idé behövdes skapas, i vilket jag tog mig an uppgiften till att skapa en interaktiv prototyp i figma med hjälp av \"prototyp\" design mönstret. "
+          "alt": "Jack the TrashMan",
+          "text": "Under min APL period hos Avitus IT fick jag möjligheten att utveckla ett spel demo till en av deras kunder. Jag hade möjligheten att arbeta med många olika saker under projektet med det jag arbetade främst med var objekt interaktioner, objekt fysik, dialog funktioner och UI-funktionalitet. Dessutom, på grund av storleken av vårt team tog jag mig på både level design och story writing."
         }
       },
       "exam": {
         "image": "AICamera.png",
         "alt": "Demo av prototyp",
-        "name": "AI tillämpning",
-        "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
+        "name": "Portfolio sida",
+        "text": "När vi hade en period mellan grupp-projekt fick vi möjligheten att arbeta på ett valfritt eget projekt. Jag bestämde mig för att förbättra min tidigare portfolio sida. Jag utmanande mig själv genom att använda mig av react, bootstrap och scss. Vi hade arbetat med dessa språk i projekten innan men jag vill se vad jag hade lärt mig och se vad jag kunde behöva läsa mig in mer på."
       },
       "links": {
-        "github": "https://github.com/TheAzzieDev",
-        "cv": "https://theazziedev.github.io/Portfolio/",
+        "github": "https://github.com/WarMolee",
+        "cv": "https://oskar-ternstrom.vercel.app",
         "instagram": "https://github.com/",
-        "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
+        "linkedIn": "https://www.linkedin.com/in/oskar-ternström-894b1127a/"
       },
       "certifikat": ["Certiport - IT Specialist - JavaScript"]
     },
-
+    
     "margo": {
       "displayName": "Margo Shaposhnikova",
       "projects": [
