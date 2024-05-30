@@ -36,6 +36,7 @@ async function renderStudent() {
     "student",
     true
   );
+  urlParamValue = urlParamValue.toLocaleLowerCase();
   const template = document.getElementById("sample").content;
 
   //First Card
@@ -47,7 +48,6 @@ async function renderStudent() {
   } else {
     cloneHTML.querySelector(".img-student").src = "assets/" + data["image"];
   }
-
   cloneHTML.querySelector(".img-student").alt = urlParamValue;
 
   let links = [".linkedIn", ".github", ".cv", ".instagram"];
@@ -70,11 +70,15 @@ async function renderStudent() {
     data["exam"]["name"];
   cloneHTML.querySelector(".ExamensArbeteBild").src =
     "assets/" + data["exam"]["image"];
-  cloneHTML.querySelector(".certifikat").innerHTML = certifikatList;
+  if (data["certifikat"][0] == "") {
+    cloneHTML.querySelector(".certifikatContainer").remove();
+  } else {
+    cloneHTML.querySelector(".certifikat").innerHTML = certifikatList;
+  }
   cloneHTML.querySelector(".ExamensArbeteText").textContent =
     data["exam"]["text"];
 
-  cloneHTML.querySelector(".fullName").textContent = urlParamValue;
+  cloneHTML.querySelector(".fullName").textContent = data["displayName"];
   cloneHTML.querySelector(
     ".klassens"
   ).innerHTML = `<i>"${data["klassens"]}"</i>`;
