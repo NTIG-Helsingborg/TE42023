@@ -58,4 +58,53 @@ async function renderProject() {
 
 
   });
+  document.addEventListener("DOMContentLoaded", async () => {
+    await renderProject();
+    const state = {};
+    let carouselList = document.querySelector(".carousel__list");
+    let carouselItems = document.querySelectorAll(".carousel__item");
+    let elems = Array.from(carouselItems);
+  
+    carouselList.addEventListener("click", function (event) {
+      var newActive = event.target;
+      var isItem = newActive.closest(".carousel__item");
+  
+      if (!isItem || newActive.classList.contains("carousel__item_active")) {
+        return;
+      }
+      elems = Array.from(carouselItems);
+      carouselList = document.querySelector(".carousel__list");
+      carouselItems = document.querySelectorAll(".carousel__item");
+      update(newActive);
+    });
+  
+    const update = function (newActive) {
+      const newActivePos = newActive.dataset.pos;
+  
+      const current = elems.find((elem) => elem.dataset.pos == 0);
+      const prev = elems.find((elem) => elem.dataset.pos == -1);
+      const next = elems.find((elem) => elem.dataset.pos == 1);
+      const first = elems.find((elem) => elem.dataset.pos == -2);
+      const last = elems.find((elem) => elem.dataset.pos == 2);
+      const first2 = elems.find((elem) => elem.dataset.pos == -3);
+  
+      current.classList.remove("carousel__item_active");
+  
+      [current, prev, next, first, last, first2].forEach((item) => {
+        var itemPos = item.dataset.pos;
+  
+        item.dataset.pos = getPos(itemPos, newActivePos);
+      });
+    };
+  
+    const getPos = function (current, active) {
+      const diff = current - active;
+  
+      if (Math.abs(current - active) > 2) {
+        return -current;
+      }
+  
+      return diff;
+    };
+  });
   
