@@ -213,7 +213,7 @@
       ],
       "image": "Juan.jpg",
       "klassens": "klassens kung",
-      "aboutMe": "Jag heter Jonathan, 19 år gammal och bor i Höganäs där det ursprungligen var tänkt att jag skulle ta mitt fjärde år. I efterhand är jag nu glad över att det istället blev på NTI på grund av hur många nya tekniker jag öppnats upp för, allt från Ramverk som React, backend utveckling med exempelvis Node.js och PHP till datorseende från min praktikplats.",
+      "aboutMe": "Jag är Kirill Puljavin, en nyexaminerad fullstack-utvecklare från NTI Gymnasiet, där jag framgångsrikt slutfört TE4-programmet. Under min tid på NTI har jag förverkligat min passion för programvaruutveckling genom att delta i en rad olika projekt och kurser, vilket har gett mig värdefulla praktiska och teoretiska kunskaper",
       "individualProjects": {
         "UX design": {
           "image": "figmaTechsip.png",
@@ -428,7 +428,7 @@
         "infoskarm",
         "portfolio"
       ],
-      "image": "Juan.jpg",
+      "image": null,
       "klassens": "sddfsd",
       "aboutMe": "Hej! Jag heter Simon Jonasson, väldigt driven när det kommer till backend samt att utveckla både spel och AI. Jag har utvecklat en del system med olika typer av inloggnings lösningar, fått sätta upp en bankID lösning men jag har även sysslat med spelutveckling, frontend och nyligen börjat kolla in hur olika AI lösningar fungerar och är uppbyggda. Jag har testat på en hel del olika språk som exempelvis python, c# och php men har mest använt javascript. De flesta projekt jag har arbetat med har vi använt react + node.js där man använder en mix mellan javascript och html för att bygga hemsidor, detta har gjort så att min kunskap ökat inom javascript och hur man bygger upp olika backend lösningar till hemsidor.",
       "individualProjects": {},
