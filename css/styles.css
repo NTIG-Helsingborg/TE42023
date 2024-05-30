@@ -12357,7 +12357,7 @@ html {
 }
 @media screen and (max-width: 991px){
   .student-section img{
-    width: 50%;
+    width: 50% !important;
   }
 }
 
