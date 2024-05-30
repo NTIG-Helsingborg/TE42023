@@ -32,7 +32,7 @@ class ElevCards extends HTMLElement {
                             <h4 class="card-title">${elev.name}</h4>
                             <p class="card-text"> ${elev.title}</p>
                            
-                            <a href="student?${elev.link}" class="btn btn-primary">view page</a>
+                            <a href="student.html?student=${elev.link}" class="btn btn-primary">view page</a>
                         </div>
                     </div>
                 </div>
