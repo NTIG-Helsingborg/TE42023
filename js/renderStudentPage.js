@@ -1,20 +1,26 @@
 import { getRootPath, columnClick, getData } from "./scripts.js";
 async function renderGalleryStudent(clone, data, jsonData) {
-  console.log("render gallery student", data, jsonData);
+  //console.log("render gallery student", data, jsonData);
   let studentProjects = data["projects"];
   let projectData = jsonData["projects"];
+
   let list = clone.querySelectorAll(".carousel__item");
   let x = 0;
+  console.log(studentProjects);
   list.forEach((item) => {
-    // Perform an action with each item
-    item.style.background = `linear-gradient(45deg, rgb(210 43 212 / 57%), rgb(153 0 255 / 59%)), url(${
-      projectData[studentProjects[x]]["image"]
-    }) no-repeat center`;
-    // Example: adding a class to each item
-    item.style.backgroundSize = "cover";
-    if (studentProjects[x] == "Infoskarm") item.textContent = "Infoskärm";
-    else item.textContent = studentProjects[x];
-    x += 1;
+    if (typeof projectData[studentProjects[x]] != "undefined") {
+      console.log(studentProjects[x]);
+      item.style.background = `linear-gradient(45deg, rgb(210 43 212 / 57%), rgb(153 0 255 / 59%)), url(${
+        projectData[studentProjects[x]]["image"]
+      }) no-repeat center`;
+      // Perform an action with each item
+
+      // Example: adding a class to each item
+      item.style.backgroundSize = "cover";
+      if (studentProjects[x] == "Infoskarm") item.textContent = "Infoskärm";
+      else item.textContent = studentProjects[x];
+      x += 1;
+    }
   });
 }
 
@@ -30,6 +36,7 @@ async function renderStudent() {
     "student",
     true
   );
+  urlParamValue = urlParamValue.toLocaleLowerCase();
   const template = document.getElementById("sample").content;
 
   //First Card
@@ -41,7 +48,6 @@ async function renderStudent() {
   } else {
     cloneHTML.querySelector(".img-student").src = "assets/" + data["image"];
   }
-
   cloneHTML.querySelector(".img-student").alt = urlParamValue;
 
   let links = [".linkedIn", ".github", ".cv", ".instagram"];
@@ -64,11 +70,15 @@ async function renderStudent() {
     data["exam"]["name"];
   cloneHTML.querySelector(".ExamensArbeteBild").src =
     "assets/" + data["exam"]["image"];
-  cloneHTML.querySelector(".certifikat").innerHTML = certifikatList;
+  if (data["certifikat"][0] == "") {
+    cloneHTML.querySelector(".certifikatContainer").remove();
+  } else {
+    cloneHTML.querySelector(".certifikat").innerHTML = certifikatList;
+  }
   cloneHTML.querySelector(".ExamensArbeteText").textContent =
     data["exam"]["text"];
 
-  cloneHTML.querySelector(".fullName").textContent = urlParamValue;
+  cloneHTML.querySelector(".fullName").textContent = data["displayName"];
   cloneHTML.querySelector(
     ".klassens"
   ).innerHTML = `<i>"${data["klassens"]}"</i>`;

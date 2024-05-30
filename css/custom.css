@@ -6,10 +6,27 @@
 }
 
 
+.student-section img {
+  width: 80% !important;
+  height: auto !important;
+  min-height: 300px !important;
+  object-fit: cover;
+}
+
+@media (max-width: 921px) {
+  .student-section img {
+    width: 100% !important;
+    max-width: 300px !important;
+    max-height: 150px !important;
+    object-fit: cover;
+  }
+}
+
 @media (min-width: 921px) {
   .carousel__item {
-    max-width: 350px;
-    max-height: 200px;
+    max-width: 350px !important;
+    max-height: 200px !important;
+    object-fit: cover;
   }
 }
 
@@ -53,5 +70,4 @@
     height: 120px;
   }
 }
-
 

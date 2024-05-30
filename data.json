@@ -1,6 +1,7 @@
 {
   "students": {
-    "JonathanCS": {
+    "jonathan_cs": {
+      "displayName": "Jonathan Cano Sjöstedt",
       "projects": [
         "pokidex",
         "mickeymailer",
@@ -35,7 +36,8 @@
       "certifikat": ["Certiport - IT Specialist - JavaScript"]
     },
 
-    "JonathanTH": {
+    "jonathan_th": {
+      "displayName": "Jonathan Thösing-Jörgensen",
       "projects": [
         "pokidex",
         "mickeymailer",
@@ -70,7 +72,8 @@
       "certifikat": ["Certiport - IT Specialist - JavaScript"]
     },
 
-    "Oskar": {
+    "oskar": {
+      "displayName": "Oskar Ternström",
       "projects": [
         "pokidex",
         "mickeymailer",
@@ -105,7 +108,8 @@
       "certifikat": ["Certiport - IT Specialist - JavaScript"]
     },
 
-    "Margo": {
+    "margo": {
+      "displayName": "Margo Shaposhnikova",
       "projects": [
         "pokidex",
         "mickeymailer",
@@ -140,7 +144,29 @@
       "certifikat": ["Certiport - IT Specialist - JavaScript"]
     },
 
+  
     "Gustaf": {
+    "displayName": "Gustaf Fäldt",
+    "projects": ["RetroTech", "gamehub", "Consolata", "Josefs-Hemsida", "Basecamp", "Infoskarm", "portfolio"],
+    "image": null,
+    "klassens": "?",
+    "aboutMe": "Hej, jag heter Gustaf Fäldt och är nyexaminerad gymnasieingengör inom mjukvaruutveckling från NTI Gymnasiet. Jag har ett stort intresse för programmering. På TE4 fann jag mitt intresse för just backendprogrammering då jag jobbade mycket med backend och databaser. Jag tycker det är väldigt spännande att få se nätverkskopplingarna och hur man kan skicka data från frontend till backend för att sedan hantera datan. Jag har främst programmerat i JavaScript med React och Node.js men har också jobbat med bl.a Python, C# och php. Jag har också kunskap av databaser såsom SQL och SQLite för att lagra information som t.ex. användardata och texter för information på hemsidan.",
+    "individualProjects": {},
+    "exam": {
+        "image": "AICamera.png",
+        "alt": "Kodexempel på syntaxskillnad mellan Node.js och Python",
+        "name": "Skillnaderna mellan Python och Node.js i backendprogrammering",
+        "text": "Jag skrev, tillsammans med min kompis och klasskamrat, Simon, mitt examensarbete om skillnaderna mellan Node.js, som är en JavaScript runtime, körd på Google Chrome's V8 engine, och python. I arbetet användes både praktiska och teoretiska moment för att kunna besvara de frågeställningar undersökningen utgår ifrån."
+    },
+    "links": {
+        "github": "https://github.com/Gurrnos",
+        "linkedIn": "https://www.linkedin.com/in/gustaf-f%C3%A4ldt/"
+      },
+    "certifikat": [""]
+    },
+
+    "othman": {
+      "displayName": "Othman Al-Ani",
       "projects": [
         "pokidex",
         "mickeymailer",
@@ -175,7 +201,8 @@
       "certifikat": ["Certiport - IT Specialist - JavaScript"]
     },
 
-    "Othman": {
+    "kirill": {
+      "displayName": "Kirill Puljavin",
       "projects": [
         "pokidex",
         "mickeymailer",
@@ -210,7 +237,8 @@
       "certifikat": ["Certiport - IT Specialist - JavaScript"]
     },
 
-    "Kirill": {
+    "salah": {
+      "displayName": "Salah Al Hassun",
       "projects": [
         "pokidex",
         "mickeymailer",
@@ -245,7 +273,8 @@
       "certifikat": ["Certiport - IT Specialist - JavaScript"]
     },
 
-    "Salah": {
+    "eduard": {
+      "displayName": "Eduard Mihic",
       "projects": [
         "pokidex",
         "mickeymailer",
@@ -280,7 +309,8 @@
       "certifikat": ["Certiport - IT Specialist - JavaScript"]
     },
 
-    "Eduard": {
+    "jakob": {
+      "displayName": "Jakob Helgesson",
       "projects": [
         "pokidex",
         "mickeymailer",
@@ -315,7 +345,8 @@
       "certifikat": ["Certiport - IT Specialist - JavaScript"]
     },
 
-    "Jakob": {
+    "david": {
+      "displayName": "David Olsson",
       "projects": [
         "pokidex",
         "mickeymailer",
@@ -350,7 +381,8 @@
       "certifikat": ["Certiport - IT Specialist - JavaScript"]
     },
 
-    "David": {
+    "rami": {
+      "displayName": "Rami Agha",
       "projects": [
         "pokidex",
         "mickeymailer",
@@ -385,7 +417,28 @@
       "certifikat": ["Certiport - IT Specialist - JavaScript"]
     },
 
-    "Rami": {
+    "simon": {
+      "displayName": "Simon Jonasson",
+      "projects": ["gamehub", "ehabify", "DeepSeaNTF", "Somnium", "Basecamp", "Infoskarm", "portfolio"],
+      "image": "Juan.jpg",
+      "klassens": "sddfsd",
+      "aboutMe": "Hej! Jag heter Simon Jonasson, väldigt driven när det kommer till backend samt att utveckla både spel och AI. Jag har utvecklat en del system med olika typer av inloggnings lösningar, fått sätta upp en bankID lösning men jag har även sysslat med spelutveckling, frontend och nyligen börjat kolla in hur olika AI lösningar fungerar och är uppbyggda. Jag har testat på en hel del olika språk som exempelvis python, c# och php men har mest använt javascript. De flesta projekt jag har arbetat med har vi använt react + node.js där man använder en mix mellan javascript och html för att bygga hemsidor, detta har gjort så att min kunskap ökat inom javascript och hur man bygger upp olika backend lösningar till hemsidor.",
+      "individualProjects": {},
+      "exam": {
+          "image": "AICamera.png",
+          "alt": "Demo av prototyp",
+          "name": "Node.js vs Python",
+          "text": "Jag skrev, tillsammans med min kompis och klasskamrat, Gustaf, mitt examensarbete om skillnaderna mellan Node.js, som är en JavaScript runtime, körd på Google Chrome's V8 engine, och python. I arbetet användes både praktiska och teoretiska moment för att kunna besvara de frågeställningar undersökningen utgår ifrån."
+      },
+      "links": {
+          "github": "https://github.com/4CEspX",
+          "linkedIn": "https://www.linkedin.com/in/simonjonasson/"
+        },
+      "certifikat": ["Certiport - IT Specialist - JavaScript"]
+    },
+
+    "zimon": {
+      "displayName": "Zimon Johnsson",
       "projects": [
         "pokidex",
         "mickeymailer",
@@ -420,77 +473,8 @@
       "certifikat": ["Certiport - IT Specialist - JavaScript"]
     },
 
-    "Simon": {
-      "projects": [
-        "pokidex",
-        "mickeymailer",
-        "RetroTech",
-        "Consolata",
-        "Basecamp",
-        "Infoskarm",
-        "portfolio"
-      ],
-      "image": "Juan.jpg",
-      "klassens": "klassens kung",
-      "aboutMe": "Jag heter Jonathan, 19 år gammal och bor i Höganäs där det ursprungligen var tänkt att jag skulle ta mitt fjärde år. I efterhand är jag nu glad över att det istället blev på NTI på grund av hur många nya tekniker jag öppnats upp för, allt från Ramverk som React, backend utveckling med exempelvis Node.js och PHP till datorseende från min praktikplats.",
-      "individualProjects": {
-        "UX design": {
-          "image": "figmaTechsip.png",
-          "alt": "cool image",
-          "text": "I skolan så gavs det möjlighet till programmet “techship” som var både en utbildning och tävling inom att skapa en egen startup. Till detta programmet fanns ett moment där en prototyp för vår idé behövdes skapas, i vilket jag tog mig an uppgiften till att skapa en interaktiv prototyp i figma med hjälp av \"prototyp\" design mönstret. "
-        }
-      },
-      "exam": {
-        "image": "AICamera.png",
-        "alt": "Demo av prototyp",
-        "name": "AI tillämpning",
-        "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
-      },
-      "links": {
-        "github": "https://github.com/TheAzzieDev",
-        "cv": "https://theazziedev.github.io/Portfolio/",
-        "instagram": "https://github.com/",
-        "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
-      },
-      "certifikat": ["Certiport - IT Specialist - JavaScript"]
-    },
-
-    "Zimon": {
-      "projects": [
-        "pokidex",
-        "mickeymailer",
-        "RetroTech",
-        "Consolata",
-        "Basecamp",
-        "Infoskarm",
-        "portfolio"
-      ],
-      "image": "Juan.jpg",
-      "klassens": "klassens kung",
-      "aboutMe": "Jag heter Jonathan, 19 år gammal och bor i Höganäs där det ursprungligen var tänkt att jag skulle ta mitt fjärde år. I efterhand är jag nu glad över att det istället blev på NTI på grund av hur många nya tekniker jag öppnats upp för, allt från Ramverk som React, backend utveckling med exempelvis Node.js och PHP till datorseende från min praktikplats.",
-      "individualProjects": {
-        "UX design": {
-          "image": "figmaTechsip.png",
-          "alt": "cool image",
-          "text": "I skolan så gavs det möjlighet till programmet “techship” som var både en utbildning och tävling inom att skapa en egen startup. Till detta programmet fanns ett moment där en prototyp för vår idé behövdes skapas, i vilket jag tog mig an uppgiften till att skapa en interaktiv prototyp i figma med hjälp av \"prototyp\" design mönstret. "
-        }
-      },
-      "exam": {
-        "image": "AICamera.png",
-        "alt": "Demo av prototyp",
-        "name": "AI tillämpning",
-        "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
-      },
-      "links": {
-        "github": "https://github.com/TheAzzieDev",
-        "cv": "https://theazziedev.github.io/Portfolio/",
-        "instagram": "https://github.com/",
-        "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
-      },
-      "certifikat": ["Certiport - IT Specialist - JavaScript"]
-    },
-
-    "Ebba": {
+    "ebba": {
+      "displayName": "Ebba Elversson",
       "projects": [
         "pokidex",
         "mickeymailer",
@@ -526,7 +510,8 @@
     }
   },
 
-  "projects": {
+ 
+  "projects":{
     "pokidex": {
       "project": "reactAPI",
       "image": "../assets/Juan.jpg"
@@ -554,8 +539,30 @@
     "portfolio": {
       "project": "portfolio",
       "image": "../assets/profile.png"
+    },
+    "gamehub": {
+      "project": "reactAPI",
+      "image": "../assets/profile.png"
+    }, 
+    "ehabify": {
+      "project": "hjalp-en-larare",
+      "image": "../assets/profile.png"
+    }, 
+    "DeepSeaNTF": {
+      "project": "webbshop",
+      "image": "../assets/profile.png"
+    }, 
+    "Somnium": {
+      "project": "spel",
+      "image": "../assets/profile.png"
+    },
+    "Josefs-Hemsida": {
+      "project": "hjalp-en-larare",
+      "image": "../assets/profile.png"
     }
   },
+  
+
 
   "timeline": {
     "1": {
