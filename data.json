@@ -830,7 +830,7 @@
       "project": "webbshop",
       "about": "Deep Sea NFT är en webbshop som specialiserar sig på försäljning av NFTs. Sidan har en fungerande filterfunktion som tillåter användaren att hitta specifika NFTs utifrån namn eller kategori. Den inkluderar även ett fungerade utcheckningssystem med en shoppingvagn som sparas över instanser där även ett kvitto blir utdelad vid köp. Sidan har även en admin page som tillåter hantering av utbud och användare.",
       "badge": "React &middot; Design &middot; SQL",
-      "image": "Juan.jpg",
+      "image": "assets/projects/DeepSeaNFT.png",
       "links": {
         "github": "https://youtube.com",
         "website": "https://theazziedev.github.io/Portfolio/"
