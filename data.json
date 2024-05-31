@@ -136,8 +136,8 @@
         "GameHub",
         "somnium",
         "josefs-hemsida",
-        "Basecamp",
-        "Infoskarm"
+        "basecamp",
+        "infoskarm"
       ],
       "image": "margo.webp",
       "klassens": "klassens kung",
@@ -159,7 +159,7 @@
         "github": "https://github.com/Mizfra",
         "linkedIn": "https://www.linkedin.com/in/margarita-shaposhnikova-a3694828b/"
       },
-      "certifikat": ["Null"]
+      "certifikat": [""]
     },
 
     "gustaf": {
@@ -194,7 +194,7 @@
       "displayName": "Othman Al-Ani",
       "projects": [
         "whiskerwonders",
-        "cosmichub",
+        "CosmicHub",
         "magicmender",
         "Ehabify",
         "Infoskarm",
