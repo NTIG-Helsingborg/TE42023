@@ -6,8 +6,8 @@
         "deepseanft",
         "gamehub",
         "consolata",
-        "infoskärmen",
-        "basecamp"
+        "Infoskärmen",
+        "Basecamp"
       ],
       "image": "missingImage.jpg",
       "klassens": "?",
@@ -33,8 +33,8 @@
         "mickeymailer",
         "retrotech",
         "consolata",
-        "basecamp",
-        "infoskarm"
+        "Basecamp",
+        "Infoskarm"
       ],
       "image": "jonathancs.jpg",
       "klassens": "klassens kung",
@@ -101,8 +101,8 @@
         "pokinetx",
         "somnium",
         "linda",
-        "infoskarm",
-        "basecamp"
+        "Infoskarm",
+        "Basecamp"
       ],
       "image": "OskarProfile.webp",
       "klassens": "...",
@@ -136,8 +136,8 @@
         "gamehub",
         "somnium",
         "josefs-hemsida",
-        "basecamp",
-        "infoskarm"
+        "Basecamp",
+        "Infoskarm"
       ],
       "image": "margo.webp",
       "klassens": "klassens kung",
@@ -169,8 +169,8 @@
         "GameHub",
         "consolata",
         "josefs-hemsida",
-        "basecamp",
-        "infoskarm",
+        "Basecamp",
+        "Infoskarm",
         "portfolio"
       ],
       "image": "Gustaf.jpg",
@@ -197,8 +197,8 @@
         "cosmichub",
         "magicmender",
         "ehabify",
-        "infoskarm",
-        "basecamp"
+        "Infoskarm",
+        "Basecamp"
       ],
       "image": "othman.png",
       "klassens": "klassens kung",
@@ -231,8 +231,8 @@
         "mickeymailer",
         "retrotech",
         "consolata",
-        "basecamp",
-        "infoskarm"
+        "Basecamp",
+        "Infoskarm"
       ],
       "image": "Kirill.png",
       "klassens": "Klassens Full-stack",
@@ -265,8 +265,8 @@
         "gamehub",
         "linda",
         "consolata",
-        "basecamp",
-        "infoskarm"
+        "Basecamp",
+        "Infoskarm"
       ],
       "image": "Eduard.webp",
       "klassens": "klassens kung",
@@ -302,8 +302,8 @@
         "CosmicHub",
         "MagicMender",
         "APLbok",
-        "basecamp",
-        "infoskarm"
+        "Basecamp",
+        "Infoskarm"
       ],
       "image": "salah.png",
       "klassens": "Your best students will be my employees",
@@ -347,7 +347,7 @@
         "deepseanft",
         "aplbok",
         "magicmender",
-        "infoskarm",
+        "Infoskarm",
         "linda"
       ],
       "image": "jakob.jpg",
@@ -376,8 +376,8 @@
         "mickeymailer",
         "RetroTech",
         "consolata",
-        "basecamp",
-        "infoskarm"
+        "Basecamp",
+        "Infoskarm"
       ],
       "image": "missingImage.jpg",
       "klassens": "",
@@ -716,7 +716,7 @@
       "project": "Infoskarm",
       "about": "Infoskärmen är ett återkommande projekt efterfrågat av NTI skolan. Målet var att sätta upp en tv skärm på skolan som kan visa upp relevant och anpassningsbar information. Skärmen var uppbyggd av mindre komponenter som kunde visa upp text, tid eller använda sig av APIer för att förmedla information. Sidan skulle vara helt anpassningsbar och tillåta för en variation av design och funktioner.",
       "badge": "React &middot; poop &middot; SQL",
-      "image": "../projektgallery/InfoSkarmLayout.png",
+      "image": "Juan.jpg",
       "links": {
         "github": "https://youtube.com",
         "website": "https://theazziedev.github.io/Portfolio/"
@@ -724,28 +724,28 @@
 
       "project-images": [
         {
-          "src": "../assets/projektgallery/InfoSkarmAdmin.png",
-          "caption": ""
+          "src": "https://picsum.photos/id/1041/800/450",
+          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Tim Marshall"
         },
         {
-          "src": "../assets/projektgallery/InfoSkarmDesign.png",
-          "caption": ""
+          "src": "https://picsum.photos/id/1043/800/450",
+          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Christian Joudrey"
         },
         {
-          "src": "../assets/projektgallery/InfoSkarmIndex.png",
-          "caption": ""
+          "src": "https://picsum.photos/id/1044/800/450",
+          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Steve Carter"
         },
         {
-          "src": "../assets/projektgallery/InfoSkarmLayout.png",
-          "caption": ""
+          "src": "https://picsum.photos/id/1045/800/450",
+          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Aleksandra Boguslawska"
         },
         {
-          "src": "../assets/projektgallery/InfoSkarmTrafick.png",
-          "caption": ""
+          "src": "https://picsum.photos/id/1049/800/450",
+          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Rosan Harmens"
         },
         {
-          "src": "../assets/projektgallery/InfoSkarmWeather.png",
-          "caption": ""
+          "src": "https://picsum.photos/id/1052/800/450",
+          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Annie Spratt"
         }
       ]
     },
