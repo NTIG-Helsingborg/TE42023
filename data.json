@@ -1096,36 +1096,36 @@
       "project": "hjalp-en-larare",
       "about": "Den här sidan var efterfrågat av Linda Avramidou för att förbättra skolans gruppindelningar möjligheter. Sidan skulle kunna slumpmässigt dela in elever i grupper efter antingen en efterfrågad mängd grupper eller elever per grupp. Indelningen skulle även ta hänsyn till vilka elever som inte kunde sitta med varandra och de som måste sitta med varandra. Det fanns även en möjlighet att spara basgrupper där man även kunde se på tidigare indelningar.",
       "badge": "React &middot; poop &middot; SQL",
-      "image": "Juan.jpg",
+      "image": "../projektgallery/LindaIndex.png",
       "links": {
-        "github": "https://youtube.com",
-        "website": "https://theazziedev.github.io/Portfolio/"
+        "github": "",
+        "website": ""
       },
 
       "project-images": [
         {
-          "src": "https://picsum.photos/id/1041/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Tim Marshall"
+          "src": "../assets/projektgallery/LindaIndex.png",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1043/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Christian Joudrey"
+          "src": "../assets/projektgallery/LindaExtra.png",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1044/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Steve Carter"
+          "src": "../assets/projektgallery/LindaHelp.png",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1045/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Aleksandra Boguslawska"
+          "src": "../assets/projektgallery/LindaNewClass.png",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1049/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Rosan Harmens"
+          "src": "../assets/projektgallery/LindaRandom.png",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1052/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Annie Spratt"
+          "src": "../assets/projektgallery/LindaConcept.png",
+          "caption": ""
         }
       ]
     }
