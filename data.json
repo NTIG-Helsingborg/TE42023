@@ -1049,15 +1049,15 @@
           "caption": "En av produkterna på WheelDeal"
         },
         {
-          "src": "./assets/projects/Cykel1.jpg",
-          "caption": "En av produkterna på WheelDeal"
+          "src": "./assets/projects/wheeldeal.png",
+          "caption": "WheelDeal är en hemsida där du kan köpa många olika typer av fordon!"
         },
         {
           "src": "./assets/projects/wheeldealcart.png",
           "caption": "Kundkorgsfunktionen på WheelDeal"
         },
         {
-          "src": "./assets/projects/wheeldeal.png",
+          "src": "./assets/projects/Cykel1.jpg",
           "caption": "WheelDeal är en hemsida där du kan köpa många olika typer av fordon!"
         }
       ]
