@@ -36,6 +36,17 @@ async function renderProject() {
       "assets/projects/" + data["image"];
   }
 
+  let links = [".github", ".website"];
+  let studentLinks = Object.keys(data["links"]);
+  links.map((linkItem) => {
+    if (!studentLinks.includes(linkItem.slice(1, linkItem.length)))
+      cloneHTML.querySelector(linkItem).remove();
+    else {
+      cloneHTML.querySelector(linkItem).href =
+        data["links"][linkItem.slice(1, linkItem.length)];
+    }
+  });
+
   cloneHTML.querySelector(".img-project").alt = urlParamValue;
 
   cloneHTML.querySelector(".github").href = data["links"]["github"];

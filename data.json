@@ -648,40 +648,41 @@
       "displayName": "Consolata",
       "project": "spel",
       "about": "Consolata utspelar sig i en fallfärdig stad med steampunk-tema, där robotdelar är utspridda i olika distrikt och måste hittas och återmonteras i de respektive robotarna. När en robot är återmonterad kan den hjälpa till med att få tillgång till olika distrikt och byggnader som annars skulle vara oåtkomliga. På vägen löser spelaren olika pussel och minispel som hindrar framsteg i att hitta nya delar till robotarna. Till slut, med tillräckligt många robotar, kommer spelaren att kunna montera den sista roboten som kan ta honom hem.",
-      "badge": "React &middot; poop &middot; SQL",
-      "image": "Juan.jpg",
+      "badge": "Gamedevelopment &middot; Deisgn",
+      "image": "consolata.png",
       "links": {
         "github": "https://youtube.com",
-        "website": "https://theazziedev.github.io/Portfolio/"
+        "website": "https://youtube.com"
       },
 
       "project-images": [
         {
-          "src": "https://picsum.photos/id/1041/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Tim Marshall"
+          "src": "consolatacara1.png",
+          "caption": "En nivå där spelaren behöver förstöra camera genom att knuffa en box"
         },
         {
-          "src": "https://picsum.photos/id/1043/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Christian Joudrey"
+          "src": "consolatacara2.png",
+          "caption": "dialog ruta för när spelaren plockar upp en robot del"
         },
         {
-          "src": "https://picsum.photos/id/1044/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Steve Carter"
+          "src": "consolatacara3.png",
+          "caption": "Temmporära plattformar där spelaren måste snabbt ta sig över för att inte falla"
         },
         {
-          "src": "https://picsum.photos/id/1045/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Aleksandra Boguslawska"
+          "src": "consolatacara4.png",
+          "caption": "fläktar som spelaren kan sväva över"
         },
         {
-          "src": "https://picsum.photos/id/1049/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Rosan Harmens"
+          "src": "consolatacara5.png",
+          "caption": "En dörr där spelaren kan ta sig ut ur nivån"
         },
         {
-          "src": "https://picsum.photos/id/1052/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Annie Spratt"
+          "src": "consolatacara6.png",
+          "caption": "spelaren måste knuffa boxen på plattan för att deaktivera kugghjulen"
         }
       ]
     },
+
     "basecamp": {
       "displayName": "Basecamp",
       "project": "Basecamp",
