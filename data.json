@@ -677,36 +677,36 @@
       "displayName": "Basecamp",
       "project": "Basecamp",
       "about": "Basecamp är ett återkommande projekt efterfrågat av Linda Avramidou och Josef Nobach. Idéen var att sätta upp en pedagogisk webbplats för elever inom NTI Gymnasium runt om i Sverige. Hemsidan skulle fokusera på programmering och webbutveckling och skapa en gemensam läroplan som alla NTI lärare kan utgå från. Basecamp ska använda sig både av videor och artiklar som är skapade av elever och modererade av lärare.",
-      "badge": "React &middot; PHP &middot; SQL",
-      "image": "Juan.jpg",
+      "badge": "HTML &middot; PHP &middot; SQL",
+      "image": "/basecamp3.png",
       "links": {
-        "github": "https://youtube.com",
-        "website": "https://theazziedev.github.io/Portfolio/"
+        "github": "https://github.com/NTIG-Helsingborg/TE4_23-24_Basecamp",
+        "website": ""
       },
 
       "project-images": [
         {
-          "src": "basecamp1.png",
+          "src": "/assets/projects/basecamp1.png",
           "caption": ""
         },
         {
-          "src": "basecamp2.png",
+          "src": "/assets/projects/basecamp2.png",
           "caption": ""
         },
         {
-          "src": "basecamp3.png",
+          "src": "/assets/projects/basecamp3.png",
           "caption": ""
         },
         {
-          "src": "basecamp4.png",
+          "src": "/assets/projects/basecamp4.png",
           "caption": ""
         },
         {
-          "src": "basecamp1.png",
+          "src": "/assets/projects/basecamp2.png",
           "caption": ""
         },
         {
-          "src": "basecamp2.png",
+          "src": "/assets/projects/basecamp4.png",
           "caption": ""
         }
       ]
