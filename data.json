@@ -801,7 +801,7 @@
       "project": "hjalp-en-larare",
       "about": "Ehabify är ett verktyg för närvarohantering designat speciellt för lärare. Med Ehabify blir det smidigt för elever att enkelt logga in och markera sin närvaro, vilket effektivt sparar värdefull undervisningstid.",
       "badge": "React &middot; poop &middot; SQL",
-      "image": "ehabify.png",
+      "image": "ehabifyLogo.png",
       "links": {
         "github": "null",
         "website": "null"
@@ -829,7 +829,7 @@
           "caption": ""
         },
         {
-          "src": "/assets/projects/ehabify6.png",
+          "src": "/assets/projects/ehabify.png",
           "caption": ""
         }
       ]
