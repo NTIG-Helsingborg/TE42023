@@ -298,10 +298,10 @@
     "salah": {
       "displayName": "Salah Al-Hassun",
       "projects": [
-        "Wheeldeal",
-        "CosmicHub",
-        "MagicMender",
-        "APLbok",
+        "wheeldeal",
+        "cosmichub",
+        "magicmender",
+        "josefs-hemsida",
         "Basecamp",
         "Infoskarm"
       ],
