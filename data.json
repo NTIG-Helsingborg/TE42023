@@ -809,27 +809,27 @@
 
       "project-images": [
         {
-          "src": "/assets/projects/ehabify1.png",
+          "src": "ehabify1.png",
           "caption": ""
         },
         {
-          "src": "/assets/projects/ehabify2.png",
+          "src": "ehabify2.png",
           "caption": ""
         },
         {
-          "src": "/assets/projects/ehabify3.png",
+          "src": "ehabify3.png",
           "caption": ""
         },
         {
-          "src": "/assets/projects/ehabify4.png",
+          "src": "ehabify4.png",
           "caption": ""
         },
         {
-          "src": "/assets/projects/ehabify5.png",
+          "src": "ehabify5.png",
           "caption": ""
         },
         {
-          "src": "/assets/projects/ehabify.png",
+          "src": "ehabify.png",
           "caption": ""
         }
       ]
