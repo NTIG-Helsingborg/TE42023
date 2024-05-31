@@ -838,27 +838,27 @@
 
       "project-images": [
         {
-          "src": "dsnft_1.png",
+          "src": "assets/projektgallery/dsnft_1.png",
           "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Tim Marshall"
         },
         {
-          "src": "dsnft_2.png",
+          "src": "assets/projektgallery/dsnft_2.png",
           "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Christian Joudrey"
         },
         {
-          "src": "dsnft_3.png",
+          "src": "assets/projektgallery/dsnft_3.png",
           "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Steve Carter"
         },
         {
-          "src": "dsnft_4.png",
+          "src": "assets/projektgallery/dsnft_4.png",
           "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Aleksandra Boguslawska"
         },
         {
-          "src": "dsnft_5.png",
+          "src": "assets/projektgallery/dsnft_5.png",
           "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Rosan Harmens"
         },
         {
-          "src": "dsnft_3.png",
+          "src": "assets/projektgallery/dsnft_3.png",
           "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Annie Spratt"
         }
       ]
