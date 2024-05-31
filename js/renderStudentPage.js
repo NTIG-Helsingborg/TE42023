@@ -79,7 +79,7 @@ async function renderStudent() {
   } else {
     cloneHTML.querySelector(".certifikat").innerHTML = certifikatList;
   }
-  cloneHTML.querySelector(".ExamensArbeteText").textContent =
+  cloneHTML.querySelector(".ExamensArbeteText").innerHTML =
     data["exam"]["text"];
 
   cloneHTML.querySelector(".fullName").textContent = data["displayName"];
