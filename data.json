@@ -6,8 +6,8 @@
         "deepseanft",
         "gamehub",
         "consolata",
-        "infoskärmen",
-        "basecamp"
+        "Infoskärmen",
+        "Basecamp"
       ],
       "image": "missingImage.jpg",
       "klassens": "?",
@@ -33,8 +33,8 @@
         "mickeymailer",
         "retrotech",
         "consolata",
-        "basecamp",
-        "infoskarm"
+        "Basecamp",
+        "Infoskarm"
       ],
       "image": "jonathancs.jpg",
       "klassens": "klassens kung",
@@ -72,7 +72,7 @@
         "Basecamp"
       ],
       "image": "jonathanthj.png",
-      "klassens": "klassens bästa",
+      "klassens": "klassens smörkniv",
       "aboutMe": "Hej! Jag är Jonathan Thösing-Jörgensen, en ambitiös och självlärd webbutvecklare med en passion för teknik och bilar. Född 2004, har jag alltid varit fascinerad av teknologins värld. Finns det något som jag inte vet hur de fungerar, så tar jag reda på det. Min resa inom webbutveckling började under mitt första år på NTI gymnasiet, där jag upptäckte en djup passion för att skapa på webben och att programmera. Denna passion har sedan dess drivit mig framåt och motiverat mig att följa den här vägen. Att välja att gå TE4 var ett medvetet val för mig, eftersom jag såg det som en perfekt möjlighet att fördjupa min kunskap inom webbutveckling och för att få en säker anställning efter examen.",
       "individualProjects": {
         "UX design": {
@@ -101,8 +101,8 @@
         "pokinetx",
         "somnium",
         "linda",
-        "infoskarm",
-        "basecamp"
+        "Infoskarm",
+        "Basecamp"
       ],
       "image": "OskarProfile.webp",
       "klassens": "...",
@@ -136,8 +136,8 @@
         "gamehub",
         "somnium",
         "josefs-hemsida",
-        "basecamp",
-        "infoskarm"
+        "Basecamp",
+        "Infoskarm"
       ],
       "image": "margo.webp",
       "klassens": "klassens kung",
@@ -169,8 +169,8 @@
         "GameHub",
         "consolata",
         "josefs-hemsida",
-        "basecamp",
-        "infoskarm",
+        "Basecamp",
+        "Infoskarm",
         "portfolio"
       ],
       "image": "Gustaf.jpg",
@@ -197,8 +197,8 @@
         "cosmichub",
         "magicmender",
         "ehabify",
-        "infoskarm",
-        "basecamp"
+        "Infoskarm",
+        "Basecamp"
       ],
       "image": "othman.png",
       "klassens": "klassens kung",
@@ -231,8 +231,8 @@
         "mickeymailer",
         "retrotech",
         "consolata",
-        "basecamp",
-        "infoskarm"
+        "Basecamp",
+        "Infoskarm"
       ],
       "image": "Kirill.png",
       "klassens": "Klassens Full-stack",
@@ -265,8 +265,8 @@
         "gamehub",
         "linda",
         "consolata",
-        "basecamp",
-        "infoskarm"
+        "Basecamp",
+        "Infoskarm"
       ],
       "image": "Eduard.webp",
       "klassens": "klassens kung",
@@ -302,8 +302,8 @@
         "CosmicHub",
         "MagicMender",
         "APLbok",
-        "basecamp",
-        "infoskarm"
+        "Basecamp",
+        "Infoskarm"
       ],
       "image": "salah.png",
       "klassens": "Your best students will be my employees",
@@ -347,7 +347,7 @@
         "deepseanft",
         "aplbok",
         "magicmender",
-        "infoskarm",
+        "Infoskarm",
         "linda"
       ],
       "image": "jakob.jpg",
@@ -376,8 +376,8 @@
         "mickeymailer",
         "RetroTech",
         "consolata",
-        "basecamp",
-        "infoskarm"
+        "Basecamp",
+        "Infoskarm"
       ],
       "image": "missingImage.jpg",
       "klassens": "",
@@ -717,8 +717,8 @@
       "badge": "React &middot; poop &middot; SQL",
       "image": "Juan.jpg",
       "links": {
-        "github": "https://youtube.com",
-        "website": "https://theazziedev.github.io/Portfolio/"
+        "github": "https://github.com/NTIG-Helsingborg/TE4_23-24_ProjektLinn_rebuild",
+        "website": ""
       },
 
       "project-images": [
@@ -837,27 +837,27 @@
 
       "project-images": [
         {
-          "src": "https://picsum.photos/id/1041/800/450",
+          "src": "dsnft_1.png",
           "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Tim Marshall"
         },
         {
-          "src": "https://picsum.photos/id/1043/800/450",
+          "src": "dsnft_2.png",
           "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Christian Joudrey"
         },
         {
-          "src": "https://picsum.photos/id/1044/800/450",
+          "src": "dsnft_3.png",
           "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Steve Carter"
         },
         {
-          "src": "https://picsum.photos/id/1045/800/450",
+          "src": "dsnft_4.png",
           "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Aleksandra Boguslawska"
         },
         {
-          "src": "https://picsum.photos/id/1049/800/450",
+          "src": "dsnft_5.png",
           "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Rosan Harmens"
         },
         {
-          "src": "https://picsum.photos/id/1052/800/450",
+          "src": "dsnft_3.png",
           "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Annie Spratt"
         }
       ]

@@ -32,7 +32,7 @@ class Projectcard extends HTMLElement {
       { group: 4, name: "Linda", image: "./assets/projects/linda.png", link: "linda" },
       { group: 4, name: "Mickey", image: "./assets/projects/mickeymailer.png", link: "mickeymailer" },
       { group: 4, name: "Ehab", image: "./assets/projects/ehabifySmallLogo.png", link: "Ehabify" },
-      { group: 4, name: "Josef", image: "https://placehold.co/100x0", link: "josefs-hemsida" },
+      { group: 4, name: "Josef", image: "./assets/projects/josef.jpeg", link: "josefs-hemsida" },
       { group: 5, name: "Infoskärm", image: "./assets/projects/infoskarm.png", link: "Infoskarm" },
       { group: 5, name: "", image: "./assets/projects/basecamplogo.png", link: "Basecamp" },
     ];
