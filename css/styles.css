@@ -12364,3 +12364,26 @@ html {
   margin: 0 auto;
   max-width: 696px;
 }
+
+
+.card-img-top {
+  width: 100% !important;
+  height: 20vw !important;
+  object-fit: cover !important;
+
+}
+@media screen and (max-width: 992px){
+  .card-img-top {
+    height: 25vw !important;
+  }
+}
+@media screen and (max-width: 768px){
+  .card-img-top {
+    height: 37vw !important;
+  }
+}
+@media screen and (max-width: 576px){
+  .card-img-top {
+    height: 48vw !important;
+  }
+}
