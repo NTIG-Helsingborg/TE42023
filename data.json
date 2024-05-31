@@ -238,7 +238,7 @@
         "infoskarm"
       ],
       "image": "Juan.jpg",
-      "klassens": "klassens kung",
+      "klassens": "Klassens Full-stack",
       "aboutMe": "Jag är Kirill Puljavin, en nyexaminerad fullstack-utvecklare från NTI Gymnasiet, där jag framgångsrikt slutfört TE4-programmet. Under min tid på NTI har jag förverkligat min passion för programvaruutveckling genom att delta i en rad olika projekt och kurser, vilket har gett mig värdefulla praktiska och teoretiska kunskaper",
       "individualProjects": {
         "UX design": {
@@ -248,18 +248,17 @@
         }
       },
       "exam": {
-        "image": "AICamera.png",
-        "alt": "Demo av prototyp",
-        "name": "AI tillämpning",
-        "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
+        "image": "Unfound.exe",
+        "alt": "Ingen bild*",
+        "name": "Effektiv Kod: Kraften i Modulär Design",
+        "text": "I dagens teknikdrivna värld är effektivitet och skalbarhet avgörande för framgångsrik mjukvaruutveckling. En central princip för att uppnå dessa mål är att undvika upprepade kod och istället använda metoder och mönster för att öka återanvändbarheten. Denna forskningsanalys riktar in sig på betydelsen av att skapa effektiv kod genom att minska redundans och använda tekniker för att göra kod baserad på återanvändning och modulär design. Genom att utforska olika strategier för att undvika upprepade kod och maximera återanvändbarheten syftar denna analys till att visa hur sådana metoder kan förbättra produktiviteten inom mjukvaruutveckling. "
       },
       "links": {
-        "github": "https://github.com/TheAzzieDev",
-        "cv": "https://theazziedev.github.io/Portfolio/",
-        "instagram": "https://github.com/",
-        "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
+        "github": "https://github.com/KirillPuljavin",
+        "cv": "https://kirillpuljavin.github.io/",
+        "linkedIn": "https://www.linkedin.com/in/kirill-puljavin-91a66a254/"
       },
-      "certifikat": ["Certiport - IT Specialist - JavaScript"]
+      "certifikat": ["Certiport - JavaScript"]
     },
 
     "eduard": {
