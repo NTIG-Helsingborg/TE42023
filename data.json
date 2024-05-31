@@ -6,8 +6,8 @@
         "deepseanft",
         "gamehub",
         "consolata",
-        "Infoskärmen",
-        "Basecamp"
+        "infoskärmen",
+        "basecamp"
       ],
       "image": "missingImage.jpg",
       "klassens": "Programmerare",
@@ -33,7 +33,7 @@
         "mickeymailer",
         "retrotech",
         "consolata",
-        "Basecamp",
+        "basecamp",
         "Infoskarm"
       ],
       "image": "jonathancs.jpg",
@@ -65,11 +65,11 @@
       "displayName": "Jonathan Thösing-Jörgensen",
       "projects": [
         "whiskerwonders",
-        "GameHub",
+        "gamehub",
         "magicmender",
-        "Ehabify",
-        "Infoskarm",
-        "Basecamp"
+        "ehabify",
+        "infoskarm",
+        "basecamp"
       ],
       "image": "jonathanthj.png",
       "klassens": "klassens smörkniv",
@@ -192,11 +192,11 @@
       "displayName": "Othman Al-Ani",
       "projects": [
         "whiskerwonders",
-        "CosmicHub",
+        "cosmichub",
         "magicmender",
-        "Ehabify",
-        "Infoskarm",
-        "Basecamp"
+        "ehabify",
+        "infoskarm",
+        "basecamp"
       ],
       "image": "othman.png",
       "klassens": "Junior software developer",
@@ -229,8 +229,8 @@
         "mickeymailer",
         "retrotech",
         "consolata",
-        "Basecamp",
-        "Infoskarm"
+        "basecamp",
+        "infoskarm"
       ],
       "image": "Kirill.png",
       "klassens": " Junior Full-stack Developer",
@@ -260,11 +260,11 @@
       "displayName": "Eduard Mihic",
       "projects": [
         "RetroTech",
-        "GameHub",
+        "gamehub",
         "linda",
-        "Consolata",
-        "Basecamp",
-        "Infoskarm"
+        "consolata",
+        "basecamp",
+        "infoskarm"
       ],
       "image": "Eduard.webp",
       "klassens": "Game Developer",
