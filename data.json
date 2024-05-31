@@ -493,36 +493,36 @@
 
   "projects": {
     "pokinetx": {
-      "displayName": "PokiNetX",
+      "displayName": "PokeNetX",
       "project": "reactAPI",
       "about": "Pokedex är en informationssida med fokus på Pokémons. Den visar upp alla existerande Pokémons och har en filterfunktion som tillåter sortering av generation, namn och id. Pokedex visar även upp allmän information om varje Pokémon, såsom typ, svagheter och sprites. Sidan tillåter även att jämföra upp till 5 Pokémons stats. Pokedex utnyttjar sig av PokéAPIs public API. ",
       "badge": "React &middot; API &middot; SQL",
-      "image": "Juan.jpg",
+      "image": "../projektgallery/PokeNetXPFP.png",
       "links": {
         "github": "https://github.com/Rami-Agha/API.git",
-        "website": "https://theazziedev.github.io/Portfolio/"
+        "website": ""
       },
 
       "project-images": [
         {
-          "src": "https://picsum.photos/id/1041/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Tim Marshall"
+          "src": "assets/projektgallery/PokeNetXAccount.png",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1043/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Christian Joudrey"
+          "src": "assets/projektgallery/PokeNetXCompare.png",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1044/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Steve Carter"
+          "src": "assets/projektgallery/PokeNetXFavorite.png",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1045/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Aleksandra Boguslawska"
+          "src": "assets/projektgallery/PokeNetXIndex.png",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1049/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Rosan Harmens"
+          "src": "assets/projektgallery/PokeNetXMoreInfo.png",
+          "caption": ""
         },
         {
           "src": "https://picsum.photos/id/1052/800/450",
