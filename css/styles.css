@@ -12369,6 +12369,7 @@ html {
 .card-img-top {
   width: 100% !important;
   height: 20vw !important;
+  max-height: 300px;
   object-fit: cover !important;
 
 }
