@@ -542,10 +542,9 @@
       },
 
       "project-images": [
-       
         {
           "src": "assets/projects/whiskerHome.PNG",
-         
+
           "caption": ""
         },
         {
@@ -1147,148 +1146,161 @@
     "3": {
       "id": "3",
       "date": "23-08-2023",
+      "title": "Techship",
+      "subtitle": "Företagsbesök",
+      "img_asset": "techship.jpg"
+    },
+    "4": {
+      "id": "4",
+      "date": "23-08-2023",
       "title": "Webbshop Light",
       "subtitle": "Projekt 2",
       "description": "I detta projekt skulle vi skapa en responsiv webbplats där användare kan välja och summera varor i en varukorg. Webbplatsen skulle ha en enkel, snygg design och anpassas för vanliga skärmstorlekar...",
       "goto_project": true
     },
-    "4": {
-      "id": "4",
-      "date": "31-08-2023",
-      "title": "Pingday",
-      "subtitle": "Företagsbesök"
-    },
     "5": {
       "id": "5",
+      "date": "31-08-2023",
+      "title": "Pingday",
+      "subtitle": "Företagsbesök",
+      "img_asset": "pingday.jpg"
+    },
+    "6": {
+      "id": "6",
       "date": "07-09-2023",
       "title": "Javascript Certifiering",
       "subtitle": "Projekt 3",
       "description": "Vi satsade på att bli bättre på JavaScript inför kommande utmaningar och certifieringar. Vi delades in i grupper baserat på tidigare erfarenhet, vilket gjorde att alla kunde utvecklas i sin egen takt. Genom olika övningar och uppgifter fördjupade vi våra kunskaper och fick en gemensam grund att stå på inför nästa projekt."
     },
-    "6": {
-      "id": "6",
-      "date": "13-09-2023",
-      "title": "Nexer",
-      "subtitle": "Företagsbesök"
-    },
     "7": {
       "id": "7",
-      "date": "22-09-2023",
-      "title": "Avitus IT",
-      "subtitle": "Företagsbesök"
+      "date": "13-09-2023",
+      "title": "IBM",
+      "subtitle": "Företagsbesök",
+      "img_asset": "ibm.jpg"
     },
     "8": {
       "id": "8",
+      "date": "22-09-2023",
+      "title": "Avitus IT",
+      "subtitle": "Företagsbesök",
+      "img_asset": "avitus.jpg"
+    },
+    "9": {
+      "id": "9",
       "date": "25-09-2023",
       "title": "API/React sida",
       "subtitle": "Projekt 4",
       "description": "Vi fick i uppgift att  skapa en webbapplikation med React, där vi skulle bygga ett användarvänligt gränssnitt med hjälp av Reacts UI-komponenter. Vi fick välja en valfri API att använda.",
       "goto_project": true
     },
-    "9": {
-      "id": "9",
+    "10": {
+      "id": "10",
       "date": "19-10-2023",
       "title": "Speldesign",
       "subtitle": "Projekt 5",
       "description": "I det här projektet skapade vi, i våra tre arbetsgrupper, var sitt spel. Vi använde Unity som spelmotor, även om vi hade friheten att välja en annan motor om vi ansåg det lämpligt."
     },
-    "10": {
-      "id": "10",
+    "11": {
+      "id": "11",
       "date": "27-10-2023",
       "title": "Cercino",
       "subtitle": "Företagsbesök"
     },
-    "11": {
-      "id": "11",
+    "12": {
+      "id": "12",
       "date": "15-11-2023",
       "title": "Intensive Code",
       "subtitle": "Företagsbesök"
     },
-    "12": {
-      "id": "12",
+    "13": {
+      "id": "13",
       "date": "22-11-2023",
       "title": "Hjälp en lärare",
       "subtitle": "Projekt 6",
       "description": "Här fick vi uppdraget att samarbeta med olika lärare på skolan för att lösa utmaningar i deras vardag. Lärarna fungerade som uppdragsgivare och gav våra grupper problem att lösa.",
       "goto_project": true
     },
-    "13": {
-      "id": "13",
-      "date": "22-11-2023",
-      "title": "Animals.ai",
-      "subtitle": "Företagsbesök"
-    },
     "14": {
       "id": "14",
+      "date": "22-11-2023",
+      "title": "Animals.ai",
+      "subtitle": "Företagsbesök",
+      "img_asset": "animals_ai.jpg"
+    },
+    "15": {
+      "id": "15",
       "date": "23-11-2023",
       "title": "SportiCom",
       "subtitle": "Företagsbesök"
     },
-    "15": {
-      "id": "15",
+    "16": {
+      "id": "16",
       "date": "28-11-2023",
       "title": "Hjälp en elev",
       "subtitle": "Projekt 7",
       "description": "Vi fick chansen att bli mentorer för teknik treorna som jobbade med sina gymnasiearbeten! Genom att dela med oss av våra egna erfarenheter från TE4 hjälpte vi dem att planera, strukturera och förbättra sina projekt. Det var ett lärorikt projekt där vi fick utveckla våra ledarskaps- och kommunikationsfärdigheter"
     },
-    "16": {
-      "id": "16",
+    "17": {
+      "id": "17",
       "date": "06-12-2023",
       "title": "Individuellt projekt",
       "subtitle": "Projekt 8",
       "description": "Vi avslutade 2023 med ett individuellt projekt där vi fick fria händer att välja ämne, programmeringsspråk och ramverk. Kraven var att ha en tydlig planering, använda ett designmönster, samt dokumentera arbetet dagligen. Det var en chans att fördjupa oss i ett område vi brann för och visa upp våra kunskaper."
     },
-    "17": {
-      "id": "17",
+    "18": {
+      "id": "18",
       "date": "09-01-2024",
       "title": "Basecamp/Infoskärm",
       "subtitle": "Projekt 9",
       "description": "Det här projektet lade fokus på utveckla våra färdigheter i dokumentation, kommunikation och anpassningsförmåga genom att ta oss an ett äldre TE4 projekt. Halvvägs genom projektet skulle vi även byta pågående projekt mellan grupperna.",
       "goto_project": true
     },
-    "18": {
-      "id": "18",
-      "date": "08-02-2024",
-      "title": "Parkster",
-      "subtitle": "Företagsbesök"
-    },
     "19": {
       "id": "19",
+      "date": "08-02-2024",
+      "title": "Parkster",
+      "subtitle": "Företagsbesök",
+      "img_asset": "parkster.jpg"
+    },
+    "20": {
+      "id": "20",
       "date": "12-02-2024",
       "title": "APL Sverige",
       "subtitle": "Sverige",
       "description": "Vi fick äntligen chansen att testa våra vingar i arbetslivet under en sju veckor lång praktikperiod! Varje elev fick möjlighet att jobba på ett riktigt företag och få en inblick i hur det är att vara utvecklare 'på riktigt'. En spännande och lärorik upplevelse som gav oss värdefull erfarenhet inför framtiden."
     },
-    "20": {
-      "id": "20",
+    "21": {
+      "id": "21",
       "date": "15-04-2024",
       "title": "APL Utomlands",
       "subtitle": "Malta/Valencia",
       "description": "Vi tog vår praktik till nästa nivå och åkte utomlands! Vi fick välja mellan soliga Malta och pulserande Valencia under en tre veckor lång APL-period. Förutom att utforska nya kulturer och miljöer fick vi jobba på spännande företag och utveckla våra kunskaper i en internationell miljö."
     },
 
-    "21": {
-      "id": "21",
+    "22": {
+      "id": "22",
       "date": "06-05-2024",
       "title": "Examensarbete",
       "subtitle": "Projekt 10",
       "description": "Vi genomförde ett examensarbete där vi fick chansen att fördjupa oss i ett tekniskt område som intresserade oss. Vi formulerade en problemställning, gjorde en grundlig litteraturstudie och genomförde en egen undersökning för att samla in data. Resultaten sammanställdes i en skriftlig rapport, vilket förberedde oss för framtida utmaningar inom tech branschen."
     },
-    "22": {
-      "id": "22",
-      "date": "14-05-2024",
-      "title": "Provectus",
-      "subtitle": "Företagsbesök"
-    },
     "23": {
       "id": "23",
+      "date": "14-05-2024",
+      "title": "Provectus",
+      "subtitle": "Företagsbesök",
+      "img_asset": "provectus.jpg"
+    },
+    "24": {
+      "id": "24",
       "date": "20-05-2024",
       "title": "TE4 Webbsida",
       "subtitle": "Projekt 11",
       "description": "Vi avslutade vår TE4-resa med att skapa personliga portfolio hemsidor som sammanfattar allt vi åstadkommit under året. Vi presenterade våra projekt, visade upp våra kunskaper och delade våra erfarenheter från utbildningen. Hemsidorna blev ett sätt att marknadsföra oss själva inför framtida studier och jobb, och en påminnelse om allt vi lärt oss och upplevt under det fantastiska året på TE4!"
     },
-    "24": {
-      "id": "24",
+    "25": {
+      "id": "25",
       "date": "04-06-2024",
       "title": "Avslutning"
     }
