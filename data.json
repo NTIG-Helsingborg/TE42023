@@ -81,7 +81,7 @@
         }
       },
       "exam": {
-        "image": "chatgptvsgemini.png",
+        "image": "AICamera.png",
         "alt": "Examensarbete",
         "name": "Examensarbete",
         "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
