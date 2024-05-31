@@ -677,7 +677,7 @@
       "displayName": "Basecamp",
       "project": "Basecamp",
       "about": "Basecamp är ett återkommande projekt efterfrågat av Linda Avramidou och Josef Nobach. Idéen var att sätta upp en pedagogisk webbplats för elever inom NTI Gymnasium runt om i Sverige. Hemsidan skulle fokusera på programmering och webbutveckling och skapa en gemensam läroplan som alla NTI lärare kan utgå från. Basecamp ska använda sig både av videor och artiklar som är skapade av elever och modererade av lärare.",
-      "badge": "React &middot; poop &middot; SQL",
+      "badge": "React &middot; Node &middot; SQL",
       "image": "Juan.jpg",
       "links": {
         "github": "https://youtube.com",
@@ -715,7 +715,7 @@
       "displayName": "Infoskarm",
       "project": "Infoskarm",
       "about": "Infoskärmen är ett återkommande projekt efterfrågat av NTI skolan. Målet var att sätta upp en tv skärm på skolan som kan visa upp relevant och anpassningsbar information. Skärmen var uppbyggd av mindre komponenter som kunde visa upp text, tid eller använda sig av APIer för att förmedla information. Sidan skulle vara helt anpassningsbar och tillåta för en variation av design och funktioner.",
-      "badge": "React &middot; poop &middot; SQL",
+      "badge": "React &middot; Documenting &middot; Interviews",
       "image": "Juan.jpg",
       "links": {
         "github": "https://github.com/NTIG-Helsingborg/TE4_23-24_ProjektLinn_rebuild",
