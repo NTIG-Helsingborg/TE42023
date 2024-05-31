@@ -495,7 +495,7 @@
     "pokinetx": {
       "displayName": "PokeNetX",
       "project": "reactAPI",
-      "about": "Pokedex är en informationssida med fokus på Pokémons. Den visar upp alla existerande Pokémons och har en filterfunktion som tillåter sortering av generation, namn och id. Pokedex visar även upp allmän information om varje Pokémon, såsom typ, svagheter och sprites. Sidan tillåter även att jämföra upp till 5 Pokémons stats. Pokedex utnyttjar sig av PokéAPIs public API. ",
+      "about": "PokeNetX är en informationssida med fokus på Pokémons. Den visar upp alla existerande Pokémons och har en filterfunktion som tillåter sortering av generation, namn och id. PokeNetX visar även upp allmän information om varje Pokémon, såsom typ, svagheter och sprites. Sidan tillåter även att jämföra upp till 5 Pokémons stats. PokeNetX utnyttjar sig av PokéAPIs public API. ",
       "badge": "React &middot; API &middot; SQL",
       "image": "../projektgallery/PokeNetXPFP.png",
       "links": {
