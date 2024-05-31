@@ -27,7 +27,7 @@ async function renderGalleryStudent(clone, data, jsonData) {
       link.textContent = studentProjects[x];
       item.textContent = "";
       item.appendChild(link);
-      link.style = "color:white; text-decoration:none;"; // Remove all styling from the link
+      link.style = "color:white; text-decoration:none; -webkit-user-select: none; -ms-user-select: none; user-select: none;"
     }
   });
 }
