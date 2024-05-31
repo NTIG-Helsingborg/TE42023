@@ -72,7 +72,7 @@ class Projectcard extends HTMLElement {
         <div class="fs-3 fw-light text-muted mb-4">
             Projekt ${group}
         </div>
-          <p class=" card-text">${this.getAttribute("describiton")}</p>
+          <p class="p-3 text-muted fs-5 card-text">${this.getAttribute("describiton")}</p>
     </div>`;
 
     let cardHTML = `<div class="col-xl-5 row my-4 my-xl-0 ${cardSide}">`;
@@ -80,7 +80,7 @@ class Projectcard extends HTMLElement {
     projects.forEach((project) => {
       if (project.group === group) {
         cardHTML += `
-                <div class="card d-inline-block shadow border-0 p-1 my-2 mx-2   ">
+                <div class="card d-inline-block shadow border-0 p-1 my-3 mx-2">
                 <a class="stretched-link " href="indivproject.html?project=${project.link}">
                 <img src="${project.image}"  class="card-img" alt="...">
                         
