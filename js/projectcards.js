@@ -30,7 +30,7 @@ class Projectcard extends HTMLElement {
       { group: 3, name: "Magic Mender", image: "https://placehold.co/100x0", link: "magicmender" },
       { group: 3, name: "Consolata", image: "https://placehold.co/100x0", link: "Consolata" },
       { group: 4, name: "Linda", image: "https://placehold.co/100x0", link: "linda" },
-      { group: 4, name: "Mikey", image: "https://placehold.co/100x0", link: "mickeymailer" },
+      { group: 4, name: "Mickey", image: "https://placehold.co/100x0", link: "mickeymailer" },
       { group: 4, name: "Ehab", image: "https://placehold.co/100x0", link: "Ehabify" },
       { group: 4, name: "Josef", image: "https://placehold.co/100x0", link: "josefs-hemsida" },
       { group: 5, name: "Infoskärm", image: "https://placehold.co/100x0", link: "Infoskarm" },
