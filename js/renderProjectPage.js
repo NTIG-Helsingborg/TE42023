@@ -6,7 +6,7 @@ function renderGalleryProject(clone, data) {
   let x = 0;
   list.forEach((item) => {
     if (typeof projectImages[x] != "undefined") {
-      item.style.background = `linear-gradient(45deg, rgb(210 43 212 / 57%), rgb(153 0 255 / 59%)), url(assets/projektgallery/${projectImages[x]["src"]}) no-repeat center`;
+      item.style.background = `url(${projectImages[x]["src"]}) no-repeat center`;
       // Example: adding a class to each item
       item.style.backgroundSize = "cover";
       item.textContent = projectImages[x]["caption"];
@@ -35,6 +35,17 @@ async function renderProject() {
     cloneHTML.querySelector(".img-project").src =
       "assets/projects/" + data["image"];
   }
+
+  let links = [".github", ".website"];
+  let studentLinks = Object.keys(data["links"]);
+  links.map((linkItem) => {
+    if (!studentLinks.includes(linkItem.slice(1, linkItem.length)))
+      cloneHTML.querySelector(linkItem).remove();
+    else {
+      cloneHTML.querySelector(linkItem).href =
+        data["links"][linkItem.slice(1, linkItem.length)];
+    }
+  });
 
   cloneHTML.querySelector(".img-project").alt = urlParamValue;
 
