@@ -10,7 +10,7 @@
         "Basecamp"
       ],
       "image": "missingImage.jpg",
-      "klassens": "?",
+      "klassens": "Programmerare",
       "aboutMe": "Hej, mitt namn är David Olsson och jag gillar att lära mig nya saker. Under året som gått har jag lärt mig mer om att jobba i grupp med olika individer med olika kunskaper. På fritiden så tycker jag om att gymma, skriva lågnivå kod samt att delta i CTF-tävlingar.",
       "individualProjects": {},
       "exam": {
@@ -123,7 +123,6 @@
       "links": {
         "github": "https://github.com/WarMolee",
         "cv": "https://oskar-ternstrom.vercel.app",
-        "instagram": "https://github.com/",
         "linkedIn": "https://www.linkedin.com/in/oskar-ternström-894b1127a/"
       },
       "certifikat": ["Certiport - IT Specialist - JavaScript"]
@@ -136,8 +135,8 @@
         "gamehub",
         "somnium",
         "josefs-hemsida",
-        "Basecamp",
-        "Infoskarm"
+        "basecamp",
+        "infoskarm"
       ],
       "image": "margo.webp",
       "klassens": "klassens kung",
@@ -159,7 +158,7 @@
         "github": "https://github.com/Mizfra",
         "linkedIn": "https://www.linkedin.com/in/margarita-shaposhnikova-a3694828b/"
       },
-      "certifikat": ["Null"]
+      "certifikat": [""]
     },
 
     "gustaf": {
@@ -193,9 +192,9 @@
       "displayName": "Othman Al-Ani",
       "projects": [
         "whiskerwonders",
-        "cosmichub",
+        "CosmicHub",
         "magicmender",
-        "ehabify",
+        "Ehabify",
         "Infoskarm",
         "Basecamp"
       ],
@@ -268,7 +267,7 @@
         "Infoskarm"
       ],
       "image": "Eduard.webp",
-      "klassens": "klassens kung",
+      "klassens": "Game Developer",
       "aboutMe": "Jag heter Eduard och är en passionerad spelutvecklare och gymnasieelev med ingenjörsvetenskaplig inriktning. Mina IT-specialistcertifieringar och erfarenhet från spelprojekt i Unity och C++ visar min kompetens inom mjukvaruutveckling. Nu utforskar jag Unreal Engine 5 för att skapa fängslande spelupplevelser med fantastisk grafik. Mitt mål är att nå ut till en bred publik med spel som inte bara underhåller, utan också fångar spelarens fantasi.",
       "individualProjects": {
         "BlackJack": {
@@ -297,12 +296,12 @@
     "salah": {
       "displayName": "Salah Al-Hassun",
       "projects": [
-        "Wheeldeal",
-        "CosmicHub",
-        "MagicMender",
-        "APLbok",
-        "Basecamp",
-        "Infoskarm"
+        "wheeldeal",
+        "cosmichub",
+        "magicmender",
+        "josefs-hemsida",
+        "basecamp",
+        "infoskarm"
       ],
       "image": "salah.png",
       "klassens": "Your best students will be my employees",
@@ -399,7 +398,7 @@
     "simon": {
       "displayName": "Simon Jonasson",
       "projects": [
-        "gamehub",
+        "GameHub",
         "ehabify",
         "deepseanft",
         "somnium",
@@ -573,7 +572,7 @@
       "displayName": "MickeyMailer",
       "project": "hjalp-en-larare",
       "about": "MickeyMail är en app som automatiskt skickar mejl vid bestämda tidsintervall. Appens huvudsyfte är att hjälpa användaren att skicka påminnelsemejl till flera personer samtidigt, vilket sparar tid och gör det enklare att hantera stora mängder kommunikation. Användaren kan schemalägga mejl att skickas vid specifika tider, vilket gör appen idealisk för uppgifter som att påminna om möten, deadlines eller andra viktiga händelser.",
-      "badge": "React &middot; poop &middot; SQL",
+      "badge": "React &middot; Design &middot; SQL",
       "image": "Juan.jpg",
       "links": {
         "github": "https://github.com/TheAzzieDev/MickeyEmail-",
@@ -655,7 +654,7 @@
         },
         {
           "src": "consolatacara3.png",
-          "caption": "Temmporära plattformar där spelaren måste snabbt ta sig över för att inte falla"
+          "captionx": "Temmporära plattformar där spelaren måste snabbt ta sig över för att inte falla"
         },
         {
           "src": "consolatacara4.png",
@@ -676,36 +675,36 @@
       "displayName": "Basecamp",
       "project": "Basecamp",
       "about": "Basecamp är ett återkommande projekt efterfrågat av Linda Avramidou och Josef Nobach. Idéen var att sätta upp en pedagogisk webbplats för elever inom NTI Gymnasium runt om i Sverige. Hemsidan skulle fokusera på programmering och webbutveckling och skapa en gemensam läroplan som alla NTI lärare kan utgå från. Basecamp ska använda sig både av videor och artiklar som är skapade av elever och modererade av lärare.",
-      "badge": "React &middot; PHP &middot; SQL",
-      "image": "Juan.jpg",
+      "badge": "HTML &middot; PHP &middot; SQL",
+      "image": "/basecamp3.png",
       "links": {
-        "github": "https://youtube.com",
-        "website": "https://theazziedev.github.io/Portfolio/"
+        "github": "https://github.com/NTIG-Helsingborg/TE4_23-24_Basecamp",
+        "website": ""
       },
 
       "project-images": [
         {
-          "src": "basecamp1.png",
+          "src": "/assets/projects/basecamp1.png",
           "caption": ""
         },
         {
-          "src": "basecamp2.png",
+          "src": "/assets/projects/basecamp2.png",
           "caption": ""
         },
         {
-          "src": "basecamp3.png",
+          "src": "/assets/projects/basecamp3.png",
           "caption": ""
         },
         {
-          "src": "basecamp4.png",
+          "src": "/assets/projects/basecamp4.png",
           "caption": ""
         },
         {
-          "src": "basecamp1.png",
+          "src": "/assets/projects/basecamp2.png",
           "caption": ""
         },
         {
-          "src": "basecamp2.png",
+          "src": "/assets/projects/basecamp4.png",
           "caption": ""
         }
       ]
@@ -715,7 +714,7 @@
       "project": "Infoskarm",
       "about": "Infoskärmen är ett återkommande projekt efterfrågat av NTI skolan. Målet var att sätta upp en tv skärm på skolan som kan visa upp relevant och anpassningsbar information. Skärmen var uppbyggd av mindre komponenter som kunde visa upp text, tid eller använda sig av APIer för att förmedla information. Sidan skulle vara helt anpassningsbar och tillåta för en variation av design och funktioner.",
       "badge": "React &middot; Documenting &middot; Interviews",
-      "image": "Juan.jpg",
+      "image": "../projektgallery/InfoskarmIndex.png",
       "links": {
         "github": "https://github.com/NTIG-Helsingborg/TE4_23-24_ProjektLinn_rebuild",
         "website": ""
@@ -723,28 +722,28 @@
 
       "project-images": [
         {
-          "src": "https://picsum.photos/id/1041/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Tim Marshall"
+          "src": "assets/projektgallery/infoskarmDesign.png",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1043/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Christian Joudrey"
+          "src": "assets/projektgallery/infoskarmAdmin.png",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1044/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Steve Carter"
+          "src": "assets/projektgallery/infoskarmIndex.png",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1045/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Aleksandra Boguslawska"
+          "src": "assets/projektgallery/infoskarmLayout.png",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1049/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Rosan Harmens"
+          "src": "assets/projektgallery/infoskarmTrafick.png",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1052/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Annie Spratt"
+          "src": "assets/projektgallery/infoskarmWeather.png",
+          "caption": ""
         }
       ]
     },
@@ -753,36 +752,36 @@
       "project": "reactAPI",
       "about": "GameHub är en hemsida byggd i React och Node.js som använder sig av Steam's API för att visa upp spel. På sidan kan man bläddra bland olika spel och filtrera bl.a. pris och typ. Om man inte hittar ett spel som är intressant finns det sökfunktion där man kan söka på alla spel som finns på Steam, samt en sida där ett slumpmässigt spel visas. Sidan har också ett kontosystem där man kan spara intressanta spel till favoriter.",
       "badge": "React &middot; API &middot; Node.js &middot; SQLite",
-      "image": "gamehub.png",
+      "image": "gamehub-title.png",
       "links": {
-        "github": "https://youtube.com",
-        "website": "https://theazziedev.github.io/Portfolio/"
+        "github": "https://github.com/NTIG-Helsingborg/TE4_23-24_Gamehub",
+        "website": ""
       },
 
       "project-images": [
         {
-          "src": "gamehub-home.png",
-          "caption": "GameHub Home Page"
+          "src": "/assets/projektgallery/gamehub-home.png",
+          "caption": ""
         },
         {
-          "src": "gamehub-games.png",
-          "caption": "Gamehub Games Page"
+          "src": "/assets/projektgallery/gamehub-games.png",
+          "caption": ""
         },
         {
-          "src": "gamehub-game.png",
-          "caption": "GameHub Single Game Page"
+          "src": "/assets/projektgallery/gamehub-game.png",
+          "caption": ""
         },
         {
-          "src": "gamehub-profile.png",
-          "caption": "GameHub Profile Page"
+          "src": "/assets/projektgallery/gamehub-profile.png",
+          "caption": ""
         },
         {
-          "src": "gamehub-favorites.png",
-          "caption": "GameHub Favorites Page"
+          "src": "/assets/projektgallery/gamehub-favorites.png",
+          "caption": ""
         },
         {
-          "src": "gamehub-home.png",
-          "caption": "GameHub Home Page"
+          "src": "/assets/projektgallery/gamehub-home.png",
+          "caption": ""
         }
       ]
     },
@@ -790,7 +789,7 @@
       "displayName": "Ehabify",
       "project": "hjalp-en-larare",
       "about": "Ehabify är ett verktyg för närvarohantering designat speciellt för lärare. Med Ehabify blir det smidigt för elever att enkelt logga in och markera sin närvaro, vilket effektivt sparar värdefull undervisningstid.",
-      "badge": "React &middot; poop &middot; SQL",
+      "badge": "React &middot; NFC &middot; SQL",
       "image": "ehabifyLogo.png",
       "links": {
         "github": "null",
@@ -799,27 +798,27 @@
 
       "project-images": [
         {
-          "src": "ehabify1.png",
+          "src": "assets/projektgallery/ehabify1.png",
           "caption": ""
         },
         {
-          "src": "ehabify2.png",
+          "src": "assets/projektgallery/ehabify2.png",
           "caption": ""
         },
         {
-          "src": "ehabify3.png",
+          "src": "assets/projektgallery/ehabify3.png",
           "caption": ""
         },
         {
-          "src": "ehabify4.png",
+          "src": "assets/projektgallery/ehabify4.png",
           "caption": ""
         },
         {
-          "src": "ehabify5.png",
+          "src": "assets/projektgallery/ehabify5.png",
           "caption": ""
         },
         {
-          "src": "ehabify.png",
+          "src": "assets/projektgallery/ehabify.png",
           "caption": ""
         }
       ]
@@ -828,8 +827,8 @@
       "displayName": "DeepSeaNFT",
       "project": "webbshop",
       "about": "Deep Sea NFT är en webbshop som specialiserar sig på försäljning av NFTs. Sidan har en fungerande filterfunktion som tillåter användaren att hitta specifika NFTs utifrån namn eller kategori. Den inkluderar även ett fungerade utcheckningssystem med en shoppingvagn som sparas över instanser där även ett kvitto blir utdelad vid köp. Sidan har även en admin page som tillåter hantering av utbud och användare.",
-      "badge": "React &middot; poop &middot; SQL",
-      "image": "Juan.jpg",
+      "badge": "React &middot; Design &middot; SQL",
+      "image": "assets/projects/DeepSeaNFT.png",
       "links": {
         "github": "https://youtube.com",
         "website": "https://theazziedev.github.io/Portfolio/"
@@ -837,27 +836,27 @@
 
       "project-images": [
         {
-          "src": "dsnft_1.png",
+          "src": "assets/projektgallery/dsnft_1.png",
           "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Tim Marshall"
         },
         {
-          "src": "dsnft_2.png",
+          "src": "assets/projektgallery/dsnft_2.png",
           "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Christian Joudrey"
         },
         {
-          "src": "dsnft_3.png",
+          "src": "assets/projektgallery/dsnft_3.png",
           "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Steve Carter"
         },
         {
-          "src": "dsnft_4.png",
+          "src": "assets/projektgallery/dsnft_4.png",
           "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Aleksandra Boguslawska"
         },
         {
-          "src": "dsnft_5.png",
+          "src": "assets/projektgallery/dsnft_5.png",
           "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Rosan Harmens"
         },
         {
-          "src": "dsnft_3.png",
+          "src": "assets/projektgallery/dsnft_3.png",
           "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Annie Spratt"
         }
       ]
@@ -904,7 +903,7 @@
       "displayName": "Josefs-Hemsida",
       "project": "hjalp-en-larare",
       "about": "Det här spelet är ett kort roguelike där spelaren måste slåss mot monster i en slumpmässigt genererad karta som slutar med att spelaren måste besegra en boss. Under spelets gång kan man hitta komponenter och ability cards som används för att göra spelaren starkare. Spelet är gjort i en pixel art style och tog inspiration från liknande spel i samma genre, såsom Binding of Isaac och Hades.",
-      "badge": "React &middot; poop &middot; SQL",
+      "badge": "React &middot; Design &middot; SQL",
       "image": "Juan.jpg",
       "links": {
         "github": "https://youtube.com",
@@ -941,38 +940,38 @@
     "cosmichub": {
       "displayName": "CosmicHub",
       "project": "reactAPI",
-      "about": "Det här spelet är ett kort roguelike där spelaren måste slåss mot monster i en slumpmässigt genererad karta som slutar med att spelaren måste besegra en boss. Under spelets gång kan man hitta komponenter och ability cards som används för att göra spelaren starkare. Spelet är gjort i en pixel art style och tog inspiration från liknande spel i samma genre, såsom Binding of Isaac och Hades.",
+      "about": "CosmicHub är ett react projekt som vi gjorde för att lära oss react och api. Den hämtar information från ett rymdapi och placerar sedan ut information om olika planeter osv på rätt platser. Man kan även skapa ett konto för att spara favoritplaneter osv.",
       "badge": "React &middot; poop &middot; SQL",
-      "image": "Juan.jpg",
+      "image": "nebulae1.png",
       "links": {
-        "github": "https://youtube.com",
-        "website": "https://theazziedev.github.io/Portfolio/"
+        "github": "https://github.com/NTIG-Helsingborg/TE4_23-24_CosmicHub",
+        "website": ""
       },
 
       "project-images": [
         {
-          "src": "https://picsum.photos/id/1041/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Tim Marshall"
+          "src": "",
+          "caption": "CosmicHub använder React + ett rymdapi för att visa information om planeter och annat"
         },
         {
-          "src": "https://picsum.photos/id/1043/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Christian Joudrey"
+          "src": "",
+          "caption": "Man kan signa upp ett konto för att spara favoriter osv"
         },
         {
-          "src": "https://picsum.photos/id/1044/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Steve Carter"
+          "src": "",
+          "caption": "CosmicHub använder React + ett rymdapi för att visa information om planeter och annat"
         },
         {
-          "src": "https://picsum.photos/id/1045/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Aleksandra Boguslawska"
+          "src": "",
+          "caption": "Man kan signa upp ett konto för att spara favoriter osv"
         },
         {
-          "src": "https://picsum.photos/id/1049/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Rosan Harmens"
+          "src": "",
+          "caption": "CosmicHub använder React + ett rymdapi för att visa information om planeter och annat"
         },
         {
-          "src": "https://picsum.photos/id/1052/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Annie Spratt"
+          "src": "",
+          "caption": "Man kan signa upp ett konto för att spara favoriter osv"
         }
       ]
     },
@@ -980,7 +979,7 @@
       "displayName": "Magic Mender",
       "project": "spel",
       "about": "Det här spelet är ett kort roguelike där spelaren måste slåss mot monster i en slumpmässigt genererad karta som slutar med att spelaren måste besegra en boss. Under spelets gång kan man hitta komponenter och ability cards som används för att göra spelaren starkare. Spelet är gjort i en pixel art style och tog inspiration från liknande spel i samma genre, såsom Binding of Isaac och Hades.",
-      "badge": "React &middot; poop &middot; SQL",
+      "badge": "Design &middot; Unity &middot; C#",
       "image": "Clint.png",
       "links": {
         "github": "https://youtube.com",
@@ -1018,7 +1017,7 @@
       "displayName": "Wheeldeal",
       "project": "webbshop",
       "about": "WheelDeal är ett projekt av Salah, Zimon och Kirill, utvecklat som ett första grupparbete i TE4. Projektet går ut på att skapa en mini-webbshop med hjälp av HTML, CSS och JavaScript. I denna webbshop kan kunder köpa bilar, skateboards, cyklar och motorcyklar. Webbshopens funktioner inkluderar: Produkter: Användare kan bläddra genom ett brett urval av bilar, skateboards, cyklar och motorcyklar. Kundvagn: Kunder kan lägga till sina valda produkter i kundvagnen. Kvitto: När köpet är slutfört får kunderna ett kvitto som skrivs ut i PDF-format. Genom detta projekt har vi, Salah, Zimon och Kirill, kombinerat vår tekniska kunskap och kreativitet för att skapa en användarvänlig och funktionell plattform som simulerar en riktig e-handelsupplevelse.",
-      "badge": "React &middot; poop &middot; SQL",
+      "badge": "React &middot; Design &middot; SQL",
       "image": "wheeldeal.png",
       "links": {
         "github": "https://github.com/NTIG-Helsingborg/TE4_23-24_Wheeldeal",
@@ -1056,7 +1055,7 @@
       "displayName": "APLbok",
       "project": "hjalp-en-larare",
       "about": "Det här spelet är ett kort roguelike där spelaren måste slåss mot monster i en slumpmässigt genererad karta som slutar med att spelaren måste besegra en boss. Under spelets gång kan man hitta komponenter och ability cards som används för att göra spelaren starkare. Spelet är gjort i en pixel art style och tog inspiration från liknande spel i samma genre, såsom Binding of Isaac och Hades.",
-      "badge": "React &middot; poop &middot; SQL",
+      "badge": "React &middot; Design &middot; SQL",
       "image": "Juan.jpg",
       "links": {
         "github": "https://youtube.com",
@@ -1094,7 +1093,7 @@
       "displayName": "Linda",
       "project": "hjalp-en-larare",
       "about": "Den här sidan var efterfrågat av Linda Avramidou för att förbättra skolans gruppindelningar möjligheter. Sidan skulle kunna slumpmässigt dela in elever i grupper efter antingen en efterfrågad mängd grupper eller elever per grupp. Indelningen skulle även ta hänsyn till vilka elever som inte kunde sitta med varandra och de som måste sitta med varandra. Det fanns även en möjlighet att spara basgrupper där man även kunde se på tidigare indelningar.",
-      "badge": "React &middot; poop &middot; SQL",
+      "badge": "React &middot; Design &middot; SQL",
       "image": "../projektgallery/LindaIndex.png",
       "links": {
         "github": "",
