@@ -765,8 +765,8 @@
       "displayName": "GameHub",
       "project": "reactAPI",
       "about": "Det här spelet är ett kort roguelike där spelaren måste slåss mot monster i en slumpmässigt genererad karta som slutar med att spelaren måste besegra en boss. Under spelets gång kan man hitta komponenter och ability cards som används för att göra spelaren starkare. Spelet är gjort i en pixel art style och tog inspiration från liknande spel i samma genre, såsom Binding of Isaac och Hades.",
-      "badge": "React &middot; poop &middot; SQL",
-      "image": "Juan.jpg",
+      "badge": "React &middot; API &middot; SQL",
+      "image": "gamehub.png",
       "links": {
         "github": "https://youtube.com",
         "website": "https://theazziedev.github.io/Portfolio/"
