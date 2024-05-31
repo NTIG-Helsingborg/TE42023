@@ -6,7 +6,7 @@ function renderGalleryProject(clone, data) {
   let x = 0;
   list.forEach((item) => {
     if (typeof projectImages[x] != "undefined") {
-      item.style.background = `url(assets/projektgallery/${projectImages[x]["src"]}) no-repeat center`;
+      item.style.background = `url(${projectImages[x]["src"]}) no-repeat center`;
       // Example: adding a class to each item
       item.style.backgroundSize = "cover";
       item.textContent = projectImages[x]["caption"];

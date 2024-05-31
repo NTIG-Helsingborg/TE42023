@@ -535,36 +535,38 @@
       "project": "webbshop",
       "about": "Wisker Wonders är en onlineaffär för husdjurstillbehör, inklusive mat och accessoarer för katter, hundar och gnagare. Arbetet delades upp i två delar: back-end och front-end. Back-end-arbetet innefattade Javascript för kundvagn, sökfunktion och interaktiva funktioner. Designen skapades i Figma och implementerades med HTML och CSS.",
       "badge": "Design &middot; JS &middot; CSS",
-      "image": "Juan.jpg",
+      "image": "whiskerTitle.PNG",
       "links": {
         "github": "https://github.com/NTIG-Helsingborg/TE4_23-24_WhiskerWonders",
         "website": "https://theazziedev.github.io/Portfolio/"
       },
 
       "project-images": [
+       
         {
-          "src": "whiskerHome.PNG",
-          "caption": "home"
+          "src": "assets/projects/whiskerHome.PNG",
+         
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1043/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Christian Joudrey"
+          "src": "assets/projects/whiskerwelcome.jpg",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1044/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Steve Carter"
+          "src": "assets/projects/whiskersdesign.PNG",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1045/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Aleksandra Boguslawska"
+          "src": "assets/projects/whiskerHome.PNG",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1049/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Rosan Harmens"
+          "src": "assets/projects/whiskerProducts.PNG",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1052/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Annie Spratt"
+          "src": "assets/projects/whiskerproduct.PNG",
+          "caption": ""
         }
       ]
     },
