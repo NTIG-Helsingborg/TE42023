@@ -525,8 +525,8 @@
           "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1052/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Annie Spratt"
+          "src": "../assets/projektgallery/PokeNetXPFP.png",
+          "caption": ""
         }
       ]
     },
@@ -876,27 +876,27 @@
 
       "project-images": [
         {
-          "src": "SomniumBoss1.png",
+          "src": "../assets/projektgallery/SomniumBoss1.png",
           "caption": ""
         },
         {
-          "src": "SomniumBoss2.png",
+          "src": "../assets/projektgallery/SomniumBoss2.png",
           "caption": ""
         },
         {
-          "src": "SomniumCat.png",
+          "src": "../assets/projektgallery/SomniumCat.png",
           "caption": ""
         },
         {
-          "src": "SomniumCircle.png",
+          "src": "../assets/projektgallery/SomniumCircle.png",
           "caption": ""
         },
         {
-          "src": "SomniumWinter.png",
+          "src": "../assets/projektgallery/SomniumWinter.png",
           "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1052/800/450",
+          "src": "../assets/projektgallery/SomniumMaps",
           "caption": ""
         }
       ]
