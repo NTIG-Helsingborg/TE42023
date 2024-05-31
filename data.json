@@ -12,8 +12,7 @@
       "image": "#",
       "klassens": "?",
       "aboutMe": "Hej, mitt namn är David Olsson och jag gillar att lära mig nya saker. Under året som gått har jag lärt mig mer om att jobba i grupp med olika individer med olika kunskaper. På fritiden så tycker jag om att gymma, skriva lågnivå kod samt att delta i CTF-tävlingar.",
-      "individualProjects": {
-      },  
+      "individualProjects": {},
       "exam": {
         "image": "#",
         "alt": "Demo av prototyp",
@@ -80,14 +79,20 @@
           "alt": "matroulette",
           "text": "Har du alltid svårt att välja var du ska äta till Lunch? Då är matkortsroulette något för just dig!"
         }
-      },  
+      },
+      "exam": {
+        "image": "chatgptvsgemini.png",
+        "alt": "Examensarbete",
+        "name": "Examensarbete",
+        "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
+      },
       "links": {
         "github": "https://github.com/Jonte88",
         "linkedIn": "http://www.linkedin.com/in/jonathan-thösing-jörgensen-84843023a"
       },
       "certifikat": ["Certiport - IT Specialist - JavaScript"]
     },
-  
+
     "oskar": {
       "displayName": "Oskar Ternström",
       "projects": [
@@ -122,7 +127,7 @@
       },
       "certifikat": ["Certiport - IT Specialist - JavaScript"]
     },
-    
+
     "margo": {
       "displayName": "Margo Shaposhnikova",
       "projects": [
@@ -231,7 +236,7 @@
         "basecamp",
         "infoskarm"
       ],
-      "image": "Kirill.png",
+      "image": "Juan.jpg",
       "klassens": "Klassens Full-stack",
       "aboutMe": "Jag är Kirill Puljavin, en nyexaminerad fullstack-utvecklare från NTI Gymnasiet, där jag framgångsrikt slutfört TE4-programmet. Under min tid på NTI har jag förverkligat min passion för programvaruutveckling genom att delta i en rad olika projekt och kurser, vilket har gett mig värdefulla praktiska och teoretiska kunskaper",
       "individualProjects": {
@@ -349,8 +354,7 @@
       "image": "jakob.jpg",
       "klassens": "klassens kung",
       "aboutMe": "",
-      "individualProjects": {
-      },
+      "individualProjects": {},
       "exam": {
         "image": "node-deno-bun.jpg",
         "alt": "Loga av Node.js, Deno och Bun",
@@ -365,7 +369,6 @@
       },
       "certifikat": ["Certiport - IT Specialist - JavaScript"]
     },
-
 
     "rami": {
       "displayName": "Rami Agha",
@@ -462,7 +465,9 @@
         "instagram": "https://www.instagram.com/zimonjohnsson/",
         "linkedIn": "https://www.linkedin.com/in/zimon-johnsson-19647723a/"
       },
-      "certifikat": ["Certiport - IT Specialist - JavaScript, MTA: Introduction to Programming using HTML and CSS"]
+      "certifikat": [
+        "Certiport - IT Specialist - JavaScript, MTA: Introduction to Programming using HTML and CSS"
+      ]
     },
 
     "ebba": {
@@ -609,7 +614,7 @@
       "project": "hjalp-en-larare",
       "image": "../assets/profile.png"
     },
-     "linda": {
+    "linda": {
       "displayName": "Linda",
       "project": "hjalp-en-larare",
       "image": "../assets/profile.png"
