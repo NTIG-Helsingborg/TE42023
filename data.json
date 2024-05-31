@@ -194,34 +194,33 @@
     "othman": {
       "displayName": "Othman Al-Ani",
       "projects": [
-       
-        "mickeymailer",
-        "retrotech",
-        "consolata",
-        "basecamp",
-        "infoskarm"
+        "whiskerwonders",
+        "cosmichub",
+        "magicmender",
+        "ehabify",
+        "infoskarm",
+        "basecamp"
       ],
-      "image": "Juan.jpg",
+      "image": "othman.png",
       "klassens": "klassens kung",
-      "aboutMe": "Jag heter Jonathan, 19 år gammal och bor i Höganäs där det ursprungligen var tänkt att jag skulle ta mitt fjärde år. I efterhand är jag nu glad över att det istället blev på NTI på grund av hur många nya tekniker jag öppnats upp för, allt från Ramverk som React, backend utveckling med exempelvis Node.js och PHP till datorseende från min praktikplats.",
+      "aboutMe": "Hej! Jag heter Othman Al-Ani och älskar teknik. Min nyfikenhet har lett mig till allt från 3D-rendering till att mäta luftfuktighet. Under mitt TE4-år har jag utvecklat en passion för frontend-utveckling, UX och IoT. Jag gillar att ta mig an nya utmaningar och se vart de leder. Förutom programmering har grupparbete och problemlösning varit en viktig del av min utbildning. Jag ser fram emot att fortsätta utforska och utvecklas inom dessa områden.",
       "individualProjects": {
-        "UX design": {
+        "Home Helper": {
           "image": "figmaTechsip.png",
           "alt": "cool image",
-          "text": "I skolan så gavs det möjlighet till programmet “techship” som var både en utbildning och tävling inom att skapa en egen startup. Till detta programmet fanns ett moment där en prototyp för vår idé behövdes skapas, i vilket jag tog mig an uppgiften till att skapa en interaktiv prototyp i figma med hjälp av \"prototyp\" design mönstret. "
+          "text": "Under året fick vi chansen för egen utveckling och arbeta på egna projekt. Jag valde att utveckla mina IOT kunskaper och påbörja ett projekt som jag har utvecklat vidare på efter. Homehelper är ett system som kopplar arudino sensorer som mäter luftfuktighet och temperatur till en hemsida. Systemet är tänkt att hjälpa användaren att hålla koll på luftfuktigheten i sitt hem."
         }
       },
       "exam": {
         "image": "AICamera.png",
         "alt": "Demo av prototyp",
-        "name": "AI tillämpning",
-        "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
+        "name": "IOT jämförelse",
+        "text": " Mitt arbete undersöker vilken typ av sensor, ultraljudssensor eller infraröd sensor, som är mest effektiv för avståndsmätning och objekt upptäckt inom IoT-projekt. Genom Arduino experiment jämför jag dessa sensorer för att få enbättre förståelse av deras prestanda i IoT-applikationer. Arduino används ofta i dessa projekt på grund av sin användarvänlighet, och sensorer spelar en central roll genom att mäta och reagera på olika faktorer som färgigenkänning, avstånd och rörelse."
       },
       "links": {
-        "github": "https://github.com/TheAzzieDev",
-        "cv": "https://theazziedev.github.io/Portfolio/",
-        "instagram": "https://github.com/",
-        "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
+        "github": "https://github.com/Othman-Al-Ani",
+        "cv": "https://othman-al-ani.github.io/Portfolio/",
+        "linkedIn": "https://www.linkedin.com/in/othman-alani-8133b4251/"
       },
       "certifikat": ["Certiport - IT Specialist - JavaScript"]
     },
