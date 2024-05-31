@@ -801,12 +801,12 @@
     "ehabify": {
       "displayName": "Ehabify",
       "project": "hjalp-en-larare",
-      "about": "Det här spelet är ett kort roguelike där spelaren måste slåss mot monster i en slumpmässigt genererad karta som slutar med att spelaren måste besegra en boss. Under spelets gång kan man hitta komponenter och ability cards som används för att göra spelaren starkare. Spelet är gjort i en pixel art style och tog inspiration från liknande spel i samma genre, såsom Binding of Isaac och Hades.",
+      "about": "Ehabify är ett verktyg för närvarohantering designat speciellt för lärare. Med Ehabify blir det smidigt för elever att enkelt logga in och markera sin närvaro, vilket effektivt sparar värdefull undervisningstid.",
       "badge": "React &middot; poop &middot; SQL",
-      "image": "Juan.jpg",
+      "image": "ehabify-png",
       "links": {
-        "github": "https://youtube.com",
-        "website": "https://theazziedev.github.io/Portfolio/"
+        "github": "null",
+        "website": "null"
       },
 
       "project-images": [
