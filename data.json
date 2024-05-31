@@ -801,7 +801,7 @@
       "project": "hjalp-en-larare",
       "about": "Ehabify är ett verktyg för närvarohantering designat speciellt för lärare. Med Ehabify blir det smidigt för elever att enkelt logga in och markera sin närvaro, vilket effektivt sparar värdefull undervisningstid.",
       "badge": "React &middot; poop &middot; SQL",
-      "image": "ehabify-png",
+      "image": "ehabify.png",
       "links": {
         "github": "null",
         "website": "null"
@@ -809,28 +809,28 @@
 
       "project-images": [
         {
-          "src": "https://picsum.photos/id/1041/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Tim Marshall"
+          "src": "/assets/projects/ehabify1.png",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1043/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Christian Joudrey"
+          "src": "/assets/projects/ehabify2.png",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1044/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Steve Carter"
+          "src": "/assets/projects/ehabify3.png",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1045/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Aleksandra Boguslawska"
+          "src": "/assets/projects/ehabify4.png",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1049/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Rosan Harmens"
+          "src": "/assets/projects/ehabify5.png",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1052/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Annie Spratt"
+          "src": "/assets/projects/ehabify6.png",
+          "caption": ""
         }
       ]
     },
