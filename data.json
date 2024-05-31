@@ -194,7 +194,7 @@
     "othman": {
       "displayName": "Othman Al-Ani",
       "projects": [
-        "pokinetx",
+       
         "mickeymailer",
         "retrotech",
         "consolata",
@@ -504,11 +504,11 @@
     "pokinetx": {
       "displayName": "PokiNetX",
       "project": "reactAPI",
-      "about": "Det här spelet är ett kort roguelike där spelaren måste slåss mot monster i en slumpmässigt genererad karta som slutar med att spelaren måste besegra en boss. Under spelets gång kan man hitta komponenter och ability cards som används för att göra spelaren starkare. Spelet är gjort i en pixel art style och tog inspiration från liknande spel i samma genre, såsom Binding of Isaac och Hades.",
-      "badge": "React &middot; poop &middot; SQL",
+      "about": "Pokedex är en informationssida med fokus på Pokémons. Den visar upp alla existerande Pokémons och har en filterfunktion som tillåter sortering av generation, namn och id. Pokedex visar även upp allmän information om varje Pokémon, såsom typ, svagheter och sprites. Sidan tillåter även att jämföra upp till 5 Pokémons stats. Pokedex utnyttjar sig av PokéAPIs public API. ",
+      "badge": "React &middot; API &middot; SQL",
       "image": "Juan.jpg",
       "links": {
-        "github": "https://youtube.com",
+        "github": "https://github.com/Rami-Agha/API.git",
         "website": "https://theazziedev.github.io/Portfolio/"
       },
 
@@ -580,11 +580,11 @@
     "mickeymailer": {
       "displayName": "MickeyMailer",
       "project": "hjalp-en-larare",
-      "about": "Det här spelet är ett kort roguelike där spelaren måste slåss mot monster i en slumpmässigt genererad karta som slutar med att spelaren måste besegra en boss. Under spelets gång kan man hitta komponenter och ability cards som används för att göra spelaren starkare. Spelet är gjort i en pixel art style och tog inspiration från liknande spel i samma genre, såsom Binding of Isaac och Hades.",
+      "about": "MickeyMail är en app som automatiskt skickar mejl vid bestämda tidsintervall. Appens huvudsyfte är att hjälpa användaren att skicka påminnelsemejl till flera personer samtidigt, vilket sparar tid och gör det enklare att hantera stora mängder kommunikation. Användaren kan schemalägga mejl att skickas vid specifika tider, vilket gör appen idealisk för uppgifter som att påminna om möten, deadlines eller andra viktiga händelser.",
       "badge": "React &middot; poop &middot; SQL",
       "image": "Juan.jpg",
       "links": {
-        "github": "https://youtube.com",
+        "github": "https://github.com/TheAzzieDev/MickeyEmail-",
         "website": "https://theazziedev.github.io/Portfolio/"
       },
 
@@ -618,7 +618,7 @@
     "retrotech": {
       "displayName": "RetroTech",
       "project": "webbshop",
-      "about": "Det här spelet är ett kort roguelike där spelaren måste slåss mot monster i en slumpmässigt genererad karta som slutar med att spelaren måste besegra en boss. Under spelets gång kan man hitta komponenter och ability cards som används för att göra spelaren starkare. Spelet är gjort i en pixel art style och tog inspiration från liknande spel i samma genre, såsom Binding of Isaac och Hades.",
+      "about": "Retrotech är en webbshop som specialiserar sig på att återställa antik teknik och sälja den till allmänheten. Sidan har en funktionell filterfunktion som tillåter användare att hitta specifik teknik baserat på namn eller kategori. Den inkluderar även ett fungerande utcheckningssystem med en shoppingvagn som sparas över sessioner, och ett kvitto utfärdas vid köp. Webbshoppen har även en administratörssida som möjliggör hantering av både utbud och användare.",
       "badge": "React &middot; poop &middot; SQL",
       "image": "Juan.jpg",
       "links": {
@@ -656,7 +656,7 @@
     "consolata": {
       "displayName": "Consolata",
       "project": "spel",
-      "about": "Det här spelet är ett kort roguelike där spelaren måste slåss mot monster i en slumpmässigt genererad karta som slutar med att spelaren måste besegra en boss. Under spelets gång kan man hitta komponenter och ability cards som används för att göra spelaren starkare. Spelet är gjort i en pixel art style och tog inspiration från liknande spel i samma genre, såsom Binding of Isaac och Hades.",
+      "about": "Consolata utspelar sig i en fallfärdig stad med steampunk-tema, där robotdelar är utspridda i olika distrikt och måste hittas och återmonteras i de respektive robotarna. När en robot är återmonterad kan den hjälpa till med att få tillgång till olika distrikt och byggnader som annars skulle vara oåtkomliga. På vägen löser spelaren olika pussel och minispel som hindrar framsteg i att hitta nya delar till robotarna. Till slut, med tillräckligt många robotar, kommer spelaren att kunna montera den sista roboten som kan ta honom hem.",
       "badge": "React &middot; poop &middot; SQL",
       "image": "Juan.jpg",
       "links": {
@@ -694,7 +694,7 @@
     "basecamp": {
       "displayName": "Basecamp",
       "project": "Basecamp",
-      "about": "Det här spelet är ett kort roguelike där spelaren måste slåss mot monster i en slumpmässigt genererad karta som slutar med att spelaren måste besegra en boss. Under spelets gång kan man hitta komponenter och ability cards som används för att göra spelaren starkare. Spelet är gjort i en pixel art style och tog inspiration från liknande spel i samma genre, såsom Binding of Isaac och Hades.",
+      "about": "Basecamp är ett återkommande projekt efterfrågat av Linda Avramidou och Josef Nobach. Idéen var att sätta upp en pedagogisk webbplats för elever inom NTI Gymnasium runt om i Sverige. Hemsidan skulle fokusera på programmering och webbutveckling och skapa en gemensam läroplan som alla NTI lärare kan utgå från. Basecamp ska använda sig både av videor och artiklar som är skapade av elever och modererade av lärare.",
       "badge": "React &middot; poop &middot; SQL",
       "image": "Juan.jpg",
       "links": {
@@ -732,7 +732,7 @@
     "infoskarm": {
       "displayName": "Infoskarm",
       "project": "Infoskarm",
-      "about": "Det här spelet är ett kort roguelike där spelaren måste slåss mot monster i en slumpmässigt genererad karta som slutar med att spelaren måste besegra en boss. Under spelets gång kan man hitta komponenter och ability cards som används för att göra spelaren starkare. Spelet är gjort i en pixel art style och tog inspiration från liknande spel i samma genre, såsom Binding of Isaac och Hades.",
+      "about": "Infoskärmen är ett återkommande projekt efterfrågat av NTI skolan. Målet var att sätta upp en tv skärm på skolan som kan visa upp relevant och anpassningsbar information. Skärmen var uppbyggd av mindre komponenter som kunde visa upp text, tid eller använda sig av APIer för att förmedla information. Sidan skulle vara helt anpassningsbar och tillåta för en variation av design och funktioner.",
       "badge": "React &middot; poop &middot; SQL",
       "image": "Juan.jpg",
       "links": {
@@ -846,7 +846,7 @@
     "deepseanft": {
       "displayName": "DeepSeaNFT",
       "project": "webbshop",
-      "about": "Det här spelet är ett kort roguelike där spelaren måste slåss mot monster i en slumpmässigt genererad karta som slutar med att spelaren måste besegra en boss. Under spelets gång kan man hitta komponenter och ability cards som används för att göra spelaren starkare. Spelet är gjort i en pixel art style och tog inspiration från liknande spel i samma genre, såsom Binding of Isaac och Hades.",
+      "about": "Deep Sea NFT är en webbshop som specialiserar sig på försäljning av NFTs. Sidan har en fungerande filterfunktion som tillåter användaren att hitta specifika NFTs utifrån namn eller kategori. Den inkluderar även ett fungerade utcheckningssystem med en shoppingvagn som sparas över instanser där även ett kvitto blir utdelad vid köp. Sidan har även en admin page som tillåter hantering av utbud och användare.",
       "badge": "React &middot; poop &middot; SQL",
       "image": "Juan.jpg",
       "links": {
@@ -1112,7 +1112,7 @@
     "linda": {
       "displayName": "Linda",
       "project": "hjalp-en-larare",
-      "about": "Det här spelet är ett kort roguelike där spelaren måste slåss mot monster i en slumpmässigt genererad karta som slutar med att spelaren måste besegra en boss. Under spelets gång kan man hitta komponenter och ability cards som används för att göra spelaren starkare. Spelet är gjort i en pixel art style och tog inspiration från liknande spel i samma genre, såsom Binding of Isaac och Hades.",
+      "about": "Den här sidan var efterfrågat av Linda Avramidou för att förbättra skolans gruppindelningar möjligheter. Sidan skulle kunna slumpmässigt dela in elever i grupper efter antingen en efterfrågad mängd grupper eller elever per grupp. Indelningen skulle även ta hänsyn till vilka elever som inte kunde sitta med varandra och de som måste sitta med varandra. Det fanns även en möjlighet att spara basgrupper där man även kunde se på tidigare indelningar.",
       "badge": "React &middot; poop &middot; SQL",
       "image": "Juan.jpg",
       "links": {
