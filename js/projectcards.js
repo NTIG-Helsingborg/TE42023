@@ -19,22 +19,22 @@ class Projectcard extends HTMLElement {
     const group = parseInt(this.getAttribute("group"));
 
     let projects = [
-      { group: 1, name: "Whisker Wonders", image: "https://placehold.co/100x0", link: "whiskerwonders" },
-      { group: 1, name: "Wheeldeal", image: "https://placehold.co/100x0", link: "wheeldeal" },
+      { group: 1, name: "Whisker Wonders", image: "./assets/projects/whiskerwonderslogo.png", link: "whiskerwonders" },
+      { group: 1, name: "", image: "./assets/projects/wheeldeallogo.png", link: "wheeldeal" },
       { group: 1, name: "Retro Tech", image: "https://placehold.co/100x0", link: "RetroTech" },
       { group: 1, name: "Deep Sea NFT", image: "https://placehold.co/100x0", link: "deepseanft" },
-      { group: 2, name: "CosmicHub", image: "https://placehold.co/100x0", link: "cosmichub" },
-      { group: 2, name: "GameHub", image: "https://placehold.co/100x0", link: "GameHub" },
+      { group: 2, name: "", image: "./assets/projects/cosmiclogo.png", link: "cosmichub" },
+      { group: 2, name: "", image: "./assets/projects/gamehub.png", link: "GameHub" },
       { group: 2, name: "PokeNetX", image: "https://placehold.co/100x0", link: "pokinetx" },
       { group: 3, name: "Somnium", image: "https://placehold.co/100x0", link: "somnium" },
-      { group: 3, name: "Magic Mender", image: "https://placehold.co/100x0", link: "magicmender" },
+      { group: 3, name: "Magic Mender", image: "./assets/projects/anvil.png", link: "magicmender" },
       { group: 3, name: "Consolata", image: "https://placehold.co/100x0", link: "Consolata" },
       { group: 4, name: "Linda", image: "https://placehold.co/100x0", link: "linda" },
-      { group: 4, name: "Mikey", image: "https://placehold.co/100x0", link: "mickeymailer" },
-      { group: 4, name: "Ehab", image: "https://placehold.co/100x0", link: "Ehabify" },
+      { group: 4, name: "Mickey", image: "./assets/projects/mickeymailer.png", link: "mickeymailer" },
+      { group: 4, name: "Ehab", image: "./assets/projects/ehabifySmallLogo.png", link: "Ehabify" },
       { group: 4, name: "Josef", image: "https://placehold.co/100x0", link: "josefs-hemsida" },
       { group: 5, name: "Infoskärm", image: "https://placehold.co/100x0", link: "Infoskarm" },
-      { group: 5, name: "Basecamp", image: "https://placehold.co/100x0", link: "Basecamp" },
+      { group: 5, name: "", image: "./assets/projects/basecamplogo.png", link: "Basecamp" },
     ];
 
 

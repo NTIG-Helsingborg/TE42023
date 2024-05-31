@@ -131,18 +131,18 @@ main {
   }
 }
 
-.can-hover {
+.card {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   /* width: 18rem; */
 }
-.can-hover .card-body {
+.project .card-body {
   background: -webkit-linear-gradient(
     315deg,
     #520184 0%,
     #c81da3 100%
   ) !important;
 }
-.can-hover .card-body:hover {
+.card .card-body:hover {
   transform: scale(1.05) !important;
 }

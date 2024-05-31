@@ -65,11 +65,11 @@
       "displayName": "Jonathan Thösing-Jörgensen",
       "projects": [
         "whiskerwonders",
-        "gamehub",
+        "GameHub",
         "magicmender",
-        "ehabify",
-        "infoskärmen",
-        "basecamp"
+        "Ehabify",
+        "Infoskarm",
+        "Basecamp"
       ],
       "image": "jonathanthj.png",
       "klassens": "klassens bästa",
@@ -431,8 +431,8 @@
         "mickeymailer",
         "cosmichub",
         "magicmender",
-        "basecamp",
-        "infoskarm"
+        "Basecamp",
+        "Infoskarm"
       ],
       "image": "zimon.jpg",
       "klassens": "Klassens Front-end proffs",
@@ -493,36 +493,36 @@
 
   "projects": {
     "pokinetx": {
-      "displayName": "PokiNetX",
+      "displayName": "PokeNetX",
       "project": "reactAPI",
-      "about": "Pokedex är en informationssida med fokus på Pokémons. Den visar upp alla existerande Pokémons och har en filterfunktion som tillåter sortering av generation, namn och id. Pokedex visar även upp allmän information om varje Pokémon, såsom typ, svagheter och sprites. Sidan tillåter även att jämföra upp till 5 Pokémons stats. Pokedex utnyttjar sig av PokéAPIs public API. ",
+      "about": "PokeNetX är en informationssida med fokus på Pokémons. Den visar upp alla existerande Pokémons och har en filterfunktion som tillåter sortering av generation, namn och id. PokeNetX visar även upp allmän information om varje Pokémon, såsom typ, svagheter och sprites. Sidan tillåter även att jämföra upp till 5 Pokémons stats. PokeNetX utnyttjar sig av PokéAPIs public API. ",
       "badge": "React &middot; API &middot; SQL",
-      "image": "Juan.jpg",
+      "image": "../projektgallery/PokeNetXPFP.png",
       "links": {
         "github": "https://github.com/Rami-Agha/API.git",
-        "website": "https://theazziedev.github.io/Portfolio/"
+        "website": ""
       },
 
       "project-images": [
         {
-          "src": "https://picsum.photos/id/1041/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Tim Marshall"
+          "src": "assets/projektgallery/PokeNetXAccount.png",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1043/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Christian Joudrey"
+          "src": "assets/projektgallery/PokeNetXCompare.png",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1044/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Steve Carter"
+          "src": "assets/projektgallery/PokeNetXFavorite.png",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1045/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Aleksandra Boguslawska"
+          "src": "assets/projektgallery/PokeNetXIndex.png",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1049/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Rosan Harmens"
+          "src": "assets/projektgallery/PokeNetXMoreInfo.png",
+          "caption": ""
         },
         {
           "src": "https://picsum.photos/id/1052/800/450",
@@ -535,36 +535,38 @@
       "project": "webbshop",
       "about": "Wisker Wonders är en onlineaffär för husdjurstillbehör, inklusive mat och accessoarer för katter, hundar och gnagare. Arbetet delades upp i två delar: back-end och front-end. Back-end-arbetet innefattade Javascript för kundvagn, sökfunktion och interaktiva funktioner. Designen skapades i Figma och implementerades med HTML och CSS.",
       "badge": "Design &middot; JS &middot; CSS",
-      "image": "Juan.jpg",
+      "image": "whiskerTitle.PNG",
       "links": {
         "github": "https://github.com/NTIG-Helsingborg/TE4_23-24_WhiskerWonders",
         "website": "https://theazziedev.github.io/Portfolio/"
       },
 
       "project-images": [
+       
         {
-          "src": "whiskerHome.PNG",
-          "caption": "home"
+          "src": "assets/projects/whiskerHome.PNG",
+         
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1043/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Christian Joudrey"
+          "src": "assets/projects/whiskerwelcome.jpg",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1044/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Steve Carter"
+          "src": "assets/projects/whiskersdesign.PNG",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1045/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Aleksandra Boguslawska"
+          "src": "assets/projects/whiskerHome.PNG",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1049/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Rosan Harmens"
+          "src": "assets/projects/whiskerProducts.PNG",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1052/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Annie Spratt"
+          "src": "assets/projects/whiskerproduct.PNG",
+          "caption": ""
         }
       ]
     },
@@ -636,40 +638,41 @@
       "displayName": "Consolata",
       "project": "spel",
       "about": "Consolata utspelar sig i en fallfärdig stad med steampunk-tema, där robotdelar är utspridda i olika distrikt och måste hittas och återmonteras i de respektive robotarna. När en robot är återmonterad kan den hjälpa till med att få tillgång till olika distrikt och byggnader som annars skulle vara oåtkomliga. På vägen löser spelaren olika pussel och minispel som hindrar framsteg i att hitta nya delar till robotarna. Till slut, med tillräckligt många robotar, kommer spelaren att kunna montera den sista roboten som kan ta honom hem.",
-      "badge": "React &middot; poop &middot; SQL",
-      "image": "Juan.jpg",
+      "badge": "Gamedevelopment &middot; Deisgn",
+      "image": "consolata.png",
       "links": {
         "github": "https://youtube.com",
-        "website": "https://theazziedev.github.io/Portfolio/"
+        "website": "https://youtube.com"
       },
 
       "project-images": [
         {
-          "src": "https://picsum.photos/id/1041/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Tim Marshall"
+          "src": "consolatacara1.png",
+          "caption": "En nivå där spelaren behöver förstöra camera genom att knuffa en box"
         },
         {
-          "src": "https://picsum.photos/id/1043/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Christian Joudrey"
+          "src": "consolatacara2.png",
+          "caption": "dialog ruta för när spelaren plockar upp en robot del"
         },
         {
-          "src": "https://picsum.photos/id/1044/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Steve Carter"
+          "src": "consolatacara3.png",
+          "caption": "Temmporära plattformar där spelaren måste snabbt ta sig över för att inte falla"
         },
         {
-          "src": "https://picsum.photos/id/1045/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Aleksandra Boguslawska"
+          "src": "consolatacara4.png",
+          "caption": "fläktar som spelaren kan sväva över"
         },
         {
-          "src": "https://picsum.photos/id/1049/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Rosan Harmens"
+          "src": "consolatacara5.png",
+          "caption": "En dörr där spelaren kan ta sig ut ur nivån"
         },
         {
-          "src": "https://picsum.photos/id/1052/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Annie Spratt"
+          "src": "consolatacara6.png",
+          "caption": "spelaren måste knuffa boxen på plattan för att deaktivera kugghjulen"
         }
       ]
     },
+
     "basecamp": {
       "displayName": "Basecamp",
       "project": "Basecamp",
@@ -749,8 +752,8 @@
     "gamehub": {
       "displayName": "GameHub",
       "project": "reactAPI",
-      "about": "Det här spelet är ett kort roguelike där spelaren måste slåss mot monster i en slumpmässigt genererad karta som slutar med att spelaren måste besegra en boss. Under spelets gång kan man hitta komponenter och ability cards som används för att göra spelaren starkare. Spelet är gjort i en pixel art style och tog inspiration från liknande spel i samma genre, såsom Binding of Isaac och Hades.",
-      "badge": "React &middot; API &middot; SQL",
+      "about": "GameHub är en hemsida byggd i React och Node.js som använder sig av Steam's API för att visa upp spel. På sidan kan man bläddra bland olika spel och filtrera bl.a. pris och typ. Om man inte hittar ett spel som är intressant finns det sökfunktion där man kan söka på alla spel som finns på Steam, samt en sida där ett slumpmässigt spel visas. Sidan har också ett kontosystem där man kan spara intressanta spel till favoriter.",
+      "badge": "React &middot; API &middot; Node.js &middot; SQLite",
       "image": "gamehub.png",
       "links": {
         "github": "https://youtube.com",
@@ -759,27 +762,27 @@
 
       "project-images": [
         {
-          "src": "https://picsum.photos/id/1041/800/450",
+          "src": "gamehub-home.png",
           "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Tim Marshall"
         },
         {
-          "src": "https://picsum.photos/id/1043/800/450",
+          "src": "gamehub-home.png",
           "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Christian Joudrey"
         },
         {
-          "src": "https://picsum.photos/id/1044/800/450",
+          "src": "gamehub-home.png",
           "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Steve Carter"
         },
         {
-          "src": "https://picsum.photos/id/1045/800/450",
+          "src": "gamehub-home.png",
           "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Aleksandra Boguslawska"
         },
         {
-          "src": "https://picsum.photos/id/1049/800/450",
+          "src": "gamehub-home.png",
           "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Rosan Harmens"
         },
         {
-          "src": "https://picsum.photos/id/1052/800/450",
+          "src": "gamehub-home.png",
           "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Annie Spratt"
         }
       ]
@@ -797,27 +800,27 @@
 
       "project-images": [
         {
-          "src": "/assets/projects/ehabify1.png",
+          "src": "ehabify1.png",
           "caption": ""
         },
         {
-          "src": "/assets/projects/ehabify2.png",
+          "src": "ehabify2.png",
           "caption": ""
         },
         {
-          "src": "/assets/projects/ehabify3.png",
+          "src": "ehabify3.png",
           "caption": ""
         },
         {
-          "src": "/assets/projects/ehabify4.png",
+          "src": "ehabify4.png",
           "caption": ""
         },
         {
-          "src": "/assets/projects/ehabify5.png",
+          "src": "ehabify5.png",
           "caption": ""
         },
         {
-          "src": "/assets/projects/ehabify.png",
+          "src": "ehabify.png",
           "caption": ""
         }
       ]
@@ -864,37 +867,37 @@
       "displayName": "Somnium",
       "project": "spel",
       "about": "Det här spelet är ett kort roguelike där spelaren måste slåss mot monster i en slumpmässigt genererad karta som slutar med att spelaren måste besegra en boss. Under spelets gång kan man hitta komponenter och ability cards som används för att göra spelaren starkare. Spelet är gjort i en pixel art style och tog inspiration från liknande spel i samma genre, såsom Binding of Isaac och Hades.",
-      "badge": "React &middot; poop &middot; SQL",
-      "image": "Juan.jpg",
+      "badge": "Unity &middot; GameDesign &middot; PixelArt",
+      "image": "../projektgallery/SomniumWinter.png",
       "links": {
-        "github": "https://youtube.com",
-        "website": "https://theazziedev.github.io/Portfolio/"
+        "github": "https://github.com/NTIG-Helsingborg/TE4_23-24_Somnium",
+        "website": "https://s-f-g.itch.io/somnium"
       },
 
       "project-images": [
         {
-          "src": "https://picsum.photos/id/1041/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Tim Marshall"
+          "src": "SomniumBoss1.png",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1043/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Christian Joudrey"
+          "src": "SomniumBoss2.png",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1044/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Steve Carter"
+          "src": "SomniumCat.png",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1045/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Aleksandra Boguslawska"
+          "src": "SomniumCircle.png",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1049/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Rosan Harmens"
+          "src": "SomniumWinter.png",
+          "caption": ""
         },
         {
           "src": "https://picsum.photos/id/1052/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Annie Spratt"
+          "caption": ""
         }
       ]
     },
@@ -1025,28 +1028,28 @@
 
       "project-images": [
         {
-          "src": "https://wheeldeal-virid.vercel.app/Assets/Car2.jpg",
-          "caption": "TEst2"
+          "src": "./assets/projects/Car2.jpg",
+          "caption": "En av produkterna på WheelDeal"
         },
         {
-          "src": "https://wheeldeal-virid.vercel.app/Assets/Car2.jpg",
-          "caption": "På wheeldeal säljs bilar"
+          "src": "./assets/projects/Motorcykel1.jpg",
+          "caption": "En av produkterna på WheelDeal"
         },
         {
-          "src": "https://picsum.photos/id/1044/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Steve Carter"
+          "src": "./assets/projects/Skateboard2.jpg",
+          "caption": "En av produkterna på WheelDeal"
         },
         {
-          "src": "https://picsum.photos/id/1045/800/450",
-          "caption": "test"
+          "src": "./assets/projects/wheeldeal.png",
+          "caption": "WheelDeal är en hemsida där du kan köpa många olika typer av fordon!"
         },
         {
-          "src": "https://picsum.photos/id/1049/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Rosan Harmens"
+          "src": "./assets/projects/wheeldealcart.png",
+          "caption": "Kundkorgsfunktionen på WheelDeal"
         },
         {
-          "src": "https://picsum.photos/id/1052/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Annie Spratt"
+          "src": "./assets/projects/Cykel1.jpg",
+          "caption": "WheelDeal är en hemsida där du kan köpa många olika typer av fordon!"
         }
       ]
     },
@@ -1132,8 +1135,7 @@
     "1": {
       "id": "1",
       "date": "16-08-2023",
-      "title": "TE4 Kickoff",
-      "subtitle": ""
+      "title": "TE4 Kickoff"
     },
     "2": {
       "id": "2",
@@ -1147,7 +1149,8 @@
       "date": "23-08-2023",
       "title": "Webbshop Light",
       "subtitle": "Projekt 2",
-      "description": "I detta projekt skulle vi skapa en responsiv webbplats där användare kan välja och summera varor i en varukorg. Webbplatsen skulle ha en enkel, snygg design och anpassas för vanliga skärmstorlekar..."
+      "description": "I detta projekt skulle vi skapa en responsiv webbplats där användare kan välja och summera varor i en varukorg. Webbplatsen skulle ha en enkel, snygg design och anpassas för vanliga skärmstorlekar...",
+      "goto_project": true
     },
     "4": {
       "id": "4",
@@ -1179,7 +1182,8 @@
       "date": "25-09-2023",
       "title": "API/React sida",
       "subtitle": "Projekt 4",
-      "description": "Vi fick i uppgift att  skapa en webbapplikation med React, där vi skulle bygga ett användarvänligt gränssnitt med hjälp av Reacts UI-komponenter. Vi fick välja en valfri API att använda."
+      "description": "Vi fick i uppgift att  skapa en webbapplikation med React, där vi skulle bygga ett användarvänligt gränssnitt med hjälp av Reacts UI-komponenter. Vi fick välja en valfri API att använda.",
+      "goto_project": true
     },
     "9": {
       "id": "9",
@@ -1205,7 +1209,8 @@
       "date": "22-11-2023",
       "title": "Hjälp en lärare",
       "subtitle": "Projekt 6",
-      "description": "Här fick vi uppdraget att samarbeta med olika lärare på skolan för att lösa utmaningar i deras vardag. Lärarna fungerade som uppdragsgivare och gav våra grupper problem att lösa."
+      "description": "Här fick vi uppdraget att samarbeta med olika lärare på skolan för att lösa utmaningar i deras vardag. Lärarna fungerade som uppdragsgivare och gav våra grupper problem att lösa.",
+      "goto_project": true
     },
     "13": {
       "id": "13",
@@ -1238,7 +1243,8 @@
       "date": "09-01-2024",
       "title": "Basecamp/Infoskärm",
       "subtitle": "Projekt 9",
-      "description": "Det här projektet lade fokus på utveckla våra färdigheter i dokumentation, kommunikation och anpassningsförmåga genom att ta oss an ett äldre TE4 projekt. Halvvägs genom projektet skulle vi även byta pågående projekt mellan grupperna."
+      "description": "Det här projektet lade fokus på utveckla våra färdigheter i dokumentation, kommunikation och anpassningsförmåga genom att ta oss an ett äldre TE4 projekt. Halvvägs genom projektet skulle vi även byta pågående projekt mellan grupperna.",
+      "goto_project": true
     },
     "18": {
       "id": "18",
@@ -1284,8 +1290,7 @@
     "24": {
       "id": "24",
       "date": "04-06-2024",
-      "title": "Avslutning",
-      "subtitle": ""
+      "title": "Avslutning"
     }
   }
 }
