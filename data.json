@@ -236,7 +236,7 @@
         "basecamp",
         "infoskarm"
       ],
-      "image": "Juan.jpg",
+      "image": "missingImage.jpg",
       "klassens": "Klassens Full-stack",
       "aboutMe": "Jag är Kirill Puljavin, en nyexaminerad fullstack-utvecklare från NTI Gymnasiet, där jag framgångsrikt slutfört TE4-programmet. Under min tid på NTI har jag förverkligat min passion för programvaruutveckling genom att delta i en rad olika projekt och kurser, vilket har gett mig värdefulla praktiska och teoretiska kunskaper",
       "individualProjects": {
@@ -380,7 +380,7 @@
         "basecamp",
         "infoskarm"
       ],
-      "image": null,
+      "image": "missingImage.jpg",
       "klassens": "",
       "aboutMe": "Jag heter Rami, är 22 år gammal och bor i Helsingborg. På NTI har jag lärt mig många nya tekniker, som ramverket React och frontend-utveckling. Jag fick också värdefull arbetslivserfarenhet genom praktik under andra terminen av Te4.",
       "individualProjects": {},
@@ -408,7 +408,7 @@
         "infoskarm",
         "portfolio"
       ],
-      "image": null,
+      "image": "missingImage.jpg",
       "klassens": "sddfsd",
       "aboutMe": "Hej! Jag heter Simon Jonasson, väldigt driven när det kommer till backend samt att utveckla både spel och AI. Jag har utvecklat en del system med olika typer av inloggnings lösningar, fått sätta upp en bankID lösning men jag har även sysslat med spelutveckling, frontend och nyligen börjat kolla in hur olika AI lösningar fungerar och är uppbyggda. Jag har testat på en hel del olika språk som exempelvis python, c# och php men har mest använt javascript. De flesta projekt jag har arbetat med har vi använt react + node.js där man använder en mix mellan javascript och html för att bygga hemsidor, detta har gjort så att min kunskap ökat inom javascript och hur man bygger upp olika backend lösningar till hemsidor.",
       "individualProjects": {},
@@ -472,7 +472,7 @@
         "InfoskÄrm",
         "Basecamp"
       ],
-      "image": "Juan.jpg",
+      "image": "missingImage.jpg",
       "klassens": "klassens ",
       "aboutMe": "Hej, jag heter Ebba Elversson och arbetar som Frontend Designer här på Te4. Jag är den enda i klassen som inte läste teknikprogrammet på gymnasiet. Istället fick jag ett wildcard från Linda och rektorn till Te4, eftersom de såg att jag utmärkte mig i webbutvecklings kurserna på IT-linjen. Det här året på Te4 har varit mycket givande. Jag har ställts inför många olika utmaningar och problem som har bidragit till min utveckling.",
       "individualProjects": {},
