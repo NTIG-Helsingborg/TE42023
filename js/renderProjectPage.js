@@ -49,9 +49,6 @@ async function renderProject() {
 
   cloneHTML.querySelector(".img-project").alt = urlParamValue;
 
-  cloneHTML.querySelector(".github").href = data["links"]["github"];
-  cloneHTML.querySelector(".website").href = data["links"]["website"];
-
   cloneHTML.querySelector(".badge").innerHTML = data["badge"];
   //gallery
   renderGalleryProject(cloneHTML, data);
