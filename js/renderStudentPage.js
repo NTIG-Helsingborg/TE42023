@@ -20,6 +20,14 @@ async function renderGalleryStudent(clone, data, jsonData) {
       if (studentProjects[x] == "Infoskarm") item.textContent = "Infoskärm";
       else item.textContent = studentProjects[x];
       x += 1;
+      
+      // Add a link to index.html
+      const link = document.createElement("a");
+      link.href = "indivproject.html?project=" + studentProjects[x];
+      link.textContent = studentProjects[x];
+      item.textContent = "";
+      item.appendChild(link);
+      link.style = "color:white; text-decoration:none;"; // Remove all styling from the link
     }
   });
 }
