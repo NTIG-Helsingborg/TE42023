@@ -19,22 +19,22 @@ class Projectcard extends HTMLElement {
     const group = parseInt(this.getAttribute("group"));
 
     let projects = [
-      { group: 1, name: "Whisker Wonders", image: "https://placehold.co/100x0", link: "https://example.com" },
-      { group: 1, name: "Wheeldeal", image: "https://placehold.co/100x0", link: "https://example.com" },
-      { group: 1, name: "Retro Tech", image: "https://placehold.co/100x0", link: "https://example.com" },
-      { group: 1, name: "Deep Sea NFT", image: "https://placehold.co/100x0", link: "https://example.com" },
-      { group: 2, name: "CosmicHub", image: "https://placehold.co/100x0", link: "https://example.com" },
-      { group: 2, name: "GameHub", image: "https://placehold.co/100x0", link: "https://example.com" },
-      { group: 2, name: "PokeNetX", image: "https://placehold.co/100x0", link: "https://example.com" },
-      { group: 3, name: "Somnium", image: "https://placehold.co/100x0", link: "https://example.com" },
-      { group: 3, name: "Magic Mender", image: "https://placehold.co/100x0", link: "https://example.com" },
-      { group: 3, name: "Consoldata", image: "https://placehold.co/100x0", link: "https://example.com" },
-      { group: 4, name: "Linda", image: "https://placehold.co/100x0", link: "https://example.com" },
-      { group: 4, name: "Mikey", image: "https://placehold.co/100x0", link: "https://example.com" },
-      { group: 4, name: "Ehab", image: "https://placehold.co/100x0", link: "https://example.com" },
-      { group: 4, name: "Josef", image: "https://placehold.co/100x0", link: "https://example.com" },
-      { group: 5, name: "Infoskärm", image: "https://placehold.co/100x0", link: "https://example.com" },
-      { group: 5, name: "Basecamp", image: "https://placehold.co/100x0", link: "https://example.com" },
+      { group: 1, name: "Whisker Wonders", image: "https://placehold.co/100x0", link: "whiskerwonders" },
+      { group: 1, name: "Wheeldeal", image: "https://placehold.co/100x0", link: "wheeldeal" },
+      { group: 1, name: "Retro Tech", image: "https://placehold.co/100x0", link: "RetroTech" },
+      { group: 1, name: "Deep Sea NFT", image: "https://placehold.co/100x0", link: "deepseanft" },
+      { group: 2, name: "CosmicHub", image: "https://placehold.co/100x0", link: "cosmichub" },
+      { group: 2, name: "GameHub", image: "https://placehold.co/100x0", link: "GameHub" },
+      { group: 2, name: "PokeNetX", image: "https://placehold.co/100x0", link: "pokinetx" },
+      { group: 3, name: "Somnium", image: "https://placehold.co/100x0", link: "somnium" },
+      { group: 3, name: "Magic Mender", image: "https://placehold.co/100x0", link: "magicmender" },
+      { group: 3, name: "Consolata", image: "https://placehold.co/100x0", link: "Consolata" },
+      { group: 4, name: "Linda", image: "https://placehold.co/100x0", link: "linda" },
+      { group: 4, name: "Mikey", image: "https://placehold.co/100x0", link: "mickeymailer" },
+      { group: 4, name: "Ehab", image: "https://placehold.co/100x0", link: "Ehabify" },
+      { group: 4, name: "Josef", image: "https://placehold.co/100x0", link: "josefs-hemsida" },
+      { group: 5, name: "Infoskärm", image: "https://placehold.co/100x0", link: "Infoskarm" },
+      { group: 5, name: "Basecamp", image: "https://placehold.co/100x0", link: "Basecamp" },
     ];
 
 
@@ -81,7 +81,7 @@ class Projectcard extends HTMLElement {
       if (project.group === group) {
         cardHTML += `
                 <div class="card d-inline-block shadow border-0 p-1 my-2 mx-2   ">
-                <a class="stretched-link " href="index.html ">
+                <a class="stretched-link " href="indivproject.html?project=${project.link}">
                 <img src="${project.image}"  class="card-img" alt="...">
                         
                 <div class="card-img-overlay ">
