@@ -1028,9 +1028,16 @@
     "wheeldeal": {
       "displayName": "Wheeldeal",
       "project": "webbshop",
-      "about": "Det här spelet är ett kort roguelike där spelaren måste slåss mot monster i en slumpmässigt genererad karta som slutar med att spelaren måste besegra en boss. Under spelets gång kan man hitta komponenter och ability cards som används för att göra spelaren starkare. Spelet är gjort i en pixel art style och tog inspiration från liknande spel i samma genre, såsom Binding of Isaac och Hades.",
+      "about": "WheelDeal är ett projekt av Salah, Zimon och Kirill, utvecklat som ett första grupparbete i TE4. Projektet går ut på att skapa en mini-webbshop med hjälp av HTML, CSS och JavaScript. I denna webbshop kan kunder köpa bilar, skateboards, cyklar och motorcyklar.
+
+      Webbshopens funktioner inkluderar:
+      
+      Produkter: Användare kan bläddra genom ett brett urval av bilar, skateboards, cyklar och motorcyklar.
+      Kundvagn: Kunder kan lägga till sina valda produkter i kundvagnen.
+      Kvitto: När köpet är slutfört får kunderna ett kvitto som skrivs ut i PDF-format.
+      Genom detta projekt har vi, Salah, Zimon och Kirill, kombinerat vår tekniska kunskap och kreativitet för att skapa en användarvänlig och funktionell plattform som simulerar en riktig e-handelsupplevelse.",
       "badge": "React &middot; poop &middot; SQL",
-      "image": "Juan.jpg",
+      "image": "wheeldeal.png",
       "links": {
         "github": "https://youtube.com",
         "website": "https://theazziedev.github.io/Portfolio/"
