@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     const imageSlider = document.querySelector('.image-slider');
-    const totalImages = 28; // Totalt antal bilder
+    const totalImages = 73; // Totalt antal bilder
     let currentImageIndex = 0;
 
     // Funktion för att visa nästa bild
@@ -20,5 +20,5 @@ document.addEventListener("DOMContentLoaded", function () {
     showNextImage();
 
     // Uppdatera bild var tredje sekund
-    setInterval(showNextImage, 3000);
+    setInterval(showNextImage, 1000);
 });
