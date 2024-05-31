@@ -102,7 +102,8 @@ body {
   text-align: var(--bs-body-text-align);
   /* background-color: var(--bs-body-bg); */
   background-image: url(../assets/BackgroundImage5.png);
-  background-size: cover;
+  background-size: contain;
+  background-repeat:repeat;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -12363,4 +12364,28 @@ html {
 .studentdescription{
   margin: 0 auto;
   max-width: 696px;
+}
+
+
+.card-img-top {
+  width: 100% !important;
+  height: 20vw !important;
+  max-height: 300px;
+  object-fit: cover !important;
+
+}
+@media screen and (max-width: 992px){
+  .card-img-top {
+    height: 25vw !important;
+  }
+}
+@media screen and (max-width: 768px){
+  .card-img-top {
+    height: 37vw !important;
+  }
+}
+@media screen and (max-width: 576px){
+  .card-img-top {
+    height: 48vw !important;
+  }
 }

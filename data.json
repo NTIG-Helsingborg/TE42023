@@ -9,7 +9,7 @@
         "infoskärmen",
         "basecamp"
       ],
-      "image": "#",
+      "image": "missingImage.jpg",
       "klassens": "?",
       "aboutMe": "Hej, mitt namn är David Olsson och jag gillar att lära mig nya saker. Under året som gått har jag lärt mig mer om att jobba i grupp med olika individer med olika kunskaper. På fritiden så tycker jag om att gymma, skriva lågnivå kod samt att delta i CTF-tävlingar.",
       "individualProjects": {},
@@ -25,6 +25,7 @@
       },
       "certifikat": ["Certiport - IT Specialist - JavaScript"]
     },
+
     "jonathan_cs": {
       "displayName": "Jonathan Cano Sjöstedt",
       "projects": [
@@ -64,14 +65,14 @@
       "displayName": "Jonathan Thösing-Jörgensen",
       "projects": [
         "whiskerwonders",
-        "gamehub",
+        "GameHub",
         "magicmender",
-        "ehabify",
-        "infoskärmen",
-        "basecamp"
+        "Ehabify",
+        "Infoskarm",
+        "Basecamp"
       ],
       "image": "jonathanthj.png",
-      "klassens": "klassens Big Spender",
+      "klassens": "klassens bästa",
       "aboutMe": "Hej! Jag är Jonathan Thösing-Jörgensen, en ambitiös och självlärd webbutvecklare med en passion för teknik och bilar. Född 2004, har jag alltid varit fascinerad av teknologins värld. Finns det något som jag inte vet hur de fungerar, så tar jag reda på det. Min resa inom webbutveckling började under mitt första år på NTI gymnasiet, där jag upptäckte en djup passion för att skapa på webben och att programmera. Denna passion har sedan dess drivit mig framåt och motiverat mig att följa den här vägen. Att välja att gå TE4 var ett medvetet val för mig, eftersom jag såg det som en perfekt möjlighet att fördjupa min kunskap inom webbutveckling och för att få en säker anställning efter examen.",
       "individualProjects": {
         "UX design": {
@@ -81,7 +82,7 @@
         }
       },
       "exam": {
-        "image": "AICamera.png",
+        "image": "gutenbergVSelementor.png",
         "alt": "Examensarbete",
         "name": "Examensarbete",
         "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
@@ -142,25 +143,23 @@
       "klassens": "klassens kung",
       "aboutMe": "Margo här! Är en person med ett kreativt öga som är intresserad av konst och spelutveckling. Under året har jag som mest arbetat med de visuella delar av projekt såsom design för sidor, css och spelgrafik för vårt flertalet projekt. På TE4 fick jag lära mig mer om mina intressen genom att faktiskt arbeta med dem i grupp. Under året fick jag exempelvis prova på pixel art via Aseprite, 3D modelling via blender och även prova hur det är att använda unit. Jag är tacksam över den tiden på TE4 då jag fick lista ut min passion inom spelutveckling och är taggat på att fortsätta med det på universitet efter jag har tagit examen som gymnasieingenjör.",
       "individualProjects": {
-        "UX design": {
-          "image": "figmaTechsip.png",
-          "alt": "cool image",
-          "text": "I skolan så gavs det möjlighet till programmet “techship” som var både en utbildning och tävling inom att skapa en egen startup. Till detta programmet fanns ett moment där en prototyp för vår idé behövdes skapas, i vilket jag tog mig an uppgiften till att skapa en interaktiv prototyp i figma med hjälp av \"prototyp\" design mönstret. "
+        "Blender 3D modellering": {
+          "image": "MargoBlender.png",
+          "alt": "Blender 3D modellering",
+          "text": "Tiden som jag fick dedikerat för vårt faktiska individuella arbete la jag på att göra en portfolio cv-sida i React/Vite, däremot så fanns det ett annat tillfälle för individuellt arbete som jag vill ta upp istället. Innan vår APL praktik i Sverige fick vi tid på lite över en vecka som vi fick dedikera till vad vi än ville så länge det kunde hjälpa oss inför vår APL. Därför valde jag att arbeta med Blender då min position i projektet var förutbestämd att vara en grafiker. Jag var ny till programmet och för att lära mig fick jag bygga upp en bra planering som skulle hjälpa mig att gå över de delar av program som jag behövde inför APL. Under den tiden fick jag skapa en liten low poly-landskap samt en liten karaktär."
         }
       },
       "exam": {
-        "image": "AICamera.png",
+        "image": "MargoCup.png",
         "alt": "Demo av prototyp",
-        "name": "AI tillämpning",
-        "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
+        "name": "Maya vs Blender",
+        "text": "Mitt examensarbete gick ut på att jag gjorde en undersökning av Maya och Blender där målet är att jämföra de två programvarorna och komma fram till svar för vilken av följande är bättre för industri respektive individ användning. Prototyperna som skulle hjälpa min undersökning var två 3d modeller av en kaffemugg som jag skapade i båda programmen, vilket hjälpte min bedömning i individuell användning. "
       },
       "links": {
-        "github": "https://github.com/TheAzzieDev",
-        "cv": "https://theazziedev.github.io/Portfolio/",
-        "instagram": "https://github.com/",
-        "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
+        "github": "https://github.com/Mizfra",
+        "linkedIn": "https://www.linkedin.com/in/margarita-shaposhnikova-a3694828b/"
       },
-      "certifikat": ["Certiport - IT Specialist - JavaScript"]
+      "certifikat": ["Null"]
     },
 
     "gustaf": {
@@ -235,7 +234,7 @@
         "basecamp",
         "infoskarm"
       ],
-      "image": "Juan.jpg",
+      "image": "Kirill.png",
       "klassens": "Klassens Full-stack",
       "aboutMe": "Jag är Kirill Puljavin, en nyexaminerad fullstack-utvecklare från NTI Gymnasiet, där jag framgångsrikt slutfört TE4-programmet. Under min tid på NTI har jag förverkligat min passion för programvaruutveckling genom att delta i en rad olika projekt och kurser, vilket har gett mig värdefulla praktiska och teoretiska kunskaper",
       "individualProjects": {
@@ -297,6 +296,7 @@
     },
 
     "salah": {
+      "displayName": "Salah Al-Hassun",
       "projects": [
         "Wheeldeal",
         "CosmicHub",
@@ -379,21 +379,18 @@
         "basecamp",
         "infoskarm"
       ],
-      "image": null,
-      "klassens": null,
+      "image": "missingImage.jpg",
+      "klassens": "",
       "aboutMe": "Jag heter Rami, är 22 år gammal och bor i Helsingborg. På NTI har jag lärt mig många nya tekniker, som ramverket React och frontend-utveckling. Jag fick också värdefull arbetslivserfarenhet genom praktik under andra terminen av Te4.",
-      "individualProjects": {}
-      },
+      "individualProjects": {},
       "exam": {
         "image": null,
-        "alt": null,
+        "alt": "AI",
         "name": "Man bör ta hjälp av AI som mjukvaruutvecklare när det behövs",
         "text": "Syftet med denna undersökning är att utforska möjligheterna och begränsningarna av AI. Detta är ett brett ämne som ständigt utvecklas eftersom AI-industrin förnyas dagligen. Jag bestämde mig för att undersöka exakt när och hur man kan använda AI, det vill säga vilka verktyg som finns, deras begränsningar och när det är mer effektivt att använda människors kunskaper och färdigheter. Detta ämne är komplext och det är svårt att dra en klar slutsats, så jag kommer att svara på frågan ur ett mjukvaru utvecklarperspektiv."
       },
       "links": {
         "github": "https://github.com/Rami-Agha",
-        "cv": null,
-        "instagram": null,
         "linkedIn": "http://www.linkedin.com/in/ramiagha888"
       },
       "certifikat": [""]
@@ -410,7 +407,7 @@
         "infoskarm",
         "portfolio"
       ],
-      "image": null,
+      "image": "missingImage.jpg",
       "klassens": "sddfsd",
       "aboutMe": "Hej! Jag heter Simon Jonasson, väldigt driven när det kommer till backend samt att utveckla både spel och AI. Jag har utvecklat en del system med olika typer av inloggnings lösningar, fått sätta upp en bankID lösning men jag har även sysslat med spelutveckling, frontend och nyligen börjat kolla in hur olika AI lösningar fungerar och är uppbyggda. Jag har testat på en hel del olika språk som exempelvis python, c# och php men har mest använt javascript. De flesta projekt jag har arbetat med har vi använt react + node.js där man använder en mix mellan javascript och html för att bygga hemsidor, detta har gjort så att min kunskap ökat inom javascript och hur man bygger upp olika backend lösningar till hemsidor.",
       "individualProjects": {},
@@ -434,11 +431,11 @@
         "mickeymailer",
         "cosmichub",
         "magicmender",
-        "basecamp",
-        "infoskarm"
+        "Basecamp",
+        "Infoskarm"
       ],
       "image": "zimon.jpg",
-      "klassens": "klassens ??",
+      "klassens": "Klassens Front-end proffs",
       "aboutMe": "Mitt namn är Zimon Johnsson. Driven och självgående juniorutvecklare. Jag är född 2004 och har alltid gillat teknik överlag. Älskar även bilar. Under mitt första år på NTI gymnasiet fann jag en passion för webbutveckling och jag har sedan dess jobbat mot att arbeta med just detta. Jag valde även att gå på TE4 på grund av detta, då jag såg TE4 som en möjlighet till att utbilda mig vidare under ett år och sedan förhoppningsvis få jobb inom detta område.",
       "individualProjects": {
         "UX design": {
@@ -467,14 +464,14 @@
     "ebba": {
       "displayName": "Ebba Elversson",
       "projects": [
-        "pokinetx",
-        "mickeymailer",
-        "retrotech",
-        "consolata",
-        "basecamp",
-        "infoskarm"
+        "whiskerwonders",
+        "cosmichub",
+        "somnium",
+        "linda",
+        "Infoskarm",
+        "Basecamp"
       ],
-      "image": "Juan.jpg",
+      "image": "missingImage.jpg",
       "klassens": "klassens ",
       "aboutMe": "Hej, jag heter Ebba Elversson och arbetar som Frontend Designer här på Te4. Jag är den enda i klassen som inte läste teknikprogrammet på gymnasiet. Istället fick jag ett wildcard från Linda och rektorn till Te4, eftersom de såg att jag utmärkte mig i webbutvecklings kurserna på IT-linjen. Det här året på Te4 har varit mycket givande. Jag har ställts inför många olika utmaningar och problem som har bidragit till min utveckling.",
       "individualProjects": {},
@@ -491,7 +488,9 @@
         "linkedIn": "https://www.linkedin.com/in/ebba-elversson-22a572222/"
       },
       "certifikat": [""]
-    },
+    }
+  },
+
   "projects": {
     "pokinetx": {
       "displayName": "PokiNetX",
@@ -534,18 +533,18 @@
     "whiskerwonders": {
       "displayName": "Whisker Wonders",
       "project": "webbshop",
-      "about": "Det här spelet är ett kort roguelike där spelaren måste slåss mot monster i en slumpmässigt genererad karta som slutar med att spelaren måste besegra en boss. Under spelets gång kan man hitta komponenter och ability cards som används för att göra spelaren starkare. Spelet är gjort i en pixel art style och tog inspiration från liknande spel i samma genre, såsom Binding of Isaac och Hades.",
-      "badge": "React &middot; poop &middot; SQL",
+      "about": "Wisker Wonders är en onlineaffär för husdjurstillbehör, inklusive mat och accessoarer för katter, hundar och gnagare. Arbetet delades upp i två delar: back-end och front-end. Back-end-arbetet innefattade Javascript för kundvagn, sökfunktion och interaktiva funktioner. Designen skapades i Figma och implementerades med HTML och CSS.",
+      "badge": "Design &middot; JS &middot; CSS",
       "image": "Juan.jpg",
       "links": {
-        "github": "https://youtube.com",
+        "github": "https://github.com/NTIG-Helsingborg/TE4_23-24_WhiskerWonders",
         "website": "https://theazziedev.github.io/Portfolio/"
       },
 
       "project-images": [
         {
-          "src": "https://picsum.photos/id/1041/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Tim Marshall"
+          "src": "whiskerHome.PNG",
+          "caption": "home"
         },
         {
           "src": "https://picsum.photos/id/1043/800/450",
@@ -800,38 +799,38 @@
     "ehabify": {
       "displayName": "Ehabify",
       "project": "hjalp-en-larare",
-      "about": "Det här spelet är ett kort roguelike där spelaren måste slåss mot monster i en slumpmässigt genererad karta som slutar med att spelaren måste besegra en boss. Under spelets gång kan man hitta komponenter och ability cards som används för att göra spelaren starkare. Spelet är gjort i en pixel art style och tog inspiration från liknande spel i samma genre, såsom Binding of Isaac och Hades.",
+      "about": "Ehabify är ett verktyg för närvarohantering designat speciellt för lärare. Med Ehabify blir det smidigt för elever att enkelt logga in och markera sin närvaro, vilket effektivt sparar värdefull undervisningstid.",
       "badge": "React &middot; poop &middot; SQL",
-      "image": "Juan.jpg",
+      "image": "ehabifyLogo.png",
       "links": {
-        "github": "https://youtube.com",
-        "website": "https://theazziedev.github.io/Portfolio/"
+        "github": "null",
+        "website": "null"
       },
 
       "project-images": [
         {
-          "src": "https://picsum.photos/id/1041/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Tim Marshall"
+          "src": "/assets/projects/ehabify1.png",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1043/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Christian Joudrey"
+          "src": "/assets/projects/ehabify2.png",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1044/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Steve Carter"
+          "src": "/assets/projects/ehabify3.png",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1045/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Aleksandra Boguslawska"
+          "src": "/assets/projects/ehabify4.png",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1049/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Rosan Harmens"
+          "src": "/assets/projects/ehabify5.png",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1052/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Annie Spratt"
+          "src": "/assets/projects/ehabify.png",
+          "caption": ""
         }
       ]
     },
@@ -1028,38 +1027,38 @@
     "wheeldeal": {
       "displayName": "Wheeldeal",
       "project": "webbshop",
-      "about": "Det här spelet är ett kort roguelike där spelaren måste slåss mot monster i en slumpmässigt genererad karta som slutar med att spelaren måste besegra en boss. Under spelets gång kan man hitta komponenter och ability cards som används för att göra spelaren starkare. Spelet är gjort i en pixel art style och tog inspiration från liknande spel i samma genre, såsom Binding of Isaac och Hades.",
+      "about": "WheelDeal är ett projekt av Salah, Zimon och Kirill, utvecklat som ett första grupparbete i TE4. Projektet går ut på att skapa en mini-webbshop med hjälp av HTML, CSS och JavaScript. I denna webbshop kan kunder köpa bilar, skateboards, cyklar och motorcyklar. Webbshopens funktioner inkluderar: Produkter: Användare kan bläddra genom ett brett urval av bilar, skateboards, cyklar och motorcyklar. Kundvagn: Kunder kan lägga till sina valda produkter i kundvagnen. Kvitto: När köpet är slutfört får kunderna ett kvitto som skrivs ut i PDF-format. Genom detta projekt har vi, Salah, Zimon och Kirill, kombinerat vår tekniska kunskap och kreativitet för att skapa en användarvänlig och funktionell plattform som simulerar en riktig e-handelsupplevelse.",
       "badge": "React &middot; poop &middot; SQL",
-      "image": "Juan.jpg",
+      "image": "wheeldeal.png",
       "links": {
-        "github": "https://youtube.com",
-        "website": "https://theazziedev.github.io/Portfolio/"
+        "github": "https://github.com/NTIG-Helsingborg/TE4_23-24_Wheeldeal",
+        "website": "https://wheeldeal-virid.vercel.app/"
       },
 
       "project-images": [
         {
-          "src": "https://picsum.photos/id/1041/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Tim Marshall"
+          "src": "./assets/projects/Car2.jpg",
+          "caption": "En av produkterna på WheelDeal"
         },
         {
-          "src": "https://picsum.photos/id/1043/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Christian Joudrey"
+          "src": "./assets/projects/Motorcykel1.jpg",
+          "caption": "En av produkterna på WheelDeal"
         },
         {
-          "src": "https://picsum.photos/id/1044/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Steve Carter"
+          "src": "./assets/projects/Skateboard2.jpg",
+          "caption": "En av produkterna på WheelDeal"
         },
         {
-          "src": "https://picsum.photos/id/1045/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Aleksandra Boguslawska"
+          "src": "./assets/projects/wheeldeal.png",
+          "caption": "WheelDeal är en hemsida där du kan köpa många olika typer av fordon!"
         },
         {
-          "src": "https://picsum.photos/id/1049/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Rosan Harmens"
+          "src": "./assets/projects/wheeldealcart.png",
+          "caption": "Kundkorgsfunktionen på WheelDeal"
         },
         {
-          "src": "https://picsum.photos/id/1052/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Annie Spratt"
+          "src": "./assets/projects/Cykel1.jpg",
+          "caption": "WheelDeal är en hemsida där du kan köpa många olika typer av fordon!"
         }
       ]
     },

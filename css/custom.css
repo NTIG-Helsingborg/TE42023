@@ -37,6 +37,9 @@
   }
 }
 
+.carousel__item{
+  user-select: none;
+}
 
 @media (max-width: 920px) {
   .carousel__item {
@@ -77,4 +80,3 @@
     height: 120px;
   }
 }
-
