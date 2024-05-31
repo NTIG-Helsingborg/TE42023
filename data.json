@@ -380,29 +380,24 @@
         "basecamp",
         "infoskarm"
       ],
-      "image": "Juan.jpg",
-      "klassens": "klassens kung",
-      "aboutMe": "Jag heter Jonathan, 19 år gammal och bor i Höganäs där det ursprungligen var tänkt att jag skulle ta mitt fjärde år. I efterhand är jag nu glad över att det istället blev på NTI på grund av hur många nya tekniker jag öppnats upp för, allt från Ramverk som React, backend utveckling med exempelvis Node.js och PHP till datorseende från min praktikplats.",
-      "individualProjects": {
-        "UX design": {
-          "image": "figmaTechsip.png",
-          "alt": "cool image",
-          "text": "I skolan så gavs det möjlighet till programmet “techship” som var både en utbildning och tävling inom att skapa en egen startup. Till detta programmet fanns ett moment där en prototyp för vår idé behövdes skapas, i vilket jag tog mig an uppgiften till att skapa en interaktiv prototyp i figma med hjälp av \"prototyp\" design mönstret. "
-        }
+      "image": null,
+      "klassens": null,
+      "aboutMe": "Jag heter Rami, är 22 år gammal och bor i Helsingborg. På NTI har jag lärt mig många nya tekniker, som ramverket React och frontend-utveckling. Jag fick också värdefull arbetslivserfarenhet genom praktik under andra terminen av Te4.",
+      "individualProjects": {}
       },
       "exam": {
-        "image": "AICamera.png",
-        "alt": "Demo av prototyp",
-        "name": "AI tillämpning",
-        "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
+        "image": null,
+        "alt": null,
+        "name": "Man bör ta hjälp av AI som mjukvaruutvecklare när det behövs",
+        "text": "Syftet med denna undersökning är att utforska möjligheterna och begränsningarna av AI. Detta är ett brett ämne som ständigt utvecklas eftersom AI-industrin förnyas dagligen. Jag bestämde mig för att undersöka exakt när och hur man kan använda AI, det vill säga vilka verktyg som finns, deras begränsningar och när det är mer effektivt att använda människors kunskaper och färdigheter. Detta ämne är komplext och det är svårt att dra en klar slutsats, så jag kommer att svara på frågan ur ett mjukvaru utvecklarperspektiv."
       },
       "links": {
-        "github": "https://github.com/TheAzzieDev",
-        "cv": "https://theazziedev.github.io/Portfolio/",
-        "instagram": "https://github.com/",
-        "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
+        "github": "https://github.com/Rami-Agha",
+        "cv": null,
+        "instagram": null,
+        "linkedIn": "http://www.linkedin.com/in/ramiagha888"
       },
-      "certifikat": ["Certiport - IT Specialist - JavaScript"]
+      "certifikat": [""]
     },
 
     "simon": {
