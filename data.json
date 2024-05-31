@@ -1162,7 +1162,8 @@
       "date": "23-08-2023",
       "title": "Webbshop Light",
       "subtitle": "Projekt 2",
-      "description": "I detta projekt skulle vi skapa en responsiv webbplats där användare kan välja och summera varor i en varukorg. Webbplatsen skulle ha en enkel, snygg design och anpassas för vanliga skärmstorlekar..."
+      "description": "I detta projekt skulle vi skapa en responsiv webbplats där användare kan välja och summera varor i en varukorg. Webbplatsen skulle ha en enkel, snygg design och anpassas för vanliga skärmstorlekar...",
+      "goto_project": true
     },
     "4": {
       "id": "4",
@@ -1194,14 +1195,16 @@
       "date": "25-09-2023",
       "title": "API/React sida",
       "subtitle": "Projekt 4",
-      "description": "Vi fick i uppgift att  skapa en webbapplikation med React, där vi skulle bygga ett användarvänligt gränssnitt med hjälp av Reacts UI-komponenter. Vi fick välja en valfri API att använda."
+      "description": "Vi fick i uppgift att  skapa en webbapplikation med React, där vi skulle bygga ett användarvänligt gränssnitt med hjälp av Reacts UI-komponenter. Vi fick välja en valfri API att använda.",
+      "goto_project": true
     },
     "9": {
       "id": "9",
       "date": "19-10-2023",
       "title": "Speldesign",
       "subtitle": "Projekt 5",
-      "description": "I det här projektet skapade vi, i våra tre arbetsgrupper, var sitt spel. Vi använde Unity som spelmotor, även om vi hade friheten att välja en annan motor om vi ansåg det lämpligt."
+      "description": "I det här projektet skapade vi, i våra tre arbetsgrupper, var sitt spel. Vi använde Unity som spelmotor, även om vi hade friheten att välja en annan motor om vi ansåg det lämpligt.",
+      "goto_project": true
     },
     "10": {
       "id": "10",
@@ -1220,7 +1223,8 @@
       "date": "22-11-2023",
       "title": "Hjälp en lärare",
       "subtitle": "Projekt 6",
-      "description": "Här fick vi uppdraget att samarbeta med olika lärare på skolan för att lösa utmaningar i deras vardag. Lärarna fungerade som uppdragsgivare och gav våra grupper problem att lösa."
+      "description": "Här fick vi uppdraget att samarbeta med olika lärare på skolan för att lösa utmaningar i deras vardag. Lärarna fungerade som uppdragsgivare och gav våra grupper problem att lösa.",
+      "goto_project": true
     },
     "13": {
       "id": "13",
@@ -1253,7 +1257,8 @@
       "date": "09-01-2024",
       "title": "Basecamp/Infoskärm",
       "subtitle": "Projekt 9",
-      "description": "Det här projektet lade fokus på utveckla våra färdigheter i dokumentation, kommunikation och anpassningsförmåga genom att ta oss an ett äldre TE4 projekt. Halvvägs genom projektet skulle vi även byta pågående projekt mellan grupperna."
+      "description": "Det här projektet lade fokus på utveckla våra färdigheter i dokumentation, kommunikation och anpassningsförmåga genom att ta oss an ett äldre TE4 projekt. Halvvägs genom projektet skulle vi även byta pågående projekt mellan grupperna.",
+      "goto_project": true
     },
     "18": {
       "id": "18",
