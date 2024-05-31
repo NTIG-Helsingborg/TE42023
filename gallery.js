@@ -20,5 +20,5 @@ document.addEventListener("DOMContentLoaded", function () {
     showNextImage();
 
     // Uppdatera bild var tredje sekund
-    setInterval(showNextImage, 1000);
+    setInterval(showNextImage, 2000);
 });
