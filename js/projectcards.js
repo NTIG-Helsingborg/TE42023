@@ -21,20 +21,20 @@ class Projectcard extends HTMLElement {
     let projects = [
       { group: 1, name: "Whisker Wonders", image: "./assets/projects/whiskerwonderslogo.png", link: "whiskerwonders" },
       { group: 1, name: "", image: "./assets/projects/wheeldeallogo.png", link: "wheeldeal" },
-      { group: 1, name: "", image: "./assets/projects/retro.png", link: "RetroTech" },
+      { group: 1, name: "", image: "./assets/projects/retro.png", link: "retrotech" },
       { group: 1, name: "", image: "./assets/projects/dsnft.png", link: "deepseanft" },
       { group: 2, name: "", image: "./assets/projects/cosmiclogo.png", link: "cosmichub" },
-      { group: 2, name: "", image: "./assets/projects/gamehub.png", link: "GameHub" },
+      { group: 2, name: "", image: "./assets/projects/gamehub.png", link: "gamehub" },
       { group: 2, name: "", image: "./assets/projects/pokenet.png", link: "pokinetx" },
       { group: 3, name: "", image: "./assets/projects/somnium.png", link: "somnium" },
-      { group: 3, name: "Magic Mender", image: "./assets/projects/magicTitle.png", link: "magicmender" },
-      { group: 3, name: "Consolata", image: "./assets/projects/consolata.png", link: "Consolata" },
+      { group: 3, name: "Magic Mender", image: "./assets/projects/magicTitle.PNG", link: "magicmender" },
+      { group: 3, name: "Consolata", image: "./assets/projects/consolata.png", link: "consolata" },
       { group: 4, name: "Linda", image: "./assets/projects/linda.png", link: "linda" },
       { group: 4, name: "Mickey", image: "./assets/projects/mickeymailer.png", link: "mickeymailer" },
       { group: 4, name: "Ehab", image: "./assets/projects/ehabifySmallLogo.png", link: "Ehabify" },
       { group: 4, name: "Josef", image: "./assets/projects/josef.jpeg", link: "josefs-hemsida" },
-      { group: 5, name: "Infoskärm", image: "./assets/projects/infoskarm.png", link: "Infoskarm" },
-      { group: 5, name: "", image: "./assets/projects/basecamplogo.png", link: "Basecamp" },
+      { group: 5, name: "Infoskärm", image: "./assets/projects/infoskarm.png", link: "infoskarm" },
+      { group: 5, name: "", image: "./assets/projects/basecamplogo.png", link: "basecamp" },
     ];
 
 

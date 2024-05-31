@@ -19,7 +19,7 @@ async function renderGalleryStudent(clone, data, jsonData) {
       item.style.backgroundSize = "cover";
       if (studentProjects[x] == "Infoskarm") item.textContent = "Infoskärm";
       else item.textContent = studentProjects[x];
-      x += 1;
+      
 
       // Add a link to index.html
       const link = document.createElement("a");
@@ -29,7 +29,8 @@ async function renderGalleryStudent(clone, data, jsonData) {
       item.appendChild(link);
       link.style =
         "color:white; text-decoration:none; -webkit-user-select: none; -ms-user-select: none; user-select: none;";
-    }
+      x += 1;
+      }
   });
 }
 
@@ -52,12 +53,9 @@ async function renderStudent() {
   const app = document.getElementById("app");
   const cloneHTML = document.importNode(template, true);
   cloneHTML.querySelector(".aboutMe").textContent = data["aboutMe"];
-  if (data["image"] == null) {
-    cloneHTML.querySelector(".img-student").src = "assets/missingImage.jpg";
-  } else {
-    cloneHTML.querySelector(".img-student").src =
-      "assets/profile/" + data["image"];
-  }
+
+  cloneHTML.querySelector(".img-student").src =
+  "./assets/profile/" + data["image"];
   cloneHTML.querySelector(".img-student").alt = urlParamValue;
 
   let links = [".linkedIn", ".github", ".cv", ".instagram"];

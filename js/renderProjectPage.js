@@ -1,4 +1,4 @@
-import { getRootPath, columnClick, getData } from "./scripts.js";
+import { getData } from "./scripts.js";
 function renderGalleryProject(clone, data) {
   //console.log("render gallery student", data, jsonData);
   let projectImages = data["project-images"];
@@ -30,7 +30,7 @@ async function renderProject() {
   cloneHTML.querySelector(".about").textContent = data["about"];
   cloneHTML.querySelector(".Project-title").textContent = data["displayName"];
   if (data["image"] == null) {
-    cloneHTML.querySelector(".img-project").src = "assets/missingImage.jpg";
+    cloneHTML.querySelector(".img-project").src = "assets/profile/missingImage.jpg";
   } else {
     cloneHTML.querySelector(".img-project").src =
       "assets/projects/" + data["image"];

@@ -6,7 +6,7 @@
         "deepseanft",
         "gamehub",
         "consolata",
-        "infoskärmen",
+        "infoskarm",
         "basecamp", 
         "josefs-hemsida",
         "portfolio"
@@ -41,7 +41,7 @@
       ],
       "image": "jonathancs.jpg",
       "klassens": "klassens kung",
-      "aboutMe": "Jag heter Jonathan, 19 år gammal och bor i Höganäs där det ursprungligen var tänkt att jag skulle ta mitt fjärde år. I efterhand är jag nu glad över att det istället blev på NTI på grund av hur många nya tekniker jag öppnats upp för, allt från Ramverk som React, backend utveckling med exempelvis Node.js och PHP till datorseende från min praktikplats.",
+      "aboutMe": "Jag heter Jonathan, 19 år gammal och bor i Höganäs där det ursprungligen var tänkt att jag skulle ta mitt fjärde år. I efterhand är jag nu glad över att det istället blev på NTI på grund av hur många nya tekniker jag öppnats upp för, allt från Ramverk som React, backend utveckling med exempelvis Node.js och PHP till datorseende och data insamling till en AI model från min praktikplats. Jag planerar att i framtiden utveckla mina kunskaper inom AI och 3D-printning genom göra egna projekt, vilket just nu är en säkerhetskamera inbyggd med AI modellen YOLO",
       "individualProjects": {
         "UX design": {
           "image": "figmaTechsip.png",
@@ -58,7 +58,6 @@
       "links": {
         "github": "https://github.com/TheAzzieDev",
         "cv": "https://theazziedev.github.io/Portfolio/",
-        "instagram": "https://github.com/",
         "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
       },
       "certifikat": ["Certiport - IT Specialist - JavaScript"]
@@ -145,7 +144,7 @@
         "portfolio"
       ],
       "image": "margo.webp",
-      "klassens": "klassens kung",
+      "klassens": "Klassens Designer",
       "aboutMe": "Margo här! Är en person med ett kreativt öga som är intresserad av konst och spelutveckling. Under året har jag som mest arbetat med de visuella delar av projekt såsom design för sidor, css och spelgrafik för vårt flertalet projekt. På TE4 fick jag lära mig mer om mina intressen genom att faktiskt arbeta med dem i grupp. Under året fick jag exempelvis prova på pixel art via Aseprite, 3D modelling via blender och även prova hur det är att använda unit. Jag är tacksam över den tiden på TE4 då jag fick lista ut min passion inom spelutveckling och är taggat på att fortsätta med det på universitet efter jag har tagit examen som gymnasieingenjör.",
       "individualProjects": {
         "Blender 3D modellering": {
@@ -268,7 +267,7 @@
     "eduard": {
       "displayName": "Eduard Mihic",
       "projects": [
-        "RetroTech",
+        "retrotech",
         "gamehub",
         "linda",
         "consolata",
@@ -315,7 +314,7 @@
         "portfolio"
       ],
       "image": "salah.png",
-      "klassens": "FREE PALESTINE - Web Designer",
+      "klassens": "Web Designer",
       "aboutMe": "Mitt namn är Salah Al-Hassun och jag är 20 år gammal. Jag kommer ursprungligen från Palestina och studerar för närvarande tekniska programmet fjärde året (TE4). Jag har specialiserat mig inom webbdesign och har genomfört flera projekt, både i grupp och individuellt.",
       "individualProjects": {
         "WhatNow": {
@@ -356,8 +355,8 @@
         "deepseanft",
         "aplbok",
         "magicmender",
-        "Infoskarm",
-        "Basecamp",
+        "infoskarm",
+        "basecamp",
         "linda",
         "portfolio"
       ],
@@ -385,7 +384,7 @@
       "projects": [
         "pokinetx",
         "mickeymailer",
-        "retrotech",
+        "RetroTech",
         "consolata",
         "basecamp",
         "infoskarm",
@@ -396,7 +395,7 @@
       "aboutMe": "Jag heter Rami, är 22 år gammal och bor i Helsingborg. På NTI har jag lärt mig många nya tekniker, som ramverket React och frontend-utveckling. Jag fick också värdefull arbetslivserfarenhet genom praktik under andra terminen av Te4.",
       "individualProjects": {},
       "exam": {
-        "image": null,
+        "image": "missingImage.jpg",
         "alt": "AI",
         "name": "Man bör ta hjälp av AI som mjukvaruutvecklare när det behövs",
         "text": "Syftet med denna undersökning är att utforska möjligheterna och begränsningarna av AI. Detta är ett brett ämne som ständigt utvecklas eftersom AI-industrin förnyas dagligen. Jag bestämde mig för att undersöka exakt när och hur man kan använda AI, det vill säga vilka verktyg som finns, deras begränsningar och när det är mer effektivt att använda människors kunskaper och färdigheter. Detta ämne är komplext och det är svårt att dra en klar slutsats, så jag kommer att svara på frågan ur ett mjukvaru utvecklarperspektiv."
@@ -420,7 +419,7 @@
         "portfolio"
       ],
       "image": "missingImage.jpg",
-      "klassens": "sddfsd",
+      "klassens": "Backend Developer",
       "aboutMe": "Hej! Jag heter Simon Jonasson, väldigt driven när det kommer till backend samt att utveckla både spel och AI. Jag har utvecklat en del system med olika typer av inloggnings lösningar, fått sätta upp en bankID lösning men jag har även sysslat med spelutveckling, frontend och nyligen börjat kolla in hur olika AI lösningar fungerar och är uppbyggda. Jag har testat på en hel del olika språk som exempelvis python, c# och php men har mest använt javascript. De flesta projekt jag har arbetat med har vi använt react + node.js där man använder en mix mellan javascript och html för att bygga hemsidor, detta har gjort så att min kunskap ökat inom javascript och hur man bygger upp olika backend lösningar till hemsidor.",
       "individualProjects": {},
       "exam": {
@@ -484,7 +483,7 @@
         "basecamp"
       ],
       "image": "missingImage.jpg",
-      "klassens": "klassens ",
+      "klassens": "Frontend Developer",
       "aboutMe": "Hej, jag heter Ebba Elversson och arbetar som Frontend Designer här på Te4. Jag är den enda i klassen som inte läste teknikprogrammet på gymnasiet. Istället fick jag ett wildcard från Linda och rektorn till Te4, eftersom de såg att jag utmärkte mig i webbutvecklings kurserna på IT-linjen. Det här året på Te4 har varit mycket givande. Jag har ställts inför många olika utmaningar och problem som har bidragit till min utveckling.",
       "individualProjects": {},
       "exam": {
@@ -507,10 +506,9 @@
       "project": "reactAPI",
       "about": "PokeNetX är en informationssida med fokus på Pokémons. Den visar upp alla existerande Pokémons och har en filterfunktion som tillåter sortering av generation, namn och id. PokeNetX visar även upp allmän information om varje Pokémon, såsom typ, svagheter och sprites. Sidan tillåter även att jämföra upp till 5 Pokémons stats. PokeNetX utnyttjar sig av PokéAPIs public API. ",
       "badge": "React &middot; API &middot; SQL",
-      "image": "../projektgallery/PokeNetXPFP.png",
+      "image": "PokeNetXPFP.png",
       "links": {
-        "github": "https://github.com/Rami-Agha/API.git",
-        "website": ""
+        "github": "https://github.com/Rami-Agha/API.git"
       },
 
       "project-images": [
@@ -535,7 +533,7 @@
           "caption": ""
         },
         {
-          "src": "../assets/projektgallery/PokeNetXPFP.png",
+          "src": "assets/projektgallery/PokeNetXPFP.png",
           "caption": ""
         }
       ]
@@ -620,36 +618,35 @@
       "project": "hjalp-en-larare",
       "about": "MickeyMail är en app som automatiskt skickar mejl vid bestämda tidsintervall. Appens huvudsyfte är att hjälpa användaren att skicka påminnelsemejl till flera personer samtidigt, vilket sparar tid och gör det enklare att hantera stora mängder kommunikation. Användaren kan schemalägga mejl att skickas vid specifika tider, vilket gör appen idealisk för uppgifter som att påminna om möten, deadlines eller andra viktiga händelser.",
       "badge": "React &middot; Design &middot; SQL",
-      "image": "Juan.jpg",
+      "image": "mickeymailer.png",
       "links": {
-        "github": "https://github.com/TheAzzieDev/MickeyEmail-",
-        "website": "https://theazziedev.github.io/Portfolio/"
+        "github": "https://github.com/TheAzzieDev/MickeyEmail-"
       },
 
       "project-images": [
         {
-          "src": "https://picsum.photos/id/1041/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Tim Marshall"
+          "src": "assets/projektgallerymickeymailercara1.png",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1043/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Christian Joudrey"
+          "src": "assets/projektgallery/mickeymailercara2.png",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1044/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Steve Carter"
+          "src": "assets/projektgallery/mickeymailercara3.png",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1045/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Aleksandra Boguslawska"
+          "src": "assets/projektgallery/mickeymailercara4.png",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1049/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Rosan Harmens"
+          "src": "assets/projektgallery/mickeymailercara5.png",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1052/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Annie Spratt"
+          "src": "assets/projektgallery/mickeymailercara6.png",
+          "caption": ""
         }
       ]
     },
@@ -666,25 +663,25 @@
 
       "project-images": [
         {
-          "src": "/assets/projects/retro-sid1.png",
+          "src": "assets/projektgallery/retro-sid1.png",
           "caption": "Start sida där vi displayar alla våra produkter"
         },
         {
-          "src": "/assets/projects/retro-sid2.png",
+          "src": "assets/projektgallery/retro-sid2.png",
           "caption": "Varukorg sida"
         },
         {
-          "src": "/assets/projects/retro-sid3.png",
+          "src": "assets/projektgallery/retro-sid3.png",
           "caption": "KundService sida"
         },
         {
-          "src": "/assets/projects/retro-sid3.png",
+          "src": "assets/projektgallery/retro-sid3.png",
           "caption": "KundService sida"
         },  {
-          "src": "/assets/projects/retro-sid3.png",
+          "src": "assets/projektgallery/retro-sid3.png",
           "caption": "KundService sida"
         },  {
-          "src": "/assets/projects/retro-sid3.png",
+          "src": "assets/projektgallery/retro-sid3.png",
           "caption": "KundService sida"
         }
       ]
@@ -702,27 +699,27 @@
 
       "project-images": [
         {
-          "src": "../assets/projektgallery/consolatacara1.png",
+          "src": "assets/projektgallery/consolatacara1.png",
           "caption": "En nivå där spelaren behöver förstöra camera genom att knuffa en box"
         },
         {
-          "src": "../assets/projektgallery/consolatacara2.png",
+          "src": "assets/projektgallery/consolatacara2.png",
           "caption": "dialog ruta för när spelaren plockar upp en robot del"
         },
         {
-          "src": "../assets/projektgallery/consolatacara3.png",
+          "src": "assets/projektgallery/consolatacara3.png",
           "captionx": "Temmporära plattformar där spelaren måste snabbt ta sig över för att inte falla"
         },
         {
-          "src": "../assets/projektgallery/consolatacara4.png",
+          "src": "assets/projektgallery/consolatacara4.png",
           "caption": "fläktar som spelaren kan sväva över"
         },
         {
-          "src": "../assets/projektgallery/consolatacara5.png",
+          "src": "assets/projektgallery/consolatacara5.png",
           "caption": "En dörr där spelaren kan ta sig ut ur nivån"
         },
         {
-          "src": "../assets/projektgallery/consolatacara6.png",
+          "src": "assets/projektgallery/consolatacara6.png",
           "caption": "spelaren måste knuffa boxen på plattan för att deaktivera kugghjulen"
         }
       ]
@@ -733,7 +730,7 @@
       "project": "Basecamp",
       "about": "Basecamp är ett återkommande projekt efterfrågat av Linda Avramidou och Josef Nobach. Idéen var att sätta upp en pedagogisk webbplats för elever inom NTI Gymnasium runt om i Sverige. Hemsidan skulle fokusera på programmering och webbutveckling och skapa en gemensam läroplan som alla NTI lärare kan utgå från. Basecamp ska använda sig både av videor och artiklar som är skapade av elever och modererade av lärare.",
       "badge": "HTML &middot; PHP &middot; SQL",
-      "image": "/basecamp3.png",
+      "image": "basecamp3.png",
       "links": {
         "github": "https://github.com/NTIG-Helsingborg/TE4_23-24_Basecamp",
         "website": ""
@@ -741,27 +738,27 @@
 
       "project-images": [
         {
-          "src": "/assets/projects/basecamp1.png",
+          "src": "assets/projects/basecamp1.png",
           "caption": ""
         },
         {
-          "src": "/assets/projects/basecamp2.png",
+          "src": "assets/projects/basecamp2.png",
           "caption": ""
         },
         {
-          "src": "/assets/projects/basecamp3.png",
+          "src": "assets/projects/basecamp3.png",
           "caption": ""
         },
         {
-          "src": "/assets/projects/basecamp4.png",
+          "src": "assets/projects/basecamp4.png",
           "caption": ""
         },
         {
-          "src": "/assets/projects/basecamp2.png",
+          "src": "assets/projects/basecamp2.png",
           "caption": ""
         },
         {
-          "src": "/assets/projects/basecamp4.png",
+          "src": "assets/projects/basecamp4.png",
           "caption": ""
         }
       ]
@@ -773,8 +770,7 @@
       "badge": "React &middot; Documenting &middot; Interviews",
       "image": "../projektgallery/InfoskarmIndex.png",
       "links": {
-        "github": "https://github.com/NTIG-Helsingborg/TE4_23-24_ProjektLinn_rebuild",
-        "website": ""
+        "github": "https://github.com/NTIG-Helsingborg/TE4_23-24_ProjektLinn_rebuild"
       },
 
       "project-images": [
@@ -817,27 +813,27 @@
 
       "project-images": [
         {
-          "src": "/assets/projektgallery/gamehub-home.png",
+          "src": "assets/projektgallery/gamehub-home.png",
           "caption": ""
         },
         {
-          "src": "/assets/projektgallery/gamehub-games.png",
+          "src": "assets/projektgallery/gamehub-games.png",
           "caption": ""
         },
         {
-          "src": "/assets/projektgallery/gamehub-game.png",
+          "src": "assets/projektgallery/gamehub-game.png",
           "caption": ""
         },
         {
-          "src": "/assets/projektgallery/gamehub-profile.png",
+          "src": "assets/projektgallery/gamehub-profile.png",
           "caption": ""
         },
         {
-          "src": "/assets/projektgallery/gamehub-favorites.png",
+          "src": "assets/projektgallery/gamehub-favorites.png",
           "caption": ""
         },
         {
-          "src": "/assets/projektgallery/gamehub-home.png",
+          "src": "assets/projektgallery/gamehub-home.png",
           "caption": ""
         }
       ]
@@ -848,10 +844,7 @@
       "about": "Ehabify är ett verktyg för närvarohantering designat speciellt för lärare. Med Ehabify blir det smidigt för elever att enkelt logga in och markera sin närvaro, vilket effektivt sparar värdefull undervisningstid.",
       "badge": "React &middot; NFC &middot; SQL",
       "image": "ehabifyLogo.png",
-      "links": {
-        "github": "null",
-        "website": "null"
-      },
+      "links": {},
 
       "project-images": [
         {
@@ -923,7 +916,7 @@
       "project": "spel",
       "about": "Det här spelet är ett kort roguelike där spelaren måste slåss mot monster i en slumpmässigt genererad karta som slutar med att spelaren måste besegra en boss. Under spelets gång kan man hitta komponenter och ability cards som används för att göra spelaren starkare. Spelet är gjort i en pixel art style och tog inspiration från liknande spel i samma genre, såsom Binding of Isaac och Hades.",
       "badge": "Unity &middot; GameDesign &middot; PixelArt",
-      "image": "../projektgallery/SomniumWinter.png",
+      "image": "assets/projektgallery/SomniumWinter.png",
       "links": {
         "github": "https://github.com/NTIG-Helsingborg/TE4_23-24_Somnium",
         "website": "https://s-f-g.itch.io/somnium"
@@ -931,27 +924,27 @@
 
       "project-images": [
         {
-          "src": "../assets/projektgallery/SomniumBoss1.png",
+          "src": "assets/projektgallery/SomniumBoss1.png",
           "caption": ""
         },
         {
-          "src": "../assets/projektgallery/SomniumBoss2.png",
+          "src": "assets/projektgallery/SomniumBoss2.png",
           "caption": ""
         },
         {
-          "src": "../assets/projektgallery/SomniumCat.png",
+          "src": "assets/projektgallery/SomniumCat.png",
           "caption": ""
         },
         {
-          "src": "../assets/projektgallery/SomniumCircle.png",
+          "src": "assets/projektgallery/SomniumCircle.png",
           "caption": ""
         },
         {
-          "src": "../assets/projektgallery/SomniumWinter.png",
+          "src": "assets/projektgallery/SomniumWinter.png",
           "caption": ""
         },
         {
-          "src": "../assets/projektgallery/SomniumMaps",
+          "src": "assets/projektgallery/SomniumMaps",
           "caption": ""
         }
       ]
@@ -1001,8 +994,7 @@
       "badge": "React &middot; poop &middot; SQL",
       "image": "nebulae1.png",
       "links": {
-        "github": "https://github.com/NTIG-Helsingborg/TE4_23-24_CosmicHub",
-        "website": ""
+        "github": "https://github.com/NTIG-Helsingborg/TE4_23-24_CosmicHub"
       },
 
       "project-images": [
@@ -1045,11 +1037,11 @@
 
       "project-images": [
         {
-          "src": "",
+          "src": "assets/projects/magicmender.PNG",
           "caption": ""
         },
         {
-          "src": "",
+          "src": "assets/projects/magicmender.PNG",
           "caption": ""
         },
         {
@@ -1065,7 +1057,7 @@
           "caption": ""
         },
         {
-          "src": "",
+          "src": "assets/projects/magicmender.PNG",
           "caption": ""
         }
       ]
