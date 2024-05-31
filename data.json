@@ -143,25 +143,23 @@
       "klassens": "klassens kung",
       "aboutMe": "Margo här! Är en person med ett kreativt öga som är intresserad av konst och spelutveckling. Under året har jag som mest arbetat med de visuella delar av projekt såsom design för sidor, css och spelgrafik för vårt flertalet projekt. På TE4 fick jag lära mig mer om mina intressen genom att faktiskt arbeta med dem i grupp. Under året fick jag exempelvis prova på pixel art via Aseprite, 3D modelling via blender och även prova hur det är att använda unit. Jag är tacksam över den tiden på TE4 då jag fick lista ut min passion inom spelutveckling och är taggat på att fortsätta med det på universitet efter jag har tagit examen som gymnasieingenjör.",
       "individualProjects": {
-        "UX design": {
-          "image": "figmaTechsip.png",
-          "alt": "cool image",
-          "text": "I skolan så gavs det möjlighet till programmet “techship” som var både en utbildning och tävling inom att skapa en egen startup. Till detta programmet fanns ett moment där en prototyp för vår idé behövdes skapas, i vilket jag tog mig an uppgiften till att skapa en interaktiv prototyp i figma med hjälp av \"prototyp\" design mönstret. "
+        "Blender 3D modellering": {
+          "image": "MargoBlender.png",
+          "alt": "Blender 3D modellering",
+          "text": "Tiden som jag fick dedikerat för vårt faktiska individuella arbete la jag på att göra en portfolio cv-sida i React/Vite, däremot så fanns det ett annat tillfälle för individuellt arbete som jag vill ta upp istället. Innan vår APL praktik i Sverige fick vi tid på lite över en vecka som vi fick dedikera till vad vi än ville så länge det kunde hjälpa oss inför vår APL. Därför valde jag att arbeta med Blender då min position i projektet var förutbestämd att vara en grafiker. Jag var ny till programmet och för att lära mig fick jag bygga upp en bra planering som skulle hjälpa mig att gå över de delar av program som jag behövde inför APL. Under den tiden fick jag skapa en liten low poly-landskap samt en liten karaktär."
         }
       },
       "exam": {
-        "image": "AICamera.png",
+        "image": "MargoCup.png",
         "alt": "Demo av prototyp",
-        "name": "AI tillämpning",
-        "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
+        "name": "Maya vs Blender",
+        "text": "Mitt examensarbete gick ut på att jag gjorde en undersökning av Maya och Blender där målet är att jämföra de två programvarorna och komma fram till svar för vilken av följande är bättre för industri respektive individ användning. Prototyperna som skulle hjälpa min undersökning var två 3d modeller av en kaffemugg som jag skapade i båda programmen, vilket hjälpte min bedömning i individuell användning. "
       },
       "links": {
-        "github": "https://github.com/TheAzzieDev",
-        "cv": "https://theazziedev.github.io/Portfolio/",
-        "instagram": "https://github.com/",
-        "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
+        "github": "https://github.com/Mizfra",
+        "linkedIn": "https://www.linkedin.com/in/margarita-shaposhnikova-a3694828b/"
       },
-      "certifikat": ["Certiport - IT Specialist - JavaScript"]
+      "certifikat": ["Null"]
     },
 
     "gustaf": {
@@ -1039,12 +1037,12 @@
 
       "project-images": [
         {
-          "src": "https://picsum.photos/id/1041/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Tim Marshall"
+          "src": "https://wheeldeal-virid.vercel.app/Assets/Car2.jpg",
+          "caption": "TEst2"
         },
         {
-          "src": "https://picsum.photos/id/1043/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Christian Joudrey"
+          "src": "https://wheeldeal-virid.vercel.app/Assets/Car2.jpg",
+          "caption": "På wheeldeal säljs bilar"
         },
         {
           "src": "https://picsum.photos/id/1044/800/450",
@@ -1052,7 +1050,7 @@
         },
         {
           "src": "https://picsum.photos/id/1045/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Aleksandra Boguslawska"
+          "caption": "test"
         },
         {
           "src": "https://picsum.photos/id/1049/800/450",
