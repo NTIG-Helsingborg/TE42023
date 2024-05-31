@@ -166,7 +166,7 @@
       "displayName": "Gustaf Fäldt",
       "projects": [
         "retrotech",
-        "gamehub",
+        "GameHub",
         "consolata",
         "josefs-hemsida",
         "basecamp",
@@ -772,27 +772,27 @@
       "project-images": [
         {
           "src": "gamehub-home.png",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Tim Marshall"
+          "caption": "GameHub Home Page"
+        },
+        {
+          "src": "gamehub-games.png",
+          "caption": "Gamehub Games Page"
+        },
+        {
+          "src": "gamehub-game.png",
+          "caption": "GameHub Single Game Page"
+        },
+        {
+          "src": "gamehub-profile.png",
+          "caption": "GameHub Profile Page"
+        },
+        {
+          "src": "gamehub-favorites.png",
+          "caption": "GameHub Favorites Page"
         },
         {
           "src": "gamehub-home.png",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Christian Joudrey"
-        },
-        {
-          "src": "gamehub-home.png",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Steve Carter"
-        },
-        {
-          "src": "gamehub-home.png",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Aleksandra Boguslawska"
-        },
-        {
-          "src": "gamehub-home.png",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Rosan Harmens"
-        },
-        {
-          "src": "gamehub-home.png",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Annie Spratt"
+          "caption": "GameHub Home Page"
         }
       ]
     },
