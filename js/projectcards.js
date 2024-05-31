@@ -20,11 +20,11 @@ class Projectcard extends HTMLElement {
 
     let projects = [
       { group: 1, name: "Whisker Wonders", image: "https://placehold.co/100x0", link: "whiskerwonders" },
-      { group: 1, name: "Wheeldeal", image: "https://placehold.co/100x0", link: "wheeldeal" },
+      { group: 1, name: "Wheeldeal", image: "./assets/projects/wheeldeallogo.png", link: "wheeldeal" },
       { group: 1, name: "Retro Tech", image: "https://placehold.co/100x0", link: "RetroTech" },
       { group: 1, name: "Deep Sea NFT", image: "https://placehold.co/100x0", link: "deepseanft" },
-      { group: 2, name: "CosmicHub", image: "https://placehold.co/100x0", link: "cosmichub" },
-      { group: 2, name: "GameHub", image: "https://placehold.co/100x0", link: "GameHub" },
+      { group: 2, name: "CosmicHub", image: "./assets/projects/cosmiclogo.png", link: "cosmichub" },
+      { group: 2, name: "GameHub", image: "./assets/projects/gamehub.png", link: "GameHub" },
       { group: 2, name: "PokeNetX", image: "https://placehold.co/100x0", link: "pokinetx" },
       { group: 3, name: "Somnium", image: "https://placehold.co/100x0", link: "somnium" },
       { group: 3, name: "Magic Mender", image: "https://placehold.co/100x0", link: "magicmender" },
