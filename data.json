@@ -1,5 +1,31 @@
 {
   "students": {
+    "david": {
+      "displayName": "David Olsson",
+      "projects": [
+        "deepseanft",
+        "gamehub",
+        "consolata",
+        "infoskärmen",
+        "basecamp"
+      ],
+      "image": "#",
+      "klassens": "?",
+      "aboutMe": "Hej, mitt namn är David Olsson och jag gillar att lära mig nya saker. Under året som gått har jag lärt mig mer om att jobba i grupp med olika individer med olika kunskaper. På fritiden så tycker jag om att gymma, skriva lågnivå kod samt att delta i CTF-tävlingar.",
+      "individualProjects": {
+      },  
+      "exam": {
+        "image": "#",
+        "alt": "Demo av prototyp",
+        "name": "Bin2bin obfuskeringsverktyg",
+        "text": "Mitt examensarbete bestod av att lära sig hur bin2bin obfuskering fungerar och sedan implementera detta med egen kod. Jag valde att skriva projektet i Rust istället för C eller C++ som jag är mer van vid för att utmana mig själv."
+      },
+      "links": {
+        "github": "https://github.com/",
+        "linkedIn": "http://www.linkedin.com/"
+      },
+      "certifikat": ["Certiport - IT Specialist - JavaScript"]
+    },
     "jonathan_cs": {
       "displayName": "Jonathan Cano Sjöstedt",
       "projects": [
