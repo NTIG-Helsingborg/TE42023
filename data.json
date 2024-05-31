@@ -645,27 +645,27 @@
 
       "project-images": [
         {
-          "src": "consolatacara1.png",
+          "src": "../assets/projektgallery/consolatacara1.png",
           "caption": "En nivå där spelaren behöver förstöra camera genom att knuffa en box"
         },
         {
-          "src": "consolatacara2.png",
+          "src": "../assets/projektgallery/consolatacara2.png",
           "caption": "dialog ruta för när spelaren plockar upp en robot del"
         },
         {
-          "src": "consolatacara3.png",
+          "src": "../assets/projektgallery/consolatacara3.png",
           "captionx": "Temmporära plattformar där spelaren måste snabbt ta sig över för att inte falla"
         },
         {
-          "src": "consolatacara4.png",
+          "src": "../assets/projektgallery/consolatacara4.png",
           "caption": "fläktar som spelaren kan sväva över"
         },
         {
-          "src": "consolatacara5.png",
+          "src": "../assets/projektgallery/consolatacara5.png",
           "caption": "En dörr där spelaren kan ta sig ut ur nivån"
         },
         {
-          "src": "consolatacara6.png",
+          "src": "../assets/projektgallery/consolatacara6.png",
           "caption": "spelaren måste knuffa boxen på plattan för att deaktivera kugghjulen"
         }
       ]
