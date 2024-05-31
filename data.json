@@ -194,34 +194,33 @@
     "othman": {
       "displayName": "Othman Al-Ani",
       "projects": [
-       
-        "mickeymailer",
-        "retrotech",
-        "consolata",
-        "basecamp",
-        "infoskarm"
+        "whiskerwonders",
+        "cosmichub",
+        "magicmender",
+        "ehabify",
+        "infoskarm",
+        "basecamp"
       ],
-      "image": "Juan.jpg",
+      "image": "othman.png",
       "klassens": "klassens kung",
-      "aboutMe": "Jag heter Jonathan, 19 år gammal och bor i Höganäs där det ursprungligen var tänkt att jag skulle ta mitt fjärde år. I efterhand är jag nu glad över att det istället blev på NTI på grund av hur många nya tekniker jag öppnats upp för, allt från Ramverk som React, backend utveckling med exempelvis Node.js och PHP till datorseende från min praktikplats.",
+      "aboutMe": "Hej! Jag heter Othman Al-Ani och älskar teknik. Min nyfikenhet har lett mig till allt från 3D-rendering till att mäta luftfuktighet. Under mitt TE4-år har jag utvecklat en passion för frontend-utveckling, UX och IoT. Jag gillar att ta mig an nya utmaningar och se vart de leder. Förutom programmering har grupparbete och problemlösning varit en viktig del av min utbildning. Jag ser fram emot att fortsätta utforska och utvecklas inom dessa områden.",
       "individualProjects": {
-        "UX design": {
+        "Home Helper": {
           "image": "figmaTechsip.png",
           "alt": "cool image",
-          "text": "I skolan så gavs det möjlighet till programmet “techship” som var både en utbildning och tävling inom att skapa en egen startup. Till detta programmet fanns ett moment där en prototyp för vår idé behövdes skapas, i vilket jag tog mig an uppgiften till att skapa en interaktiv prototyp i figma med hjälp av \"prototyp\" design mönstret. "
+          "text": "Under året fick vi chansen för egen utveckling och arbeta på egna projekt. Jag valde att utveckla mina IOT kunskaper och påbörja ett projekt som jag har utvecklat vidare på efter. Homehelper är ett system som kopplar arudino sensorer som mäter luftfuktighet och temperatur till en hemsida. Systemet är tänkt att hjälpa användaren att hålla koll på luftfuktigheten i sitt hem."
         }
       },
       "exam": {
         "image": "AICamera.png",
         "alt": "Demo av prototyp",
-        "name": "AI tillämpning",
-        "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
+        "name": "IOT jämförelse",
+        "text": " Mitt arbete undersöker vilken typ av sensor, ultraljudssensor eller infraröd sensor, som är mest effektiv för avståndsmätning och objekt upptäckt inom IoT-projekt. Genom Arduino experiment jämför jag dessa sensorer för att få enbättre förståelse av deras prestanda i IoT-applikationer. Arduino används ofta i dessa projekt på grund av sin användarvänlighet, och sensorer spelar en central roll genom att mäta och reagera på olika faktorer som färgigenkänning, avstånd och rörelse."
       },
       "links": {
-        "github": "https://github.com/TheAzzieDev",
-        "cv": "https://theazziedev.github.io/Portfolio/",
-        "instagram": "https://github.com/",
-        "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
+        "github": "https://github.com/Othman-Al-Ani",
+        "cv": "https://othman-al-ani.github.io/Portfolio/",
+        "linkedIn": "https://www.linkedin.com/in/othman-alani-8133b4251/"
       },
       "certifikat": ["Certiport - IT Specialist - JavaScript"]
     },
@@ -270,7 +269,7 @@
         "basecamp",
         "infoskarm"
       ],
-      "image": "profile.webp",
+      "image": "Eduard.webp",
       "klassens": "klassens kung",
       "aboutMe": "Jag heter Eduard och är en passionerad spelutvecklare och gymnasieelev med ingenjörsvetenskaplig inriktning. Mina IT-specialistcertifieringar och erfarenhet från spelprojekt i Unity och C++ visar min kompetens inom mjukvaruutveckling. Nu utforskar jag Unreal Engine 5 för att skapa fängslande spelupplevelser med fantastisk grafik. Mitt mål är att nå ut till en bred publik med spel som inte bara underhåller, utan också fångar spelarens fantasi.",
       "individualProjects": {
@@ -281,7 +280,7 @@
         }
       },
       "exam": {
-        "image": "examensarbete.png",
+        "image": "eduard_ex.png",
         "alt": "",
         "name": "Unity, Unreal Engine och Godot fördelar och nackdelar",
         "text": "Denna studie undersöker spelmotorerna Unity, Unreal Engine och Godot, med fokus på deras historiska utveckling, popularitet, styrkor och svagheter. Genom litteraturgranskning och analys av online-resurser jämförs motorerna i olika aspekter, såsom användarvänlighet, lämplighet för olika projekttyper och community-stöd. Studien belyser Unitys dominans inom indie- och mobilspel, Unreal Engines styrka i AAA-utveckling och Godots framväxt som ett kostnadsfritt och öppet alternativ."
@@ -380,29 +379,24 @@
         "basecamp",
         "infoskarm"
       ],
-      "image": "Juan.jpg",
-      "klassens": "klassens kung",
-      "aboutMe": "Jag heter Jonathan, 19 år gammal och bor i Höganäs där det ursprungligen var tänkt att jag skulle ta mitt fjärde år. I efterhand är jag nu glad över att det istället blev på NTI på grund av hur många nya tekniker jag öppnats upp för, allt från Ramverk som React, backend utveckling med exempelvis Node.js och PHP till datorseende från min praktikplats.",
-      "individualProjects": {
-        "UX design": {
-          "image": "figmaTechsip.png",
-          "alt": "cool image",
-          "text": "I skolan så gavs det möjlighet till programmet “techship” som var både en utbildning och tävling inom att skapa en egen startup. Till detta programmet fanns ett moment där en prototyp för vår idé behövdes skapas, i vilket jag tog mig an uppgiften till att skapa en interaktiv prototyp i figma med hjälp av \"prototyp\" design mönstret. "
-        }
+      "image": null,
+      "klassens": null,
+      "aboutMe": "Jag heter Rami, är 22 år gammal och bor i Helsingborg. På NTI har jag lärt mig många nya tekniker, som ramverket React och frontend-utveckling. Jag fick också värdefull arbetslivserfarenhet genom praktik under andra terminen av Te4.",
+      "individualProjects": {}
       },
       "exam": {
-        "image": "AICamera.png",
-        "alt": "Demo av prototyp",
-        "name": "AI tillämpning",
-        "text": "På mitt examensarbete ville jag göra ett projekt som reflekterade min kunskap på ett bra sätt. Jag fastnade väldigt snabbt för en prototyp av en säkerhetskamera som implementerade AI-modellen YOLO för att utföra objekt-detektion och utifrån resultatet sedan vända sig till personen med hjälp av en 3D-printad gimbal. Detta projekt blev dock väldigt stort och inte helt klart, istället för att lägga mer fokus på AI aspekten blev det istället"
+        "image": null,
+        "alt": null,
+        "name": "Man bör ta hjälp av AI som mjukvaruutvecklare när det behövs",
+        "text": "Syftet med denna undersökning är att utforska möjligheterna och begränsningarna av AI. Detta är ett brett ämne som ständigt utvecklas eftersom AI-industrin förnyas dagligen. Jag bestämde mig för att undersöka exakt när och hur man kan använda AI, det vill säga vilka verktyg som finns, deras begränsningar och när det är mer effektivt att använda människors kunskaper och färdigheter. Detta ämne är komplext och det är svårt att dra en klar slutsats, så jag kommer att svara på frågan ur ett mjukvaru utvecklarperspektiv."
       },
       "links": {
-        "github": "https://github.com/TheAzzieDev",
-        "cv": "https://theazziedev.github.io/Portfolio/",
-        "instagram": "https://github.com/",
-        "linkedIn": "https://www.linkedin.com/in/jonathan-cano-sj%C3%B6stedt-58578b28b/"
+        "github": "https://github.com/Rami-Agha",
+        "cv": null,
+        "instagram": null,
+        "linkedIn": "http://www.linkedin.com/in/ramiagha888"
       },
-      "certifikat": ["Certiport - IT Specialist - JavaScript"]
+      "certifikat": [""]
     },
 
     "simon": {
@@ -1257,7 +1251,7 @@
     "17": {
       "id": "17",
       "date": "09-01-2024",
-      "title": "basecamp/Infoskärm",
+      "title": "Basecamp/Infoskärm",
       "subtitle": "Projekt 9",
       "description": "Det här projektet lade fokus på utveckla våra färdigheter i dokumentation, kommunikation och anpassningsförmåga genom att ta oss an ett äldre TE4 projekt. Halvvägs genom projektet skulle vi även byta pågående projekt mellan grupperna."
     },
