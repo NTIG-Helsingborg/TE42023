@@ -270,7 +270,7 @@
         "basecamp",
         "infoskarm"
       ],
-      "image": "profile.webp",
+      "image": "Eduard.webp",
       "klassens": "klassens kung",
       "aboutMe": "Jag heter Eduard och är en passionerad spelutvecklare och gymnasieelev med ingenjörsvetenskaplig inriktning. Mina IT-specialistcertifieringar och erfarenhet från spelprojekt i Unity och C++ visar min kompetens inom mjukvaruutveckling. Nu utforskar jag Unreal Engine 5 för att skapa fängslande spelupplevelser med fantastisk grafik. Mitt mål är att nå ut till en bred publik med spel som inte bara underhåller, utan också fångar spelarens fantasi.",
       "individualProjects": {
@@ -281,7 +281,7 @@
         }
       },
       "exam": {
-        "image": "examensarbete.png",
+        "image": "eduard_ex.png",
         "alt": "",
         "name": "Unity, Unreal Engine och Godot fördelar och nackdelar",
         "text": "Denna studie undersöker spelmotorerna Unity, Unreal Engine och Godot, med fokus på deras historiska utveckling, popularitet, styrkor och svagheter. Genom litteraturgranskning och analys av online-resurser jämförs motorerna i olika aspekter, såsom användarvänlighet, lämplighet för olika projekttyper och community-stöd. Studien belyser Unitys dominans inom indie- och mobilspel, Unreal Engines styrka i AAA-utveckling och Godots framväxt som ett kostnadsfritt och öppet alternativ."
