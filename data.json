@@ -942,38 +942,38 @@
     "cosmichub": {
       "displayName": "CosmicHub",
       "project": "reactAPI",
-      "about": "Det här spelet är ett kort roguelike där spelaren måste slåss mot monster i en slumpmässigt genererad karta som slutar med att spelaren måste besegra en boss. Under spelets gång kan man hitta komponenter och ability cards som används för att göra spelaren starkare. Spelet är gjort i en pixel art style och tog inspiration från liknande spel i samma genre, såsom Binding of Isaac och Hades.",
+      "about": "CosmicHub är ett react projekt som vi gjorde för att lära oss react och api. Den hämtar information från ett rymdapi och placerar sedan ut information om olika planeter osv på rätt platser. Man kan även skapa ett konto för att spara favoritplaneter osv.",
       "badge": "React &middot; poop &middot; SQL",
-      "image": "Juan.jpg",
+      "image": "nebulae1.png",
       "links": {
-        "github": "https://youtube.com",
-        "website": "https://theazziedev.github.io/Portfolio/"
+        "github": "https://github.com/NTIG-Helsingborg/TE4_23-24_CosmicHub",
+        "website": ""
       },
 
       "project-images": [
         {
-          "src": "https://picsum.photos/id/1041/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Tim Marshall"
+          "src": "",
+          "caption": "CosmicHub använder React + ett rymdapi för att visa information om planeter och annat"
         },
         {
-          "src": "https://picsum.photos/id/1043/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Christian Joudrey"
+          "src": "",
+          "caption": "Man kan signa upp ett konto för att spara favoriter osv"
         },
         {
-          "src": "https://picsum.photos/id/1044/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Steve Carter"
+          "src": "",
+          "caption": "CosmicHub använder React + ett rymdapi för att visa information om planeter och annat"
         },
         {
-          "src": "https://picsum.photos/id/1045/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Aleksandra Boguslawska"
+          "src": "",
+          "caption": "Man kan signa upp ett konto för att spara favoriter osv"
         },
         {
-          "src": "https://picsum.photos/id/1049/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Rosan Harmens"
+          "src": "",
+          "caption": "CosmicHub använder React + ett rymdapi för att visa information om planeter och annat"
         },
         {
-          "src": "https://picsum.photos/id/1052/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Annie Spratt"
+          "src": "",
+          "caption": "Man kan signa upp ett konto för att spara favoriter osv"
         }
       ]
     },
