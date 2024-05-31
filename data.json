@@ -374,7 +374,7 @@
       "projects": [
         "pokinetx",
         "mickeymailer",
-        "retrotech",
+        "RetroTech",
         "consolata",
         "basecamp",
         "infoskarm"
@@ -610,8 +610,8 @@
       "displayName": "RetroTech",
       "project": "webbshop",
       "about": "Retrotech är en webbshop som specialiserar sig på att återställa antik teknik och sälja den till allmänheten. Sidan har en funktionell filterfunktion som tillåter användare att hitta specifik teknik baserat på namn eller kategori. Den inkluderar även ett fungerande utcheckningssystem med en shoppingvagn som sparas över sessioner, och ett kvitto utfärdas vid köp. Webbshoppen har även en administratörssida som möjliggör hantering av både utbud och användare.",
-      "badge": "React &middot; poop &middot; SQL",
-      "image": "Juan.jpg",
+      "badge": "Html, Css, PHP",
+      "image": "retrotech.png",
       "links": {
         "github": "https://youtube.com",
         "website": "https://theazziedev.github.io/Portfolio/"
@@ -619,28 +619,16 @@
 
       "project-images": [
         {
-          "src": "https://picsum.photos/id/1041/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Tim Marshall"
+          "src": "/assets/projects/retro-sid1.png",
+          "caption": "Start sida där vi displayar alla våra produkter"
         },
         {
-          "src": "https://picsum.photos/id/1043/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Christian Joudrey"
+          "src": "/assets/projects/retro-sid2.png",
+          "caption": "Varukorg sida"
         },
         {
-          "src": "https://picsum.photos/id/1044/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Steve Carter"
-        },
-        {
-          "src": "https://picsum.photos/id/1045/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Aleksandra Boguslawska"
-        },
-        {
-          "src": "https://picsum.photos/id/1049/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Rosan Harmens"
-        },
-        {
-          "src": "https://picsum.photos/id/1052/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Annie Spratt"
+          "src": "/assets/projects/retro-sid3.png",
+          "caption": "KundService sida"
         }
       ]
     },
