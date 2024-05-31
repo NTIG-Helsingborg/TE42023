@@ -132,16 +132,16 @@
     "margo": {
       "displayName": "Margo Shaposhnikova",
       "projects": [
-        "pokinetx",
-        "mickeymailer",
-        "retrotech",
-        "consolata",
+        "whiskerwonders",
+        "gamehub",
+        "somnium",
+        "josefs-hemsida",
         "basecamp",
         "infoskarm"
       ],
-      "image": "Juan.jpg",
+      "image": "margo.webp",
       "klassens": "klassens kung",
-      "aboutMe": "Jag heter Jonathan, 19 år gammal och bor i Höganäs där det ursprungligen var tänkt att jag skulle ta mitt fjärde år. I efterhand är jag nu glad över att det istället blev på NTI på grund av hur många nya tekniker jag öppnats upp för, allt från Ramverk som React, backend utveckling med exempelvis Node.js och PHP till datorseende från min praktikplats.",
+      "aboutMe": "Margo här! Är en person med ett kreativt öga som är intresserad av konst och spelutveckling. Under året har jag som mest arbetat med de visuella delar av projekt såsom design för sidor, css och spelgrafik för vårt flertalet projekt. På TE4 fick jag lära mig mer om mina intressen genom att faktiskt arbeta med dem i grupp. Under året fick jag exempelvis prova på pixel art via Aseprite, 3D modelling via blender och även prova hur det är att använda unit. Jag är tacksam över den tiden på TE4 då jag fick lista ut min passion inom spelutveckling och är taggat på att fortsätta med det på universitet efter jag har tagit examen som gymnasieingenjör.",
       "individualProjects": {
         "UX design": {
           "image": "figmaTechsip.png",
@@ -540,7 +540,11 @@
         }
       ]
     },
-
+    "whiskerwonders": {
+      "displayName": "Whisker Wonders",
+      "project": "webbshop",
+      "image": "../assets/profile.png"
+    },
     "mickeymailer": {
       "displayName": "MickeyMailer",
       "project": "hjalp-en-larare",
@@ -608,6 +612,11 @@
     },
     "aplbok": {
       "displayName": "APLbok",
+      "project": "hjalp-en-larare",
+      "image": "../assets/profile.png"
+    },
+     "linda": {
+      "displayName": "Linda",
       "project": "hjalp-en-larare",
       "image": "../assets/profile.png"
     }
