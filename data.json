@@ -1032,8 +1032,8 @@
       "badge": "React &middot; poop &middot; SQL",
       "image": "wheeldeal.png",
       "links": {
-        "github": "https://youtube.com",
-        "website": "https://theazziedev.github.io/Portfolio/"
+        "github": "https://github.com/NTIG-Helsingborg/TE4_23-24_Wheeldeal",
+        "website": "https://wheeldeal-virid.vercel.app/"
       },
 
       "project-images": [
