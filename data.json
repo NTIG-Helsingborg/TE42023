@@ -7,7 +7,9 @@
         "gamehub",
         "consolata",
         "infoskärmen",
-        "basecamp"
+        "basecamp", 
+        "josefs-hemsida",
+        "portfolio"
       ],
       "image": "missingImage.jpg",
       "klassens": "Programmerare",
@@ -34,7 +36,8 @@
         "retrotech",
         "consolata",
         "basecamp",
-        "Infoskarm"
+        "infoskarm",
+        "portfolio"
       ],
       "image": "jonathancs.jpg",
       "klassens": "klassens kung",
@@ -69,7 +72,8 @@
         "magicmender",
         "ehabify",
         "infoskarm",
-        "basecamp"
+        "basecamp",
+        "portfolio"
       ],
       "image": "jonathanthj.png",
       "klassens": "klassens smörkniv",
@@ -102,7 +106,8 @@
         "somnium",
         "linda",
         "infoskarm",
-        "basecamp"
+        "basecamp",
+        "portfolio"
       ],
       "image": "OskarProfile.webp",
       "klassens": "Junior Game Developer",
@@ -136,7 +141,8 @@
         "somnium",
         "josefs-hemsida",
         "basecamp",
-        "infoskarm"
+        "infoskarm",
+        "portfolio"
       ],
       "image": "margo.webp",
       "klassens": "klassens kung",
@@ -169,7 +175,8 @@
         "consolata",
         "josefs-hemsida",
         "basecamp",
-        "infoskarm"
+        "infoskarm",
+        "portfolio"
       ],
       "image": "Gustaf.jpg",
       "klassens": "Junior backend-developer",
@@ -196,7 +203,8 @@
         "magicmender",
         "ehabify",
         "infoskarm",
-        "basecamp"
+        "basecamp",
+        "portfolio"
       ],
       "image": "othman.png",
       "klassens": "Junior software developer",
@@ -230,7 +238,8 @@
         "retrotech",
         "consolata",
         "basecamp",
-        "infoskarm"
+        "infoskarm",
+        "portfolio"
       ],
       "image": "Kirill.png",
       "klassens": " Junior Full-stack Developer",
@@ -264,7 +273,8 @@
         "linda",
         "consolata",
         "basecamp",
-        "infoskarm"
+        "infoskarm",
+        "portfolio"
       ],
       "image": "Eduard.webp",
       "klassens": "Game Developer",
@@ -301,7 +311,8 @@
         "magicmender",
         "josefs-hemsida",
         "basecamp",
-        "infoskarm"
+        "infoskarm",
+        "portfolio"
       ],
       "image": "salah.png",
       "klassens": "Your best students will be my employees",
@@ -347,7 +358,8 @@
         "magicmender",
         "Infoskarm",
         "Basecamp",
-        "linda"
+        "linda",
+        "portfolio"
       ],
       "image": "jakob.jpg",
       "klassens": " Full-stack Developer",
@@ -373,10 +385,11 @@
       "projects": [
         "pokinetx",
         "mickeymailer",
-        "RetroTech",
+        "retrotech",
         "consolata",
-        "Basecamp",
-        "Infoskarm"
+        "basecamp",
+        "infoskarm",
+        "portfolio"
       ],
       "image": "missingImage.jpg",
       "klassens": "",
@@ -398,12 +411,12 @@
     "simon": {
       "displayName": "Simon Jonasson",
       "projects": [
-        "GameHub",
+        "gamehub",
         "ehabify",
         "deepseanft",
         "somnium",
-        "Basecamp",
-        "Infoskarm",
+        "basecamp",
+        "infoskarm",
         "portfolio"
       ],
       "image": "missingImage.jpg",
@@ -430,8 +443,8 @@
         "mickeymailer",
         "cosmichub",
         "magicmender",
-        "Basecamp",
-        "Infoskarm"
+        "basecamp",
+        "infoskarm"
       ],
       "image": "zimon.jpg",
       "klassens": "Klassens Front-end proffs",
@@ -467,8 +480,8 @@
         "cosmichub",
         "somnium",
         "linda",
-        "Infoskarm",
-        "Basecamp"
+        "infoskarm",
+        "basecamp"
       ],
       "image": "missingImage.jpg",
       "klassens": "klassens ",
@@ -482,8 +495,6 @@
       },
       "links": {
         "github": "https://github.com/Ebbsteer",
-        "cv": "https://theazziedev.github.io/Portfolio/",
-        "instagram": "https://github.com/",
         "linkedIn": "https://www.linkedin.com/in/ebba-elversson-22a572222/"
       },
       "certifikat": [""]
@@ -568,6 +579,42 @@
         }
       ]
     },
+    "portfolio": {
+      "displayName": "portfolio",
+      "project": "portfolio",
+      "about": "Det första projektet vi fick var att skapa en egen portfolio sida för att kunna marknadsföra oss själva. Detta gjordes i HTML, CSS och enkel javascript inom en tidsram på 2 dagar.",
+      "badge": "Design &middot; JS &middot; CSS",
+      "image": "portfolio_placeholder.jpg",
+      "links": {},
+
+      "project-images": [
+        {
+          "src": "assets/projects/portfolio.png",
+
+          "caption": ""
+        },
+        {
+          "src": "assets/projects/portfolio.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/projects/portfolio.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/projects/portfolio.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/projects/portfolio.png",
+          "caption": ""
+        },
+        {
+          "src": "assets/projects/portfolio.png",
+          "caption": ""
+        }
+      ]
+    },
     "mickeymailer": {
       "displayName": "MickeyMailer",
       "project": "hjalp-en-larare",
@@ -627,6 +674,16 @@
           "caption": "Varukorg sida"
         },
         {
+          "src": "/assets/projects/retro-sid3.png",
+          "caption": "KundService sida"
+        },
+        {
+          "src": "/assets/projects/retro-sid3.png",
+          "caption": "KundService sida"
+        },  {
+          "src": "/assets/projects/retro-sid3.png",
+          "caption": "KundService sida"
+        },  {
           "src": "/assets/projects/retro-sid3.png",
           "caption": "KundService sida"
         }

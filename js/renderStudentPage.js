@@ -10,7 +10,7 @@ async function renderGalleryStudent(clone, data, jsonData) {
   list.forEach((item) => {
     if (typeof projectData[studentProjects[x]] != "undefined") {
       console.log(studentProjects[x]);
-      item.style.background = `linear-gradient(45deg, rgb(210 43 212 / 57%), rgb(153 0 255 / 59%)), url(${
+      item.style.background = `linear-gradient(45deg, rgb(210 43 212 / 57%), rgb(153 0 255 / 59%)), url(assets/projects/${
         projectData[studentProjects[x]]["image"]
       }) no-repeat center`;
       // Perform an action with each item
@@ -20,14 +20,15 @@ async function renderGalleryStudent(clone, data, jsonData) {
       if (studentProjects[x] == "Infoskarm") item.textContent = "Infoskärm";
       else item.textContent = studentProjects[x];
       x += 1;
-      
+
       // Add a link to index.html
       const link = document.createElement("a");
       link.href = "indivproject.html?project=" + studentProjects[x];
       link.textContent = studentProjects[x];
       item.textContent = "";
       item.appendChild(link);
-      link.style = "color:white; text-decoration:none; -webkit-user-select: none; -ms-user-select: none; user-select: none;"
+      link.style =
+        "color:white; text-decoration:none; -webkit-user-select: none; -ms-user-select: none; user-select: none;";
     }
   });
 }
