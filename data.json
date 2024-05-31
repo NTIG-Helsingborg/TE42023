@@ -133,7 +133,7 @@
       "displayName": "Margo Shaposhnikova",
       "projects": [
         "whiskerwonders",
-        "gamehub",
+        "GameHub",
         "somnium",
         "josefs-hemsida",
         "Basecamp",
@@ -400,7 +400,7 @@
     "simon": {
       "displayName": "Simon Jonasson",
       "projects": [
-        "gamehub",
+        "GameHub",
         "ehabify",
         "deepseanft",
         "somnium",
@@ -754,36 +754,36 @@
       "project": "reactAPI",
       "about": "GameHub är en hemsida byggd i React och Node.js som använder sig av Steam's API för att visa upp spel. På sidan kan man bläddra bland olika spel och filtrera bl.a. pris och typ. Om man inte hittar ett spel som är intressant finns det sökfunktion där man kan söka på alla spel som finns på Steam, samt en sida där ett slumpmässigt spel visas. Sidan har också ett kontosystem där man kan spara intressanta spel till favoriter.",
       "badge": "React &middot; API &middot; Node.js &middot; SQLite",
-      "image": "gamehub.png",
+      "image": "gamehub-title.png",
       "links": {
-        "github": "https://youtube.com",
-        "website": "https://theazziedev.github.io/Portfolio/"
+        "github": "https://github.com/NTIG-Helsingborg/TE4_23-24_Gamehub",
+        "website": ""
       },
 
       "project-images": [
         {
-          "src": "gamehub-home.png",
-          "caption": "GameHub Home Page"
+          "src": "/assets/projektgallery/gamehub-home.png",
+          "caption": ""
         },
         {
-          "src": "gamehub-games.png",
-          "caption": "Gamehub Games Page"
+          "src": "/assets/projektgallery/gamehub-games.png",
+          "caption": ""
         },
         {
-          "src": "gamehub-game.png",
-          "caption": "GameHub Single Game Page"
+          "src": "/assets/projektgallery/gamehub-game.png",
+          "caption": ""
         },
         {
-          "src": "gamehub-profile.png",
-          "caption": "GameHub Profile Page"
+          "src": "/assets/projektgallery/gamehub-profile.png",
+          "caption": ""
         },
         {
-          "src": "gamehub-favorites.png",
-          "caption": "GameHub Favorites Page"
+          "src": "/assets/projektgallery/gamehub-favorites.png",
+          "caption": ""
         },
         {
-          "src": "gamehub-home.png",
-          "caption": "GameHub Home Page"
+          "src": "/assets/projektgallery/gamehub-home.png",
+          "caption": ""
         }
       ]
     },
