@@ -25,6 +25,7 @@
       },
       "certifikat": ["Certiport - IT Specialist - JavaScript"]
     },
+
     "jonathan_cs": {
       "displayName": "Jonathan Cano Sjöstedt",
       "projects": [
@@ -380,13 +381,12 @@
         "infoskarm"
       ],
       "image": null,
-      "klassens": null,
+      "klassens": "",
       "aboutMe": "Jag heter Rami, är 22 år gammal och bor i Helsingborg. På NTI har jag lärt mig många nya tekniker, som ramverket React och frontend-utveckling. Jag fick också värdefull arbetslivserfarenhet genom praktik under andra terminen av Te4.",
-      "individualProjects": {}
-      },
+      "individualProjects": {},
       "exam": {
         "image": null,
-        "alt": null,
+        "alt": "AI",
         "name": "Man bör ta hjälp av AI som mjukvaruutvecklare när det behövs",
         "text": "Syftet med denna undersökning är att utforska möjligheterna och begränsningarna av AI. Detta är ett brett ämne som ständigt utvecklas eftersom AI-industrin förnyas dagligen. Jag bestämde mig för att undersöka exakt när och hur man kan använda AI, det vill säga vilka verktyg som finns, deras begränsningar och när det är mer effektivt att använda människors kunskaper och färdigheter. Detta ämne är komplext och det är svårt att dra en klar slutsats, så jag kommer att svara på frågan ur ett mjukvaru utvecklarperspektiv."
       },
@@ -491,7 +491,9 @@
         "linkedIn": "https://www.linkedin.com/in/ebba-elversson-22a572222/"
       },
       "certifikat": [""]
-    },
+    }
+  },
+
   "projects": {
     "pokinetx": {
       "displayName": "PokiNetX",
