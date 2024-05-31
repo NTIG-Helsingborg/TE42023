@@ -541,7 +541,11 @@
         }
       ]
     },
-
+    "whiskerwonders": {
+      "displayName": "Whisker Wonders",
+      "project": "webbshop",
+      "image": "../assets/profile.png"
+    },
     "mickeymailer": {
       "displayName": "MickeyMailer",
       "project": "hjalp-en-larare",
@@ -609,6 +613,11 @@
     },
     "aplbok": {
       "displayName": "APLbok",
+      "project": "hjalp-en-larare",
+      "image": "../assets/profile.png"
+    },
+     "linda": {
+      "displayName": "Linda",
       "project": "hjalp-en-larare",
       "image": "../assets/profile.png"
     }
