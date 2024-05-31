@@ -381,7 +381,7 @@
         "infoskarm"
       ],
       "image": null,
-      "klassens": "",
+      "klassens": "null",
       "aboutMe": "Jag heter Rami, är 22 år gammal och bor i Helsingborg. På NTI har jag lärt mig många nya tekniker, som ramverket React och frontend-utveckling. Jag fick också värdefull arbetslivserfarenhet genom praktik under andra terminen av Te4.",
       "individualProjects": {},
       "exam": {
@@ -392,8 +392,6 @@
       },
       "links": {
         "github": "https://github.com/Rami-Agha",
-        "cv": null,
-        "instagram": null,
         "linkedIn": "http://www.linkedin.com/in/ramiagha888"
       },
       "certifikat": [""]
