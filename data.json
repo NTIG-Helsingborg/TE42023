@@ -465,11 +465,11 @@
     "ebba": {
       "displayName": "Ebba Elversson",
       "projects": [
-        "Whisker Wonders",
-        "CosmicHub",
-        "Somnium",
-        "Linda",
-        "InfoskÄrm",
+        "whiskerwonders",
+        "cosmichub",
+        "somnium",
+        "linda",
+        "Infoskarm",
         "Basecamp"
       ],
       "image": "missingImage.jpg",
