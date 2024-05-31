@@ -105,7 +105,7 @@
         "Basecamp"
       ],
       "image": "OskarProfile.webp",
-      "klassens": "...",
+      "klassens": "Junior Game Developer",
       "aboutMe": "Hej där! Jag heter Oskar Ternström, jag är en passionerad spelutvecklare. Min motivation för att börja med spelutveckling kommer från mitt intresse för att analysera spel och historierna som berättas inom dem. Jag älskar att lära mig om hur andra spelutvecklare använder sina spel för att visa koncept eller unika berättelser. Oavsett om det handlar om att koda nya spelmekaniker eller skapa engagerande berättelser, älskar jag att utmana mig själv att skapa funktioner som fokuserar på spelarens upplevelse. Utöver pixlar och kod finner du mig sittande med vänner, spelande mina favoritspel, lärande fotografering, resande till andra länder eller bara gömd under en filt medan jag tittar ut på regnet.",
       "individualProjects": {
         "Jack The Trashman": {
@@ -196,7 +196,7 @@
         "whiskerwonders",
         "cosmichub",
         "magicmender",
-        "ehabify",
+        "Ehabify",
         "Infoskarm",
         "Basecamp"
       ],
@@ -574,7 +574,7 @@
       "displayName": "MickeyMailer",
       "project": "hjalp-en-larare",
       "about": "MickeyMail är en app som automatiskt skickar mejl vid bestämda tidsintervall. Appens huvudsyfte är att hjälpa användaren att skicka påminnelsemejl till flera personer samtidigt, vilket sparar tid och gör det enklare att hantera stora mängder kommunikation. Användaren kan schemalägga mejl att skickas vid specifika tider, vilket gör appen idealisk för uppgifter som att påminna om möten, deadlines eller andra viktiga händelser.",
-      "badge": "React &middot; poop &middot; SQL",
+      "badge": "React &middot; Design &middot; SQL",
       "image": "Juan.jpg",
       "links": {
         "github": "https://github.com/TheAzzieDev/MickeyEmail-",
@@ -656,7 +656,7 @@
         },
         {
           "src": "consolatacara3.png",
-          "caption": "Temmporära plattformar där spelaren måste snabbt ta sig över för att inte falla"
+          "captionx": "Temmporära plattformar där spelaren måste snabbt ta sig över för att inte falla"
         },
         {
           "src": "consolatacara4.png",
@@ -677,37 +677,37 @@
       "displayName": "Basecamp",
       "project": "Basecamp",
       "about": "Basecamp är ett återkommande projekt efterfrågat av Linda Avramidou och Josef Nobach. Idéen var att sätta upp en pedagogisk webbplats för elever inom NTI Gymnasium runt om i Sverige. Hemsidan skulle fokusera på programmering och webbutveckling och skapa en gemensam läroplan som alla NTI lärare kan utgå från. Basecamp ska använda sig både av videor och artiklar som är skapade av elever och modererade av lärare.",
-      "badge": "React &middot; Node &middot; SQL",
-      "image": "Juan.jpg",
+      "badge": "HTML &middot; PHP &middot; SQL",
+      "image": "/basecamp3.png",
       "links": {
-        "github": "https://youtube.com",
-        "website": "https://theazziedev.github.io/Portfolio/"
+        "github": "https://github.com/NTIG-Helsingborg/TE4_23-24_Basecamp",
+        "website": ""
       },
 
       "project-images": [
         {
-          "src": "https://picsum.photos/id/1041/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Tim Marshall"
+          "src": "/assets/projects/basecamp1.png",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1043/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Christian Joudrey"
+          "src": "/assets/projects/basecamp2.png",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1044/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Steve Carter"
+          "src": "/assets/projects/basecamp3.png",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1045/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Aleksandra Boguslawska"
+          "src": "/assets/projects/basecamp4.png",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1049/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Rosan Harmens"
+          "src": "/assets/projects/basecamp2.png",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1052/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Annie Spratt"
+          "src": "/assets/projects/basecamp4.png",
+          "caption": ""
         }
       ]
     },
@@ -791,7 +791,7 @@
       "displayName": "Ehabify",
       "project": "hjalp-en-larare",
       "about": "Ehabify är ett verktyg för närvarohantering designat speciellt för lärare. Med Ehabify blir det smidigt för elever att enkelt logga in och markera sin närvaro, vilket effektivt sparar värdefull undervisningstid.",
-      "badge": "React &middot; poop &middot; SQL",
+      "badge": "React &middot; NFC &middot; SQL",
       "image": "ehabifyLogo.png",
       "links": {
         "github": "null",
@@ -800,27 +800,27 @@
 
       "project-images": [
         {
-          "src": "ehabify1.png",
+          "src": "assets/projektgallery/ehabify1.png",
           "caption": ""
         },
         {
-          "src": "ehabify2.png",
+          "src": "assets/projektgallery/ehabify2.png",
           "caption": ""
         },
         {
-          "src": "ehabify3.png",
+          "src": "assets/projektgallery/ehabify3.png",
           "caption": ""
         },
         {
-          "src": "ehabify4.png",
+          "src": "assets/projektgallery/ehabify4.png",
           "caption": ""
         },
         {
-          "src": "ehabify5.png",
+          "src": "assets/projektgallery/ehabify5.png",
           "caption": ""
         },
         {
-          "src": "ehabify.png",
+          "src": "assets/projektgallery/ehabify.png",
           "caption": ""
         }
       ]
@@ -829,8 +829,8 @@
       "displayName": "DeepSeaNFT",
       "project": "webbshop",
       "about": "Deep Sea NFT är en webbshop som specialiserar sig på försäljning av NFTs. Sidan har en fungerande filterfunktion som tillåter användaren att hitta specifika NFTs utifrån namn eller kategori. Den inkluderar även ett fungerade utcheckningssystem med en shoppingvagn som sparas över instanser där även ett kvitto blir utdelad vid köp. Sidan har även en admin page som tillåter hantering av utbud och användare.",
-      "badge": "React &middot; poop &middot; SQL",
-      "image": "Juan.jpg",
+      "badge": "React &middot; Design &middot; SQL",
+      "image": "assets/projects/DeepSeaNFT.png",
       "links": {
         "github": "https://youtube.com",
         "website": "https://theazziedev.github.io/Portfolio/"
@@ -838,27 +838,27 @@
 
       "project-images": [
         {
-          "src": "dsnft_1.png",
+          "src": "assets/projektgallery/dsnft_1.png",
           "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Tim Marshall"
         },
         {
-          "src": "dsnft_2.png",
+          "src": "assets/projektgallery/dsnft_2.png",
           "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Christian Joudrey"
         },
         {
-          "src": "dsnft_3.png",
+          "src": "assets/projektgallery/dsnft_3.png",
           "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Steve Carter"
         },
         {
-          "src": "dsnft_4.png",
+          "src": "assets/projektgallery/dsnft_4.png",
           "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Aleksandra Boguslawska"
         },
         {
-          "src": "dsnft_5.png",
+          "src": "assets/projektgallery/dsnft_5.png",
           "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Rosan Harmens"
         },
         {
-          "src": "dsnft_3.png",
+          "src": "assets/projektgallery/dsnft_3.png",
           "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Annie Spratt"
         }
       ]
@@ -905,7 +905,7 @@
       "displayName": "Josefs-Hemsida",
       "project": "hjalp-en-larare",
       "about": "Det här spelet är ett kort roguelike där spelaren måste slåss mot monster i en slumpmässigt genererad karta som slutar med att spelaren måste besegra en boss. Under spelets gång kan man hitta komponenter och ability cards som används för att göra spelaren starkare. Spelet är gjort i en pixel art style och tog inspiration från liknande spel i samma genre, såsom Binding of Isaac och Hades.",
-      "badge": "React &middot; poop &middot; SQL",
+      "badge": "React &middot; Design &middot; SQL",
       "image": "Juan.jpg",
       "links": {
         "github": "https://youtube.com",
@@ -981,37 +981,37 @@
       "displayName": "Magic Mender",
       "project": "spel",
       "about": "Det här spelet är ett kort roguelike där spelaren måste slåss mot monster i en slumpmässigt genererad karta som slutar med att spelaren måste besegra en boss. Under spelets gång kan man hitta komponenter och ability cards som används för att göra spelaren starkare. Spelet är gjort i en pixel art style och tog inspiration från liknande spel i samma genre, såsom Binding of Isaac och Hades.",
-      "badge": "React &middot; poop &middot; SQL",
-      "image": "Juan.jpg",
+      "badge": "Design &middot; Unity &middot; C#",
+      "image": "Clint.png",
       "links": {
         "github": "https://youtube.com",
-        "website": "https://theazziedev.github.io/Portfolio/"
+        "website": "https://helgesson.itch.io/magic-mender"
       },
 
       "project-images": [
         {
-          "src": "https://picsum.photos/id/1041/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Tim Marshall"
+          "src": "",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1043/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Christian Joudrey"
+          "src": "",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1044/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Steve Carter"
+          "src": "assets/projects/magicmender.PNG",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1045/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Aleksandra Boguslawska"
+          "src": "assets/projects/mendergamer.PNG",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1049/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Rosan Harmens"
+          "src": "assets/projects/Masprite.png",
+          "caption": ""
         },
         {
-          "src": "https://picsum.photos/id/1052/800/450",
-          "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Photo: Annie Spratt"
+          "src": "",
+          "caption": ""
         }
       ]
     },
@@ -1019,7 +1019,7 @@
       "displayName": "Wheeldeal",
       "project": "webbshop",
       "about": "WheelDeal är ett projekt av Salah, Zimon och Kirill, utvecklat som ett första grupparbete i TE4. Projektet går ut på att skapa en mini-webbshop med hjälp av HTML, CSS och JavaScript. I denna webbshop kan kunder köpa bilar, skateboards, cyklar och motorcyklar. Webbshopens funktioner inkluderar: Produkter: Användare kan bläddra genom ett brett urval av bilar, skateboards, cyklar och motorcyklar. Kundvagn: Kunder kan lägga till sina valda produkter i kundvagnen. Kvitto: När köpet är slutfört får kunderna ett kvitto som skrivs ut i PDF-format. Genom detta projekt har vi, Salah, Zimon och Kirill, kombinerat vår tekniska kunskap och kreativitet för att skapa en användarvänlig och funktionell plattform som simulerar en riktig e-handelsupplevelse.",
-      "badge": "React &middot; poop &middot; SQL",
+      "badge": "React &middot; Design &middot; SQL",
       "image": "wheeldeal.png",
       "links": {
         "github": "https://github.com/NTIG-Helsingborg/TE4_23-24_Wheeldeal",
@@ -1057,7 +1057,7 @@
       "displayName": "APLbok",
       "project": "hjalp-en-larare",
       "about": "Det här spelet är ett kort roguelike där spelaren måste slåss mot monster i en slumpmässigt genererad karta som slutar med att spelaren måste besegra en boss. Under spelets gång kan man hitta komponenter och ability cards som används för att göra spelaren starkare. Spelet är gjort i en pixel art style och tog inspiration från liknande spel i samma genre, såsom Binding of Isaac och Hades.",
-      "badge": "React &middot; poop &middot; SQL",
+      "badge": "React &middot; Design &middot; SQL",
       "image": "Juan.jpg",
       "links": {
         "github": "https://youtube.com",
@@ -1095,7 +1095,7 @@
       "displayName": "Linda",
       "project": "hjalp-en-larare",
       "about": "Den här sidan var efterfrågat av Linda Avramidou för att förbättra skolans gruppindelningar möjligheter. Sidan skulle kunna slumpmässigt dela in elever i grupper efter antingen en efterfrågad mängd grupper eller elever per grupp. Indelningen skulle även ta hänsyn till vilka elever som inte kunde sitta med varandra och de som måste sitta med varandra. Det fanns även en möjlighet att spara basgrupper där man även kunde se på tidigare indelningar.",
-      "badge": "React &middot; poop &middot; SQL",
+      "badge": "React &middot; Design &middot; SQL",
       "image": "../projektgallery/LindaIndex.png",
       "links": {
         "github": "",
