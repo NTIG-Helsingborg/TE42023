@@ -916,7 +916,7 @@
       "project": "spel",
       "about": "Det här spelet är ett kort roguelike där spelaren måste slåss mot monster i en slumpmässigt genererad karta som slutar med att spelaren måste besegra en boss. Under spelets gång kan man hitta komponenter och ability cards som används för att göra spelaren starkare. Spelet är gjort i en pixel art style och tog inspiration från liknande spel i samma genre, såsom Binding of Isaac och Hades.",
       "badge": "Unity &middot; GameDesign &middot; PixelArt",
-      "image": "assets/projektgallery/SomniumWinter.png",
+      "image": "SomniumWinter.png",
       "links": {
         "github": "https://github.com/NTIG-Helsingborg/TE4_23-24_Somnium",
         "website": "https://s-f-g.itch.io/somnium"
@@ -1075,27 +1075,27 @@
 
       "project-images": [
         {
-          "src": "./assets/projects/Car2.jpg",
+          "src": "assets/projects/Car2.jpg",
           "caption": "En av produkterna på WheelDeal"
         },
         {
-          "src": "./assets/projects/Motorcykel1.jpg",
+          "src": "assets/projects/Motorcykel1.jpg",
           "caption": "En av produkterna på WheelDeal"
         },
         {
-          "src": "./assets/projects/Skateboard2.jpg",
+          "src": "assets/projects/Skateboard2.jpg",
           "caption": "En av produkterna på WheelDeal"
         },
         {
-          "src": "./assets/projects/wheeldeal.png",
+          "src": "assets/projects/wheeldeal.png",
           "caption": "WheelDeal är en hemsida där du kan köpa många olika typer av fordon!"
         },
         {
-          "src": "./assets/projects/wheeldealcart.png",
+          "src": "assets/projects/wheeldealcart.png",
           "caption": "Kundkorgsfunktionen på WheelDeal"
         },
         {
-          "src": "./assets/projects/Cykel1.jpg",
+          "src": "assets/projects/Cykel1.jpg",
           "caption": "WheelDeal är en hemsida där du kan köpa många olika typer av fordon!"
         }
       ]
@@ -1144,34 +1144,31 @@
       "about": "Den här sidan var efterfrågat av Linda Avramidou för att förbättra skolans gruppindelningar möjligheter. Sidan skulle kunna slumpmässigt dela in elever i grupper efter antingen en efterfrågad mängd grupper eller elever per grupp. Indelningen skulle även ta hänsyn till vilka elever som inte kunde sitta med varandra och de som måste sitta med varandra. Det fanns även en möjlighet att spara basgrupper där man även kunde se på tidigare indelningar.",
       "badge": "React &middot; Design &middot; SQL",
       "image": "../projektgallery/LindaIndex.png",
-      "links": {
-        "github": "",
-        "website": ""
-      },
+      "links": {},
 
       "project-images": [
         {
-          "src": "../assets/projektgallery/LindaIndex.png",
+          "src": "assets/projektgallery/LindaIndex.png",
           "caption": ""
         },
         {
-          "src": "../assets/projektgallery/LindaExtra.png",
+          "src": "assets/projektgallery/LindaExtra.png",
           "caption": ""
         },
         {
-          "src": "../assets/projektgallery/LindaHelp.png",
+          "src": "assets/projektgallery/LindaHelp.png",
           "caption": ""
         },
         {
-          "src": "../assets/projektgallery/LindaNewClass.png",
+          "src": "assets/projektgallery/LindaNewClass.png",
           "caption": ""
         },
         {
-          "src": "../assets/projektgallery/LindaRandom.png",
+          "src": "assets/projektgallery/LindaRandom.png",
           "caption": ""
         },
         {
-          "src": "../assets/projektgallery/LindaConcept.png",
+          "src": "assets/projektgallery/LindaConcept.png",
           "caption": ""
         }
       ]
