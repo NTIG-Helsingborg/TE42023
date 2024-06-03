@@ -210,13 +210,13 @@
       "aboutMe": "Hej! Jag heter Othman Al-Ani och älskar teknik. Min nyfikenhet har lett mig till allt från 3D-rendering till att mäta luftfuktighet. Under mitt TE4-år har jag utvecklat en passion för frontend-utveckling, UX och IoT. Jag gillar att ta mig an nya utmaningar och se vart de leder. Förutom programmering har grupparbete och problemlösning varit en viktig del av min utbildning. Jag ser fram emot att fortsätta utforska och utvecklas inom dessa områden.",
       "individualProjects": {
         "Home Helper": {
-          "image": "figmaTechsip.png",
+          "image": "homeHelper.jpg",
           "alt": "cool image",
           "text": "Under året fick vi chansen för egen utveckling och arbeta på egna projekt. Jag valde att utveckla mina IOT kunskaper och påbörja ett projekt som jag har utvecklat vidare på efter. Homehelper är ett system som kopplar arudino sensorer som mäter luftfuktighet och temperatur till en hemsida. Systemet är tänkt att hjälpa användaren att hålla koll på luftfuktigheten i sitt hem."
         }
       },
       "exam": {
-        "image": "AICamera.png",
+        "image": "arduino.jpg",
         "alt": "Demo av prototyp",
         "name": "IOT jämförelse",
         "text": " Mitt arbete undersöker vilken typ av sensor, ultraljudssensor eller infraröd sensor, som är mest effektiv för avståndsmätning och objekt upptäckt inom IoT-projekt. Genom Arduino experiment jämför jag dessa sensorer för att få enbättre förståelse av deras prestanda i IoT-applikationer. Arduino används ofta i dessa projekt på grund av sin användarvänlighet, och sensorer spelar en central roll genom att mäta och reagera på olika faktorer som färgigenkänning, avstånd och rörelse."
@@ -991,7 +991,7 @@
       "displayName": "CosmicHub",
       "project": "reactAPI",
       "about": "CosmicHub är ett react projekt som vi gjorde för att lära oss react och api. Den hämtar information från ett rymdapi och placerar sedan ut information om olika planeter osv på rätt platser. Man kan även skapa ett konto för att spara favoritplaneter osv.",
-      "badge": "React &middot; poop &middot; SQL",
+      "badge": "React &middot; API &middot; SQL",
       "image": "nebulae1.png",
       "links": {
         "github": "https://github.com/NTIG-Helsingborg/TE4_23-24_CosmicHub"
