@@ -768,7 +768,7 @@
       "project": "Infoskarm",
       "about": "Infoskärmen är ett återkommande projekt efterfrågat av NTI skolan. Målet var att sätta upp en tv skärm på skolan som kan visa upp relevant och anpassningsbar information. Skärmen var uppbyggd av mindre komponenter som kunde visa upp text, tid eller använda sig av APIer för att förmedla information. Sidan skulle vara helt anpassningsbar och tillåta för en variation av design och funktioner.",
       "badge": "React &middot; Documenting &middot; Interviews",
-      "image": "../projektgallery/InfoskarmIndex.png",
+      "image": "InfoSkarmDesign.png",
       "links": {
         "github": "https://github.com/NTIG-Helsingborg/TE4_23-24_ProjektLinn_rebuild"
       },
