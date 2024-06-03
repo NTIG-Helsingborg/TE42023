@@ -32,7 +32,7 @@ getData("inviduelltProjekt", "Projektet");
 
 */
 export const getData = async (targetData, urlParam, getOne = true) => {
-  let jsonFile = "../data.json";
+  let jsonFile = "data.json";
   let urlString = window.location.href;
   let paramString = urlString.split("?")[1];
   let queryString = new URLSearchParams(paramString);
