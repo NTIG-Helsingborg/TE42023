@@ -998,28 +998,28 @@
 
       "project-images": [
         {
-          "src": "",
-          "caption": "CosmicHub använder React + ett rymdapi för att visa information om planeter och annat"
+          "src": "assets/projektgallery/cosmic1.png",
+          "caption": ""
         },
         {
-          "src": "",
-          "caption": "Man kan signa upp ett konto för att spara favoriter osv"
+          "src": "assets/projektgallery/cosmic2.png",
+          "caption": ""
         },
         {
-          "src": "",
-          "caption": "CosmicHub använder React + ett rymdapi för att visa information om planeter och annat"
+          "src": "assets/projektgallery/cosmic3.png",
+          "caption": ""
         },
         {
-          "src": "",
-          "caption": "Man kan signa upp ett konto för att spara favoriter osv"
+          "src": "assets/projektgallery/cosmic4.png",
+          "caption": ""
         },
         {
-          "src": "",
-          "caption": "CosmicHub använder React + ett rymdapi för att visa information om planeter och annat"
+          "src": "assets/projektgallery/cosmic5.png",
+          "caption": ""
         },
         {
-          "src": "",
-          "caption": "Man kan signa upp ett konto för att spara favoriter osv"
+          "src": "assets/projektgallery/cosmic6.png",
+          "caption": ""
         }
       ]
     },
