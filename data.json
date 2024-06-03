@@ -4,7 +4,7 @@
       "displayName": "David Olsson",
       "projects": [
         "deepseanft",
-        "gamehub",
+        "cosmichub",
         "consolata",
         "infoskarm",
         "basecamp", 
@@ -69,7 +69,7 @@
         "whiskerwonders",
         "gamehub",
         "magicmender",
-        "ehabify",
+        "Ehabify",
         "infoskarm",
         "basecamp",
         "portfolio"
@@ -200,7 +200,7 @@
         "whiskerwonders",
         "cosmichub",
         "magicmender",
-        "ehabify",
+        "Ehabify",
         "infoskarm",
         "basecamp",
         "portfolio"
@@ -233,9 +233,9 @@
       "displayName": "Kirill Puljavin",
       "projects": [
         "pokinetx",
-        "mickeymailer",
+        "linda",
         "retrotech",
-        "consolata",
+        "somnium",
         "basecamp",
         "infoskarm",
         "portfolio"
@@ -411,7 +411,7 @@
       "displayName": "Simon Jonasson",
       "projects": [
         "gamehub",
-        "ehabify",
+        "Ehabify",
         "deepseanft",
         "somnium",
         "basecamp",
@@ -543,7 +543,7 @@
       "project": "webbshop",
       "about": "Wisker Wonders är en onlineaffär för husdjurstillbehör, inklusive mat och accessoarer för katter, hundar och gnagare. Arbetet delades upp i två delar: back-end och front-end. Back-end-arbetet innefattade Javascript för kundvagn, sökfunktion och interaktiva funktioner. Designen skapades i Figma och implementerades med HTML och CSS.",
       "badge": "Design &middot; JS &middot; CSS",
-      "image": "whiskerTitle.PNG",
+      "image": "whiskertitle.png",
       "links": {
         "github": "https://github.com/NTIG-Helsingborg/TE4_23-24_WhiskerWonders",
         "website": "https://theazziedev.github.io/Portfolio/"
@@ -568,7 +568,7 @@
           "caption": ""
         },
         {
-          "src": "assets/projects/whiskerProducts.PNG",
+          "src": "assets/projects/whiskerproducts.PNG",
           "caption": ""
         },
         {
@@ -768,34 +768,34 @@
       "project": "Infoskarm",
       "about": "Infoskärmen är ett återkommande projekt efterfrågat av NTI skolan. Målet var att sätta upp en tv skärm på skolan som kan visa upp relevant och anpassningsbar information. Skärmen var uppbyggd av mindre komponenter som kunde visa upp text, tid eller använda sig av APIer för att förmedla information. Sidan skulle vara helt anpassningsbar och tillåta för en variation av design och funktioner.",
       "badge": "React &middot; Documenting &middot; Interviews",
-      "image": "../projektgallery/InfoskarmIndex.png",
+      "image": "infoskarmindex.png",
       "links": {
         "github": "https://github.com/NTIG-Helsingborg/TE4_23-24_ProjektLinn_rebuild"
       },
 
       "project-images": [
         {
-          "src": "assets/projektgallery/infoskarmDesign.png",
+          "src": "assets/projektgallery/infoskarmdesign.png",
           "caption": ""
         },
         {
-          "src": "assets/projektgallery/infoskarmAdmin.png",
+          "src": "assets/projektgallery/infoskarmadmin.png",
           "caption": ""
         },
         {
-          "src": "assets/projektgallery/infoskarmIndex.png",
+          "src": "assets/projects/infoskarmindex.png",
           "caption": ""
         },
         {
-          "src": "assets/projektgallery/infoskarmLayout.png",
+          "src": "assets/projektgallery/infoskarmlayout.png",
           "caption": ""
         },
         {
-          "src": "assets/projektgallery/infoskarmTrafick.png",
+          "src": "assets/projektgallery/infoskarmtrafick.png",
           "caption": ""
         },
         {
-          "src": "assets/projektgallery/infoskarmWeather.png",
+          "src": "assets/projektgallery/infoskarmweather.png",
           "caption": ""
         }
       ]
@@ -1179,7 +1179,9 @@
     "1": {
       "id": "1",
       "date": "16-08-2023",
-      "title": "TE4 Kickoff"
+      "title": "TE4 Kickoff",
+      "subtitle": ""
+    
     },
     "2": {
       "id": "2",
@@ -1347,7 +1349,8 @@
     "25": {
       "id": "25",
       "date": "04-06-2024",
-      "title": "Avslutning"
+      "title": "Avslutning",
+     "subtitle": ""
     }
   }
 }
