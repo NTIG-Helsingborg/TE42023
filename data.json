@@ -655,7 +655,7 @@
       "project": "webbshop",
       "about": "Retrotech är en webbshop som specialiserar sig på att återställa antik teknik och sälja den till allmänheten. Sidan har en funktionell filterfunktion som tillåter användare att hitta specifik teknik baserat på namn eller kategori. Den inkluderar även ett fungerande utcheckningssystem med en shoppingvagn som sparas över sessioner, och ett kvitto utfärdas vid köp. Webbshoppen har även en administratörssida som möjliggör hantering av både utbud och användare.",
       "badge": "Html, Css, PHP",
-      "image": "retrotech.png",
+      "image": "Retrotech.png",
       "links": {
         "github": "https://youtube.com",
         "website": "https://theazziedev.github.io/Portfolio/"
@@ -807,8 +807,7 @@
       "badge": "React &middot; API &middot; Node.js &middot; SQLite",
       "image": "gamehub-title.png",
       "links": {
-        "github": "https://github.com/NTIG-Helsingborg/TE4_23-24_Gamehub",
-        "website": ""
+        "github": "https://github.com/NTIG-Helsingborg/TE4_23-24_Gamehub"
       },
 
       "project-images": [
@@ -1079,11 +1078,12 @@
           "caption": "En av produkterna på WheelDeal"
         },
         {
-          "src": "assets/projects/Motorcykel1.jpg",
+          
+          "src": "assets/projects/Cykel1.jpg",
           "caption": "En av produkterna på WheelDeal"
         },
         {
-          "src": "assets/projects/Skateboard2.jpg",
+          "src": "assets/projects/Motorcykel1.jpg",
           "caption": "En av produkterna på WheelDeal"
         },
         {
@@ -1092,7 +1092,7 @@
         },
         {
           "src": "assets/projects/wheeldealcart.png",
-          "caption": "Kundkorgsfunktionen på WheelDeal"
+          "caption": ""
         },
         {
           "src": "assets/projects/Cykel1.jpg",
